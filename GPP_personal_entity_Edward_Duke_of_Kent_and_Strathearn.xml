@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eac-cpf xmlns="urn:isbn:1-931666-33-4" xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="urn:isbn:1-931666-33-4 http://eac.staatsbibliothek-berlin.de/schema/cpf.xsd">
+    <control> <!-- Administrative metadata -->
+        <recordId>NAF-00000001</recordId>
+        <maintenanceStatus>new</maintenanceStatus> <!-- Updated when edited. May contain: "cancelled" or "deleted" or "deletedReplaced" or "deletedSplit" or "derived" or "new" or "revised" -->
+        <publicationStatus>inProcess</publicationStatus> <!-- May contain: "inProcess" or "approved" -->
+        <maintenanceAgency>
+            <agencyName>King's Digital Laboratory</agencyName>
+        </maintenanceAgency>
+        <languageDeclaration> <!-- Of the EAC-CPF file. The EAC-CPF files created for the GPP project are all (at this time) in English and use the latin script. -->
+            <language languageCode="eng">English</language>
+            <script scriptCode="Latn">Latin</script>
+        </languageDeclaration>
+        <conventionDeclaration> <!-- Date and time format convention. -->
+            <abbreviation>ISO8601</abbreviation>
+            <citation xlink:href="https://www.iso.org/iso-8601-date-and-time-format.html" xlink:type="simple">Date and time format - ISO 8601</citation>
+            <descriptiveNote>
+                <p>Dates and times are formatted according to the ISO 8601 standard in the following forms: YYYY-MM-DD or YYYY-MM-DDTHH:MM:SSZ.</p>
+            </descriptiveNote>
+        </conventionDeclaration>
+        <conventionDeclaration> <!-- Personal and organisational naming conventions -->
+            <abbreviation>NCA</abbreviation>
+            <citation xlink:href="http://anws.llgc.org.uk/ncarules/title.htm" xlink:type="simple">National Council on Archives Rules for the construction of personal, place and
+                corporate names, 1997.</citation>
+            <descriptiveNote>
+                <p>Personal and organisational names are formatted according to NCA Rules.</p>
+            </descriptiveNote>
+        </conventionDeclaration>
+        <conventionDeclaration> <!-- Geographical naming conventions -->
+            <abbreviation>GeoNames</abbreviation>
+            <citation xlink:href="http://www.geonames.org/" xlink:type="simple">GeoNames</citation>
+            <descriptiveNote>
+                <p>Geographic names are formatted according to GeoNames usage.</p>
+            </descriptiveNote>
+        </conventionDeclaration>
+        <conventionDeclaration>
+            <abbreviation>Wikidata</abbreviation>
+            <citation xlink:href="https://www.wikidata.org/wiki/Wikidata:Main_Page" xlink:type="simple">Wikidata</citation>
+            <descriptiveNote>
+                <p>Geographic names may be formatted according to Wikidata usage if not present on GeoNames.</p>
+            </descriptiveNote>
+        </conventionDeclaration>
+        <conventionDeclaration> <!-- Geographic coordinates convention. -->
+            <abbreviation>WGS84</abbreviation>
+            <citation xlink:href="https://en.wikipedia.org/wiki/World_Geodetic_System" xlink:type="simple">World Geodetic System 1984</citation>
+            <descriptiveNote>
+                <p>Latitude/longitude coordinates are in the WGS84 standard. Coordinates should be taken from GeoNames where possible.</p>
+            </descriptiveNote>
+        </conventionDeclaration>
+        <conventionDeclaration> <!-- Function thesaurus. -->
+            <abbreviation>UKAT</abbreviation>
+            <citation xlink:href="http://www.ukat.org.uk/" xlink:type="simple">UK Archival Thesaurus</citation>
+            <descriptiveNote>
+                <p>UKAT terms are used to specify the function/s of an EAC-CPF entity.</p>
+            </descriptiveNote>
+        </conventionDeclaration>
+        <localTypeDeclaration>
+            <abbreviation>Name Parts</abbreviation>
+            <citation xlink:href="http://anws.llgc.org.uk/ncarules/title.htm" xlink:type="simple"
+                >National Council on Archives Rules for the construction of personal, place and
+                corporate names, 1997.</citation>
+            <descriptiveNote>
+                <p>The name parts (and direct order) that constitute name formation are taken from the NCA Rules.</p>
+            </descriptiveNote>
+        </localTypeDeclaration>
+        <localTypeDeclaration>
+            <abbreviation>Date Styles</abbreviation>
+            <citation xlink:href="http://www.cree.name/genuki/dates.htm" xlink:type="simple"
+                >Spathaky, Mike. "Old Style and New Style Dates and the change to the Gregorian Calendar: A summary for genealogists." Last modified December 13, 2011. http://www.cree.name/genuki/dates.htm</citation>
+            <descriptiveNote>
+                <p>The time period over which the Georgian papers spans includes the change from the Old Style dating system (Julian calendar, year beginning Lady Day [25th March]) to the New Style system (Gregorian calendar, year beginning 1st January). This change was implemented in Britain and her colonies in 1752 but was implemented throughout Europe at differing times in history.</p>
+                <p>For the purpose of the Georgian Papers Programme Name Authority File, in EAC-CPF all dates given with no @localType attached are implicitly New Style; only those that are Old Style will include @localType="oldStyle".</p>
+            </descriptiveNote>
+        </localTypeDeclaration>
+        <localTypeDeclaration>
+            <abbreviation>gender</abbreviation>
+            <citation xlink:href="http://homosaurus.org/terms" xlink:type="simple">Homosaurus: International Thesaurus of Lesbian, Gay, Bisexual and Transgender Index Terms</citation>
+        </localTypeDeclaration>
+        <maintenanceHistory>
+            <maintenanceEvent> <!-- records each maintenance/editing event that occurs throughout the life of the file -->
+                <eventType>created</eventType> <!-- May contain: "cancelled" or "created" or "deleted" or "derived" or "revised" or "updated" -->
+                <eventDateTime standardDateTime="2018-08-09T15:31:00Z">3.31pm, 9 August 2018</eventDateTime> <!-- ISO 8601 date-time formatting -->
+                <agentType>human</agentType> <!-- May contain: "human" or "machine" -->
+                <agent xml:id="GPP-00001748">Callaghan, Samantha</agent>
+                <eventDescription>Creation of NAF for Edward, Duke of Kent and Strathearn.</eventDescription> <!-- Include a full description of the maintenance event - ie: note what was created/edited during the event -->
+            </maintenanceEvent>
+        </maintenanceHistory>
+        <sources>
+            <source xlink:type="simple" xlink:href="https://viaf.org/viaf/60324510/">
+                <sourceEntry>VIAF ID: 60324510 (Personal)</sourceEntry>
+            </source>
+            
+            <source xlink:type="simple" xlink:href="">
+                <sourceEntry></sourceEntry>
+                <descriptiveNote>
+                    <p></p>
+                </descriptiveNote>
+            </source>
+        </sources>        
+    </control>
+    <cpfDescription> <!-- Descriptive metadata -->
+        <identity>
+            <entityType>person</entityType> <!-- For the GPP Proof of concept this element may contain: "person" or "corporateBody" -->
+            <nameEntry scriptCode="Latn" xml:lang="eng"> 
+                <part localType="forename">Edward Augustus</part>
+                <part localType="properTitle">Duke of Kent and Strathearn</part>
+                <useDates>
+                    <dateRange>
+                        <fromDate standardDate="1799-04-23">23 April 1799</fromDate>
+                        <toDate standardDate="1820-01-23">23 January 1799</toDate>
+                    </dateRange>
+                </useDates>
+                <authorizedForm>NCA</authorizedForm>
+            </nameEntry>
+            <!-- ADD IN ALTERNATIVE NAMES!!!-->
+            <nameEntry scriptCode="Latn" xml:lang="eng"> 
+                <part localType="namePart"><!-- Constituent name part --></part>
+                <part localType="namePart"><!-- Constituent name part --></part>
+                <useDates>
+                    <dateRange>
+                        <fromDate standardDate="YYYY-MM-DD"></fromDate>
+                        <toDate standardDate="YYYY-MM-DD"></toDate>
+                    </dateRange>
+                </useDates>
+                <alternativeForm>NCA</alternativeForm>
+            </nameEntry>
+            <nameEntry scriptCode="Latn" xml:lang="eng" localType="directOrder"> 
+                <part>Edward Augustus, 1767-1820, Duke of Kent and Strathearn</part>
+                <useDates>
+                    <dateRange>
+                        <fromDate standardDate="1799-04-23">23 April 1799</fromDate>
+                        <toDate standardDate="1820-01-23">23 January 1799</toDate>
+                    </dateRange>
+                </useDates>
+                <authorizedForm>NCA</authorizedForm>
+            </nameEntry>
+        </identity>
+        <description>
+            <existDates> <!-- Birth and death dates, if known. -->
+                <dateRange>
+                       <fromDate standardDate="1767-11-02">2 November 1767</fromDate>
+                    <toDate standardDate="1820-01-23">23 January 1820</toDate>
+                </dateRange>
+            </existDates>
+            <localDescription localType="gender">
+                <term vocabularySource="Homosaurus">Men</term>
+            </localDescription>
+            <!-- For preference we prefer to catch birth and death places. If it is considered useful, further places (and dates can be captured)such as residences and so on, time permitting. -->
+            <places>
+                <place>
+                    <placeRole>birth</placeRole>
+                    <placeEntry vocabularySource="GeoNames" latitude="51.50094" longitude="-0.14289">Buckingham Palace</placeEntry>
+                    <date standardDate="1767-11-02">2 November 1767</date>
+                </place>
+                <place>
+                    <placeRole>death</placeRole>
+                    <!-- DO WE WANT TO CAPTURE THE COTTAGE NAME? WOOLBROOK COTTAGE? -->
+                    <placeEntry vocabularySource="GeoNames" latitude="50.69094" longitude="-3.2397">Sidmouth</placeEntry>
+                    <date standardDate="1820-01-23">23 January 1820</date>
+                </place>
+            </places>
+            <languagesUsed> <!-- Indicates the languages used by the EAC-CPF entity. If only a singular language used then please remove <languagesUsed> wrapper. "The content of the languageCode attribute must be given in the form of valid code from ISO 639-2b." https://www.loc.gov/standards/iso639-2/php/code_list.php. Most common languages likely to used by GPP entities include: English (eng), German (ger), French (fre), Latin (lat). Possibly Greek, Modern, 1453- (gre) or Greek, Ancient, pre-1453 (grc). -->
+                <languageUsed>
+                    <language languageCode="eng">English</language>
+                    <!-- "The ISO 15924 four-letter code for the writing script used." See http://unicode.org/iso15924/iso15924-codes.html -->
+                    <script scriptCode="Latn">Latin</script>
+                </languageUsed>
+                <languageUsed>
+                    <language languageCode="fre">French</language>
+                    <!-- "The ISO 15924 four-letter code for the writing script used." See http://unicode.org/iso15924/iso15924-codes.html -->
+                    <script scriptCode="Latn">Latin</script>
+                </languageUsed>
+            </languagesUsed>
+            <!-- UP TO HERE!!! -->
+            <biogHist> 
+                <abstract><!-- Short form biography or abstract information derived from full biography. --></abstract>
+                <p><!-- For full biography (use a series of <p> tags to capture). --></p>
+                    <chronList> <!-- A sequence of <chronItem>s --> 
+                        <chronItem>
+                            <date standardDate="YYYY-MM-DD">DD Month YYYY</date> <!-- If date is on the old style include @localType="oldStyle" in date tag. -->
+                            <event><!-- Prose description of event --></event>
+                            <placeEntry vocabularySource="" latitude="" longitude=""></placeEntry>
+                        </chronItem>
+                    </chronList>
+                    <citation><!-- Citations given in Chicago Style, (Note-Bibliography). --></citation>
+                    <p><!-- Copyright statement/use licence for <BiogHist>. --></p>
+            </biogHist>
+            <functions>
+                <function>
+                    <term vocabularySource="UKAT"></term>
+                </function>
+            </functions>
+        </description>
+        <relations> 
+            <cpfRelation cpfRelationType="" xlink:href=""> <!-- The cpfRelationType is a required attribute for the PoC and may contain: "identity" or "hierarchical" or "hierarchical-parent" or "hierarchical-child" or "temporal" or "temporal-earlier" or "temporal-later" or "family" or "associative". -->
+                <relationEntry xml:id=""><!-- Direct order authorised form of name of related entity --></relationEntry>
+                <descriptiveNote> <!-- Note how EAC-CPF entity relates to <relationEntry>. -->
+                    <p></p>
+                </descriptiveNote>
+                <!-- Several options are available to capture dates, date ranges, or a mix of the two. -->
+                <date standardDate="YYYY-MM-DD">DD Month YYYY</date>
+                <dateRange>
+                    <fromDate standardDate="YYYY-MM-DD">DD Month YYYY</fromDate>
+                    <toDate standardDate="YYYY-MM-DD">DD Month YYYY</toDate>
+                </dateRange>
+                <dateSet>
+                    <date standardDate="YYYY-MM-DD">DD Month YYYY</date>
+                    <dateRange>
+                        <fromDate standardDate="YYYY-MM-DD">DD Month YYYY</fromDate>
+                        <toDate standardDate="YYYY-MM-DD">DD Month YYYY</toDate>
+                    </dateRange>
+                </dateSet>
+                <placeEntry vocabularySource="" latitude="" longitude=""></placeEntry>
+            </cpfRelation>
+        </relations>
+    </cpfDescription>
+</eac-cpf>
