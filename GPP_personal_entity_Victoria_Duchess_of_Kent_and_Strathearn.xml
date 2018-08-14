@@ -3,7 +3,7 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="urn:isbn:1-931666-33-4 http://eac.staatsbibliothek-berlin.de/schema/cpf.xsd">
     <control> <!-- Administrative metadata -->
-        <recordId>NAF-00000001</recordId>
+        <recordId>NAF-00000002</recordId>
         <maintenanceStatus>new</maintenanceStatus> <!-- Updated when edited. May contain: "cancelled" or "deleted" or "deletedReplaced" or "deletedSplit" or "derived" or "new" or "revised" -->
         <publicationStatus>inProcess</publicationStatus> <!-- May contain: "inProcess" or "approved" -->
         <maintenanceAgency>
@@ -81,45 +81,44 @@
         <maintenanceHistory>
             <maintenanceEvent> <!-- records each maintenance/editing event that occurs throughout the life of the file -->
                 <eventType>created</eventType> <!-- May contain: "cancelled" or "created" or "deleted" or "derived" or "revised" or "updated" -->
-                <eventDateTime standardDateTime="2018-08-09T15:31:00Z">3.31pm, 9 August 2018</eventDateTime> <!-- ISO 8601 date-time formatting -->
+                <eventDateTime standardDateTime="2018-08-14T16:11:00Z">4.11pm, 14 August 2018</eventDateTime> <!-- ISO 8601 date-time formatting -->
                 <agentType>human</agentType> <!-- May contain: "human" or "machine" -->
                 <agent xml:id="GPP-00001748">Callaghan, Samantha</agent>
-                <eventDescription>Creation of NAF for Edward, Duke of Kent and Strathearn.</eventDescription> <!-- Include a full description of the maintenance event - ie: note what was created/edited during the event -->
-            </maintenanceEvent>
-            <maintenanceEvent>
-                <eventType>updated</eventType>
-                <eventDateTime standardDateTime="2018-08-14T16:07:00Z">4.07pm, 14 August 2018</eventDateTime>
-                <agentType>human</agentType>
-                <agent xml:id="GPP-00001748">Callaghan, Samantha</agent>
-                <eventDescription>Continued populating NAF fields.</eventDescription>
+                <eventDescription>Creation of NAF for Victoria, Duke of Kent and Strathearn.</eventDescription> <!-- Include a full description of the maintenance event - ie: note what was created/edited during the event -->
             </maintenanceEvent>
         </maintenanceHistory>
+        <!-- ADD MORE SOURCES -->
         <sources>
-            <source xlink:type="simple" xlink:href="https://viaf.org/viaf/60324510/">
-                <sourceEntry>VIAF ID: 60324510 (Personal)</sourceEntry>
-            </source>            
-            <source xlink:type="simple" xlink:href="https://en.wikipedia.org/wiki/Prince_Edward,_Duke_of_Kent_and_Strathearn">
-                <sourceEntry>Wikipedia: Prince Edward, Duke of Kent and Strathearn</sourceEntry>
+            <source xlink:type="simple" xlink:href="https://viaf.org/viaf/49988594/">
+                <sourceEntry>VIAF ID: 49988594 (Personal)</sourceEntry>
+            </source>
+            
+            <source xlink:type="simple" xlink:href="">
+                <sourceEntry></sourceEntry>
+                <descriptiveNote>
+                    <p></p>
+                </descriptiveNote>
             </source>
         </sources>        
     </control>
     <cpfDescription> <!-- Descriptive metadata -->
         <identity>
-            <entityType>person</entityType> <!-- For the GPP Proof of concept this element may contain: "person" or "corporateBody" -->
+            <entityType>person</entityType>
             <nameEntry scriptCode="Latn" xml:lang="eng"> 
-                <part localType="forename">Edward Augustus</part>
-                <part localType="properTitle">Duke of Kent and Strathearn</part>
+                <part localType="forename">Victoria Mary Louisa</part>
+                <part localType="properTitle">Duchess of Kent and Strathearn</part>
                 <useDates>
                     <dateRange>
-                        <fromDate standardDate="1799-04-24">24 April 1799</fromDate>
-                        <toDate standardDate="1820-01-23">23 January 1820</toDate>
+                        <fromDate standardDate="1818-05-29">29 May 1818</fromDate>
+                        <toDate standardDate="1861-03-16">16 March 1861</toDate>
                     </dateRange>
                 </useDates>
                 <authorizedForm>NCA</authorizedForm>
             </nameEntry>
+            <!-- ADD ALTERNATIVE NAMES - birth and first marriage names -->
             <nameEntry scriptCode="Latn" xml:lang="eng"> 
-                <part localType="forename">Edward Augustus</part>
-                <part localType="properTitle">Prince</part>
+                <part localType="forename"></part>
+                <part localType="properTitle"></part>
                 <useDates>
                     <dateRange>
                         <fromDate standardDate="1767-11-02">2 November 1767</fromDate>
@@ -129,11 +128,11 @@
                 <alternativeForm>NCA</alternativeForm>
             </nameEntry>
             <nameEntry scriptCode="Latn" xml:lang="eng" localType="directOrder"> 
-                <part>Edward Augustus, 1767-1820, Duke of Kent and Strathearn</part>
+                <part>Victoria Mary Louisa, 1767-1861, Duke of Kent and Strathearn</part>
                 <useDates>
                     <dateRange>
-                        <fromDate standardDate="1799-04-23">23 April 1799</fromDate>
-                        <toDate standardDate="1820-01-23">23 January 1799</toDate>
+                        <fromDate standardDate="1818-05-29">29 May 1818</fromDate>
+                        <toDate standardDate="1861-03-16">16 March 1861</toDate>
                     </dateRange>
                 </useDates>
                 <authorizedForm>NCA</authorizedForm>
@@ -142,38 +141,42 @@
         <description>
             <existDates> <!-- Birth and death dates, if known. -->
                 <dateRange>
-                       <fromDate standardDate="1767-11-02">2 November 1767</fromDate>
-                    <toDate standardDate="1820-01-23">23 January 1820</toDate>
+                    <fromDate standardDate="1786-08-17">17 August 1786</fromDate>
+                    <toDate standardDate="1861-03-16">16 March 1861</toDate>
                 </dateRange>
             </existDates>
             <localDescription localType="gender">
-                <term vocabularySource="Homosaurus">Men</term>
+                <term vocabularySource="Homosaurus">Women</term>
             </localDescription>
+            <!-- For preference we prefer to catch birth and death places. If it is considered useful, further places (and dates can be captured)such as residences and so on, time permitting. -->
             <places>
                 <place>
                     <placeRole>birth</placeRole>
-                    <placeEntry vocabularySource="GeoNames" latitude="51.50094" longitude="-0.14289">Buckingham House</placeEntry>
-                    <date standardDate="1767-11-02">2 November 1767</date>
+                    <placeEntry vocabularySource="GeoNames" latitude="50.25937" longitude="10.96384">Coburg</placeEntry>
+                    <date standardDate="1786-08-17">17 August 1786</date>
                 </place>
                 <place>
                     <placeRole>death</placeRole>
-                    <!-- DO WE WANT TO CAPTURE THE COTTAGE NAME? WOOLBROOK COTTAGE? -->
-                    <placeEntry vocabularySource="GeoNames" latitude="50.69094" longitude="-3.2397">Sidmouth</placeEntry>
-                    <date standardDate="1820-01-23">23 January 1820</date>
+                    <placeEntry vocabularySource="GeoNames" latitude="51.46667" longitude="-0.6">Frogmore House</placeEntry>
+                    <date standardDate="1861-03-16">16 March 1861</date>
                 </place>
             </places>
-            <languagesUsed>
+            <languagesUsed> <!-- Indicates the languages used by the EAC-CPF entity. If only a singular language used then please remove <languagesUsed> wrapper. "The content of the languageCode attribute must be given in the form of valid code from ISO 639-2b." https://www.loc.gov/standards/iso639-2/php/code_list.php. Most common languages likely to used by GPP entities include: English (eng), German (ger), French (fre), Latin (lat). Possibly Greek, Modern, 1453- (gre) or Greek, Ancient, pre-1453 (grc). -->
                 <languageUsed>
                     <language languageCode="eng">English</language>
+                    <!-- "The ISO 15924 four-letter code for the writing script used." See http://unicode.org/iso15924/iso15924-codes.html -->
                     <script scriptCode="Latn">Latin</script>
                 </languageUsed>
+                <!-- HERE!!! I guess German but have to find evidence for this -->
                 <languageUsed>
                     <language languageCode="fre">French</language>
+                    <!-- "The ISO 15924 four-letter code for the writing script used." See http://unicode.org/iso15924/iso15924-codes.html -->
                     <script scriptCode="Latn">Latin</script>
                 </languageUsed>
             </languagesUsed>
             <biogHist> 
-                <abstract>Prince Edward, Duke of Kent and Strathearn, KG, KP, GCB, GCH, PC (Edward Augustus; 2 November 1767 – 23 January 1820) was the fourth son and fifth child of Britain's king, George III, and the father of Queen Victoria.</abstract>
+                <abstract>Princess Victoria of Saxe-Coburg-Saalfeld (17 August 1786 – 16 March 1861), later Duchess of Kent and Strathearn, was a German princess and the mother of Queen Victoria of the United Kingdom. As the widow of Charles, Prince of Leiningen (1763–1814), from 1814 she served as regent of the Principality during the minority of her son from her first marriage, Carl, until her second wedding in 1818.</abstract>
+                <!-- NEEDS MOAR!!!!!!!!!!!! -->
                 <p>Prince Edward was created Duke of Kent and Strathearn and Earl of Dublin on 23 April 1799 and, a few weeks later, appointed a General and commander-in-chief of British forces in the Maritime Provinces of North America. On 23 March 1802, he was appointed Governor of Gibraltar and nominally retained that post until his death. The Duke of Kent was appointed Field-Marshal of the Forces on 3 September 1805.</p>
                 <p>He was the first member of the royal family to live in North America for more than a short visit (1791–1800) and, in 1794, the first prince to enter the United States (travelling to Boston on foot from Lower Canada) after independence.</p>
                 <p>On June 27, 1792, Edward is credited with the first use of the term "Canadian" to mean both French and English settlers in Upper and Lower Canada. The Prince used the term in an effort to quell a riot between the two groups at a polling station in Charlesbourg, Lower Canada. Recently he has been styled the "Father of the Canadian Crown" for his impact on the development of Canada.</p>
@@ -195,7 +198,8 @@
                 </descriptiveNote>
             </cpfRelation>
             <cpfRelation cpfRelationType="family" xlink:href="">
-                <relationEntry xml:id="NAF-00000002">Victoria, 1786-1861, Duchess of Kent and Strathearn</relationEntry>
+                <!-- Requires her own NAF to be created so they can be linked. -->
+                <relationEntry xml:id="">Victoria, 1786-1861, Duchess of Kent and Strathearn</relationEntry>
                 <descriptiveNote>
                     <p>Victoria was Edward's wife.</p>
                 </descriptiveNote>
@@ -203,3 +207,5 @@
         </relations>
     </cpfDescription>
 </eac-cpf>
+
+
