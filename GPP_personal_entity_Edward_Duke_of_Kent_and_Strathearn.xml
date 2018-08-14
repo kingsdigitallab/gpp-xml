@@ -108,20 +108,19 @@
                 <part localType="properTitle">Duke of Kent and Strathearn</part>
                 <useDates>
                     <dateRange>
-                        <fromDate standardDate="1799-04-23">23 April 1799</fromDate>
-                        <toDate standardDate="1820-01-23">23 January 1799</toDate>
+                        <fromDate standardDate="1799-04-24">24 April 1799</fromDate>
+                        <toDate standardDate="1820-01-23">23 January 1820</toDate>
                     </dateRange>
                 </useDates>
                 <authorizedForm>NCA</authorizedForm>
             </nameEntry>
-            <!-- ADD IN ALTERNATIVE NAMES!!!-->
             <nameEntry scriptCode="Latn" xml:lang="eng"> 
-                <part localType="namePart"><!-- Constituent name part --></part>
-                <part localType="namePart"><!-- Constituent name part --></part>
+                <part localType="forename">Edward Augustus</part>
+                <part localType="properTitle">Prince</part>
                 <useDates>
                     <dateRange>
-                        <fromDate standardDate="YYYY-MM-DD"></fromDate>
-                        <toDate standardDate="YYYY-MM-DD"></toDate>
+                        <fromDate standardDate="1767-11-02">2 November 1767</fromDate>
+                        <toDate standardDate="1799-04-24">24 April 1799</toDate>
                     </dateRange>
                 </useDates>
                 <alternativeForm>NCA</alternativeForm>
@@ -175,44 +174,33 @@
             </languagesUsed>
             <!-- UP TO HERE!!! -->
             <biogHist> 
-                <abstract><!-- Short form biography or abstract information derived from full biography. --></abstract>
-                <p><!-- For full biography (use a series of <p> tags to capture). --></p>
-                    <chronList> <!-- A sequence of <chronItem>s --> 
-                        <chronItem>
-                            <date standardDate="YYYY-MM-DD">DD Month YYYY</date> <!-- If date is on the old style include @localType="oldStyle" in date tag. -->
-                            <event><!-- Prose description of event --></event>
-                            <placeEntry vocabularySource="" latitude="" longitude=""></placeEntry>
-                        </chronItem>
-                    </chronList>
-                    <citation><!-- Citations given in Chicago Style, (Note-Bibliography). --></citation>
-                    <p><!-- Copyright statement/use licence for <BiogHist>. --></p>
-            </biogHist>
-            <functions>
-                <function>
-                    <term vocabularySource="UKAT"></term>
-                </function>
-            </functions>
+                <abstract>Prince Edward, Duke of Kent and Strathearn, KG, KP, GCB, GCH, PC (Edward Augustus; 2 November 1767 – 23 January 1820) was the fourth son and fifth child of Britain's king, George III, and the father of Queen Victoria.</abstract>
+                <p>Prince Edward was created Duke of Kent and Strathearn and Earl of Dublin on 23 April 1799 and, a few weeks later, appointed a General and commander-in-chief of British forces in the Maritime Provinces of North America. On 23 March 1802, he was appointed Governor of Gibraltar and nominally retained that post until his death. The Duke of Kent was appointed Field-Marshal of the Forces on 3 September 1805.</p>
+                <p>He was the first member of the royal family to live in North America for more than a short visit (1791–1800) and, in 1794, the first prince to enter the United States (travelling to Boston on foot from Lower Canada) after independence.</p>
+                <p>On June 27, 1792, Edward is credited with the first use of the term "Canadian" to mean both French and English settlers in Upper and Lower Canada. The Prince used the term in an effort to quell a riot between the two groups at a polling station in Charlesbourg, Lower Canada. Recently he has been styled the "Father of the Canadian Crown" for his impact on the development of Canada.</p>
+                <citation>Wikipedia. "Prince Frederick, Duke of York and Albany." Accessed August 14, 2018. https://en.wikipedia.org/wiki/Prince_Edward,_Duke_of_Kent_and_Strathearn</citation>
+                <p>Biography source: Wikipedia. Licensed under CC-BY-SA.</p>
+            </biogHist>         
         </description>
         <relations> 
-            <cpfRelation cpfRelationType="" xlink:href=""> <!-- The cpfRelationType is a required attribute for the PoC and may contain: "identity" or "hierarchical" or "hierarchical-parent" or "hierarchical-child" or "temporal" or "temporal-earlier" or "temporal-later" or "family" or "associative". -->
-                <relationEntry xml:id=""><!-- Direct order authorised form of name of related entity --></relationEntry>
-                <descriptiveNote> <!-- Note how EAC-CPF entity relates to <relationEntry>. -->
-                    <p></p>
+            <cpfRelation cpfRelationType="hierarchical-parent" xlink:href=""> <!-- xlink:href to be created automatically following creation of NAF page -->
+                <relationEntry xml:id="GPP-00000018">George III, 1738-1820, King of Great Britain and Ireland</relationEntry>
+                <descriptiveNote>
+                    <p>George III was Edward's father.</p>
                 </descriptiveNote>
-                <!-- Several options are available to capture dates, date ranges, or a mix of the two. -->
-                <date standardDate="YYYY-MM-DD">DD Month YYYY</date>
-                <dateRange>
-                    <fromDate standardDate="YYYY-MM-DD">DD Month YYYY</fromDate>
-                    <toDate standardDate="YYYY-MM-DD">DD Month YYYY</toDate>
-                </dateRange>
-                <dateSet>
-                    <date standardDate="YYYY-MM-DD">DD Month YYYY</date>
-                    <dateRange>
-                        <fromDate standardDate="YYYY-MM-DD">DD Month YYYY</fromDate>
-                        <toDate standardDate="YYYY-MM-DD">DD Month YYYY</toDate>
-                    </dateRange>
-                </dateSet>
-                <placeEntry vocabularySource="" latitude="" longitude=""></placeEntry>
+            </cpfRelation>
+            <cpfRelation cpfRelationType="hierarchical-parent" xlink:href="">
+                <relationEntry xml:id="GPP-00009213">Charlotte, 1744-1818, Queen Consort of Great Britain and Ireland</relationEntry>
+                <descriptiveNote>
+                    <p>Queen Charlotte was Edward's mother.</p>
+                </descriptiveNote>
+            </cpfRelation>
+            <cpfRelation cpfRelationType="family" xlink:href="">
+                <!-- Requires her own NAF to be created so they can be linked. -->
+                <relationEntry xml:id="">Victoria, 1786-1861, Duchess of Kent and Strathearn</relationEntry>
+                <descriptiveNote>
+                    <p>Victoria was Edward's wife.</p>
+                </descriptiveNote>
             </cpfRelation>
         </relations>
     </cpfDescription>
