@@ -86,18 +86,20 @@
                 <agent xml:id="GPP-00001748">Callaghan, Samantha</agent>
                 <eventDescription>Creation of NAF for Victoria, Duke of Kent and Strathearn.</eventDescription> <!-- Include a full description of the maintenance event - ie: note what was created/edited during the event -->
             </maintenanceEvent>
+            <maintenanceEvent> 
+                <eventType>updated</eventType>
+                <eventDateTime standardDateTime="2018-08-15T13:59:00Z">1.59pm, 15 August 2018</eventDateTime>
+                <agentType>human</agentType> 
+                <agent xml:id="">Callaghan, Samantha</agent>
+                <eventDescription>Continued to fill out NAF for Victoria, Duke of Kent and Strathearn.</eventDescription>
+            </maintenanceEvent>
         </maintenanceHistory>
-        <!-- ADD MORE SOURCES -->
         <sources>
             <source xlink:type="simple" xlink:href="https://viaf.org/viaf/49988594/">
                 <sourceEntry>VIAF ID: 49988594 (Personal)</sourceEntry>
-            </source>
-            
-            <source xlink:type="simple" xlink:href="">
-                <sourceEntry></sourceEntry>
-                <descriptiveNote>
-                    <p></p>
-                </descriptiveNote>
+            </source>  
+            <source xlink:type="simple" xlink:href="https://en.wikipedia.org/wiki/Princess_Victoria_of_Saxe-Coburg-Saalfeld">
+                <sourceEntry>Wikipedia: Princess Victoria of Saxe-Coburg-Saalfeld</sourceEntry>
             </source>
         </sources>        
     </control>
@@ -105,7 +107,7 @@
         <identity>
             <entityType>person</entityType>
             <nameEntry scriptCode="Latn" xml:lang="eng"> 
-                <part localType="forename">Victoria Mary Louisa</part>
+                <part localType="forename">Victoria Mary Louise</part>
                 <part localType="properTitle">Duchess of Kent and Strathearn</part>
                 <useDates>
                     <dateRange>
@@ -115,20 +117,8 @@
                 </useDates>
                 <authorizedForm>NCA</authorizedForm>
             </nameEntry>
-            <!-- ADD ALTERNATIVE NAMES - birth and first marriage names -->
-            <nameEntry scriptCode="Latn" xml:lang="eng"> 
-                <part localType="forename"></part>
-                <part localType="properTitle"></part>
-                <useDates>
-                    <dateRange>
-                        <fromDate standardDate="1767-11-02">2 November 1767</fromDate>
-                        <toDate standardDate="1799-04-24">24 April 1799</toDate>
-                    </dateRange>
-                </useDates>
-                <alternativeForm>NCA</alternativeForm>
-            </nameEntry>
             <nameEntry scriptCode="Latn" xml:lang="eng" localType="directOrder"> 
-                <part>Victoria Mary Louisa, 1767-1861, Duke of Kent and Strathearn</part>
+                <part>Victoria Mary Louise, 1767-1861, Duchess of Kent and Strathearn</part>
                 <useDates>
                     <dateRange>
                         <fromDate standardDate="1818-05-29">29 May 1818</fromDate>
@@ -136,6 +126,28 @@
                     </dateRange>
                 </useDates>
                 <authorizedForm>NCA</authorizedForm>
+            </nameEntry> 
+            <nameEntry scriptCode="Latn" xml:lang="ger">
+                <part localType="forename">Marie Luise Viktoria</part>
+                <part localType="properTitle">Princess of Saxe-Coburn-Saalfield</part>
+                <useDates>
+                    <dateRange>
+                        <fromDate standardDate="1786-08-17">17 August 1786</fromDate>
+                        <toDate standardDate="1803-12-21">21 December 1803</toDate>
+                    </dateRange>
+                </useDates>
+                <alternativeForm>NCA</alternativeForm>
+            </nameEntry>
+            <nameEntry scriptCode="Latn" xml:lang="ger">
+                <part localType="forename">Marie Luise Viktoria</part>
+                <part localType="properTitle">Princess of Leiningen</part>
+                <useDates>
+                    <dateRange>
+                        <fromDate standardDate="1803-12-21">21 December 1803</fromDate>
+                        <toDate standardDate="1814-07-04">4 July 1814</toDate>
+                    </dateRange>
+                </useDates>
+                <alternativeForm>NCA</alternativeForm>
             </nameEntry>
         </identity>
         <description>
@@ -161,47 +173,51 @@
                     <date standardDate="1861-03-16">16 March 1861</date>
                 </place>
             </places>
-            <languagesUsed> <!-- Indicates the languages used by the EAC-CPF entity. If only a singular language used then please remove <languagesUsed> wrapper. "The content of the languageCode attribute must be given in the form of valid code from ISO 639-2b." https://www.loc.gov/standards/iso639-2/php/code_list.php. Most common languages likely to used by GPP entities include: English (eng), German (ger), French (fre), Latin (lat). Possibly Greek, Modern, 1453- (gre) or Greek, Ancient, pre-1453 (grc). -->
-                <languageUsed>
+            <languagesUsed>
+                <languageUsed> <!-- From evidence in the GPP -->
                     <language languageCode="eng">English</language>
-                    <!-- "The ISO 15924 four-letter code for the writing script used." See http://unicode.org/iso15924/iso15924-codes.html -->
-                    <script scriptCode="Latn">Latin</script>
-                </languageUsed>
-                <!-- HERE!!! I guess German but have to find evidence for this -->
-                <languageUsed>
-                    <language languageCode="fre">French</language>
-                    <!-- "The ISO 15924 four-letter code for the writing script used." See http://unicode.org/iso15924/iso15924-codes.html -->
                     <script scriptCode="Latn">Latin</script>
                 </languageUsed>
             </languagesUsed>
             <biogHist> 
-                <abstract>Princess Victoria of Saxe-Coburg-Saalfeld (17 August 1786 – 16 March 1861), later Duchess of Kent and Strathearn, was a German princess and the mother of Queen Victoria of the United Kingdom. As the widow of Charles, Prince of Leiningen (1763–1814), from 1814 she served as regent of the Principality during the minority of her son from her first marriage, Carl, until her second wedding in 1818.</abstract>
-                <!-- NEEDS MOAR!!!!!!!!!!!! -->
-                <p>Prince Edward was created Duke of Kent and Strathearn and Earl of Dublin on 23 April 1799 and, a few weeks later, appointed a General and commander-in-chief of British forces in the Maritime Provinces of North America. On 23 March 1802, he was appointed Governor of Gibraltar and nominally retained that post until his death. The Duke of Kent was appointed Field-Marshal of the Forces on 3 September 1805.</p>
-                <p>He was the first member of the royal family to live in North America for more than a short visit (1791–1800) and, in 1794, the first prince to enter the United States (travelling to Boston on foot from Lower Canada) after independence.</p>
-                <p>On June 27, 1792, Edward is credited with the first use of the term "Canadian" to mean both French and English settlers in Upper and Lower Canada. The Prince used the term in an effort to quell a riot between the two groups at a polling station in Charlesbourg, Lower Canada. Recently he has been styled the "Father of the Canadian Crown" for his impact on the development of Canada.</p>
-                <citation>Wikipedia. "Prince Frederick, Duke of York and Albany." Accessed August 14, 2018. https://en.wikipedia.org/wiki/Prince_Edward,_Duke_of_Kent_and_Strathearn</citation>
+                <abstract>Princess Victoria of Saxe-Coburg-Saalfeld (17 August 1786 – 16 March 1861), later Duchess of Kent and Strathearn, was a German princess and the mother of Queen Victoria of the United Kingdom.</abstract>
+                <p>Victoria was born in Coburg on 17 August 1786 in the Holy Roman Empire of the German Nation. She was the fourth daughter and seventh child of Franz Frederick Anton, Duke of Saxe-Coburg-Saalfeld, and Countess Augusta of Reuss-Ebersdorf. One of her brothers was Ernest I, Duke of Saxe-Coburg-Gotha, and another brother, Leopold, married, in 1816, Princess Charlotte of Wales, the only legitimate daughter of the future King George IV, and heiress presumptive to the British throne.</p>
+                <p>On 21 December 1803 at Coburg, a young Victoria married (as his second wife) Charles, Prince of Leiningen (1763–1814), whose first wife, Henrietta of Reuss-Ebersdorf, had been her aunt. The couple had two children, Prince Carl, born on 12 September 1804, and Princess Feodora of Leiningen, born on 7 December 1807.</p>
+                <p>Through her first marriage, she is a direct matrilineal ancestor to various members of royalty in Europe, including Carl XVI Gustaf of Sweden, Felipe VI of Spain, and Constantine II of Greece.</p>
+                <p>After the death of her first spouse, she served as regent of the Principality of Leiningen during the minority of their son, Carl.</p>
+                <p>The death in 1817 of Princess Charlotte of Wales, the wife of Victoria's brother Leopold, prompted a succession crisis. With Parliament offering them a financial incentive, three of Charlotte's uncles, sons of George III, were prepared to marry. One of them, Prince Edward, Duke of Kent and Strathearn (1767–1820) proposed to Victoria and she accepted. The couple were married on 29 May 1818 at Amorbach and on 11 July 1818 at Kew, a joint ceremony at which Edward's brother, the Duke of Clarence, later King William IV, married Adelaide of Saxe-Meiningen. Shortly after the marriages, the Kents moved to Germany, where the cost of living would be cheaper. Soon after, Victoria became pregnant, and the Duke and Duchess, determined to have their child born in England, raced back, arriving at Dover on 23 April 1819, and moved into Kensington Palace, where she soon gave birth to a daughter, Princess Alexandrina Victoria of Kent. An efficient organiser, Sir John Conroy's planning ensured the Kents' speedy return to England in time for the birth of their first child.</p>
+                <p>The Duke of Kent died suddenly of pneumonia in January 1820, six days before his father, King George III. His widow the Duchess had little cause to remain in the United Kingdom, since she did not speak the language and had a palace at home in Coburg where she could live cheaply on the revenues of her first husband. However, the British succession at this time was far from assured – of the three brothers older than Edward, the new king, George IV, and the Duke of York were both estranged from their wives, who were in any case past childbearing age. The third brother, the Duke of Clarence, had yet to produce any surviving children with his wife. The Duchess of Kent decided that she would do better by gambling on her daughter's accession than by living quietly in Coburg and, having inherited her second husband's debts, sought support from the British government. After the death of Edward and his father, the young Princess Victoria was still only third in line for the throne, and Parliament was not inclined to support yet more impoverished royalty.</p>
+                <p>The provision made for Duchess of Kent was mean: she resided in a suite of rooms in the dilapidated Kensington Palace, along with several other impoverished members of the royal family, and received little financial support from the Civil List, since Parliament had vivid memories of the late Duke's extravagance. In practice, a main source of support for her was her brother, Leopold. The latter had a huge income of fifty thousand pounds per annum for life, representing an annuity allotted to him by the British Parliament on his marriage to Princess Charlotte, which had made him seem likely to become in due course the consort of the monarch. Even after Charlotte's death, Leopold's annuity was not revoked by Parliament.</p>
+                <p>In 1831, with George IV dead and the new king, William IV, over 60 and still without legitimate issue, the young princess's status as heir presumptive and the Duchess's prospective place as regent led to major increases in British state income for the Kents. A contributing factor was Leopold's designation as King of the Belgians, upon which he surrendered his British income.</p>
+                <p>Together in a hostile environment, John Conroy's relationship with the Duchess was very close, with him serving as her comptroller and private secretary for the next nineteen years,[10] as well as holding the unofficial roles of public relations officer, counsellor, confidant and political agent. While it is not clear which of the two was more responsible for devising the Kensington System, it was created to govern young Victoria's upbringing. The intention was for the Duchess to be appointed regent upon Victoria's (assumed youthful) ascension and for Conroy to be created Victoria's private secretary and given a peerage. The Duchess and Conroy continued to be unpopular with the royal family and, in 1829, the Duke of Cumberland spread rumours that they were lovers in an attempt to discredit them. The Duke of Clarence referred to Conroy as "King John", while the Duchess of Clarence wrote to the Duchess of Kent to advise that she was increasingly isolating herself from the royal family and that she must not grant Conroy too much power.</p>
+                <p>The Duchess of Kent was extremely protective, and raised Victoria largely isolated from other children under the so-called "Kensington System". The system prevented the princess from meeting people whom her mother and Conroy deemed undesirable (including most of her father's family), and was designed to render her weak and dependent upon them. The Duchess avoided the court because she was scandalised by the presence of King William's illegitimate children, and perhaps prompted the emergence of Victorian morality by insisting that her daughter avoid any appearance of sexual impropriety. Victoria shared a bedroom with her mother every night, studied with private tutors to a regular timetable, and spent her play-hours with her dolls and her King Charles Spaniel, Dash.</p>
+                <p>Perhaps because of Conroy's influence, the relationship between the Duchess's household and King William IV soon soured, with the Duchess regarding the King as an oversexed oaf. As far as she dared, the Duchess denied the King access to his niece. She prevented her daughter from attending William's coronation out of a disagreement of precedence, a decision attributed by the Duke of Wellington to Conroy. In 1831, the year of William's coronation, Conroy and the Duchess embarked on a series of royal tours with Victoria to expose her to the people and solidify their status as potential regents. Their efforts were ultimately successful and, in November 1831, it was declared that the Duchess would be sole regent in the event of Victoria's young queenship.</p>
+                <p>The Duchess further offended the King by taking rooms in Kensington Palace that the King had reserved for himself. Both before and during William's reign, she snubbed his illegitimate children, the FitzClarences. Both the King and his wife Queen Adelaide were fond of their niece, Princess Victoria of Kent. Their attempts to forge a close relationship with the girl were frustrated by the conflict between the King and the Duchess of Kent. The King, angered at what he took to be disrespect from the Duchess to his wife, took the opportunity at what proved to be his final birthday banquet in August 1836 to settle the score. Speaking to those assembled at the banquet, who included the Duchess and Princess Victoria, William expressed his hope that he would survive until Princess Victoria was 18 so that the Duchess of Kent would never be regent. He said, "I trust to God that my life may be spared for nine months longer ... I should then have the satisfaction of leaving the exercise of the Royal authority to the personal authority of that young lady, heiress presumptive to the Crown, and not in the hands of a person now near me, who is surrounded by evil advisers and is herself incompetent to act with propriety in the situation in which she would be placed."</p>
+                <p>The breach between the Duchess and the King and Queen was never fully healed, but Victoria always viewed both of them with kindness.</p>
+                <p>Conroy had high hopes for his patroness and himself: He envisaged Victoria succeeding the throne at a young age, thus needing a regency government, which, following the Regency Act 1830, would be headed by the princess's mother (who had already served in that capacity in Germany following the death of her first husband). As the personal secretary of the Duchess, Conroy would be the veritable "power behind the throne". He had not counted on William IV surviving long enough for Victoria to succeed to the throne as an adult and consequently, while cultivating her mother, had shown little consideration for Victoria. When the latter succeeded, Conroy risked having no influence over her. He tried to force Victoria to agree to make him her personal secretary once she succeeded, but this plan, too, backfired. Victoria resented her mother's support for Conroy's schemes and being pressured by her to sign a paper declaring Conroy her personal secretary. The result was that when Victoria became queen, she relegated the Duchess to separate accommodations, away from her own.</p>
+                <p>When the Queen's first child, the Princess Royal, was born, the Duchess of Kent unexpectedly found herself welcomed back into Victoria's inner circle. It is likely that this came about as a result of the dismissal of Baroness Lehzen at the behest of Victoria's husband (and the Duchess's nephew), Prince Albert. Firstly, this removed Lehzen's influence, and Lehzen had long despised the Duchess and Conroy, suspecting them of an illicit affair. Secondly, it left the Queen wholly open to Albert's influence, and he likely prevailed upon her to reconcile with her mother. Thirdly, Conroy by now lived in exile on the Continent and so his divisive influence was removed. The Duchess's finances, which had been left in shambles by Conroy, were restored thanks to Victoria and her advisors. By all accounts, the Duchess became a doting grandmother and was closer to her daughter than she ever had been.</p>                
+                <citation>Wikipedia. "Princess Victoria of Saxe-Coburg-Saalfeld" Accessed August 15, 2018. https://en.wikipedia.org/wiki/Princess_Victoria_of_Saxe-Coburg-Saalfeld</citation>
                 <p>Biography source: Wikipedia. Licensed under CC-BY-SA.</p>
             </biogHist>         
         </description>
         <relations> 
             <cpfRelation cpfRelationType="hierarchical-parent" xlink:href=""> <!-- xlink:href to be created automatically following creation of NAF page -->
-                <relationEntry xml:id="GPP-00000018">George III, 1738-1820, King of Great Britain and Ireland</relationEntry>
+                <relationEntry xml:id="">Francis, 1750-1806, Duke of Saxe-Coburg-Saalfeld</relationEntry>
                 <descriptiveNote>
-                    <p>George III was Edward's father.</p>
+                    <p>Francis was Victoria's father.</p>
                 </descriptiveNote>
             </cpfRelation>
             <cpfRelation cpfRelationType="hierarchical-parent" xlink:href="">
-                <relationEntry xml:id="GPP-00009213">Charlotte, 1744-1818, Queen Consort of Great Britain and Ireland</relationEntry>
+                <relationEntry xml:id="">Augusta Caroline Sophie, 1757-1831, Duchess of Saxe-Coburg-Saalfeld</relationEntry>
                 <descriptiveNote>
-                    <p>Queen Charlotte was Edward's mother.</p>
+                    <p>Augusta was Victoria's mother.</p>
                 </descriptiveNote>
             </cpfRelation>
             <cpfRelation cpfRelationType="family" xlink:href="">
                 <!-- Requires her own NAF to be created so they can be linked. -->
-                <relationEntry xml:id="">Victoria, 1786-1861, Duchess of Kent and Strathearn</relationEntry>
+                <relationEntry xml:id="NAF-00000001">Edward Augustus, 1767-1820, Duke of Kent and Strathearn</relationEntry>
                 <descriptiveNote>
-                    <p>Victoria was Edward's wife.</p>
+                    <p>Edward was Victoria's second husband.</p>
                 </descriptiveNote>
             </cpfRelation>
         </relations>
