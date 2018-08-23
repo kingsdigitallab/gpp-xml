@@ -111,24 +111,45 @@
                 </useDates>
                 <authorizedForm>NCA</authorizedForm>
             </nameEntry>
-            <!-- FROM HERE -->
             <nameEntry scriptCode="Latn" xml:lang="eng"> 
                 <part localType="forename">Edward Augustus</part>
                 <part localType="properTitle">Prince</part>
                 <useDates>
                     <dateRange>
-                        <fromDate standardDate="1767-11-02">2 November 1767</fromDate>
-                        <toDate standardDate="1799-04-24">24 April 1799</toDate>
+                        <fromDate standardDate="1771-06-05">5 June 1771</fromDate>
+                        <toDate standardDate="1799-04-23">23 April 1799</toDate>
+                    </dateRange>
+                </useDates>
+                <alternativeForm>NCA</alternativeForm>
+            </nameEntry>
+            <nameEntry scriptCode="Latn" xml:lang="eng"> 
+                <part localType="forename">Edward Augustus</part>
+                <part localType="properTitle">Duke of Cumberland and Teviotdale</part>
+                <useDates>
+                    <dateRange>
+                        <fromDate standardDate="1799-04-23">23 April 1799</fromDate>
+                        <toDate standardDate="1851-11-18">18 November 1851</toDate>
+                    </dateRange>
+                </useDates>
+                <alternativeForm>NCA</alternativeForm>
+            </nameEntry>
+            <nameEntry scriptCode="Latn" xml:lang="eng"> 
+                <part localType="forename">Edward Augustus</part>
+                <part localType="properTitle">Earl of Armagh</part>
+                <useDates>
+                    <dateRange>
+                        <fromDate standardDate="1799-04-23">23 April 1799</fromDate>
+                        <toDate standardDate="1851-11-18">18 November 1851</toDate>
                     </dateRange>
                 </useDates>
                 <alternativeForm>NCA</alternativeForm>
             </nameEntry>
             <nameEntry scriptCode="Latn" xml:lang="eng" localType="directOrder"> 
-                <part>Edward Augustus, 1767-1820, Duke of Kent and Strathearn</part>
+                <part>Edward Augustus, 1771-1851, King of Hanover</part>
                 <useDates>
                     <dateRange>
-                        <fromDate standardDate="1799-04-23">23 April 1799</fromDate>
-                        <toDate standardDate="1820-01-23">23 January 1799</toDate>
+                        <fromDate standardDate="1837-06-20">20 June 1837</fromDate>
+                        <toDate standardDate="1851-11-18">18 November 1851</toDate>
                     </dateRange>
                 </useDates>
                 <authorizedForm>NCA</authorizedForm>
@@ -137,8 +158,8 @@
         <description>
             <existDates> <!-- Birth and death dates, if known. -->
                 <dateRange>
-                    <fromDate standardDate="1767-11-02">2 November 1767</fromDate>
-                    <toDate standardDate="1820-01-23">23 January 1820</toDate>
+                    <fromDate standardDate="1771-06-05">5 June 1771</fromDate>
+                    <toDate standardDate="1851-11-18">18 November 1851</toDate>
                 </dateRange>
             </existDates>
             <localDescription localType="gender">
@@ -148,15 +169,15 @@
                 <place>
                     <placeRole>birth</placeRole>
                     <placeEntry vocabularySource="GeoNames" latitude="51.50094" longitude="-0.14289">Buckingham House</placeEntry>
-                    <date standardDate="1767-11-02">2 November 1767</date>
+                    <date standardDate="1771-06-05">5 June 1771</date>
                 </place>
                 <place>
                     <placeRole>death</placeRole>
-                    <!-- DO WE WANT TO CAPTURE THE COTTAGE NAME? WOOLBROOK COTTAGE? -->
-                    <placeEntry vocabularySource="GeoNames" latitude="50.69094" longitude="-3.2397">Sidmouth</placeEntry>
-                    <date standardDate="1820-01-23">23 January 1820</date>
+                    <placeEntry vocabularySource="GeoNames" latitude="52.37052" longitude="9.73322">Hanover</placeEntry>
+                    <date standardDate="1851-11-18">18 November 1851</date>
                 </place>
             </places>
+            <!-- NEED MOAR -->
             <languagesUsed>
                 <languageUsed>
                     <language languageCode="eng">English</language>
