@@ -166,6 +166,17 @@
                 </useDates>
                 <authorizedForm>NCA</authorizedForm>
             </nameEntry>
+            <nameEntry scriptCode="Latn" xml:lang="ger">
+                <part localType="forename">Friederike Louise Caroline Sophie Charlotte Alexandrine</part>
+                <part localType="properTitle">Königin von Hannover</part>
+                <useDates>
+                    <dateRange>
+                        <fromDate standardDate="1837-06-20">20 June 1837</fromDate>
+                        <toDate standardDate="1841-06-29">29 June 1841</toDate>
+                    </dateRange>
+                </useDates>
+                <alternativeForm>NCA</alternativeForm>
+            </nameEntry>
         </identity>
         <description>
             <existDates>
@@ -177,12 +188,11 @@
             <localDescription localType="gender">
                 <term vocabularySource="Homosaurus">Women</term>
             </localDescription>
-            <!-- from here -->
             <places>
                 <place>
                     <placeRole>birth</placeRole> <!-- Altais Palais, no longer standing -->
                     <placeEntry vocabularySource="GeoNames" latitude="52.37052" longitude="9.73322">Hanover</placeEntry>
-                    <date standardDate="1771-06-05">5 June 1771</date>
+                    <date standardDate="1778-03-03">3 March 1778</date>
                 </place>
                 <place>
                     <placeRole>death</placeRole>
@@ -192,41 +202,35 @@
             </places>
             <languagesUsed>
                 <languageUsed>
-                    <!-- evidence she could speak english? -->
-                    <!-- FROM HERE -->
-                    <language languageCode="eng">English</language>
-                    <script scriptCode="Latn">Latin</script>
-                </languageUsed>
-                <languageUsed>
                     <language languageCode="ger">German</language>
                     <script scriptCode="Latn">Latin</script>
                 </languageUsed>
             </languagesUsed>
             <biogHist> 
-                <abstract>Ernest Augustus (5 June 1771 – 18 November 1851) was King of Hanover from 20 June 1837 until his death. He was the fifth son and eighth child of King George III of the United Kingdom and Hanover. As a fifth son, Ernest seemed unlikely to become a monarch, but none of his four elder brothers had a legitimate son who survived infancy. The Salic Law, which barred succession to or through a female, prevailed in Hanover; therefore, when his elder brother King William IV died in 1837, Ernest succeeded him as King of Hanover. In the United Kingdom the succession to the monarchy was determined by a different system of primogeniture from Germany and his niece Victoria succeeded to the throne, thus ending the personal union between the British and Hanoverian crowns that had existed since 1714.</abstract>
-                <p>Ernest was born in England but was sent to Hanover in his adolescence for his education and military training. While serving with Hanoverian forces near Tournai against Revolutionary France, he received a disfiguring facial wound. In 1799, he was created Duke of Cumberland and Teviotdale. Although his marriage in 1815 to his twice-widowed cousin Frederica of Mecklenburg-Strelitz met with the disapproval of his mother, Charlotte of Mecklenburg-Strelitz, it proved a happy one. By 1817, King George III had only one legitimate grandchild, Princess Charlotte of Wales, and when she died in childbirth, Ernest was the senior son to be both married and not estranged from his wife. This gave him some prospect of succeeding to the British throne. However, both of his unmarried elder brothers quickly married and King George III's fourth son, Edward, Duke of Kent, fathered the eventual British monarch, Victoria.</p>
-                <p>Ernest was an active member of the House of Lords, where he maintained an extremely conservative voting record. There were persistent allegations (reportedly spread by his political foes) that he had murdered his valet and had fathered a son by his sister, Princess Sophia. Before Victoria succeeded to the British throne, it was rumoured that Ernest intended to murder her and take the throne himself. When King William IV died on 20 June 1837, Ernest acceded to the Hanoverian throne. Becoming Hanover's first resident ruler since George I, he had a generally successful fourteen-year reign but excited controversy when he dismissed the Göttingen Seven (including the two Brothers Grimm) from their professorial positions for agitating against his policies.</p>
-                <citation>Wikipedia. "Ernest Augustus, King of Hanover" Accessed August 24, 2018. https://en.wikipedia.org/wiki/Ernest_Augustus,_King_of_Hanover</citation>
+                <abstract>Frederica of Mecklenburg-Strelitz (Friederike Louise Caroline Sophie Charlotte Alexandrine) (3 March 1778 – 29 June 1841) was a German princess who became, by marriage, princess of Prussia, princess of Solms-Braunfels, Duchess of Cumberland in Britain and Queen of Hanover (in Germany) as the consort of Ernest Augustus, King of Hanover (the fifth son and eighth child of King George III).</abstract>
+                <p>She was born in the Altes Palais of Hanover as the fifth daughter of Charles II, Duke of Mecklenburg-Strelitz, and his first wife, Frederica, daughter of Prince George William of Hesse-Darmstadt.</p>                    
+                <p>Her father assumed the title of Grand Duke of Mecklenburg on 18 June 1815. Duchess Frederica was the niece of her future mother-in-law, Queen Charlotte, through her father.</p>
+                <citation>Wikipedia. "Frederica of Mecklenburg-Strelitz" Accessed August 30, 2018. https://en.wikipedia.org/wiki/Frederica_of_Mecklenburg-Strelitz</citation>
                 <p>Biography source: Wikipedia. Licensed under CC-BY-SA.</p>
             </biogHist>         
         </description>
         <relations> 
             <cpfRelation cpfRelationType="hierarchical-parent" xlink:href=""> <!-- xlink:href to be created automatically following creation of NAF page -->
-                <relationEntry xml:id="GPP-00000018">George III, 1738-1820, King of Great Britain and Ireland</relationEntry>
+                <relationEntry xml:id="">Charles II, 1741-1816, Grand Duke of Mecklenburg-Strelitz</relationEntry>
                 <descriptiveNote>
-                    <p>George III was Ernest's father.</p>
+                    <p>Charles II was Frederica's father.</p>
                 </descriptiveNote>
             </cpfRelation>
             <cpfRelation cpfRelationType="hierarchical-parent" xlink:href="">
-                <relationEntry xml:id="GPP-00009213">Charlotte, 1744-1818, Queen Consort of Great Britain and Ireland</relationEntry>
+                <relationEntry xml:id="">Frederica Caroline Louise, 1752-1782, Duchess of Mecklenburg-Strelitz</relationEntry>
                 <descriptiveNote>
-                    <p>Queen Charlotte was Ernest's mother.</p>
+                    <p>Duchess Frederica was Frederica's mother.</p>
                 </descriptiveNote>
             </cpfRelation>
             <cpfRelation cpfRelationType="family" xlink:href="">
-                <relationEntry xml:id="NAF-???">Frederica Louise Caroline Sophie Alexandrina, 1778-1841, Queen of Hanover</relationEntry>
+                <relationEntry xml:id="NAF-00000003">Edward Augustus, 1771-1851, King of Hanover</relationEntry>
                 <descriptiveNote>
-                    <p>Frederica was Ernest's wife.</p>
+                    <p>Edward Augustus was Frederica's husband.</p>
                 </descriptiveNote>
             </cpfRelation>
         </relations>
