@@ -3,7 +3,7 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="urn:isbn:1-931666-33-4 http://eac.staatsbibliothek-berlin.de/schema/cpf.xsd">
     <control> <!-- Administrative metadata -->
-        <recordId>NAF-00000005</recordId>
+        <recordId>NAF-00000006</recordId>
         <maintenanceStatus>new</maintenanceStatus> <!-- Updated when edited. May contain: "cancelled" or "deleted" or "deletedReplaced" or "deletedSplit" or "derived" or "new" or "revised" -->
         <publicationStatus>inProcess</publicationStatus> <!-- May contain: "inProcess" or "approved" -->
         <maintenanceAgency>
@@ -81,24 +81,24 @@
         <maintenanceHistory>
             <maintenanceEvent> <!-- records each maintenance/editing event that occurs throughout the life of the file -->
                 <eventType>created</eventType> <!-- May contain: "cancelled" or "created" or "deleted" or "derived" or "revised" or "updated" -->
-                <eventDateTime standardDateTime="2018-08-30T11:16:00Z">11.16 pm, 30 August 2018</eventDateTime> <!-- ISO 8601 date-time formatting -->
+                <eventDateTime standardDateTime="2018-08-30T14:28:00Z">2.28 pm, 30 August 2018</eventDateTime> <!-- ISO 8601 date-time formatting -->
                 <agentType>human</agentType> <!-- May contain: "human" or "machine" -->
                 <agent xml:id="GPP-00001748">Callaghan, Samantha</agent>
-                <eventDescription>Creation of NAF for George IV, King of Great Britain and Ireland.</eventDescription> <!-- Include a full description of the maintenance event - ie: note what was created/edited during the event -->
+                <eventDescription>Creation of NAF for Caroline, Queen Consort of Great Britain and Ireland.</eventDescription> <!-- Include a full description of the maintenance event - ie: note what was created/edited during the event -->
             </maintenanceEvent>
         </maintenanceHistory>
         <sources>
-            <source xlink:type="simple" xlink:href="https://viaf.org/viaf/265481029/">
-                <sourceEntry>VIAF ID: 265481029 (Personal)</sourceEntry>
+            <source xlink:type="simple" xlink:href="https://viaf.org/viaf/264655824/">
+                <sourceEntry>VIAF ID: 264655824 (Personal)</sourceEntry>
             </source>            
-            <source xlink:type="simple" xlink:href="https://en.wikipedia.org/wiki/George_IV_of_the_United_Kingdom">
-                <sourceEntry>Wikipedia: George IV of the United Kingdom</sourceEntry>
+            <source xlink:type="simple" xlink:href="https://en.wikipedia.org/wiki/Caroline_of_Brunswick">
+                <sourceEntry>Wikipedia: Caroline of Brunswick</sourceEntry>
             </source>
-            <source xlink:type="simple" xlink:href="http://www.geonames.org/11919990/st-james-s-palace.html">
-                <sourceEntry>GeoNames ID: 11919990</sourceEntry>
+            <source xlink:type="simple" xlink:href="http://www.geonames.org/2945024/braunschweig.html">
+                <sourceEntry>GeoNames ID: 2945024</sourceEntry>
             </source>
-            <source xlink:type="simple" xlink:href="http://www.geonames.org/6287215/windsor-castle.html">
-                <sourceEntry>GeoNames ID: 6287215</sourceEntry>
+            <source xlink:type="simple" xlink:href="http://www.geonames.org/2647567/hammersmith.html">
+                <sourceEntry>GeoNames ID: 2647567</sourceEntry>
             </source>
         </sources>        
     </control>
@@ -106,74 +106,40 @@
         <identity>
             <entityType>person</entityType>
             <nameEntry scriptCode="Latn" xml:lang="eng"> 
-                <part localType="forename">George Augustus Frederick</part>
-                <part localType="ordinalNumber">IV</part>
-                <part localType="properTitle">King of Great Britain and Ireland</part>
+                <part localType="forename">Caroline Amalia Elisabeth</part>
+                <part localType="properTitle">Queen Consort of Great Britain and Ireland</part>
                 <useDates>
                     <dateRange>
                         <fromDate standardDate="1820-01-29">29 January 1820</fromDate>
-                        <toDate standardDate="1830-06-26">26 June 1830</toDate>
+                        <toDate standardDate="1821-08-07">7 August 1821</toDate>
                     </dateRange>
                 </useDates>
                 <authorizedForm>NCA</authorizedForm>
             </nameEntry>
             <nameEntry scriptCode="Latn" xml:lang="eng"> 
-                <part localType="forename">George Augustus Frederick</part>
-                <part localType="properTitle">Duke of Cornwall</part>
+                <part localType="forename">Caroline Amalia Elisabeth</part>
+                <part localType="properTitle">Princess of Wales</part>
                 <useDates>
                     <dateRange>
-                        <fromDate standardDate="1762-08-12">12 August 1762</fromDate>
+                        <fromDate standardDate="1795-04-08">8 April 1795</fromDate>
                         <toDate standardDate="1820-01-29">29 January 1820</toDate>
                     </dateRange>
                 </useDates>
                 <alternativeForm>NCA</alternativeForm>
             </nameEntry>
             <nameEntry scriptCode="Latn" xml:lang="eng"> 
-                <part localType="forename">George Augustus Frederick</part>
-                <part localType="properTitle">Duke of Rothesay</part>
+                <part localType="forename">Caroline Amalia Elisabeth</part>
+                <part localType="properTitle">Duchess of Brunswick-Wolfenbüttel</part>
                 <useDates>
                     <dateRange>
-                        <fromDate standardDate="1762-08-12">12 August 1762</fromDate>
-                        <toDate standardDate="1820-01-29">29 January 1820</toDate>
-                    </dateRange>
-                </useDates>
-                <alternativeForm>NCA</alternativeForm>
-            </nameEntry>
-            <nameEntry scriptCode="Latn" xml:lang="eng"> 
-                <part localType="forename">George Augustus Frederick</part>
-                <part localType="properTitle">Prince of Wales</part>
-                <useDates>
-                    <dateRange>
-                        <fromDate standardDate="1762-08-19">19 August 1762</fromDate>
-                        <toDate standardDate="1820-01-29">29 January 1820</toDate>
-                    </dateRange>
-                </useDates>
-                <alternativeForm>NCA</alternativeForm>
-            </nameEntry>
-            <nameEntry scriptCode="Latn" xml:lang="eng"> 
-                <part localType="forename">George Augustus Frederick</part>
-                <part localType="properTitle">Earl of Chester</part>
-                <useDates>
-                    <dateRange>
-                        <fromDate standardDate="1762-08-19">19 August 1762</fromDate>
-                        <toDate standardDate="1820-01-29">29 January 1820</toDate>
-                    </dateRange>
-                </useDates>
-                <alternativeForm>NCA</alternativeForm>
-            </nameEntry>
-            <nameEntry scriptCode="Latn" xml:lang="eng"> 
-                <part localType="forename">George Augustus Frederick</part>
-                <part localType="properTitle">Regent of the United Kingdom of Great Britain and Ireland</part>
-                <useDates>
-                    <dateRange>
-                        <fromDate standardDate="1811-02-05">5 February 1811</fromDate>
-                        <toDate standardDate="1820-01-29">29 January 1820</toDate>
+                        <fromDate standardDate="1768-05-17">17 May 1768</fromDate>
+                        <toDate standardDate="1795-04-08">8 April 1795</toDate>
                     </dateRange>
                 </useDates>
                 <alternativeForm>NCA</alternativeForm>
             </nameEntry>
             <nameEntry scriptCode="Latn" xml:lang="eng" localType="directOrder"> 
-                <part>George IV, 1762-1830, King of Great Britain and Ireland</part>
+                <part>Caroline Amalia Elisabeth, 1768-1821, Queen Consort of Great Britain and Ireland</part>
                 <useDates>
                     <dateRange>
                         <fromDate standardDate="1820-01-29">29 January 1820</fromDate>
@@ -186,71 +152,75 @@
         <description>
             <existDates>
                 <dateRange>
-                    <fromDate standardDate="1762-08-12">12 August 1762</fromDate>
-                    <toDate standardDate="1830-06-26">26 June 1830</toDate>
+                    <fromDate standardDate="1820-01-29">29 January 1820</fromDate>
+                    <toDate standardDate="1821-08-07">7 August 1821</toDate>
                 </dateRange>
             </existDates>
             <localDescription localType="gender">
-                <term vocabularySource="Homosaurus">Men</term>
+                <term vocabularySource="Homosaurus">Women</term>
             </localDescription>
+            <!-- from here -->
             <places>
                 <place>
                     <placeRole>birth</placeRole>
-                    <placeEntry vocabularySource="GeoNames" latitude="51.50472" longitude="-0.1375">St. James's Palace</placeEntry>
-                    <date standardDate="1762-08-12">12 August 1762</date>
+                    <placeEntry vocabularySource="GeoNames" latitude="52.26594" longitude="10.52673">Brunswick</placeEntry>
+                    <date standardDate="1768-05-17">17 May 1768</date>
                 </place>
+                <!-- Brandenburg House was gutted and razed to the ground within a year of Queen Caroline's death by the property owner and subsequent buyer. -->
                 <place>
                     <placeRole>death</placeRole>
-                    <placeEntry vocabularySource="GeoNames" latitude="51.48365" longitude="-0.60502">Windsor Castle</placeEntry>
+                    <placeEntry vocabularySource="GeoNames" latitude="51.49384" longitude="-0.22882">Hammersmith, London</placeEntry>
                     <date standardDate="1830-06-26">26 June 1830</date>
                 </place>
             </places>
             <languagesUsed>
                 <languageUsed>
-                    <language languageCode="eng">English</language>
+                    <language languageCode="ger">German</language>
                     <script scriptCode="Latn">Latin</script>
                 </languageUsed>
                 <languageUsed>
-                    <language languageCode="ger">German</language>
+                    <language languageCode="eng">English</language>
                     <script scriptCode="Latn">Latin</script>
                 </languageUsed>
                 <languageUsed>
                     <language languageCode="fre">French</language>
                     <script scriptCode="Latn">Latin</script>
                 </languageUsed>
-                <languageUsed>
-                    <language languageCode="ita">Italian</language>
-                    <script scriptCode="Latn">Latin</script>
-                </languageUsed>
             </languagesUsed>
             <biogHist> 
-                <abstract>George IV (George Augustus Frederick; 12 August 1762 – 26 June 1830) was King of the United Kingdom of Great Britain and Ireland and King of Hanover following the death of his father, King George III, on 29 January 1820, until his own death ten years later. From 1811 until his accession, he served as Prince Regent during his father's final mental illness.</abstract>
-                 <citation>Wikipedia. "George IV of the United Kingdom" Accessed August 30, 2018. https://en.wikipedia.org/wiki/George_IV_of_the_United_Kingdom</citation>
+                <abstract>Caroline of Brunswick (Caroline Amelia Elizabeth; 17 May 1768 – 7 August 1821) was Queen consort of the United Kingdom as the wife of King George IV from 29 January 1820 until her death in 1821. She was the Princess of Wales from 1795 to 1820.</abstract>
+                <p>Her father, Charles William Ferdinand, was the ruler of Brunswick-Wolfenbüttel in Germany, and her mother, Augusta, was the sister of the British king George III. In 1794, she was engaged to her first cousin and George III's eldest son, George, despite the two of them never having met and George already being illegally married to Maria Fitzherbert. George and Caroline married the following year, and nine months later Caroline had a child, Princess Charlotte of Wales.</p>
+                <p>Shortly after Charlotte's birth, George and Caroline separated. By 1806, rumours that Caroline had taken lovers and had an illegitimate child led to an investigation into her private life. The dignitaries who led the investigation concluded that there was "no foundation" to the rumours, but Caroline's access to her daughter was restricted.</p>
+                <p>In 1814, Caroline moved to Italy, where she employed Bartolomeo Pergami as a servant. Pergami soon became Caroline's closest companion, and it was widely assumed that they were lovers. In 1817, Caroline was devastated when her daughter Charlotte died in childbirth; she heard the news from a passing courier as George had refused to write and tell her. He was determined to divorce Caroline, and set up a second investigation to collect evidence of her adultery.</p>
+                <p>In 1820, George became king of the United Kingdom and Hanover. George hated her, vowed she would never be the queen, and insisted on a divorce, which she refused. A legal divorce was possible but difficult to obtain. Caroline returned to Britain to assert her position as queen. She was wildly popular with the British populace, who sympathized with her and who despised the new king for his immoral behaviour. On the basis of the loose evidence collected against her, George attempted to divorce her by introducing the Pains and Penalties Bill to Parliament, but George and the bill were so unpopular, and Caroline so popular with the masses, that it was withdrawn by the Tory government. In July 1821, Caroline was barred from the coronation on the orders of her husband. She fell ill in London and died three weeks later; her funeral procession passed through London on its way to her native Brunswick, where she was buried.</p>
+                <citation>Wikipedia. "Caroline of Brunswick" Accessed August 30, 2018. https://en.wikipedia.org/wiki/Caroline_of_Brunswick</citation>
                 <p>Biography source: Wikipedia. Licensed under CC-BY-SA.</p>
             </biogHist>         
         </description>
         <relations> 
             <cpfRelation cpfRelationType="hierarchical-parent" xlink:href=""> <!-- xlink:href to be created automatically following creation of NAF page -->
-                <relationEntry xml:id="GPP-00000018">George III, 1738-1820, King of Great Britain and Ireland</relationEntry>
+                <relationEntry xml:id="">Charles William Ferdinand, 1735-1806, Duke of Brunswick-Lüneburg</relationEntry>
                 <descriptiveNote>
-                    <p>George III was George IV's father.</p>
+                    <p>Charles was Caroline's father.</p>
                 </descriptiveNote>
             </cpfRelation>
             <cpfRelation cpfRelationType="hierarchical-parent" xlink:href="">
-                <relationEntry xml:id="GPP-00009213">Charlotte, 1744-1818, Queen Consort of Great Britain and Ireland</relationEntry>
+                <relationEntry xml:id="">Augusta Frederica, 1737-1813, Duchess of Brunswick-Lüneburg</relationEntry>
                 <descriptiveNote>
-                    <p>Queen Charlotte was George IV's mother.</p>
+                    <p>Augusta was Caroline's mother.</p>
                 </descriptiveNote>
             </cpfRelation>
             <cpfRelation cpfRelationType="family" xlink:href="">
-                <relationEntry xml:id="NAF-00000006">Caroline Amelia Elizabeth, 1768-1821, Queen Consort of Great Britain and Ireland</relationEntry>
+                <relationEntry xml:id="NAF-00000005">George IV, 1762-1830, King of Great Britain and Ireland</relationEntry>
                 <descriptiveNote>
-                    <p>Caroline was George IV's wife.</p>
+                    <p>George IV was Caroline's husband.</p>
                 </descriptiveNote>
             </cpfRelation>
         </relations>
     </cpfDescription>
 </eac-cpf>
+
+
 
 
 
