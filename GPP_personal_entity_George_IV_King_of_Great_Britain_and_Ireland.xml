@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eac-cpf xmlns="urn:isbn:1-931666-33-4" xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="urn:isbn:1-931666-33-4 http://eac.staatsbibliothek-berlin.de/schema/cpf.xsd">
+    <control> <!-- Administrative metadata -->
+        <recordId>NAF-00000005</recordId>
+        <maintenanceStatus>new</maintenanceStatus> <!-- Updated when edited. May contain: "cancelled" or "deleted" or "deletedReplaced" or "deletedSplit" or "derived" or "new" or "revised" -->
+        <publicationStatus>inProcess</publicationStatus> <!-- May contain: "inProcess" or "approved" -->
+        <maintenanceAgency>
+            <agencyName>King's Digital Laboratory</agencyName>
+        </maintenanceAgency>
+        <languageDeclaration> <!-- Of the EAC-CPF file. The EAC-CPF files created for the GPP project are all (at this time) in English and use the latin script. -->
+            <language languageCode="eng">English</language>
+            <script scriptCode="Latn">Latin</script>
+        </languageDeclaration>
+        <conventionDeclaration> <!-- Date and time format convention. -->
+            <abbreviation>ISO8601</abbreviation>
+            <citation xlink:href="https://www.iso.org/iso-8601-date-and-time-format.html" xlink:type="simple">Date and time format - ISO 8601</citation>
+            <descriptiveNote>
+                <p>Dates and times are formatted according to the ISO 8601 standard in the following forms: YYYY-MM-DD or YYYY-MM-DDTHH:MM:SSZ.</p>
+            </descriptiveNote>
+        </conventionDeclaration>
+        <conventionDeclaration> <!-- Personal and organisational naming conventions -->
+            <abbreviation>NCA</abbreviation>
+            <citation xlink:href="http://anws.llgc.org.uk/ncarules/title.htm" xlink:type="simple">National Council on Archives Rules for the construction of personal, place and
+                corporate names, 1997.</citation>
+            <descriptiveNote>
+                <p>Personal and organisational names are formatted according to NCA Rules.</p>
+            </descriptiveNote>
+        </conventionDeclaration>
+        <conventionDeclaration> <!-- Geographical naming conventions -->
+            <abbreviation>GeoNames</abbreviation>
+            <citation xlink:href="http://www.geonames.org/" xlink:type="simple">GeoNames</citation>
+            <descriptiveNote>
+                <p>Geographic names are formatted according to GeoNames usage.</p>
+            </descriptiveNote>
+        </conventionDeclaration>
+        <conventionDeclaration>
+            <abbreviation>Wikidata</abbreviation>
+            <citation xlink:href="https://www.wikidata.org/wiki/Wikidata:Main_Page" xlink:type="simple">Wikidata</citation>
+            <descriptiveNote>
+                <p>Geographic names may be formatted according to Wikidata usage if not present on GeoNames.</p>
+            </descriptiveNote>
+        </conventionDeclaration>
+        <conventionDeclaration> <!-- Geographic coordinates convention. -->
+            <abbreviation>WGS84</abbreviation>
+            <citation xlink:href="https://en.wikipedia.org/wiki/World_Geodetic_System" xlink:type="simple">World Geodetic System 1984</citation>
+            <descriptiveNote>
+                <p>Latitude/longitude coordinates are in the WGS84 standard. Coordinates should be taken from GeoNames where possible.</p>
+            </descriptiveNote>
+        </conventionDeclaration>
+        <conventionDeclaration> <!-- Function thesaurus. -->
+            <abbreviation>UKAT</abbreviation>
+            <citation xlink:href="http://www.ukat.org.uk/" xlink:type="simple">UK Archival Thesaurus</citation>
+            <descriptiveNote>
+                <p>UKAT terms are used to specify the function/s of an EAC-CPF entity.</p>
+            </descriptiveNote>
+        </conventionDeclaration>
+        <localTypeDeclaration>
+            <abbreviation>Name Parts</abbreviation>
+            <citation xlink:href="http://anws.llgc.org.uk/ncarules/title.htm" xlink:type="simple"
+                >National Council on Archives Rules for the construction of personal, place and
+                corporate names, 1997.</citation>
+            <descriptiveNote>
+                <p>The name parts (and direct order) that constitute name formation are taken from the NCA Rules.</p>
+            </descriptiveNote>
+        </localTypeDeclaration>
+        <localTypeDeclaration>
+            <abbreviation>Date Styles</abbreviation>
+            <citation xlink:href="http://www.cree.name/genuki/dates.htm" xlink:type="simple"
+                >Spathaky, Mike. "Old Style and New Style Dates and the change to the Gregorian Calendar: A summary for genealogists." Last modified December 13, 2011. http://www.cree.name/genuki/dates.htm</citation>
+            <descriptiveNote>
+                <p>The time period over which the Georgian papers spans includes the change from the Old Style dating system (Julian calendar, year beginning Lady Day [25th March]) to the New Style system (Gregorian calendar, year beginning 1st January). This change was implemented in Britain and her colonies in 1752 but was implemented throughout Europe at differing times in history.</p>
+                <p>For the purpose of the Georgian Papers Programme Name Authority File, in EAC-CPF all dates given with no @localType attached are implicitly New Style; only those that are Old Style will include @localType="oldStyle".</p>
+            </descriptiveNote>
+        </localTypeDeclaration>
+        <localTypeDeclaration>
+            <abbreviation>gender</abbreviation>
+            <citation xlink:href="http://homosaurus.org/terms" xlink:type="simple">Homosaurus: International Thesaurus of Lesbian, Gay, Bisexual and Transgender Index Terms</citation>
+        </localTypeDeclaration>
+        <maintenanceHistory>
+            <maintenanceEvent> <!-- records each maintenance/editing event that occurs throughout the life of the file -->
+                <eventType>created</eventType> <!-- May contain: "cancelled" or "created" or "deleted" or "derived" or "revised" or "updated" -->
+                <eventDateTime standardDateTime="2018-08-30T11:16:00Z">11.16 pm, 30 August 2018</eventDateTime> <!-- ISO 8601 date-time formatting -->
+                <agentType>human</agentType> <!-- May contain: "human" or "machine" -->
+                <agent xml:id="GPP-00001748">Callaghan, Samantha</agent>
+                <eventDescription>Creation of NAF for George IV, King of Great Britain and Ireland.</eventDescription> <!-- Include a full description of the maintenance event - ie: note what was created/edited during the event -->
+            </maintenanceEvent>
+        </maintenanceHistory>
+        <sources>
+            <source xlink:type="simple" xlink:href="https://viaf.org/viaf/265481029/">
+                <sourceEntry>VIAF ID: 265481029 (Personal)</sourceEntry>
+            </source>            
+            <source xlink:type="simple" xlink:href="https://en.wikipedia.org/wiki/George_IV_of_the_United_Kingdom">
+                <sourceEntry>Wikipedia: George IV of the United Kingdom</sourceEntry>
+            </source>
+            <source xlink:type="simple" xlink:href="http://www.geonames.org/11919990/st-james-s-palace.html">
+                <sourceEntry>GeoNames ID: 11919990</sourceEntry>
+            </source>
+            <source xlink:type="simple" xlink:href="http://www.geonames.org/6287215/windsor-castle.html">
+                <sourceEntry>GeoNames ID: 6287215</sourceEntry>
+            </source>
+        </sources>        
+    </control>
+    <cpfDescription> <!-- Descriptive metadata -->
+        <identity>
+            <entityType>person</entityType>
+            <nameEntry scriptCode="Latn" xml:lang="eng"> 
+                <part localType="forename">George Augustus Frederick</part>
+                <part localType="ordinalNumber">IV</part>
+                <part localType="properTitle">King of Great Britain and Ireland</part>
+                <useDates>
+                    <dateRange>
+                        <fromDate standardDate="1820-01-29">29 January 1820</fromDate>
+                        <toDate standardDate="1830-06-26">26 June 1830</toDate>
+                    </dateRange>
+                </useDates>
+                <authorizedForm>NCA</authorizedForm>
+            </nameEntry>
+            <nameEntry scriptCode="Latn" xml:lang="eng"> 
+                <part localType="forename">George Augustus Frederick</part>
+                <part localType="properTitle">Duke of Cornwall</part>
+                <useDates>
+                    <dateRange>
+                        <fromDate standardDate="1762-08-12">12 August 1762</fromDate>
+                        <toDate standardDate="1820-01-29">29 January 1820</toDate>
+                    </dateRange>
+                </useDates>
+                <alternativeForm>NCA</alternativeForm>
+            </nameEntry>
+            <nameEntry scriptCode="Latn" xml:lang="eng"> 
+                <part localType="forename">George Augustus Frederick</part>
+                <part localType="properTitle">Duke of Rothesay</part>
+                <useDates>
+                    <dateRange>
+                        <fromDate standardDate="1762-08-12">12 August 1762</fromDate>
+                        <toDate standardDate="1820-01-29">29 January 1820</toDate>
+                    </dateRange>
+                </useDates>
+                <alternativeForm>NCA</alternativeForm>
+            </nameEntry>
+            <nameEntry scriptCode="Latn" xml:lang="eng"> 
+                <part localType="forename">George Augustus Frederick</part>
+                <part localType="properTitle">Prince of Wales</part>
+                <useDates>
+                    <dateRange>
+                        <fromDate standardDate="1762-08-19">19 August 1762</fromDate>
+                        <toDate standardDate="1820-01-29">29 January 1820</toDate>
+                    </dateRange>
+                </useDates>
+                <alternativeForm>NCA</alternativeForm>
+            </nameEntry>
+            <nameEntry scriptCode="Latn" xml:lang="eng"> 
+                <part localType="forename">George Augustus Frederick</part>
+                <part localType="properTitle">Earl of Chester</part>
+                <useDates>
+                    <dateRange>
+                        <fromDate standardDate="1762-08-19">19 August 1762</fromDate>
+                        <toDate standardDate="1820-01-29">29 January 1820</toDate>
+                    </dateRange>
+                </useDates>
+                <alternativeForm>NCA</alternativeForm>
+            </nameEntry>
+            <nameEntry scriptCode="Latn" xml:lang="eng"> 
+                <part localType="forename">George Augustus Frederick</part>
+                <part localType="properTitle">Regent of the United Kingdom of Great Britain and Ireland</part>
+                <useDates>
+                    <dateRange>
+                        <fromDate standardDate="1811-02-05">5 February 1811</fromDate>
+                        <toDate standardDate="1820-01-29">29 January 1820</toDate>
+                    </dateRange>
+                </useDates>
+                <alternativeForm>NCA</alternativeForm>
+            </nameEntry>
+            <nameEntry scriptCode="Latn" xml:lang="eng" localType="directOrder"> 
+                <part>George IV, 1762-1830, King of Great Britain and Ireland</part>
+                <useDates>
+                    <dateRange>
+                        <fromDate standardDate="1820-01-29">29 January 1820</fromDate>
+                        <toDate standardDate="1830-06-26">26 June 1830</toDate>
+                    </dateRange>
+                </useDates>
+                <authorizedForm>NCA</authorizedForm>
+            </nameEntry>
+        </identity>
+        <description>
+            <existDates>
+                <dateRange>
+                    <fromDate standardDate="1762-08-12">12 August 1762</fromDate>
+                    <toDate standardDate="1830-06-26">26 June 1830</toDate>
+                </dateRange>
+            </existDates>
+            <localDescription localType="gender">
+                <term vocabularySource="Homosaurus">Men</term>
+            </localDescription>
+            <places>
+                <place>
+                    <placeRole>birth</placeRole>
+                    <placeEntry vocabularySource="GeoNames" latitude="551.50472" longitude="-0.1375">St. James's Palace</placeEntry>
+                    <date standardDate="1762-08-12">12 August 1762</date>
+                </place>
+                <place>
+                    <placeRole>death</placeRole>
+                    <placeEntry vocabularySource="GeoNames" latitude="51.48365" longitude="-0.60502">Windsor Castle</placeEntry>
+                    <date standardDate="1830-06-26">26 June 1830</date>
+                </place>
+            </places>
+            <languagesUsed>
+                <languageUsed>
+                    <language languageCode="eng">English</language>
+                    <script scriptCode="Latn">Latin</script>
+                </languageUsed>
+                <languageUsed>
+                    <language languageCode="ger">German</language>
+                    <script scriptCode="Latn">Latin</script>
+                </languageUsed>
+                <languageUsed>
+                    <language languageCode="fre">French</language>
+                    <script scriptCode="Latn">Latin</script>
+                </languageUsed>
+                <languageUsed>
+                    <language languageCode="ita">Italian</language>
+                    <script scriptCode="Latn">Latin</script>
+                </languageUsed>
+            </languagesUsed>
+            <biogHist> 
+                <abstract>George IV (George Augustus Frederick; 12 August 1762 – 26 June 1830) was King of the United Kingdom of Great Britain and Ireland and King of Hanover following the death of his father, King George III, on 29 January 1820, until his own death ten years later. From 1811 until his accession, he served as Prince Regent during his father's final mental illness.</abstract>
+                 <citation>Wikipedia. "George IV of the United Kingdom" Accessed August 30, 2018. https://en.wikipedia.org/wiki/George_IV_of_the_United_Kingdom</citation>
+                <p>Biography source: Wikipedia. Licensed under CC-BY-SA.</p>
+            </biogHist>         
+        </description>
+        <relations> 
+            <cpfRelation cpfRelationType="hierarchical-parent" xlink:href=""> <!-- xlink:href to be created automatically following creation of NAF page -->
+                <relationEntry xml:id="GPP-00000018">George III, 1738-1820, King of Great Britain and Ireland</relationEntry>
+                <descriptiveNote>
+                    <p>George III was George IV's father.</p>
+                </descriptiveNote>
+            </cpfRelation>
+            <cpfRelation cpfRelationType="hierarchical-parent" xlink:href="">
+                <relationEntry xml:id="GPP-00009213">Charlotte, 1744-1818, Queen Consort of Great Britain and Ireland</relationEntry>
+                <descriptiveNote>
+                    <p>Queen Charlotte was George IV's mother.</p>
+                </descriptiveNote>
+            </cpfRelation>
+            <cpfRelation cpfRelationType="family" xlink:href="">
+                <relationEntry xml:id="NAF-00000006">Caroline Amelia Elizabeth, 1768-1821, Queen Consort of Great Britain and Ireland</relationEntry>
+                <descriptiveNote>
+                    <p>Caroline was George IV's wife.</p>
+                </descriptiveNote>
+            </cpfRelation>
+        </relations>
+    </cpfDescription>
+</eac-cpf>
+
+
+
+
