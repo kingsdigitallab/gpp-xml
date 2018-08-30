@@ -102,7 +102,7 @@
             <entityType>person</entityType>
             <nameEntry scriptCode="Latn" xml:lang="eng"> 
                 <part localType="forename">Frederica Louise Caroline Sophie Alexandrina</part>
-                <part localType="properTitle">Queen of Hanover</part>
+                <part localType="properTitle">Queen Consort of Hanover</part>
                 <useDates>
                     <dateRange>
                         <fromDate standardDate="1837-06-20">20 June 1837</fromDate>
@@ -156,7 +156,7 @@
                 <alternativeForm>NCA</alternativeForm>
             </nameEntry>
             <nameEntry scriptCode="Latn" xml:lang="eng" localType="directOrder"> 
-                <part>Frederica Louise Caroline Sophie Alexandrina, 1778-1841, Queen of Hanover</part>
+                <part>Frederica Louise Caroline Sophie Alexandrina, 1778-1841, Queen Consort of Hanover</part>
                 <useDates>
                     <dateRange>
                         <fromDate standardDate="1837-06-20">20 June 1837</fromDate>
