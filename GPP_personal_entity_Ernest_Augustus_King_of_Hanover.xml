@@ -101,6 +101,12 @@
             <source xlink:type="simple" xlink:href="https://en.wikipedia.org/wiki/Ernest_Augustus,_King_of_Hanover">
                 <sourceEntry>Wikipedia: Ernest Augustus, King of Hanover</sourceEntry>
             </source>
+            <source xlink:type="simple" xlink:href="http://www.geonames.org/2654409/buckingham-palace.html">
+                <sourceEntry>GeoNames ID: 2654409</sourceEntry>
+            </source>
+            <source xlink:type="simple" xlink:href="http://www.geonames.org/2910831/hannover.html">
+                <sourceEntry>GeoNames ID: 2910831</sourceEntry>
+            </source>            
         </sources>        
     </control>
     <cpfDescription> <!-- Descriptive metadata -->

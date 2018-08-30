@@ -87,13 +87,15 @@
                 <eventDescription>Creation of NAF for Frederica, Queen of Hanover.</eventDescription> <!-- Include a full description of the maintenance event - ie: note what was created/edited during the event -->
             </maintenanceEvent>
         </maintenanceHistory>
-        <!-- ANY OTHERS? -->
         <sources>
             <source xlink:type="simple" xlink:href="https://viaf.org/viaf/78169699/">
                 <sourceEntry>VIAF ID: 78169699 (Personal)</sourceEntry>
             </source>            
             <source xlink:type="simple" xlink:href="https://en.wikipedia.org/wiki/Frederica_of_Mecklenburg-Strelitz">
                 <sourceEntry>Wikipedia: Frederica of Mecklenburg-Strelitz</sourceEntry>
+            </source>
+            <source xlink:type="simple" xlink:href="http://www.geonames.org/2910831/hannover.html">
+                <sourceEntry>GeoNames ID: 2910831</sourceEntry>
             </source>
         </sources>        
     </control>

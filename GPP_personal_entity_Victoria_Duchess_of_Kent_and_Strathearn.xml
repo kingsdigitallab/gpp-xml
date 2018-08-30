@@ -101,6 +101,12 @@
             <source xlink:type="simple" xlink:href="https://en.wikipedia.org/wiki/Princess_Victoria_of_Saxe-Coburg-Saalfeld">
                 <sourceEntry>Wikipedia: Princess Victoria of Saxe-Coburg-Saalfeld</sourceEntry>
             </source>
+            <source xlink:type="simple" xlink:href="http://www.geonames.org/2939951/coburg.html">
+                <sourceEntry>GeoNames ID: 2939951</sourceEntry>
+            </source>
+            <source xlink:type="simple" xlink:href="http://www.geonames.org/2649025/frogmore-house.html">
+                <sourceEntry>GeoNames ID: 2649025</sourceEntry>
+            </source>
         </sources>        
     </control>
     <cpfDescription> <!-- Descriptive metadata -->

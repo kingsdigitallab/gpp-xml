@@ -101,6 +101,13 @@
             <source xlink:type="simple" xlink:href="https://en.wikipedia.org/wiki/Prince_Edward,_Duke_of_Kent_and_Strathearn">
                 <sourceEntry>Wikipedia: Prince Edward, Duke of Kent and Strathearn</sourceEntry>
             </source>
+            <source xlink:type="simple" xlink:href="http://www.geonames.org/2654409/buckingham-palace.html">
+                <sourceEntry>GeoNames ID: 2654409</sourceEntry>
+            </source>
+            <!-- the Royal Glen Hotel used to be Woolbrook Cottage -->
+            <source xlink:type="simple" xlink:href="http://www.geonames.org/11919991/royal-glen-hotel.html">
+                <sourceEntry>GeoNames ID: 11919991</sourceEntry>
+            </source>
         </sources>        
     </control>
     <cpfDescription> <!-- Descriptive metadata -->
@@ -157,8 +164,7 @@
                 </place>
                 <place>
                     <placeRole>death</placeRole>
-                    <!-- DO WE WANT TO CAPTURE THE COTTAGE NAME? WOOLBROOK COTTAGE? -->
-                    <placeEntry vocabularySource="GeoNames" latitude="50.69094" longitude="-3.2397">Sidmouth</placeEntry>
+                    <placeEntry vocabularySource="GeoNames" latitude="50.67803" longitude="-3.24468">Woolbrook Cottage</placeEntry>
                     <date standardDate="1820-01-23">23 January 1820</date>
                 </place>
             </places>
