@@ -113,7 +113,6 @@
             </nameEntry>
             <nameEntry scriptCode="Latn" xml:lang="eng"> 
                 <part localType="forename">Frederica Louise Caroline Sophie Alexandrina</part>
-                <!-- From here -->
                 <part localType="properTitle">Duchess of Mecklenburg-Strelitz</part>
                 <useDates>
                     <dateRange>
@@ -228,9 +227,9 @@
                 </descriptiveNote>
             </cpfRelation>
             <cpfRelation cpfRelationType="family" xlink:href="">
-                <relationEntry xml:id="NAF-00000003">Edward Augustus, 1771-1851, King of Hanover</relationEntry>
+                <relationEntry xml:id="NAF-00000003">Ernest Augustus, 1771-1851, King of Hanover</relationEntry>
                 <descriptiveNote>
-                    <p>Edward Augustus was Frederica's husband.</p>
+                    <p>Ernest Augustus was Frederica's husband.</p>
                 </descriptiveNote>
             </cpfRelation>
         </relations>

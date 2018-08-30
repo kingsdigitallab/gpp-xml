@@ -118,7 +118,7 @@
                 <authorizedForm>NCA</authorizedForm>
             </nameEntry>
             <nameEntry scriptCode="Latn" xml:lang="eng"> 
-                <part localType="forename">Edward Augustus</part>
+                <part localType="forename">Ernest Augustus</part>
                 <part localType="properTitle">Prince</part>
                 <useDates>
                     <dateRange>
@@ -129,7 +129,7 @@
                 <alternativeForm>NCA</alternativeForm>
             </nameEntry>
             <nameEntry scriptCode="Latn" xml:lang="eng"> 
-                <part localType="forename">Edward Augustus</part>
+                <part localType="forename">Ernest Augustus</part>
                 <part localType="properTitle">Duke of Cumberland and Teviotdale</part>
                 <useDates>
                     <dateRange>
@@ -140,7 +140,7 @@
                 <alternativeForm>NCA</alternativeForm>
             </nameEntry>
             <nameEntry scriptCode="Latn" xml:lang="eng"> 
-                <part localType="forename">Edward Augustus</part>
+                <part localType="forename">Ernest Augustus</part>
                 <part localType="properTitle">Earl of Armagh</part>
                 <useDates>
                     <dateRange>
@@ -151,7 +151,7 @@
                 <alternativeForm>NCA</alternativeForm>
             </nameEntry>
             <nameEntry scriptCode="Latn" xml:lang="eng" localType="directOrder"> 
-                <part>Edward Augustus, 1771-1851, King of Hanover</part>
+                <part>Ernest Augustus, 1771-1851, King of Hanover</part>
                 <useDates>
                     <dateRange>
                         <fromDate standardDate="1837-06-20">20 June 1837</fromDate>
