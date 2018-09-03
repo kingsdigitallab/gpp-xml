@@ -86,6 +86,13 @@
                 <agent xml:id="GPP-00001748">Callaghan, Samantha</agent>
                 <eventDescription>Creation of NAF for Frederica Charlotte, Duchess of York and Albany.</eventDescription> <!-- Include a full description of the maintenance event - ie: note what was created/edited during the event -->
             </maintenanceEvent>
+            <maintenanceEvent> <!-- records each maintenance/editing event that occurs throughout the life of the file -->
+                <eventType>updated</eventType> <!-- May contain: "cancelled" or "created" or "deleted" or "derived" or "revised" or "updated" -->
+                <eventDateTime standardDateTime="2018-09-03T12:51:00Z">12.51 pm, 3 September 2018</eventDateTime> <!-- ISO 8601 date-time formatting -->
+                <agentType>human</agentType> <!-- May contain: "human" or "machine" -->
+                <agent xml:id="GPP-00001748">Callaghan, Samantha</agent>
+                <eventDescription>Update of NAF for Frederica Charlotte, Duchess of York and Albany.</eventDescription> <!-- Include a full description of the maintenance event - ie: note what was created/edited during the event -->
+            </maintenanceEvent>
         </maintenanceHistory>
         <sources>
             <source xlink:type="simple" xlink:href="https://viaf.org/viaf/42271821/">
@@ -97,54 +104,58 @@
             <source xlink:type="simple" xlink:href="http://www.geonames.org/2940187/charlottenburg.html">
                 <sourceEntry>GeoNames ID: 2940187</sourceEntry>
             </source>
-            <!-- WHAT TO DO ABOUT OATLAND PALACE/OATLAND HOUSE/OATLAND MANSION -->
+            <!-- Oatlands House is what it used to be called during the Duchess' day.  -->
             <source xlink:type="simple" xlink:href="http://www.geonames.org/6526002/oatlands-park-hotel.html">
                 <sourceEntry>GeoNames ID: 6526002</sourceEntry>
             </source>
+            <source xlink:type="simple" xlink:href="https://en.wikipedia.org/wiki/Oatlands_Palace">
+                <sourceEntry>Wikipedia: Oatlands Palace</sourceEntry>
+            </source>
+            
         </sources>        
     </control>
     <cpfDescription> <!-- Descriptive metadata -->
         <identity>
             <entityType>person</entityType>
             <nameEntry scriptCode="Latn" xml:lang="eng"> 
-                <part localType="forename">Caroline Amalia Elisabeth</part>
-                <part localType="properTitle">Queen Consort of Great Britain and Ireland</part>
+                <part localType="forename">Frederica Charlotte Ulrica Katherine</part>
+                <part localType="properTitle">Duchess of York and Albany</part>
                 <useDates>
                     <dateRange>
-                        <fromDate standardDate="1820-01-29">29 January 1820</fromDate>
-                        <toDate standardDate="1821-08-07">7 August 1821</toDate>
+                        <fromDate standardDate="1791-09-29">29 September 1791</fromDate>
+                        <toDate standardDate="1820-08-06">6 August 1820</toDate>
                     </dateRange>
                 </useDates>
                 <authorizedForm>NCA</authorizedForm>
             </nameEntry>
             <nameEntry scriptCode="Latn" xml:lang="eng"> 
-                <part localType="forename">Caroline Amalia Elisabeth</part>
-                <part localType="properTitle">Princess of Wales</part>
+                <part localType="forename">Frederica Charlotte Ulrica Katherine</part>
+                <part localType="properTitle">Princess of Prussia</part>
                 <useDates>
                     <dateRange>
-                        <fromDate standardDate="1795-04-08">8 April 1795</fromDate>
-                        <toDate standardDate="1820-01-29">29 January 1820</toDate>
+                        <fromDate standardDate="1767-05-07">7 May 1767</fromDate>
+                        <toDate standardDate="1791-09-29">29 September 1791</toDate>
                     </dateRange>
                 </useDates>
                 <alternativeForm>NCA</alternativeForm>
             </nameEntry>
-            <nameEntry scriptCode="Latn" xml:lang="eng"> 
-                <part localType="forename">Caroline Amalia Elisabeth</part>
-                <part localType="properTitle">Duchess of Brunswick-Wolfenbüttel</part>
+            <nameEntry scriptCode="Latn" xml:lang="ger"> 
+                <part localType="forename">Friederike Charlotte Ulrike Katharina</part>
+                <part localType="properTitle">Prinzessin von Preußen</part>
                 <useDates>
                     <dateRange>
-                        <fromDate standardDate="1768-05-17">17 May 1768</fromDate>
-                        <toDate standardDate="1795-04-08">8 April 1795</toDate>
+                        <fromDate standardDate="1767-05-07">7 May 1767</fromDate>
+                        <toDate standardDate="1791-09-29">29 September 1791</toDate>
                     </dateRange>
                 </useDates>
                 <alternativeForm>NCA</alternativeForm>
             </nameEntry>
             <nameEntry scriptCode="Latn" xml:lang="eng" localType="directOrder"> 
-                <part>Caroline Amalia Elisabeth, 1768-1821, Queen Consort of Great Britain and Ireland</part>
+                <part>Frederica Charlotte Ulrica Katherine, 1767-1820, Duchess of York and Albany</part>
                 <useDates>
                     <dateRange>
-                        <fromDate standardDate="1820-01-29">29 January 1820</fromDate>
-                        <toDate standardDate="1830-06-26">26 June 1830</toDate>
+                        <fromDate standardDate="1791-09-29">29 September 1791</fromDate>
+                        <toDate standardDate="1820-08-06">6 August 1820</toDate>
                     </dateRange>
                 </useDates>
                 <authorizedForm>NCA</authorizedForm>
@@ -153,8 +164,8 @@
         <description>
             <existDates>
                 <dateRange>
-                    <fromDate standardDate="1820-01-29">29 January 1820</fromDate>
-                    <toDate standardDate="1821-08-07">7 August 1821</toDate>
+                    <fromDate standardDate="1767-05-07">7 May 1767</fromDate>
+                    <toDate standardDate="1820-08-06">6 August 1820</toDate>
                 </dateRange>
             </existDates>
             <localDescription localType="gender">
@@ -163,14 +174,13 @@
             <places>
                 <place>
                     <placeRole>birth</placeRole>
-                    <placeEntry vocabularySource="GeoNames" latitude="52.26594" longitude="10.52673">Brunswick</placeEntry>
-                    <date standardDate="1768-05-17">17 May 1768</date>
+                    <placeEntry vocabularySource="GeoNames" latitude="52.51667" longitude="13.28333">Charlottenburg</placeEntry>
+                    <date standardDate="1767-05-07">7 May 1767</date>
                 </place>
-                <!-- Brandenburg House was gutted and razed to the ground within a year of Queen Caroline's death by the property owner and subsequent buyer. -->
                 <place>
                     <placeRole>death</placeRole>
-                    <placeEntry vocabularySource="GeoNames" latitude="51.49384" longitude="-0.22882">Hammersmith, London</placeEntry>
-                    <date standardDate="1830-06-26">26 June 1830</date>
+                    <placeEntry vocabularySource="GeoNames" latitude="51.3724" longitude="-0.4441">Oatlands House, Surrey</placeEntry>
+                    <date standardDate="1820-08-06">6 August 1820</date>
                 </place>
             </places>
             <languagesUsed>
@@ -178,42 +188,41 @@
                     <language languageCode="ger">German</language>
                     <script scriptCode="Latn">Latin</script>
                 </languageUsed>
+                <!-- not yet found evidence of English use 
                 <languageUsed>
                     <language languageCode="eng">English</language>
                     <script scriptCode="Latn">Latin</script>
                 </languageUsed>
+                -->
                 <languageUsed>
                     <language languageCode="fre">French</language>
                     <script scriptCode="Latn">Latin</script>
                 </languageUsed>
             </languagesUsed>
             <biogHist> 
-                <abstract>Caroline of Brunswick (Caroline Amelia Elizabeth; 17 May 1768 – 7 August 1821) was Queen consort of the United Kingdom as the wife of King George IV from 29 January 1820 until her death in 1821. She was the Princess of Wales from 1795 to 1820.</abstract>
-                <p>Her father, Charles William Ferdinand, was the ruler of Brunswick-Wolfenbüttel in Germany, and her mother, Augusta, was the sister of the British king George III. In 1794, she was engaged to her first cousin and George III's eldest son, George, despite the two of them never having met and George already being illegally married to Maria Fitzherbert. George and Caroline married the following year, and nine months later Caroline had a child, Princess Charlotte of Wales.</p>
-                <p>Shortly after Charlotte's birth, George and Caroline separated. By 1806, rumours that Caroline had taken lovers and had an illegitimate child led to an investigation into her private life. The dignitaries who led the investigation concluded that there was "no foundation" to the rumours, but Caroline's access to her daughter was restricted.</p>
-                <p>In 1814, Caroline moved to Italy, where she employed Bartolomeo Pergami as a servant. Pergami soon became Caroline's closest companion, and it was widely assumed that they were lovers. In 1817, Caroline was devastated when her daughter Charlotte died in childbirth; she heard the news from a passing courier as George had refused to write and tell her. He was determined to divorce Caroline, and set up a second investigation to collect evidence of her adultery.</p>
-                <p>In 1820, George became king of the United Kingdom and Hanover. George hated her, vowed she would never be the queen, and insisted on a divorce, which she refused. A legal divorce was possible but difficult to obtain. Caroline returned to Britain to assert her position as queen. She was wildly popular with the British populace, who sympathized with her and who despised the new king for his immoral behaviour. On the basis of the loose evidence collected against her, George attempted to divorce her by introducing the Pains and Penalties Bill to Parliament, but George and the bill were so unpopular, and Caroline so popular with the masses, that it was withdrawn by the Tory government. In July 1821, Caroline was barred from the coronation on the orders of her husband. She fell ill in London and died three weeks later; her funeral procession passed through London on its way to her native Brunswick, where she was buried.</p>
-                <citation>Wikipedia. "Caroline of Brunswick" Accessed August 30, 2018. https://en.wikipedia.org/wiki/Caroline_of_Brunswick</citation>
+                <abstract>Princess Frederica Charlotte of Prussia (Friederike Charlotte Ulrike Katharina; 7 May 1767 – 6 August 1820) was a Prussian and British princess. She was the eldest daughter of King Frederick William II of Prussia and the wife of Prince Frederick, Duke of York and Albany, second son of King George III of the United Kingdom.</abstract>
+                
+                <citation>Wikipedia. "Princess Frederica Charlotte of Prussia" Accessed August 30, 2018. https://en.wikipedia.org/wiki/Princess_Frederica_Charlotte_of_Prussia</citation>
                 <p>Biography source: Wikipedia. Licensed under CC-BY-SA.</p>
             </biogHist>         
         </description>
         <relations> 
             <cpfRelation cpfRelationType="hierarchical-parent" xlink:href=""> <!-- xlink:href to be created automatically following creation of NAF page -->
-                <relationEntry xml:id="">Charles William Ferdinand, 1735-1806, Duke of Brunswick-Lüneburg</relationEntry>
+                <relationEntry xml:id="">Frederick William II, 1744-1797, King of Prussia</relationEntry>
                 <descriptiveNote>
-                    <p>Charles was Caroline's father.</p>
+                    <p>Frederick was Frederica's father.</p>
                 </descriptiveNote>
             </cpfRelation>
             <cpfRelation cpfRelationType="hierarchical-parent" xlink:href="">
-                <relationEntry xml:id="">Augusta Frederica, 1737-1813, Duchess of Brunswick-Lüneburg</relationEntry>
+                <relationEntry xml:id="">Elisabeth Christine Ulrica, 1746-1840, Crown Princess of Prussia</relationEntry>
                 <descriptiveNote>
-                    <p>Augusta was Caroline's mother.</p>
+                    <p>Elisabeth was Frederica's mother.</p>
                 </descriptiveNote>
             </cpfRelation>
             <cpfRelation cpfRelationType="family" xlink:href="">
-                <relationEntry xml:id="NAF-00000005">George IV, 1762-1830, King of Great Britain and Ireland</relationEntry>
+                <relationEntry xml:id="GPP-00026816">Frederick, 1763-1827, Duke of York and Albany</relationEntry>
                 <descriptiveNote>
-                    <p>George IV was Caroline's husband.</p>
+                    <p>Frederick was Frederica's husband.</p>
                 </descriptiveNote>
             </cpfRelation>
         </relations>
