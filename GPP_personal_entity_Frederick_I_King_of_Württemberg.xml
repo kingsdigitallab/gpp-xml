@@ -3,7 +3,7 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="urn:isbn:1-931666-33-4 http://eac.staatsbibliothek-berlin.de/schema/cpf.xsd">
     <control> <!-- Administrative metadata -->
-        <recordId>NAF-00000008</recordId>
+        <recordId>NAF-00000009</recordId>
         <maintenanceStatus>new</maintenanceStatus> <!-- Updated when edited. May contain: "cancelled" or "deleted" or "deletedReplaced" or "deletedSplit" or "derived" or "new" or "revised" -->
         <publicationStatus>inProcess</publicationStatus> <!-- May contain: "inProcess" or "approved" -->
         <maintenanceAgency>
@@ -81,28 +81,31 @@
         <maintenanceHistory>
             <maintenanceEvent> <!-- records each maintenance/editing event that occurs throughout the life of the file -->
                 <eventType>created</eventType> <!-- May contain: "cancelled" or "created" or "deleted" or "derived" or "revised" or "updated" -->
-                <eventDateTime standardDateTime="2018-09-06T12:13:00Z">12.13 pm, 6 September 2018</eventDateTime> <!-- ISO 8601 date-time formatting -->
+                <eventDateTime standardDateTime="2018-09-06T14:58:00Z">2.58 pm, 6 September 2018</eventDateTime> <!-- ISO 8601 date-time formatting -->
                 <agentType>human</agentType> <!-- May contain: "human" or "machine" -->
                 <agent xml:id="GPP-00001748">Callaghan, Samantha</agent>
-                <eventDescription>Creation of NAF for Adelaide, Queen Consort of Great Britain and Ireland.</eventDescription> <!-- Include a full description of the maintenance event - ie: note what was created/edited during the event -->
+                <eventDescription>Creation of NAF for Frederick I, King of Württemberg.</eventDescription> <!-- Include a full description of the maintenance event - ie: note what was created/edited during the event -->
             </maintenanceEvent>
         </maintenanceHistory>
         <sources>
-            <source xlink:type="simple" xlink:href="https://viaf.org/viaf/74283344/">
-                <sourceEntry>VIAF ID: 74283344 (Personal)</sourceEntry>
+            <source xlink:type="simple" xlink:href="http://id.loc.gov/authorities/names/n84113592.html">
+                <sourceEntry>LOC NAF ID: n84113592</sourceEntry>
             </source>            
-            <source xlink:type="simple" xlink:href="https://en.wikipedia.org/wiki/Adelaide_of_Saxe-Meiningen">
-                <sourceEntry>Wikipedia: Adelaide of Saxe-Meiningen</sourceEntry>
+            <source xlink:type="simple" xlink:href="http://snaccooperative.org/view/12834084">
+                <sourceEntry>SNAC ID: 12834084</sourceEntry>
             </source>
-            <source xlink:type="simple" xlink:href="http://www.geonames.org/2872225/meiningen.html">
-                <sourceEntry>GeoNames ID: 2872225</sourceEntry>
+            <source xlink:type="simple" xlink:href="https://en.wikipedia.org/wiki/Frederick_I_of_W%C3%BCrttemberg">
+                <sourceEntry>Wikipedia: Frederick I of Württemberg</sourceEntry>
             </source>
-            <!-- having problems adding Betley Priory (51.6267, -0.3342) to GeoNames - try again tomorrow. -->
-            <source xlink:type="simple" xlink:href="">
-                <sourceEntry>GeoNames ID: </sourceEntry>
+            <source xlink:type="simple" xlink:href="http://www.geonames.org/7533463/trzebiatow.html">
+                <sourceEntry>GeoNames ID: 7533463</sourceEntry>
+            </source>
+            <source xlink:type="simple" xlink:href="http://www.geonames.org/2825297/stuttgart.html">
+                <sourceEntry>GeoNames ID: 2825297</sourceEntry>
             </source>
         </sources>        
     </control>
+    <!-- from here -->
     <cpfDescription> <!-- Descriptive metadata -->
         <identity>
             <entityType>person</entityType>
@@ -213,6 +216,8 @@
         </relations>
     </cpfDescription>
 </eac-cpf>
+
+
 
 
 
