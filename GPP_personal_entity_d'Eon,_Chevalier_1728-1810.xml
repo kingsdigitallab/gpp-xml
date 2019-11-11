@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eac-cpf xmlns="urn:isbn:1-931666-33-4" xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="urn:isbn:1-931666-33-4 http://eac.staatsbibliothek-berlin.de/schema/cpf.xsd">
+    <control> <!-- Administrative metadata -->
+        <recordId>NAF-0000000A</recordId> <!-- placeholder as this will be assigned within the CW -->
+        <maintenanceStatus>new</maintenanceStatus> <!-- Updated when edited. May contain: "cancelled" or "deleted" or "deletedReplaced" or "deletedSplit" or "derived" or "new" or "revised" -->
+        <publicationStatus>inProcess</publicationStatus> <!-- May contain: "inProcess" or "approved" -->
+        <maintenanceAgency>
+            <agencyName>King's Digital Laboratory</agencyName>
+        </maintenanceAgency>
+        <languageDeclaration> <!-- Of the EAC-CPF file. The EAC-CPF files created for the GPP project are all (at this time) in English and use the latin script. -->
+            <language languageCode="eng">English</language>
+            <script scriptCode="Latn">Latin</script>
+        </languageDeclaration>
+        <conventionDeclaration> <!-- Date and time format convention. -->
+            <abbreviation>ISO8601</abbreviation>
+            <citation xlink:href="https://www.iso.org/iso-8601-date-and-time-format.html" xlink:type="simple">Date and time format - ISO 8601</citation>
+            <descriptiveNote>
+                <p>Dates and times are formatted according to the ISO 8601 standard in the following forms: YYYY-MM-DD or YYYY-MM-DDTHH:MM:SSZ.</p>
+            </descriptiveNote>
+        </conventionDeclaration>
+        <conventionDeclaration> <!-- Personal and organisational naming conventions -->
+            <abbreviation>NCA</abbreviation>
+            <citation xlink:href="http://anws.llgc.org.uk/ncarules/title.htm" xlink:type="simple">National Council on Archives Rules for the construction of personal, place and
+                corporate names, 1997.</citation>
+            <descriptiveNote>
+                <p>Personal and organisational names are formatted according to NCA Rules.</p>
+            </descriptiveNote>
+        </conventionDeclaration>
+        <conventionDeclaration> <!-- Geographical naming conventions -->
+            <abbreviation>GeoNames</abbreviation>
+            <citation xlink:href="http://www.geonames.org/" xlink:type="simple">GeoNames</citation>
+            <descriptiveNote>
+                <p>Geographic names are formatted according to GeoNames usage.</p>
+            </descriptiveNote>
+        </conventionDeclaration>
+        <conventionDeclaration>
+            <abbreviation>Wikidata</abbreviation>
+            <citation xlink:href="https://www.wikidata.org/wiki/Wikidata:Main_Page" xlink:type="simple">Wikidata</citation>
+            <descriptiveNote>
+                <p>Geographic names may be formatted according to Wikidata usage if not present on GeoNames.</p>
+            </descriptiveNote>
+        </conventionDeclaration>
+        <conventionDeclaration> <!-- Geographic coordinates convention. -->
+            <abbreviation>WGS84</abbreviation>
+            <citation xlink:href="https://en.wikipedia.org/wiki/World_Geodetic_System" xlink:type="simple">World Geodetic System 1984</citation>
+            <descriptiveNote>
+                <p>Latitude/longitude coordinates are in the WGS84 standard. Coordinates should be taken from GeoNames where possible.</p>
+            </descriptiveNote>
+        </conventionDeclaration>
+        <conventionDeclaration> <!-- Function thesaurus. -->
+            <abbreviation>UKAT</abbreviation>
+            <citation xlink:href="http://www.ukat.org.uk/" xlink:type="simple">UK Archival Thesaurus</citation>
+            <descriptiveNote>
+                <p>UKAT terms are used to specify the function/s of an EAC-CPF entity.</p>
+            </descriptiveNote>
+        </conventionDeclaration>
+        <localTypeDeclaration>
+            <abbreviation>Name Parts</abbreviation>
+            <citation xlink:href="http://anws.llgc.org.uk/ncarules/title.htm" xlink:type="simple"
+                >National Council on Archives Rules for the construction of personal, place and
+                corporate names, 1997.</citation>
+            <descriptiveNote>
+                <p>The name parts (and direct order) that constitute name formation are taken from the NCA Rules.</p>
+            </descriptiveNote>
+        </localTypeDeclaration>
+        <localTypeDeclaration>
+            <abbreviation>Date Styles</abbreviation>
+            <citation xlink:href="http://www.cree.name/genuki/dates.htm" xlink:type="simple"
+                >Spathaky, Mike. "Old Style and New Style Dates and the change to the Gregorian Calendar: A summary for genealogists." Last modified December 13, 2011. http://www.cree.name/genuki/dates.htm</citation>
+            <descriptiveNote>
+                <p>The time period over which the Georgian papers spans includes the change from the Old Style dating system (Julian calendar, year beginning Lady Day [25th March]) to the New Style system (Gregorian calendar, year beginning 1st January). This change was implemented in Britain and her colonies in 1752 but was implemented throughout Europe at differing times in history.</p>
+                <p>For the purpose of the Georgian Papers Programme Name Authority File, in EAC-CPF all dates given with no @localType attached are implicitly New Style; only those that are Old Style will include @localType="oldStyle".</p>
+            </descriptiveNote>
+        </localTypeDeclaration>
+        <localTypeDeclaration>
+            <abbreviation>gender</abbreviation>
+            <citation xlink:href="http://homosaurus.org/terms" xlink:type="simple">Homosaurus: International Thesaurus of Lesbian, Gay, Bisexual and Transgender Index Terms</citation>
+        </localTypeDeclaration>
+        <maintenanceHistory>
+            <maintenanceEvent> <!-- records each maintenance/editing event that occurs throughout the life of the file -->
+                <eventType>created</eventType> <!-- May contain: "cancelled" or "created" or "deleted" or "derived" or "revised" or "updated" -->
+                <eventDateTime standardDateTime="2019-11-08T16:18:00Z">4:18 pm, 8 November 2019</eventDateTime> <!-- ISO 8601 date-time formatting -->
+                <agentType>human</agentType> <!-- May contain: "human" or "machine" -->
+                <agent xml:id="GPP-00001748">Callaghan, Samantha</agent> <!-- ID may be subject to change in the CW -->
+                <eventDescription>Creation of NAF for Chevalier d'Eon</eventDescription> <!-- Include a full description of the maintenance event - ie: note what was created/edited during the event -->
+            </maintenanceEvent>
+        </maintenanceHistory>
+        <sources>
+            <source xlink:type="simple" xlink:href="https://viaf.org/viaf/22151132/">
+                <sourceEntry>VIAF ID: 22151132 (Personal)</sourceEntry>
+            </source>  
+            <source xlink:type="simple" xlink:href="https://en.wikipedia.org/wiki/Chevalier_d%27%C3%89on">
+                <sourceEntry>Wikipedia: Chevalier d'Éon</sourceEntry>
+            </source>
+            <source xlink:type="simple" xlink:href="https://www.geonames.org/2972467/tonnerre.html">
+                <sourceEntry>GeoNames ID: 2972467</sourceEntry>
+            </source>
+            <source xlink:type="simple" xlink:href="https://www.geonames.org/2643743/london.html">
+                <sourceEntry>GeoNames ID: 2643743</sourceEntry> 
+            </source>
+        </sources>        
+    </control>
+    <multipleIdentities>
+    <cpfDescription> <!-- Descriptive metadata -->
+        <identity>
+            <entityType>person</entityType>
+            <nameEntry scriptCode="Latn" xml:lang="fre"> 
+                <part localType="forename">Charles Geneviève Louis Auguste André Timothée</part>
+                <part localType="surname">d'Éon de Beaumont</part>
+                <useDates>
+                    <dateRange>
+                        <fromDate standardDate="1728-10-05">5 October 1728</fromDate>
+                        <toDate standardDate="1810-05-21">21 May 1810</toDate>
+                    </dateRange>
+                </useDates>
+                <authorizedForm>NCA</authorizedForm>
+            </nameEntry>
+            <nameEntry scriptCode="Latn" xml:lang="fre" localType="directOrder"> 
+                <part>d'Éon de Beaumont, Charles Geneviève Louis Auguste André Timothée, 1728-1810, Chevalier</part>
+                <useDates>
+                    <dateRange>
+                        <fromDate standardDate="1728-10-05">5 October 1728</fromDate>
+                        <toDate standardDate="1810-05-21">21 May 1810</toDate>
+                    </dateRange>
+                </useDates>
+                <authorizedForm>NCA</authorizedForm>
+            </nameEntry>
+        </identity>
+        <description>
+            <existDates> <!-- Birth and death dates, if known. -->
+                <dateRange>
+                    <fromDate standardDate="1728-10-05">5 October 1728</fromDate>
+                    <toDate standardDate="1810-05-21">21 May 1810</toDate>
+                </dateRange>
+            </existDates>
+            <localDescription localType="gender">
+                <term vocabularySource="Homosaurus">Men</term>
+                <dateRange></dateRange>
+                <citation></citation>
+                <descriptiveNote>
+                    <p></p>
+                </descriptiveNote>
+            </localDescription>
+            <localDescription localType="gender">
+                <term vocabularySource="Homosaurus">Women</term>
+                <citation></citation>
+                <descriptiveNote>
+                    <p></p>
+                </descriptiveNote>
+            </localDescription>
+            <!-- For preference we prefer to capture birth and death places. If it is considered useful, further places (and dates can be captured)such as residences and so on, time permitting. -->
+            <places>
+                <place>
+                    <placeRole>birth</placeRole>
+                    <placeEntry vocabularySource="GeoNames" latitude="41.8984" longitude="12.4827">Palazzo Muti e Santuario della Madonna dell' Archetto, Rome, Italy</placeEntry>
+                    <date standardDate="1720-12-31">31 December 1720</date>
+                </place>
+                <place>
+                    <placeRole>death</placeRole>
+                    <placeEntry vocabularySource="GeoNames" latitude="41.8984" longitude="12.4827">Palazzo Muti e Santuario della Madonna dell' Archetto, Rome, Italy</placeEntry>
+                    <date standardDate="1788-01-31">31 January 1788</date>
+                </place>
+            </places>
+            <languagesUsed>
+                <languageUsed> <!-- From evidence in the GPP, if possible -->
+                    <language languageCode="ita">Italian</language>
+                    <script scriptCode="Latn">Latin</script>
+                </languageUsed>
+                <languageUsed>
+                    <language languageCode="eng">English</language>
+                    <script scriptCode="Latn">Latin</script>
+                </languageUsed>
+                <languageUsed>
+                    <language languageCode="fre">French</language>
+                    <script scriptCode="Latn">Latin</script>
+                </languageUsed>
+            </languagesUsed>
+            <biogHist> 
+                <abstract>Charles Edward Louis John Casimir Sylvester Severino Maria Stuart was the elder son of James Francis Edward Stuart, grandson of James II and VII, and the Stuart claimant to the throne of Great Britain after 1766. He is best remembered for his role in the 1745 rising; his defeat at Culloden in April 1746 effectively ended the Stuart cause, and subsequent attempts failed to materialise, such as a planned French invasion in 1759. His escape from Scotland after the uprising led to his portrayal as a romantic figure of heroic failure.</abstract>
+                <citation>Wikipedia. "Charles Edward Stuart" Accessed October 30, 2019. https://en.wikipedia.org/wiki/Charles_Edward_Stuart</citation>
+                <p>Biography source: Wikipedia. Licensed under CC-BY-SA.</p>
+            </biogHist>         
+        </description>
+        <relations> 
+            <cpfRelation cpfRelationType="hierarchical-parent" xlink:href=""> <!-- xlink:href to be created automatically following creation of NAF page -->
+                <relationEntry xml:id="">Stuart, James Francis Edward, 1688-1766, Prince of Wales</relationEntry>
+                <descriptiveNote>
+                    <p>James was was Charles' father.</p>
+                </descriptiveNote>
+            </cpfRelation>
+            <cpfRelation cpfRelationType="hierarchical-parent" xlink:href="">
+                <relationEntry xml:id="">Sobieska, Maria Clementina, 1702-1735, Princess</relationEntry>
+                <descriptiveNote>
+                    <p>Maria was Charles' mother.</p>
+                </descriptiveNote>
+            </cpfRelation>
+            <cpfRelation cpfRelationType="family" xlink:href="">
+                <relationEntry xml:id="">Louise Maximilienne Caroline Emmanuele, 1752-1824, Countess of Albany</relationEntry>
+                <descriptiveNote>
+                    <p>Louise was Charles' wife.</p>
+                </descriptiveNote>
+            </cpfRelation>
+        </relations>
+    </cpfDescription>
+        <!-- Bonnie Prince Charlie's washerwoman/maid identity -->
+        <cpfDescription> <!-- Descriptive metadata -->
+            <identity>
+                <entityType>person</entityType>
+                <nameEntry scriptCode="Latn" xml:lang="eng"> 
+                    <part localType="forename">Betty</part>
+                    <part localType="surname">Burke</part>
+                    <useDates>
+                        <date standardDate="1746-06">fl. June 1746</date>      
+                    </useDates>
+                    <authorizedForm>NCA</authorizedForm>
+                </nameEntry>
+                <nameEntry scriptCode="Latn" xml:lang="eng" localType="directOrder"> 
+                    <part>Burke, Betty, fl 1746</part>
+                    <useDates>
+                        <date standardDate="1746-06">fl. June 1746</date>
+                    </useDates>
+                    <authorizedForm>NCA</authorizedForm>
+                </nameEntry>
+            </identity>
+            <description>
+                <existDates>
+                    <date standardDate="1746-06">June 1746</date>
+                </existDates>
+                <localDescription localType="gender">
+                    <term vocabularySource="Homosaurus">Women</term>
+                </localDescription>
+                <places> 
+                    <place>
+                        <placeRole>Assumed Betty Burke identity</placeRole> 
+                        <placeEntry vocabularySource="GeoNames" latitude="57.45769" longitude="-7.27467">Benbecula</placeEntry>
+                        <date standardDate="1746-06">fl. June 1746</date>
+                    </place>
+                    <place>
+                        <placeRole>Removed disguise (resumed main identity, Charles Edward Stuart)</placeRole>
+                        <placeEntry vocabularySource="GeoNames" latitude="57.63333" longitude="-6.38333">Monkstadt, Skye</placeEntry>
+                        <date standardDate="1746-06-27">27 June 1746</date>
+                    </place>
+                </places>
+                <languagesUsed>
+                    <languageUsed>
+                        <language languageCode="eng">English</language>
+                        <script scriptCode="Latn">Latin</script>
+                    </languageUsed>
+                </languagesUsed>
+                <biogHist> 
+                    <abstract>Betty Burke was an identity assumed by Charles Edward Stuart whilst he and a number of his companions were escaping the aftermath of the Battle of Culloden.</abstract>
+                    <p>Flora MacDonald was visiting Benbecula in the Outer Hebrides when Prince Charles and a small group of aides took refuge there after the Battle of Culloden in June 1746. One of his companions, Captain Conn O'Neill from County Antrim was distantly related to Flora and asked for her help.</p>
+                    <p>MacDonald of Sleat had not joined the Rebellion and Benbecula was controlled by a pro-government militia commanded by Flora's step-father, Hugh MacDonald. This connection allowed her to obtain the necessary permits but she apparently hesitated, fearing the consequences for her family if they were caught. She may have been taking less of a risk than it appears; witnesses later claimed Hugh advised the Prince where to hide from his search parties.</p>
+                    <p>Passes were issued allowing passage to the mainland for Flora, a boat's crew of six men and two personal servants, including Charles disguised as an Irish maid called Betty Burke. On 27 June, they landed near Sir Alexander's house at Monkstadt, near Kilbride, Skye. In his absence, his wife Lady Margaret arranged lodging with her steward, MacDonald of Kingsburgh, who told Charles to remove his disguise, as it simply made him more conspicuous. The next day, Charles was taken from Portree to the island of Raasay; Flora remained on Skye and they never met again.</p>
+                    <citation>Wikipedia. "Flora MacDonald" Accessed October 30, 2019. https://en.wikipedia.org/wiki/Flora_MacDonald</citation>
+                    <p>Biography source: Wikipedia. Licensed under CC-BY-SA.</p>
+                </biogHist>         
+            </description>
+        </cpfDescription>
+    </multipleIdentities>
+</eac-cpf>
+
+
