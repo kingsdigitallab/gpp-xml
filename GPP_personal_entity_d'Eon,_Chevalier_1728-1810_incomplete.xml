@@ -120,8 +120,8 @@
             <nameEntry scriptCode="Latn" xml:lang="fre" localType="directOrder"> 
                 <part>d'Éon de Beaumont, Charles Geneviève Louis Auguste André Timothée, 1728-1810, Chevalier</part>
                 <useDates>
-                    <dateRange>
-                        <fromDate standardDate="1728-10-05">5 October 1728</fromDate>
+                    <dateRange><!-- ADD TO SOURCE https://www.oxforddnb.com/view/10.1093/ref:odnb/9780198614128.001.0001/odnb-9780198614128-e-7523;jsessionid=DF00467365A68E81C523A7B34DFDF2D8 Maybe add another name without the chevalier attached/or with it attached? -->
+                        <fromDate standardDate="1763-03-30">30 March 1763</fromDate>
                         <toDate standardDate="1810-05-21">21 May 1810</toDate>
                     </dateRange>
                 </useDates>
@@ -137,7 +137,10 @@
             </existDates>
             <localDescription localType="gender">
                 <term vocabularySource="Homosaurus">Men</term>
-                <dateRange></dateRange>
+                <dateRange>
+                    <fromDate standardDate="1728-10-05">5 October 1728</fromDate>
+                    <toDate standardDate="1777">1777</toDate>
+                </dateRange>
                 <citation></citation>
                 <descriptiveNote>
                     <p></p>
@@ -145,6 +148,10 @@
             </localDescription>
             <localDescription localType="gender">
                 <term vocabularySource="Homosaurus">Women</term>
+                <dateRange>
+                    <fromDate standardDate="1777">1777</fromDate>
+                    <toDate standardDate="1810-05-21">21 May 1810</toDate>
+                </dateRange>
                 <citation></citation>
                 <descriptiveNote>
                     <p></p>
