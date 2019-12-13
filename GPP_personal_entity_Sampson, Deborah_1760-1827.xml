@@ -86,6 +86,13 @@
                 <agent xml:id="GPP-00001748">Callaghan, Samantha</agent> <!-- ID may be subject to change in the CW -->
                 <eventDescription>Creation of NAF for Deborah Sampson.</eventDescription> <!-- Include a full description of the maintenance event - ie: note what was created/edited during the event -->
             </maintenanceEvent>
+            <maintenanceEvent> <!-- records each maintenance/editing event that occurs throughout the life of the file -->
+                <eventType>updated</eventType> <!-- May contain: "cancelled" or "created" or "deleted" or "derived" or "revised" or "updated" -->
+                <eventDateTime standardDateTime="2019-12-13T17:15:00Z">5:15 pm, 13 December 2019</eventDateTime> <!-- ISO 8601 date-time formatting -->
+                <agentType>human</agentType> <!-- May contain: "human" or "machine" -->
+                <agent xml:id="GPP-00001748">Callaghan, Samantha</agent> <!-- ID may be subject to change in the CW -->
+                <eventDescription>Updated NAF for Deborah Sampson.</eventDescription> <!-- Include a full description of the maintenance event - ie: note what was created/edited during the event -->
+            </maintenanceEvent>
         </maintenanceHistory>
         <sources>
             <source xlink:type="simple" xlink:href="https://viaf.org/viaf/3273324/">
@@ -180,10 +187,8 @@
                 </languageUsed>
             </languagesUsed>
             <biogHist> 
-                <abstract>(Sophie Dorothea) Friederike Krüger, alias August Lübeck or Auguste Krüger (8 October 1789, Friedland, Mecklenburg - 31 May 1848, Templin) was a soldier in the Prussian army.</abstract>
-                <p>She served disguised as a man during the Napoleonic Wars in Germany from 1813 to 1815 in the first company of the Kolbergsches Infanterieregiment (renamed the 9th Grenadier regiment in 1914). Trained as a tailor, at 23 years old she cut off her hair, put on a male costume she had designed herself and obeyed a mobilisation proclamation. Owing to the speed of mobilisation there were no medical examinations and so she was not discovered at first. Her comrades admired her courage very much and were loyal to her, but during one attack her high voice caused the others to realize that she was female. However, she had got into favour with Bravour and so she was not ejected from the army. Indeed, she was even promoted to corporal after the Battle of Möckern. She was promoted to Sergeant after the battle of Dennewitz and subsequently fought in the battle of Waterloo in 1815.</p>
-                <p>At the end of the war she married a Prussian corporal Karl Köhler on 5 March 1816 and left the army. They had four children. She was awarded the Iron Cross and the Commemorative War Medal by King Frederick William III of Prussia for her bravery. On her death, she was buried in the St.-Georgen-Friedhof in Templin, where her grave can still be seen.</p>
-                <citation>Wikipedia. "Friederike Krüger" Accessed November 29, 2019. https://en.wikipedia.org/wiki/Friederike_Kr%C3%BCger</citation>
+                <abstract>Deborah Sampson Gannett (December 17, 1760 – April 29, 1827), better known as Deborah Samson or Deborah Sampson, was a Massachusetts woman who disguised herself as a man in order to serve in the Continental Army during the American Revolutionary War. She is one of a small number of women with a documented record of military combat experience in that war. She served 17 months in the army under the name "Robert Shirtliff" (also spelled in various sources as Shirtliffe and Shurtleff) of Uxbridge, Massachusetts, was wounded in 1782, and was honorably discharged at West Point, New York, in 1783.</abstract>
+                <citation>Wikipedia. "Deborah Sampson" Accessed December 13, 2019. https://en.wikipedia.org/wiki/Deborah_Sampson</citation>
                 <p>Biography source: Wikipedia. Licensed under CC-BY-SA.</p>
             </biogHist>         
         </description>
@@ -193,33 +198,52 @@
             <identity>
                 <entityType>person</entityType>
                 <nameEntry scriptCode="Latn" xml:lang="eng"> 
-                    <part localType="forename">August</part>
-                    <part localType="surname">Lübeck</part>
+                    <part localType="forename">Thomas</part>
+                    <part localType="surname">Thayer</part>
+                    <useDates>
+                            <date standardDate="1782">fl. 1782</date>
+                    </useDates>
+                    <alternativeForm>NCA</alternativeForm>
+                </nameEntry>
+                <nameEntry scriptCode="Latn" xml:lang="eng"> 
+                    <part localType="forename">Robert</part>
+                    <part localType="surname">Shirtliff</part>
                     <useDates>
                         <dateRange>
-                            <fromDate standardDate="1813">fl. 1813</fromDate>
-                            <toDate standardDate="1815">fl. 1815</toDate>
+                            <fromDate standardDate="1782-05">fl. May 1782</fromDate>
+                            <toDate standardDate="1783">fl. September 1783</toDate>
                         </dateRange>
                     </useDates>
                     <authorizedForm>NCA</authorizedForm>
                 </nameEntry>
                 <nameEntry scriptCode="Latn" xml:lang="eng" localType="directOrder"> 
-                    <part>Lübeck, August, fl 1813-1815</part>
+                    <part>Shirtliff, Robert, fl 1782-1783</part>
                     <useDates>
                         <dateRange>
-                            <fromDate standardDate="1813">fl. 1813</fromDate>
-                            <toDate standardDate="1815">fl. 1815</toDate>
+                            <fromDate standardDate="1782-05">fl. May 1782</fromDate>
+                            <toDate standardDate="1783">fl. September 1783</toDate>
                         </dateRange>
                     </useDates>
                     <authorizedForm>NCA</authorizedForm>
                 </nameEntry>
-                <nameEntry scriptCode="Latn" xml:lang="ger"> 
-                    <part localType="forename">Auguste</part>
-                    <part localType="surname">Krüger</part>
+                <nameEntry scriptCode="Latn" xml:lang="eng"> 
+                    <part localType="forename">Robert</part>
+                    <part localType="surname">Shirtliffe</part>
                     <useDates>
                         <dateRange>
-                            <fromDate standardDate="1813">fl. 1813</fromDate>
-                            <toDate standardDate="1815">fl. 1815</toDate>
+                            <fromDate standardDate="1782-05">fl. May 1782</fromDate>
+                            <toDate standardDate="1783">fl. September 1783</toDate>
+                        </dateRange>
+                    </useDates>
+                    <alternativeForm>NCA</alternativeForm>
+                </nameEntry>
+                <nameEntry scriptCode="Latn" xml:lang="eng"> 
+                    <part localType="forename">Robert</part>
+                    <part localType="surname">Shurtleff</part>
+                    <useDates>
+                        <dateRange>
+                            <fromDate standardDate="1782-05">fl. May 1782</fromDate>
+                            <toDate standardDate="1783">fl. September 1783</toDate>
                         </dateRange>
                     </useDates>
                     <alternativeForm>NCA</alternativeForm>
@@ -228,8 +252,8 @@
             <description>
                 <existDates>
                     <dateRange>
-                        <fromDate standardDate="1813">fl. 1813</fromDate>
-                        <toDate standardDate="1815">fl. 1815</toDate>
+                        <fromDate standardDate="1782-05">fl. May 1782</fromDate>
+                        <toDate standardDate="1783">fl. September 1783</toDate>
                     </dateRange>
                 </existDates>
                 <localDescription localType="gender">
@@ -237,13 +261,18 @@
                 </localDescription>
                 <languagesUsed>
                     <languageUsed>
-                        <language languageCode="ger">German</language>
+                        <language languageCode="eng">English</language>
                         <script scriptCode="Latn">Latin</script>
                     </languageUsed>
                 </languagesUsed>
                 <biogHist> 
-                    <abstract>(Sophie Dorothea) Friederike Krüger, alias August Lübeck or Auguste Krüger was a soldier in the Prussian army. She served disguised as a man during the Napoleonic Wars in Germany from 1813 to 1815 in the first company of the Kolbergsches Infanterieregiment (renamed the 9th Grenadier regiment in 1914). Owing to the speed of mobilisation there were no medical examinations and so she was not discovered at first. Her comrades admired her courage very much and were loyal to her, but during one attack her high voice caused the others to realize that she was female. However, she had got into favour with Bravour and so she was not ejected from the army. Indeed, she was even promoted to corporal after the Battle of Möckern. She was promoted to Sergeant after the battle of Dennewitz and subsequently fought in the battle of Waterloo in 1815.</abstract>
-                    <citation>Wikipedia. "Friederike Krüger" Accessed November 29, 2019. https://en.wikipedia.org/wiki/Friederike_Kr%C3%BCger</citation>
+                    <abstract>Deborah Sampson Gannett (December 17, 1760 – April 29, 1827), better known as Deborah Samson or Deborah Sampson, was a Massachusetts woman who disguised herself as a man in order to serve in the Continental Army during the American Revolutionary War. She is one of a small number of women with a documented record of military combat experience in that war.[2] She served 17 months in the army under the name "Robert Shirtliff" (also spelled in various sources as Shirtliffe and Shurtleff) of Uxbridge, Massachusetts, was wounded in 1782, and was honorably discharged at West Point, New York, in 1783.</abstract>
+                    <p>In early 1782, Sampson wore men's clothes and joined an Army unit in Middleborough, Massachusetts, under the name Timothy Thayer. She collected a bonus and then failed to meet up with her company as scheduled. Inquiries by the company commander revealed that Sampson had been recognized by a local resident at the time she signed her enlistment papers. Her deception uncovered, she repaid the portion of the bonus that she had not spent, but she was not subjected to further punishment by the Army.[12] The Baptist church to which she belonged learned of her actions and withdrew its fellowship, meaning that its members refused to associate with her unless she apologized and asked forgiveness.</p>                        
+                        <p>In May 1782, Sampson enlisted again, this time in Uxbridge, Massachusetts under the name "Robert Shirtliff" (also spelled in some sources as "Shirtliffe" or "Shurtleff"). She joined the Light Infantry Company of the 4th Massachusetts Regiment, under the command of Captain George Webb (1740–1825). This unit, consisting of 50 to 60 men, was first quartered in Bellingham, Massachusetts, and later mustered at Worcester with the rest of the regiment commanded by Colonel William Shepard. Light Infantry Companies were elite troops, specially picked because they were taller and stronger than average. Their job was to provide rapid flank coverage for advancing regiments, as well as rearguard and forward reconnaissance duties for units on the move. Because she joined an elite unit, Sampson's disguise was more likely to succeed, since no one was likely to look for a woman among soldiers who were specially chosen for their above average size and superior physical ability.</p>
+                        <p>Sampson fought in several skirmishes. During her first battle, on July 3, 1782 outside Tarrytown, New York, she took two musket balls in her thigh and sustained a cut on her forehead. She begged her fellow soldiers to let her die and not take her to a doctor (out of fear she'd be discovered), but a soldier put her on his horse and took her to a hospital. The doctors treated her head wound, but she left the hospital before they could attend to her leg. Fearful that her identity would be discovered, she removed one of the balls herself with a penknife and sewing needle, but the other one was too deep for her to reach. Her leg never fully healed and she carried one of the musket balls for the rest of her life. On April 1, 1783, she was reassigned to new duties, and spent seven months serving as a waiter to General John Paterson.</p>
+                        <p>The war was thought to be over following the Battle of Yorktown, but since there was no official peace treaty, the Continental Army remained in uniform. On June 24, the President of Congress ordered George Washington to send a contingent of soldiers under Paterson to Philadelphia to help quell a rebellion of American soldiers who were protesting delays in receiving their pay and discharges. During the summer of 1783, Sampson became ill in Philadelphia and was cared for by Doctor Barnabas Binney (1751–1787). He removed her clothes to treat her and discovered the cloth she used to bind her breasts. Without revealing his discovery to army authorities, he took her to his house, where his wife, daughters, and a nurse took care of her.</p>
+                        <p>In September 1783, following the signing of the Treaty of Paris, November 3 was set as the date for soldiers to muster out. When Dr. Binney asked Sampson to deliver a note to General Paterson, she correctly assumed that it would reveal her gender. In other cases, women who pretended to be men to serve in the army were reprimanded, but Paterson gave her a discharge, a note with some words of advice, and enough money to travel home. She was honorably discharged at West Point, New York, on October 25, 1783, after a year and a half of service.</p>
+                    <citation>Wikipedia. "Deborah Sampson" Accessed December 13, 2019. https://en.wikipedia.org/wiki/Deborah_Sampson</citation>
                     <p>Biography source: Wikipedia. Licensed under CC-BY-SA.</p>
                 </biogHist>         
             </description>
