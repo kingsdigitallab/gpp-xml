@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eac-cpf xmlns="urn:isbn:1-931666-33-4" xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="urn:isbn:1-931666-33-4 http://eac.staatsbibliothek-berlin.de/schema/cpf.xsd">
+    <control> <!-- Administrative metadata -->
+        <recordId>NAF-0000000A</recordId> <!-- placeholder as this will be assigned within the CW -->
+        <maintenanceStatus>new</maintenanceStatus> <!-- Updated when edited. May contain: "cancelled" or "deleted" or "deletedReplaced" or "deletedSplit" or "derived" or "new" or "revised" -->
+        <publicationStatus>inProcess</publicationStatus> <!-- May contain: "inProcess" or "approved" -->
+        <maintenanceAgency>
+            <agencyName>King's Digital Laboratory</agencyName>
+        </maintenanceAgency>
+        <languageDeclaration> <!-- Of the EAC-CPF file. The EAC-CPF files created for the GPP project are all (at this time) in English and use the latin script. -->
+            <language languageCode="eng">English</language>
+            <script scriptCode="Latn">Latin</script>
+        </languageDeclaration>
+        <conventionDeclaration> <!-- Date and time format convention. -->
+            <abbreviation>ISO8601</abbreviation>
+            <citation xlink:href="https://www.iso.org/iso-8601-date-and-time-format.html" xlink:type="simple">Date and time format - ISO 8601</citation>
+            <descriptiveNote>
+                <p>Dates and times are formatted according to the ISO 8601 standard in the following forms: YYYY-MM-DD or YYYY-MM-DDTHH:MM:SSZ.</p>
+            </descriptiveNote>
+        </conventionDeclaration>
+        <conventionDeclaration> <!-- Personal and organisational naming conventions -->
+            <abbreviation>NCA</abbreviation>
+            <citation xlink:href="http://anws.llgc.org.uk/ncarules/title.htm" xlink:type="simple">National Council on Archives Rules for the construction of personal, place and
+                corporate names, 1997.</citation>
+            <descriptiveNote>
+                <p>Personal and organisational names are formatted according to NCA Rules.</p>
+            </descriptiveNote>
+        </conventionDeclaration>
+        <conventionDeclaration> <!-- Geographical naming conventions -->
+            <abbreviation>GeoNames</abbreviation>
+            <citation xlink:href="http://www.geonames.org/" xlink:type="simple">GeoNames</citation>
+            <descriptiveNote>
+                <p>Geographic names are formatted according to GeoNames usage.</p>
+            </descriptiveNote>
+        </conventionDeclaration>
+        <conventionDeclaration>
+            <abbreviation>Wikidata</abbreviation>
+            <citation xlink:href="https://www.wikidata.org/wiki/Wikidata:Main_Page" xlink:type="simple">Wikidata</citation>
+            <descriptiveNote>
+                <p>Geographic names may be formatted according to Wikidata usage if not present on GeoNames.</p>
+            </descriptiveNote>
+        </conventionDeclaration>
+        <conventionDeclaration> <!-- Geographic coordinates convention. -->
+            <abbreviation>WGS84</abbreviation>
+            <citation xlink:href="https://en.wikipedia.org/wiki/World_Geodetic_System" xlink:type="simple">World Geodetic System 1984</citation>
+            <descriptiveNote>
+                <p>Latitude/longitude coordinates are in the WGS84 standard. Coordinates should be taken from GeoNames where possible.</p>
+            </descriptiveNote>
+        </conventionDeclaration>
+        <conventionDeclaration> <!-- Function thesaurus. -->
+            <abbreviation>UKAT</abbreviation>
+            <citation xlink:href="http://www.ukat.org.uk/" xlink:type="simple">UK Archival Thesaurus</citation>
+            <descriptiveNote>
+                <p>UKAT terms are used to specify the function/s of an EAC-CPF entity.</p>
+            </descriptiveNote>
+        </conventionDeclaration>
+        <localTypeDeclaration>
+            <abbreviation>Name Parts</abbreviation>
+            <citation xlink:href="http://anws.llgc.org.uk/ncarules/title.htm" xlink:type="simple"
+                >National Council on Archives Rules for the construction of personal, place and
+                corporate names, 1997.</citation>
+            <descriptiveNote>
+                <p>The name parts (and direct order) that constitute name formation are taken from the NCA Rules.</p>
+            </descriptiveNote>
+        </localTypeDeclaration>
+        <localTypeDeclaration>
+            <abbreviation>Date Styles</abbreviation>
+            <citation xlink:href="http://www.cree.name/genuki/dates.htm" xlink:type="simple"
+                >Spathaky, Mike. "Old Style and New Style Dates and the change to the Gregorian Calendar: A summary for genealogists." Last modified December 13, 2011. http://www.cree.name/genuki/dates.htm</citation>
+            <descriptiveNote>
+                <p>The time period over which the Georgian papers spans includes the change from the Old Style dating system (Julian calendar, year beginning Lady Day [25th March]) to the New Style system (Gregorian calendar, year beginning 1st January). This change was implemented in Britain and her colonies in 1752 but was implemented throughout Europe at differing times in history.</p>
+                <p>For the purpose of the Georgian Papers Programme Name Authority File, in EAC-CPF all dates given with no @localType attached are implicitly New Style; only those that are Old Style will include @localType="oldStyle".</p>
+            </descriptiveNote>
+        </localTypeDeclaration>
+        <localTypeDeclaration>
+            <abbreviation>gender</abbreviation>
+            <citation xlink:href="http://homosaurus.org/terms" xlink:type="simple">Homosaurus: International Thesaurus of Lesbian, Gay, Bisexual and Transgender Index Terms</citation>
+        </localTypeDeclaration>
+        <maintenanceHistory>
+            <maintenanceEvent> <!-- records each maintenance/editing event that occurs throughout the life of the file -->
+                <eventType>created</eventType> <!-- May contain: "cancelled" or "created" or "deleted" or "derived" or "revised" or "updated" -->
+                <eventDateTime standardDateTime="2019-11-29T14:43:00Z">2:43 pm, 29 November 2019</eventDateTime> <!-- ISO 8601 date-time formatting -->
+                <agentType>human</agentType> <!-- May contain: "human" or "machine" -->
+                <agent xml:id="GPP-00001748">Callaghan, Samantha</agent> <!-- ID may be subject to change in the CW -->
+                <eventDescription>Creation of NAF for Deborah Sampson.</eventDescription> <!-- Include a full description of the maintenance event - ie: note what was created/edited during the event -->
+            </maintenanceEvent>
+        </maintenanceHistory>
+        <sources>
+            <source xlink:type="simple" xlink:href="https://viaf.org/viaf/3273324/">
+                <sourceEntry>VIAF ID: 3273324 (Personal)</sourceEntry>
+            </source>  
+            <source xlink:type="simple" xlink:href="https://en.wikipedia.org/wiki/Deborah_Sampson">
+                <sourceEntry>Wikipedia: Deborah Sampson</sourceEntry>
+            </source>
+            <source xlink:type="simple" xlink:href="https://www.geonames.org/4947641/plympton.html">
+                <sourceEntry>GeoNames ID: 4947641</sourceEntry>
+            </source>
+            <source xlink:type="simple" xlink:href="https://www.geonames.org/4950654/sharon.html">
+                <sourceEntry>GeoNames ID: 4950654</sourceEntry> 
+            </source>
+        </sources>        
+    </control>
+    <multipleIdentities>
+    <cpfDescription> <!-- Descriptive metadata -->
+        <identity>
+            <entityType>person</entityType>
+            <nameEntry scriptCode="Latn" xml:lang="eng"> 
+                <part localType="forename">Deborah Sampson</part>
+                <part localType="surname">Gannett</part>
+                <useDates>
+                    <dateRange>
+                        <fromDate standardDate="1785-04-07">7 April 1785</fromDate>
+                        <toDate standardDate="1827-04-29">29 April 1827</toDate>
+                    </dateRange>
+                </useDates>
+                <authorizedForm>NCA</authorizedForm>
+            </nameEntry>
+            <nameEntry scriptCode="Latn" xml:lang="eng" localType="directOrder"> 
+                <part>Gannett, Deborah Sampson, 1760-1827</part>
+                <useDates>
+                    <dateRange>
+                        <fromDate standardDate="1785-04-07">7 April 1785</fromDate>
+                        <toDate standardDate="1827-04-29">29 April 1827</toDate>
+                    </dateRange>
+                </useDates>
+                <authorizedForm>NCA</authorizedForm>
+            </nameEntry>
+            <nameEntry scriptCode="Latn" xml:lang="eng"> 
+                <part localType="forename">Deborah</part>
+                <part localType="surname">Sampson</part>
+                <useDates>
+                    <dateRange>
+                        <fromDate standardDate="1760-12-17">17 December 1760</fromDate>
+                        <toDate standardDate="1785-04-07">7 April 1785</toDate>
+                    </dateRange>
+                </useDates>
+                <alternativeForm>NCA</alternativeForm>
+            </nameEntry>
+            <nameEntry scriptCode="Latn" xml:lang="eng"> 
+                <part localType="forename">Deborah</part>
+                <part localType="surname">Samson</part>
+                <useDates>
+                    <dateRange>
+                        <fromDate standardDate="1760-12-17">17 December 1760</fromDate>
+                        <toDate standardDate="1785-04-07">7 April 1785</toDate>
+                    </dateRange>
+                </useDates>
+                <alternativeForm>NCA</alternativeForm>
+            </nameEntry>
+        </identity>
+        <description>
+            <existDates> <!-- Birth and death dates, if known. -->
+                <dateRange>
+                    <fromDate standardDate="1760-12-17">17 December 1760</fromDate>
+                    <toDate standardDate="1827-04-29">29 April 1827</toDate>
+                </dateRange>
+            </existDates>
+            <localDescription localType="gender">
+                <term vocabularySource="Homosaurus">Women</term>
+            </localDescription>
+            <!-- For preference we prefer to capture birth and death places. If it is considered useful, further places (and dates can be captured)such as residences and so on, time permitting. -->
+            <places>
+                <place>
+                    <placeRole>birth</placeRole>
+                    <placeEntry vocabularySource="GeoNames" latitude="41.95288" longitude="-70.81448">Plympton</placeEntry>
+                    <date standardDate="1760-12-17">17 December 1760</date>
+                </place>
+                <place>
+                    <placeRole>death</placeRole>
+                    <placeEntry vocabularySource="GeoNames" latitude="42.12371" longitude="-71.17866">Sharon, Massachussetts</placeEntry>
+                    <date standardDate="1827-04-29">29 April 1827</date>
+                </place>
+            </places>
+            <languagesUsed>
+                <languageUsed> <!-- From evidence in the GPP, if possible -->
+                    <language languageCode="eng">English</language>
+                    <script scriptCode="Latn">Latin</script>
+                </languageUsed>
+            </languagesUsed>
+            <biogHist> 
+                <abstract>(Sophie Dorothea) Friederike Krüger, alias August Lübeck or Auguste Krüger (8 October 1789, Friedland, Mecklenburg - 31 May 1848, Templin) was a soldier in the Prussian army.</abstract>
+                <p>She served disguised as a man during the Napoleonic Wars in Germany from 1813 to 1815 in the first company of the Kolbergsches Infanterieregiment (renamed the 9th Grenadier regiment in 1914). Trained as a tailor, at 23 years old she cut off her hair, put on a male costume she had designed herself and obeyed a mobilisation proclamation. Owing to the speed of mobilisation there were no medical examinations and so she was not discovered at first. Her comrades admired her courage very much and were loyal to her, but during one attack her high voice caused the others to realize that she was female. However, she had got into favour with Bravour and so she was not ejected from the army. Indeed, she was even promoted to corporal after the Battle of Möckern. She was promoted to Sergeant after the battle of Dennewitz and subsequently fought in the battle of Waterloo in 1815.</p>
+                <p>At the end of the war she married a Prussian corporal Karl Köhler on 5 March 1816 and left the army. They had four children. She was awarded the Iron Cross and the Commemorative War Medal by King Frederick William III of Prussia for her bravery. On her death, she was buried in the St.-Georgen-Friedhof in Templin, where her grave can still be seen.</p>
+                <citation>Wikipedia. "Friederike Krüger" Accessed November 29, 2019. https://en.wikipedia.org/wiki/Friederike_Kr%C3%BCger</citation>
+                <p>Biography source: Wikipedia. Licensed under CC-BY-SA.</p>
+            </biogHist>         
+        </description>
+    </cpfDescription>
+        <!-- Soldier identity -->
+        <cpfDescription> <!-- Descriptive metadata -->
+            <identity>
+                <entityType>person</entityType>
+                <nameEntry scriptCode="Latn" xml:lang="eng"> 
+                    <part localType="forename">August</part>
+                    <part localType="surname">Lübeck</part>
+                    <useDates>
+                        <dateRange>
+                            <fromDate standardDate="1813">fl. 1813</fromDate>
+                            <toDate standardDate="1815">fl. 1815</toDate>
+                        </dateRange>
+                    </useDates>
+                    <authorizedForm>NCA</authorizedForm>
+                </nameEntry>
+                <nameEntry scriptCode="Latn" xml:lang="eng" localType="directOrder"> 
+                    <part>Lübeck, August, fl 1813-1815</part>
+                    <useDates>
+                        <dateRange>
+                            <fromDate standardDate="1813">fl. 1813</fromDate>
+                            <toDate standardDate="1815">fl. 1815</toDate>
+                        </dateRange>
+                    </useDates>
+                    <authorizedForm>NCA</authorizedForm>
+                </nameEntry>
+                <nameEntry scriptCode="Latn" xml:lang="ger"> 
+                    <part localType="forename">Auguste</part>
+                    <part localType="surname">Krüger</part>
+                    <useDates>
+                        <dateRange>
+                            <fromDate standardDate="1813">fl. 1813</fromDate>
+                            <toDate standardDate="1815">fl. 1815</toDate>
+                        </dateRange>
+                    </useDates>
+                    <alternativeForm>NCA</alternativeForm>
+                </nameEntry>
+            </identity>
+            <description>
+                <existDates>
+                    <dateRange>
+                        <fromDate standardDate="1813">fl. 1813</fromDate>
+                        <toDate standardDate="1815">fl. 1815</toDate>
+                    </dateRange>
+                </existDates>
+                <localDescription localType="gender">
+                    <term vocabularySource="Homosaurus">Men</term>
+                </localDescription>
+                <languagesUsed>
+                    <languageUsed>
+                        <language languageCode="ger">German</language>
+                        <script scriptCode="Latn">Latin</script>
+                    </languageUsed>
+                </languagesUsed>
+                <biogHist> 
+                    <abstract>(Sophie Dorothea) Friederike Krüger, alias August Lübeck or Auguste Krüger was a soldier in the Prussian army. She served disguised as a man during the Napoleonic Wars in Germany from 1813 to 1815 in the first company of the Kolbergsches Infanterieregiment (renamed the 9th Grenadier regiment in 1914). Owing to the speed of mobilisation there were no medical examinations and so she was not discovered at first. Her comrades admired her courage very much and were loyal to her, but during one attack her high voice caused the others to realize that she was female. However, she had got into favour with Bravour and so she was not ejected from the army. Indeed, she was even promoted to corporal after the Battle of Möckern. She was promoted to Sergeant after the battle of Dennewitz and subsequently fought in the battle of Waterloo in 1815.</abstract>
+                    <citation>Wikipedia. "Friederike Krüger" Accessed November 29, 2019. https://en.wikipedia.org/wiki/Friederike_Kr%C3%BCger</citation>
+                    <p>Biography source: Wikipedia. Licensed under CC-BY-SA.</p>
+                </biogHist>         
+            </description>
+        </cpfDescription>
+    </multipleIdentities>
+</eac-cpf>
+
+
