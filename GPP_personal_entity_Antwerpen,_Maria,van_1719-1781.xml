@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eac-cpf xmlns="urn:isbn:1-931666-33-4" xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="urn:isbn:1-931666-33-4 http://eac.staatsbibliothek-berlin.de/schema/cpf.xsd">
+    <control> <!-- Administrative metadata -->
+        <recordId>NAF-0000000A</recordId> <!-- placeholder as this will be assigned within the CW -->
+        <maintenanceStatus>new</maintenanceStatus> <!-- Updated when edited. May contain: "cancelled" or "deleted" or "deletedReplaced" or "deletedSplit" or "derived" or "new" or "revised" -->
+        <publicationStatus>inProcess</publicationStatus> <!-- May contain: "inProcess" or "approved" -->
+        <maintenanceAgency>
+            <agencyName>King's Digital Laboratory</agencyName>
+        </maintenanceAgency>
+        <languageDeclaration> <!-- Of the EAC-CPF file. The EAC-CPF files created for the GPP project are all (at this time) in English and use the latin script. -->
+            <language languageCode="eng">English</language>
+            <script scriptCode="Latn">Latin</script>
+        </languageDeclaration>
+        <conventionDeclaration> <!-- Date and time format convention. -->
+            <abbreviation>ISO8601</abbreviation>
+            <citation xlink:href="https://www.iso.org/iso-8601-date-and-time-format.html" xlink:type="simple">Date and time format - ISO 8601</citation>
+            <descriptiveNote>
+                <p>Dates and times are formatted according to the ISO 8601 standard in the following forms: YYYY-MM-DD or YYYY-MM-DDTHH:MM:SSZ.</p>
+            </descriptiveNote>
+        </conventionDeclaration>
+        <conventionDeclaration> <!-- Personal and organisational naming conventions -->
+            <abbreviation>NCA</abbreviation>
+            <citation xlink:href="http://anws.llgc.org.uk/ncarules/title.htm" xlink:type="simple">National Council on Archives Rules for the construction of personal, place and
+                corporate names, 1997.</citation>
+            <descriptiveNote>
+                <p>Personal and organisational names are formatted according to NCA Rules.</p>
+            </descriptiveNote>
+        </conventionDeclaration>
+        <conventionDeclaration> <!-- Geographical naming conventions -->
+            <abbreviation>GeoNames</abbreviation>
+            <citation xlink:href="http://www.geonames.org/" xlink:type="simple">GeoNames</citation>
+            <descriptiveNote>
+                <p>Geographic names are formatted according to GeoNames usage.</p>
+            </descriptiveNote>
+        </conventionDeclaration>
+        <conventionDeclaration>
+            <abbreviation>Wikidata</abbreviation>
+            <citation xlink:href="https://www.wikidata.org/wiki/Wikidata:Main_Page" xlink:type="simple">Wikidata</citation>
+            <descriptiveNote>
+                <p>Geographic names may be formatted according to Wikidata usage if not present on GeoNames.</p>
+            </descriptiveNote>
+        </conventionDeclaration>
+        <conventionDeclaration> <!-- Geographic coordinates convention. -->
+            <abbreviation>WGS84</abbreviation>
+            <citation xlink:href="https://en.wikipedia.org/wiki/World_Geodetic_System" xlink:type="simple">World Geodetic System 1984</citation>
+            <descriptiveNote>
+                <p>Latitude/longitude coordinates are in the WGS84 standard. Coordinates should be taken from GeoNames where possible.</p>
+            </descriptiveNote>
+        </conventionDeclaration>
+        <conventionDeclaration> <!-- Function thesaurus. -->
+            <abbreviation>UKAT</abbreviation>
+            <citation xlink:href="http://www.ukat.org.uk/" xlink:type="simple">UK Archival Thesaurus</citation>
+            <descriptiveNote>
+                <p>UKAT terms are used to specify the function/s of an EAC-CPF entity.</p>
+            </descriptiveNote>
+        </conventionDeclaration>
+        <localTypeDeclaration>
+            <abbreviation>Name Parts</abbreviation>
+            <citation xlink:href="http://anws.llgc.org.uk/ncarules/title.htm" xlink:type="simple"
+                >National Council on Archives Rules for the construction of personal, place and
+                corporate names, 1997.</citation>
+            <descriptiveNote>
+                <p>The name parts (and direct order) that constitute name formation are taken from the NCA Rules.</p>
+            </descriptiveNote>
+        </localTypeDeclaration>
+        <localTypeDeclaration>
+            <abbreviation>Date Styles</abbreviation>
+            <citation xlink:href="http://www.cree.name/genuki/dates.htm" xlink:type="simple"
+                >Spathaky, Mike. "Old Style and New Style Dates and the change to the Gregorian Calendar: A summary for genealogists." Last modified December 13, 2011. http://www.cree.name/genuki/dates.htm</citation>
+            <descriptiveNote>
+                <p>The time period over which the Georgian papers spans includes the change from the Old Style dating system (Julian calendar, year beginning Lady Day [25th March]) to the New Style system (Gregorian calendar, year beginning 1st January). This change was implemented in Britain and her colonies in 1752 but was implemented throughout Europe at differing times in history.</p>
+                <p>For the purpose of the Georgian Papers Programme Name Authority File, in EAC-CPF all dates given with no @localType attached are implicitly New Style; only those that are Old Style will include @localType="oldStyle".</p>
+            </descriptiveNote>
+        </localTypeDeclaration>
+        <localTypeDeclaration>
+            <abbreviation>gender</abbreviation>
+            <citation xlink:href="http://homosaurus.org/terms" xlink:type="simple">Homosaurus: International Thesaurus of Lesbian, Gay, Bisexual and Transgender Index Terms</citation>
+        </localTypeDeclaration>
+        <maintenanceHistory>
+            <maintenanceEvent> <!-- records each maintenance/editing event that occurs throughout the life of the file -->
+                <eventType>created</eventType> <!-- May contain: "cancelled" or "created" or "deleted" or "derived" or "revised" or "updated" -->
+                <eventDateTime standardDateTime="2019-12-17T14:44:00Z">2:44 pm, 17 December 2019</eventDateTime> <!-- ISO 8601 date-time formatting -->
+                <agentType>human</agentType> <!-- May contain: "human" or "machine" -->
+                <agent xml:id="GPP-00001748">Callaghan, Samantha</agent> <!-- ID may be subject to change in the CW -->
+                <eventDescription>Creation of NAF for Maria van Antwerpen.</eventDescription> <!-- Include a full description of the maintenance event - ie: note what was created/edited during the event -->
+            </maintenanceEvent>
+        </maintenanceHistory>
+        <sources>
+            <source xlink:type="simple" xlink:href="https://viaf.org/viaf/25400920/">
+                <sourceEntry>VIAF ID: 25400920</sourceEntry>
+            </source>
+            <source xlink:type="simple" xlink:href="https://en.wikipedia.org/wiki/Maria_van_Antwerpen">
+                <sourceEntry>Wikipedia: Maria van Antwerpen</sourceEntry>
+            </source>
+            <source xlink:type="simple" xlink:href="http://resources.huygens.knaw.nl/vrouwenlexicon/lemmata/data/Antwerpen">
+                <sourceEntry>DVN: Antwerpen, Maria van (1719-1781); Biography number in 1001 Women: 489</sourceEntry>
+            </source>
+            <source xlink:type="simple" xlink:href="https://www.geonames.org/2758401/breda.html">
+                <sourceEntry>GeoNames ID: 2758401</sourceEntry>
+            </source>
+            <source xlink:href="https://www.geonames.org/2759661/arnhem.html">
+                <sourceEntry>Geonames ID: 2759661</sourceEntry>
+            </source>
+        </sources>        
+    </control>
+    <multipleIdentities>
+    <cpfDescription> <!-- Descriptive metadata -->
+        <identity>
+            <entityType>person</entityType>
+            <nameEntry scriptCode="Latn" xml:lang="dut"> 
+                <part localType="forename">Maria</part>
+                <part localType="surname">van Antwerpen</part>
+                <useDates>
+                    <dateRange>
+                        <fromDate standardDate="1719-01-17">17 January 1719</fromDate>
+                        <toDate standardDate="1781-01-16">16 January 1781</toDate>
+                    </dateRange>
+                </useDates>
+                <authorizedForm>NCA</authorizedForm>
+            </nameEntry>
+            <nameEntry scriptCode="Latn" xml:lang="dut" localType="directOrder"> 
+                <part>Antwerpen, Maria, van, 1719-1781</part>
+                <useDates>
+                    <dateRange>
+                        <fromDate standardDate="1719-01-17">17 January 1719</fromDate>
+                        <toDate standardDate="1781-01-16">16 January 1781</toDate>
+                    </dateRange>
+                </useDates>
+                <authorizedForm>NCA</authorizedForm>
+            </nameEntry>
+        </identity>
+        <description>
+            <existDates> <!-- Birth and death dates, if known. -->
+                <dateRange>
+                    <fromDate standardDate="1719-01-17">17 January 1719</fromDate>
+                    <toDate standardDate="1781-01-16">16 January 1781</toDate>
+                </dateRange>
+            </existDates>
+            <localDescription localType="gender">
+                <term vocabularySource="Homosaurus">Women</term>
+            </localDescription>
+            <!-- For preference we prefer to capture birth and death places. If it is considered useful, further places (and dates can be captured)such as residences and so on, time permitting. -->
+            <places>
+                <place>
+                    <placeRole>birth</placeRole>
+                    <placeEntry vocabularySource="GeoNames" latitude="51.58656" longitude="4.77596">Breda, Netherlands</placeEntry>
+                    <date standardDate="1719-01-17">17 January 1719</date>
+                </place>
+                <place>
+                    <placeRole>death</placeRole>
+                    <placeEntry vocabularySource="GeoNames" latitude="51.58656" longitude="4.77596">Breda, Netherlands</placeEntry>
+                    <date standardDate="1781-01-16">16 January 1781</date>
+                </place>
+            </places>
+            <languageUsed> <!-- From evidence in the GPP, if possible -->
+                <language languageCode="dut">Dutch</language>
+                <script scriptCode="Latn">Latin</script>
+            </languageUsed>
+            <biogHist> 
+                <abstract>Maria van Antwerpen (1719–1781) was a Dutch soldier and cross dresser. She is perhaps the most famous and well-documented example of a female cross dresser enlisting in the army as a man. She also married twice to women. Two biographies were published about Maria in her own lifetime, one by Franciscus Lievens Kersteman in 1751.</abstract>
+                <p>Van Antwerpen was born in Breda, the daughter of a brewer. She was orphaned at thirteen and worked as a servant maid until she was fired in the middle of winter in 1745. She enlisted in the military as Jan van Ant in 1746 and married the sergeant daughter Johanna Cramers in 1748. Recognised by a former employer in 1751, she was put on trial for making a mockery of marriage and by entering an illegal marriage, and sentenced to exile from all garrison cities. She worked as a seamstress until 1762, when she married Cornelia Swartsenberg, pregnant after a rape, and enlisted again. A son was baptised with her as a father. In 1769, she was recognised by someone who knew her as a seamstress, and put on trial again. Cornelia fled and Maria was exiled to the area of Holland. She died in Breda at the age of 62.</p>
+                <citation>Wikipedia. "Maria van Antwerpen" Accessed December 17, 2019. https://en.wikipedia.org/wiki/Maria_van_Antwerpen</citation>
+                <p>Biography source: Wikipedia. Licensed under CC-BY-SA.</p>
+            </biogHist>         
+        </description>
+    </cpfDescription>
+        <cpfDescription> <!-- Descriptive metadata -->
+            <identity>
+                <entityType>person</entityType>
+                <nameEntry scriptCode="Latn" xml:lang="dut"> 
+                    <part localType="forename">Jan</part>
+                    <part localType="surname">van Ant</part>
+                    <useDates>
+                        <dateRange>
+                            <fromDate standardDate="1746-01">January 1746</fromDate>
+                            <toDate standardDate="1751-05">May 1751</toDate>
+                        </dateRange>                        
+                    </useDates>
+                    <authorizedForm>NCA</authorizedForm>
+                </nameEntry>
+                <nameEntry scriptCode="Latn" xml:lang="dut" localType="directOrder"> 
+                    <part>Ant, Jan, van, 1730-1751</part>
+                    <useDates>
+                        <dateRange>
+                            <fromDate standardDate="1746-01">January 1746</fromDate>
+                            <toDate standardDate="1751-05">May 1751</toDate>
+                        </dateRange>
+                    </useDates>
+                    <authorizedForm>NCA</authorizedForm>
+                </nameEntry>
+            </identity>
+            <description>
+                <existDates> <!-- Birth and death dates, if known. -->
+                    <dateRange>
+                        <fromDate standardDate="1730">ca. 1730</fromDate>
+                        <toDate standardDate="1751-05">May 1751</toDate>
+                    </dateRange>
+                </existDates>
+                <localDescription localType="gender">
+                    <term vocabularySource="Homosaurus">Men</term>
+                </localDescription>
+                <!-- For preference we prefer to capture birth and death places. If it is considered useful, further places (and dates can be captured)such as residences and so on, time permitting. -->
+                <places>
+                    <place>
+                        <placeRole>birth</placeRole>
+                        <placeEntry vocabularySource="GeoNames" latitude="51.98" longitude="5.91111">Arnhem, Netherlands</placeEntry>
+                        <date standardDate="1789">ca. 1730</date>
+                    </place>
+                </places>
+                <languageUsed> <!-- From evidence in the GPP, if possible -->
+                    <language languageCode="dut">Dutch</language>
+                    <script scriptCode="Latn">Latin</script>
+                </languageUsed>
+                <biogHist> 
+                    <abstract>Maria van Antwerpen, at around 26 years old, was fired in the middle of winter in 1745. In January of the following year, she dressed as a man and enlisted in the army as sixteen year old Jan van Ant. Approximately a year and a half later Jan married Johanna Cramers, an officer's daughter. They continued to travel with the army until eventually Jan was stationed near Breda. There he was recognised by the daughter of a family for whom Maria had worked as a maid. She was arrested and sentenced in May 1751 and exiled from Brabant and Limburg and all garrison cities.</abstract>
+                    <citation>Pol, Lotte van de. "Antwerp, Maria van (1719-1781)" Accessed December 17, 2019. http://resources.huygens.knaw.nl/vrouwenlexicon/lemmata/data/Antwerpen</citation>
+                </biogHist>         
+            </description>
+        </cpfDescription>
+        <cpfDescription> <!-- Descriptive metadata -->
+            <identity>
+                <entityType>person</entityType>
+                <nameEntry scriptCode="Latn" xml:lang="dut"> 
+                    <part localType="forename">Machiel</part>
+                    <part localType="surname">van Hantwerpen</part>
+                    <useDates>
+                        <dateRange>
+                            <fromDate standardDate="1762">fl. 1762</fromDate>
+                            <toDate standardDate="1769">fl. 1769</toDate>
+                        </dateRange>                        
+                    </useDates>
+                    <authorizedForm>NCA</authorizedForm>
+                </nameEntry>
+                <nameEntry scriptCode="Latn" xml:lang="dut" localType="directOrder"> 
+                    <part>Hantwerpen, Jan, van, fl 1762-fl 1769</part>
+                    <useDates>
+                        <dateRange>
+                            <fromDate standardDate="1762">fl. 1762</fromDate>
+                            <toDate standardDate="1766">fl. 1769</toDate>
+                        </dateRange>
+                    </useDates>
+                    <authorizedForm>NCA</authorizedForm>
+                </nameEntry>
+            </identity>
+            <description>
+                <existDates> <!-- Birth and death dates, if known. -->
+                    <dateRange>
+                        <fromDate standardDate="1762">fl. 1762</fromDate>
+                        <toDate standardDate="1766">fl. 1769</toDate>
+                    </dateRange>
+                </existDates>
+                <localDescription localType="gender">
+                    <term vocabularySource="Homosaurus">Men</term>
+                </localDescription>
+                <!-- For preference we prefer to capture birth and death places. If it is considered useful, further places (and dates can be captured)such as residences and so on, time permitting. -->
+                <languageUsed> <!-- From evidence in the GPP, if possible -->
+                    <language languageCode="dut">Dutch</language>
+                    <script scriptCode="Latn">Latin</script>
+                </languageUsed>
+                <biogHist> 
+                    <abstract>Maria van Antwerpen lived in a number of towns and worked as a seamstress following her sentencing in 1751. While living in Gouda she met Cornelia Swartsenberg who was unwed and pregnant. Maria again assumed a masculine identity, Machiel van Hantwerpen, and went to Zwolle to rejoin the army in 1762. Cornelia followed and they were married in the same year. Machiel resigned from the army two years later and the couple moved to Amsterdam. In 1766 Machiel joined the army, now in service to Amsterdam. In 1769 Machiel was recognised during a trip in Montfoort by someone who knew her as a woman from when Maria had lived in Gouda. Maria was arrested and tried in Gouda and sentenced to exile from Holland and West Friesland.</abstract>
+                    <citation>Pol, Lotte van de. "Antwerp, Maria van (1719-1781)" Accessed December 17, 2019. http://resources.huygens.knaw.nl/vrouwenlexicon/lemmata/data/Antwerpen</citation>
+                </biogHist>         
+            </description>
+        </cpfDescription>
+    </multipleIdentities>
+</eac-cpf>
+
+
