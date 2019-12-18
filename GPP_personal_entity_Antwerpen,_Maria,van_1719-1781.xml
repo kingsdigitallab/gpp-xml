@@ -86,6 +86,13 @@
                 <agent xml:id="GPP-00001748">Callaghan, Samantha</agent> <!-- ID may be subject to change in the CW -->
                 <eventDescription>Creation of NAF for Maria van Antwerpen.</eventDescription> <!-- Include a full description of the maintenance event - ie: note what was created/edited during the event -->
             </maintenanceEvent>
+            <maintenanceEvent> <!-- records each maintenance/editing event that occurs throughout the life of the file -->
+                <eventType>updated</eventType> <!-- May contain: "cancelled" or "created" or "deleted" or "derived" or "revised" or "updated" -->
+                <eventDateTime standardDateTime="2019-12-18T09:55:00Z">9:55 am, 18 December 2019</eventDateTime> <!-- ISO 8601 date-time formatting -->
+                <agentType>human</agentType> <!-- May contain: "human" or "machine" -->
+                <agent xml:id="GPP-00001748">Callaghan, Samantha</agent> <!-- ID may be subject to change in the CW -->
+                <eventDescription>Updated NAF for Maria van Antwerpen to include variant names drawn from another source as well as included additional gender term with citation and descriptive note.</eventDescription> <!-- Include a full description of the maintenance event - ie: note what was created/edited during the event -->
+            </maintenanceEvent>
         </maintenanceHistory>
         <sources>
             <source xlink:type="simple" xlink:href="https://viaf.org/viaf/25400920/">
@@ -96,6 +103,9 @@
             </source>
             <source xlink:type="simple" xlink:href="http://resources.huygens.knaw.nl/vrouwenlexicon/lemmata/data/Antwerpen">
                 <sourceEntry>DVN: Antwerpen, Maria van (1719-1781); Biography number in 1001 Women: 489</sourceEntry>
+            </source>
+            <source xlink:href="https://www.canvas.be/canvas-curiosa/maria-van-antwerpen-transgender-uit-de-18de-eeuw">
+                <sourceEntry>Article name: Maria van Antwerpen, transgender uit de 18de eeuw</sourceEntry>
             </source>
             <source xlink:type="simple" xlink:href="https://www.geonames.org/2758401/breda.html">
                 <sourceEntry>GeoNames ID: 2758401</sourceEntry>
@@ -190,6 +200,17 @@
                     </useDates>
                     <authorizedForm>NCA</authorizedForm>
                 </nameEntry>
+                <nameEntry scriptCode="Latn" xml:lang="dut"> 
+                    <part localType="forename">Johannes</part>
+                    <part localType="surname">van Ant</part>
+                    <useDates>
+                        <dateRange>
+                            <fromDate standardDate="1746-01">January 1746</fromDate>
+                            <toDate standardDate="1751-05">May 1751</toDate>
+                        </dateRange>                        
+                    </useDates>
+                    <alternativeForm>NCA</alternativeForm>
+                </nameEntry>
             </identity>
             <description>
                 <existDates> <!-- Birth and death dates, if known. -->
@@ -243,6 +264,17 @@
                     </useDates>
                     <authorizedForm>NCA</authorizedForm>
                 </nameEntry>
+                <nameEntry scriptCode="Latn" xml:lang="dut"> 
+                    <part localType="forename">Maggiel</part>
+                    <part localType="surname">van Hantwerpen</part>
+                    <useDates>
+                        <dateRange>
+                            <fromDate standardDate="1762">fl. 1762</fromDate>
+                            <toDate standardDate="1769">fl. 1769</toDate>
+                        </dateRange>                        
+                    </useDates>
+                    <alternativeForm>NCA</alternativeForm>
+                </nameEntry>
             </identity>
             <description>
                 <existDates> <!-- Birth and death dates, if known. -->
@@ -251,16 +283,25 @@
                         <toDate standardDate="1766">fl. 1769</toDate>
                     </dateRange>
                 </existDates>
-                <localDescription localType="gender">
-                    <term vocabularySource="Homosaurus">Men</term>
-                </localDescription>
+                <localDescriptions localType="gender">
+                    <localDescription localType="gender">
+                        <term vocabularySource="Homosaurus">Men</term>
+                    </localDescription>
+                    <localDescription localType="gender">
+                        <term vocabularySource="Homosaurus">Transgender people</term>
+                        <citation>Pol, Lotte van de. "Antwerp, Maria van (1719-1781)" Accessed December 18, 2019. http://resources.huygens.knaw.nl/vrouwenlexicon/lemmata/data/Antwerpen</citation>
+                        <descriptiveNote>
+                            <p>During the second trial of Maria van Antwerpen in Gouda in 1769, when asked whether they were a male or female person, Maria answered: "In de natuur een manspersoon, maar uiterlijk een vrouwspersoon."</p>
+                        </descriptiveNote>  
+                    </localDescription>
+                </localDescriptions>
                 <!-- For preference we prefer to capture birth and death places. If it is considered useful, further places (and dates can be captured)such as residences and so on, time permitting. -->
                 <languageUsed> <!-- From evidence in the GPP, if possible -->
                     <language languageCode="dut">Dutch</language>
                     <script scriptCode="Latn">Latin</script>
                 </languageUsed>
                 <biogHist> 
-                    <abstract>Maria van Antwerpen lived in a number of towns and worked as a seamstress following her sentencing in 1751. While living in Gouda she met Cornelia Swartsenberg who was unwed and pregnant. Maria again assumed a masculine identity, Machiel van Hantwerpen, and went to Zwolle to rejoin the army in 1762. Cornelia followed and they were married in the same year. Machiel resigned from the army two years later and the couple moved to Amsterdam. In 1766 Machiel joined the army, now in service to Amsterdam. In 1769 Machiel was recognised during a trip in Montfoort by someone who knew her as a woman from when Maria had lived in Gouda. Maria was arrested and tried in Gouda and sentenced to exile from Holland and West Friesland.</abstract>
+                    <abstract>Maria van Antwerpen lived in a number of towns and worked as a seamstress following her sentencing in 1751. While living in Gouda she met Cornelia Swartsenberg who was unwed and pregnant. Maria again assumed a masculine identity, Machiel van Hantwerpen, and went to Zwolle to rejoin the army in 1762. Cornelia followed and they were married in the same year. Machiel resigned from the army two years later and the couple moved to Amsterdam. In 1766 Machiel joined the army, now in service to Amsterdam. In 1769 Machiel was recognised during a trip in Montfoort by someone who knew them as a woman from when Maria had lived in Gouda. Maria was arrested and tried in Gouda and sentenced to exile from Holland and West Friesland.</abstract>
                     <citation>Pol, Lotte van de. "Antwerp, Maria van (1719-1781)" Accessed December 17, 2019. http://resources.huygens.knaw.nl/vrouwenlexicon/lemmata/data/Antwerpen</citation>
                 </biogHist>         
             </description>
