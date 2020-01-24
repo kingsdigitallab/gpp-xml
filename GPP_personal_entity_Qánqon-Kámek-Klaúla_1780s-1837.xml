@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eac-cpf xmlns="urn:isbn:1-931666-33-4" xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="urn:isbn:1-931666-33-4 http://eac.staatsbibliothek-berlin.de/schema/cpf.xsd">
+    <control> <!-- Administrative metadata -->
+        <recordId>NAF-0000000A</recordId> <!-- placeholder as this will be assigned within the CW -->
+        <maintenanceStatus>new</maintenanceStatus> <!-- Updated when edited. May contain: "cancelled" or "deleted" or "deletedReplaced" or "deletedSplit" or "derived" or "new" or "revised" -->
+        <publicationStatus>inProcess</publicationStatus> <!-- May contain: "inProcess" or "approved" -->
+        <maintenanceAgency>
+            <agencyName>King's Digital Laboratory</agencyName>
+        </maintenanceAgency>
+        <languageDeclaration> <!-- Of the EAC-CPF file. The EAC-CPF files created for the GPP project are all (at this time) in English and use the latin script. -->
+            <language languageCode="eng">English</language>
+            <script scriptCode="Latn">Latin</script>
+        </languageDeclaration>
+        <conventionDeclaration> <!-- Date and time format convention. -->
+            <abbreviation>ISO8601</abbreviation>
+            <citation xlink:href="https://www.iso.org/iso-8601-date-and-time-format.html" xlink:type="simple">Date and time format - ISO 8601</citation>
+            <descriptiveNote>
+                <p>Dates and times are formatted according to the ISO 8601 standard in the following forms: YYYY-MM-DD or YYYY-MM-DDTHH:MM:SSZ.</p>
+            </descriptiveNote>
+        </conventionDeclaration>
+        <conventionDeclaration> <!-- Personal and organisational naming conventions -->
+            <abbreviation>NCA</abbreviation>
+            <citation xlink:href="http://anws.llgc.org.uk/ncarules/title.htm" xlink:type="simple">National Council on Archives Rules for the construction of personal, place and
+                corporate names, 1997.</citation>
+            <descriptiveNote>
+                <p>Personal and organisational names are formatted according to NCA Rules.</p>
+            </descriptiveNote>
+        </conventionDeclaration>
+        <conventionDeclaration> <!-- Geographical naming conventions -->
+            <abbreviation>GeoNames</abbreviation>
+            <citation xlink:href="http://www.geonames.org/" xlink:type="simple">GeoNames</citation>
+            <descriptiveNote>
+                <p>Geographic names are formatted according to GeoNames usage.</p>
+            </descriptiveNote>
+        </conventionDeclaration>
+        <conventionDeclaration>
+            <abbreviation>Wikidata</abbreviation>
+            <citation xlink:href="https://www.wikidata.org/wiki/Wikidata:Main_Page" xlink:type="simple">Wikidata</citation>
+            <descriptiveNote>
+                <p>Geographic names may be formatted according to Wikidata usage if not present on GeoNames.</p>
+            </descriptiveNote>
+        </conventionDeclaration>
+        <conventionDeclaration> <!-- Geographic coordinates convention. -->
+            <abbreviation>WGS84</abbreviation>
+            <citation xlink:href="https://en.wikipedia.org/wiki/World_Geodetic_System" xlink:type="simple">World Geodetic System 1984</citation>
+            <descriptiveNote>
+                <p>Latitude/longitude coordinates are in the WGS84 standard. Coordinates should be taken from GeoNames where possible.</p>
+            </descriptiveNote>
+        </conventionDeclaration>
+        <conventionDeclaration> <!-- Function thesaurus. -->
+            <abbreviation>UKAT</abbreviation>
+            <citation xlink:href="http://www.ukat.org.uk/" xlink:type="simple">UK Archival Thesaurus</citation>
+            <descriptiveNote>
+                <p>UKAT terms are used to specify the function/s of an EAC-CPF entity.</p>
+            </descriptiveNote>
+        </conventionDeclaration>
+        <localTypeDeclaration>
+            <abbreviation>Name Parts</abbreviation>
+            <citation xlink:href="http://anws.llgc.org.uk/ncarules/title.htm" xlink:type="simple"
+                >National Council on Archives Rules for the construction of personal, place and
+                corporate names, 1997.</citation>
+            <descriptiveNote>
+                <p>The name parts (and direct order) that constitute name formation are taken from the NCA Rules.</p>
+            </descriptiveNote>
+        </localTypeDeclaration>
+        <localTypeDeclaration>
+            <abbreviation>Date Styles</abbreviation>
+            <citation xlink:href="http://www.cree.name/genuki/dates.htm" xlink:type="simple"
+                >Spathaky, Mike. "Old Style and New Style Dates and the change to the Gregorian Calendar: A summary for genealogists." Last modified December 13, 2011. http://www.cree.name/genuki/dates.htm</citation>
+            <descriptiveNote>
+                <p>The time period over which the Georgian papers spans includes the change from the Old Style dating system (Julian calendar, year beginning Lady Day [25th March]) to the New Style system (Gregorian calendar, year beginning 1st January). This change was implemented in Britain and her colonies in 1752 but was implemented throughout Europe at differing times in history.</p>
+                <p>For the purpose of the Georgian Papers Programme Name Authority File, in EAC-CPF all dates given with no @localType attached are implicitly New Style; only those that are Old Style will include @localType="oldStyle".</p>
+            </descriptiveNote>
+        </localTypeDeclaration>
+        <localTypeDeclaration>
+            <abbreviation>gender</abbreviation>
+            <citation xlink:href="http://homosaurus.org/terms" xlink:type="simple">Homosaurus: International Thesaurus of Lesbian, Gay, Bisexual and Transgender Index Terms</citation>
+        </localTypeDeclaration>
+        <maintenanceHistory>
+            <maintenanceEvent> <!-- records each maintenance/editing event that occurs throughout the life of the file -->
+                <eventType>created</eventType> <!-- May contain: "cancelled" or "created" or "deleted" or "derived" or "revised" or "updated" -->
+                <eventDateTime standardDateTime="2019-11-14T14:32:00Z">2:32 pm, 18 December 2019</eventDateTime> <!-- ISO 8601 date-time formatting -->
+                <agentType>human</agentType> <!-- May contain: "human" or "machine" -->
+                <agent xml:id="GPP-00001748">Callaghan, Samantha</agent> <!-- ID may be subject to change in the CW -->
+                <eventDescription>Creation of NAF for Qánqon-Kámek-Klaúla.</eventDescription> <!-- Include a full description of the maintenance event - ie: note what was created/edited during the event -->
+            </maintenanceEvent>
+            <maintenanceEvent> <!-- records each maintenance/editing event that occurs throughout the life of the file -->
+                <eventType>updated</eventType> <!-- May contain: "cancelled" or "created" or "deleted" or "derived" or "revised" or "updated" -->
+                <eventDateTime standardDateTime="2020-01-17T14:48:00Z">2:48 pm, 17 January 2020</eventDateTime> <!-- ISO 8601 date-time formatting -->
+                <agentType>human</agentType> <!-- May contain: "human" or "machine" -->
+                <agent xml:id="GPP-00001748">Callaghan, Samantha</agent> <!-- ID may be subject to change in the CW -->
+                <eventDescription>Continuing to build NAF for Qánqon-Kámek-Klaúla.</eventDescription> <!-- Include a full description of the maintenance event - ie: note what was created/edited during the event -->
+            </maintenanceEvent>
+        </maintenanceHistory>
+        <sources>
+            <source xlink:type="simple" xlink:href="https://viaf.org/viaf/8152023594303310476/">
+                <sourceEntry>VIAF ID: : 8152023594303310476</sourceEntry>
+            </source>  
+            <source xlink:type="simple" xlink:href="https://en.wikipedia.org/wiki/Ka%C3%BAxuma_N%C3%BApika">
+                <sourceEntry>Wikipedia: Kaúxuma Núpika</sourceEntry>
+            </source>
+        </sources>        
+    </control>
+    <multipleIdentities>
+    <cpfDescription> <!-- Descriptive metadata -->
+        <identity>
+            <entityType>person</entityType>
+            <nameEntry scriptCode="Latn" xml:lang="eng"> 
+                <part localType="forename"></part>
+                <useDates>
+                    <dateRange>
+                        <fromDate standardDate="1773-05">May 1773</fromDate>
+                        <toDate standardDate="1843-01-24">24 January 1843</toDate>
+                    </dateRange>
+                </useDates>
+                <authorizedForm>NCA</authorizedForm>
+            </nameEntry>
+            <nameEntry scriptCode="Latn" xml:lang="eng" localType="directOrder"> 
+                <part>Barreau, Rose-Alexandrine, 1773-1843</part>
+                <useDates>
+                    <dateRange>
+                        <fromDate standardDate="1773-05">May 1773</fromDate>
+                        <toDate standardDate="1843-01-24">24 January 1843</toDate>
+                    </dateRange>
+                </useDates>
+                <authorizedForm>NCA</authorizedForm>
+            </nameEntry>
+            <nameEntry scriptCode="Latn" xml:lang="eng"> 
+                <part localType="forename">Alexandrine-Rose</part>
+                <part localType="surname">Barreau</part>
+                <useDates>
+                    <dateRange>
+                        <fromDate standardDate="1773-05">May 1773</fromDate>
+                        <toDate standardDate="1843-01-24">24 January 1843</toDate>
+                    </dateRange>
+                </useDates>
+                <alternativeForm>NCA</alternativeForm>
+            </nameEntry>
+        </identity>
+        <description>
+            <existDates> <!-- Birth and death dates, if known. -->
+                <dateRange>
+                    <fromDate standardDate="1773-05">May 1773</fromDate>
+                    <toDate standardDate="1843-01-24">24 January 1843</toDate>
+                </dateRange>
+            </existDates>
+            <localDescription localType="gender">
+                <term vocabularySource="Homosaurus">Women</term>
+            </localDescription>
+            <!-- For preference we prefer to capture birth and death places. If it is considered useful, further places (and dates can be captured)such as residences and so on, time permitting. -->
+            <places>
+                <place>
+                    <placeRole>birth</placeRole>
+                    <placeEntry vocabularySource="GeoNames" latitude="43.7817" longitude="2.16317">Tarn, France</placeEntry>
+                    <date standardDate="1773-05">May 1773</date>
+                </place>
+                <place>
+                    <placeRole>death</placeRole>
+                    <placeEntry vocabularySource="GeoNames" latitude="43.94834" longitude="4.80892">Avignon, France</placeEntry>
+                    <date standardDate="1843-01-24">24 January 1843</date>
+                </place>
+            </places>
+            <languagesUsed>
+                <languageUsed> <!-- From evidence in the GPP, if possible -->
+                    <language languageCode="fre">French</language>
+                    <script scriptCode="Latn">Latin</script>
+                </languageUsed>
+            </languagesUsed>
+            <biogHist> 
+                <abstract>Rose-Alexandrine Barreau (1773–1843), also known as "Liberte" Barreau, was a female soldier of the Army of the French First Republic. She became best known for her actions fighting against the Spanish Empire during an incursion near Biriatou in July 1793..</abstract>
+                <p>Rose-Alexandrine Barreau was born in May 1773 in the Tarn area of France. She married Francois Leyrac on 5 March 1792, and signed up alongside her brother Cyprien Barreau and her new husband for the 2nd Battalion of the Tarn in the Army of the French First Republic. She was listed in records as "Liberte" Barreau, a "son of Jacques and Jeanne Barreau". Barreau and the rest of the Battalion were subsequently amalgamated into the 63rd Demi-Brigade.</p>
+                <p>It was against a Spanish Empire incursion into France at Biriatou in July 1793 that she would become known. Under the command of Théophile Corret de la Tour d'Auvergne, they were engaged by the Spanish forces. First, Barreau witnessed the death of her brother, and then her husband was seriously injured. Barreau moved further forward with the other infantry, before rushing into enemy fire where she fired her musket until she ran out of ammunition. At that point, she charged the enemy with her saber.</p>
+                <p>Following the end of the battle, she went to her husband's side and tended his wounds. Follow a year and two months of service, Barreau was discharged from the infantry, as she had been experiencing complications from being six months pregnant. The National Convention granted her 300 livre tournois in recognition of her service, and in the following years she remained in the train following the army as her husband continued to serve. She was written of as a national hero in the 1793 Annales du Civisme et de la Vertu. Barreau received a military pension in 1806, and by 1809 she had five children. After falling ill, she petitioned for treatment as per a veteran, however it was not until 1832 that she and her husband were admitted to the veterans' hospital in Avignon. She died there on 24 January 1843.</p>
+                <citation>Wikipedia. "Rose-Alexandrine Barreau" Accessed December 18, 2019. https://en.wikipedia.org/wiki/Rose-Alexandrine_Barreau</citation>
+                <p>Biography source: Wikipedia. Licensed under CC-BY-SA.</p>
+            </biogHist>         
+        </description>
+    </cpfDescription>
+        <!-- Soldier identity -->
+        <cpfDescription> <!-- Descriptive metadata -->
+            <identity>
+                <entityType>person</entityType>
+                <nameEntry scriptCode="Latn" xml:lang="fre"> 
+                    <part localType="forename">Liberté</part>
+                    <part localType="surname">Barreau</part>
+                    <useDates>
+                        <dateRange>
+                            <fromDate standardDate="1792">fl. 1792</fromDate>
+                            <toDate standardDate="1793">ca. 1793</toDate>
+                        </dateRange>      
+                    </useDates>
+                    <authorizedForm>NCA</authorizedForm>
+                </nameEntry>
+                <nameEntry scriptCode="Latn" xml:lang="fre" localType="directOrder"> 
+                    <part>Barreau, Liberté, fl 1792-c 1793</part>
+                    <useDates>
+                        <dateRange>
+                            <fromDate standardDate="1792">fl. 1792</fromDate>
+                            <toDate standardDate="1793">ca. 1793</toDate>
+                        </dateRange>
+                    </useDates>
+                    <authorizedForm>NCA</authorizedForm>
+                </nameEntry>
+                <nameEntry scriptCode="Latn" xml:lang="fre"> 
+                    <part localType="forename">Liberté</part>
+                    <part localType="surname">Barrau</part>
+                    <useDates>
+                        <dateRange>
+                            <fromDate standardDate="1792">fl. 1792</fromDate>
+                            <toDate standardDate="1793">ca. 1793</toDate>
+                        </dateRange>      
+                    </useDates>
+                    <alternativeForm>NCA</alternativeForm>
+                </nameEntry>
+            </identity>
+            <description>
+                <existDates>
+                    <dateRange>
+                    <fromDate standardDate="1792">fl. 1792</fromDate>
+                    <toDate standardDate="1793">ca. 1793</toDate>
+                    </dateRange>
+                </existDates>
+                <localDescription localType="gender">
+                    <term vocabularySource="Homosaurus">Men</term>
+                </localDescription>
+                <languagesUsed>
+                    <languageUsed>
+                        <language languageCode="fre">French</language>
+                        <script scriptCode="Latn">Latin</script>
+                    </languageUsed>
+                </languagesUsed>
+                <biogHist>
+                    <abstract>Rose-Alexandrine Barreau signed up alongside her brother Cyprien Barreau and her new husband for the 2nd Battalion of the Tarn in the Army of the French First Republic. She was listed in records as "Liberte" Barreau, a "son of Jacques and Jeanne Barreau". Barreau and the rest of the Battalion were subsequently amalgamated into the 63rd Demi-Brigade.</abstract>
+                    <citation>Wikipedia. "Rose-Alexandrine Barreau" Accessed December 18, 2019. https://en.wikipedia.org/wiki/Rose-Alexandrine_Barreau</citation>
+                    <p>Biography source: Wikipedia. Licensed under CC-BY-SA.</p>
+                </biogHist>         
+            </description>
+        </cpfDescription>
+    </multipleIdentities>
+</eac-cpf>
+
+
