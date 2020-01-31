@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eac-cpf xmlns="urn:isbn:1-931666-33-4" xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="urn:isbn:1-931666-33-4 http://eac.staatsbibliothek-berlin.de/schema/cpf.xsd">
+    <control> <!-- Administrative metadata -->
+        <recordId>NAF-0000000A</recordId> <!-- placeholder as this will be assigned within the CW -->
+        <maintenanceStatus>new</maintenanceStatus> <!-- Updated when edited. May contain: "cancelled" or "deleted" or "deletedReplaced" or "deletedSplit" or "derived" or "new" or "revised" -->
+        <publicationStatus>inProcess</publicationStatus> <!-- May contain: "inProcess" or "approved" -->
+        <maintenanceAgency>
+            <agencyName>King's Digital Laboratory</agencyName>
+        </maintenanceAgency>
+        <languageDeclaration> <!-- Of the EAC-CPF file. The EAC-CPF files created for the GPP project are all (at this time) in English and use the latin script. -->
+            <language languageCode="eng">English</language>
+            <script scriptCode="Latn">Latin</script>
+        </languageDeclaration>
+        <conventionDeclaration> <!-- Date and time format convention. -->
+            <abbreviation>ISO8601</abbreviation>
+            <citation xlink:href="https://www.iso.org/iso-8601-date-and-time-format.html" xlink:type="simple">Date and time format - ISO 8601</citation>
+            <descriptiveNote>
+                <p>Dates and times are formatted according to the ISO 8601 standard in the following forms: YYYY-MM-DD or YYYY-MM-DDTHH:MM:SSZ.</p>
+            </descriptiveNote>
+        </conventionDeclaration>
+        <conventionDeclaration> <!-- Personal and organisational naming conventions -->
+            <abbreviation>NCA</abbreviation>
+            <citation xlink:href="http://anws.llgc.org.uk/ncarules/title.htm" xlink:type="simple">National Council on Archives Rules for the construction of personal, place and
+                corporate names, 1997.</citation>
+            <descriptiveNote>
+                <p>Personal and organisational names are formatted according to NCA Rules.</p>
+            </descriptiveNote>
+        </conventionDeclaration>
+        <conventionDeclaration> <!-- Geographical naming conventions -->
+            <abbreviation>GeoNames</abbreviation>
+            <citation xlink:href="http://www.geonames.org/" xlink:type="simple">GeoNames</citation>
+            <descriptiveNote>
+                <p>Geographic names are formatted according to GeoNames usage.</p>
+            </descriptiveNote>
+        </conventionDeclaration>
+        <conventionDeclaration>
+            <abbreviation>Wikidata</abbreviation>
+            <citation xlink:href="https://www.wikidata.org/wiki/Wikidata:Main_Page" xlink:type="simple">Wikidata</citation>
+            <descriptiveNote>
+                <p>Geographic names may be formatted according to Wikidata usage if not present on GeoNames.</p>
+            </descriptiveNote>
+        </conventionDeclaration>
+        <conventionDeclaration> <!-- Geographic coordinates convention. -->
+            <abbreviation>WGS84</abbreviation>
+            <citation xlink:href="https://en.wikipedia.org/wiki/World_Geodetic_System" xlink:type="simple">World Geodetic System 1984</citation>
+            <descriptiveNote>
+                <p>Latitude/longitude coordinates are in the WGS84 standard. Coordinates should be taken from GeoNames where possible.</p>
+            </descriptiveNote>
+        </conventionDeclaration>
+        <conventionDeclaration> <!-- Function thesaurus. -->
+            <abbreviation>UKAT</abbreviation>
+            <citation xlink:href="http://www.ukat.org.uk/" xlink:type="simple">UK Archival Thesaurus</citation>
+            <descriptiveNote>
+                <p>UKAT terms are used to specify the function/s of an EAC-CPF entity.</p>
+            </descriptiveNote>
+        </conventionDeclaration>
+        <localTypeDeclaration>
+            <abbreviation>Name Parts</abbreviation>
+            <citation xlink:href="http://anws.llgc.org.uk/ncarules/title.htm" xlink:type="simple"
+                >National Council on Archives Rules for the construction of personal, place and
+                corporate names, 1997.</citation>
+            <descriptiveNote>
+                <p>The name parts (and direct order) that constitute name formation are taken from the NCA Rules.</p>
+            </descriptiveNote>
+        </localTypeDeclaration>
+        <localTypeDeclaration>
+            <abbreviation>Date Styles</abbreviation>
+            <citation xlink:href="http://www.cree.name/genuki/dates.htm" xlink:type="simple"
+                >Spathaky, Mike. "Old Style and New Style Dates and the change to the Gregorian Calendar: A summary for genealogists." Last modified December 13, 2011. http://www.cree.name/genuki/dates.htm</citation>
+            <descriptiveNote>
+                <p>The time period over which the Georgian papers spans includes the change from the Old Style dating system (Julian calendar, year beginning Lady Day [25th March]) to the New Style system (Gregorian calendar, year beginning 1st January). This change was implemented in Britain and her colonies in 1752 but was implemented throughout Europe at differing times in history.</p>
+                <p>For the purpose of the Georgian Papers Programme Name Authority File, in EAC-CPF all dates given with no @localType attached are implicitly New Style; only those that are Old Style will include @localType="oldStyle".</p>
+            </descriptiveNote>
+        </localTypeDeclaration>
+        <localTypeDeclaration>
+            <abbreviation>gender</abbreviation>
+            <citation xlink:href="http://homosaurus.org/terms" xlink:type="simple">Homosaurus: International Thesaurus of Lesbian, Gay, Bisexual and Transgender Index Terms</citation>
+        </localTypeDeclaration>
+        <maintenanceHistory>
+            <maintenanceEvent> <!-- records each maintenance/editing event that occurs throughout the life of the file -->
+                <eventType>created</eventType> <!-- May contain: "cancelled" or "created" or "deleted" or "derived" or "revised" or "updated" -->
+                <eventDateTime standardDateTime="2020-01-24T14:59:00Z">2:59 pm, 24 January 2020</eventDateTime> <!-- ISO 8601 date-time formatting -->
+                <agentType>human</agentType> <!-- May contain: "human" or "machine" -->
+                <agent xml:id="GPP-00001748">Callaghan, Samantha</agent> <!-- ID may be subject to change in the CW -->
+                <eventDescription>Creation of NAF for Nadezhda Andreyevna Durova.</eventDescription> <!-- Include a full description of the maintenance event - ie: note what was created/edited during the event -->
+            </maintenanceEvent>
+            <maintenanceEvent> <!-- records each maintenance/editing event that occurs throughout the life of the file -->
+                <eventType>updated</eventType> <!-- May contain: "cancelled" or "created" or "deleted" or "derived" or "revised" or "updated" -->
+                <eventDateTime standardDateTime="2020-01-30T13:17:00Z">1:17 pm, 30 January 2020</eventDateTime> <!-- ISO 8601 date-time formatting -->
+                <agentType>human</agentType> <!-- May contain: "human" or "machine" -->
+                <agent xml:id="GPP-00001748">Callaghan, Samantha</agent> <!-- ID may be subject to change in the CW -->
+                <eventDescription>Continued editing NAF for Nadezhda Andreyevna Durova.</eventDescription> <!-- Include a full description of the maintenance event - ie: note what was created/edited during the event -->
+            </maintenanceEvent>
+        </maintenanceHistory>
+        <sources>
+            <source xlink:type="simple" xlink:href="https://viaf.org/viaf/12375223/">
+                <sourceEntry>VIAF ID: : 12375223</sourceEntry>
+            </source>  
+            <source xlink:type="simple" xlink:href="https://en.wikipedia.org/wiki/Nadezhda_Durova">
+                <sourceEntry>Wikipedia: Nadezhda Durova</sourceEntry>
+            </source>
+            <source xlink:href="https://www.geonames.org/703448/kyiv.html">
+                <sourceEntry>Geonames ID: 703448</sourceEntry>
+            </source>
+            <source xlink:href="https://www.geonames.org/468082/yelabuga.html">
+                <sourceEntry>Geonames ID: 468082</sourceEntry>
+            </source>
+            <source xlink:href="https://www.washingtonpost.com/archive/entertainment/books/1988/06/26/an-officer-but-not-a-gentleman/c947432f-2681-47c4-8221-852bb54d61b3/">
+                <sourceEntry>Washington Post Book Review: An Officer but not a Gentleman by Jane E. Good</sourceEntry>
+            </source>
+        </sources>        
+    </control>
+    <multipleIdentities>
+    <cpfDescription> <!-- Descriptive metadata -->
+        <identity>
+            <entityType>person</entityType>
+            <nameEntry scriptCode="Latn" xml:lang="eng"> 
+                <part localType="forename">Nadezhda Andreyevna</part>
+                <part localType="surname">Durova</part>
+                <useDates>
+                    <dateRange>
+                        <fromDate standardDate="1783-09-17">17 September 1783</fromDate>
+                        <toDate standardDate="1866-03-21">21 March 1866</toDate>
+                    </dateRange>
+                </useDates>
+                <authorizedForm>NCA</authorizedForm>
+            </nameEntry>
+            <nameEntry scriptCode="Latn" xml:lang="eng" localType="directOrder"> 
+                <part>Durova, Nadezhda Andreyevna, 1783-1866</part>
+                <useDates>
+                    <dateRange>
+                        <fromDate standardDate="1783-09-17">17 September 1783</fromDate>
+                        <toDate standardDate="1866-03-21">21 March 1866</toDate>
+                    </dateRange>
+                </useDates>
+                <authorizedForm>NCA</authorizedForm>
+            </nameEntry>
+            <nameEntry scriptCode="Cyrl" xml:lang="rus"> 
+                <part localType="forename">Надéжда Андрéевна</part>
+                <part localType="surname">Дýрова</part>
+                <useDates>
+                    <dateRange>
+                        <fromDate standardDate="1783-09-17">17 September 1783</fromDate>
+                        <toDate standardDate="1866-03-21">21 March 1866</toDate>
+                    </dateRange>
+                </useDates>
+                <alternativeForm>NCA</alternativeForm>
+            </nameEntry>
+            <nameEntry scriptCode="Latn" xml:lang="eng"> 
+                <part localType="forename">Nadejda Andreevna</part>
+                <part localType="surname">Dourova</part>
+                <useDates>
+                    <dateRange>
+                        <fromDate standardDate="1783-09-17">17 September 1783</fromDate>
+                        <toDate standardDate="1866-03-21">21 March 1866</toDate>
+                    </dateRange>
+                </useDates>
+                <alternativeForm>NCA</alternativeForm>
+            </nameEntry>
+        </identity>
+        <description>
+            <existDates> <!-- Birth and death dates, if known. -->
+                <dateRange>
+                    <fromDate standardDate="1783-09-17">17 September 1783</fromDate>
+                    <toDate standardDate="1866-03-21">21 March 1866</toDate>
+                </dateRange>
+            </existDates>
+            <localDescription localType="gender">
+                <term vocabularySource="Homosaurus">Women</term>
+            </localDescription>
+            <!-- For preference we prefer to capture birth and death places. If it is considered useful, further places (and dates can be captured)such as residences and so on, time permitting. -->
+            <places>
+                <place>
+                    <placeRole>birth</placeRole>
+                    <placeEntry vocabularySource="GeoNames" latitude="50.45466" longitude="30.5238">Kiev, Ukraine</placeEntry>
+                    <date standardDate="1783-09-17">17 September 1783</date>
+                </place>
+                <place>
+                    <placeRole>death</placeRole>
+                    <placeEntry vocabularySource="GeoNames" latitude="55.76127" longitude="52.06493">Yelabuga, Russia</placeEntry>
+                    <date standardDate="1866-03-21">21 March 1866</date>
+                </place>
+            </places>
+            <languagesUsed>
+                <languageUsed> <!-- From evidence in the GPP, if possible -->
+                    <language languageCode="rus">Russian</language>
+                    <script scriptCode="Cyrl">Cyrillic</script>
+                </languageUsed>
+            </languagesUsed>
+            <biogHist> 
+                <abstract>Nadezhda Andreyevna Durova (Russian: Наде́жда Андре́евна Ду́рова) (September 17, 1783 – March 21, 1866), also known as Alexander Durov, Alexander Sokolov and Alexander Andreevich Alexandrov, was a woman who, while disguised as a man, became a decorated soldier in the Russian cavalry during the Napoleonic wars. She was the first known female officer in the Russian military. Her memoir, The Cavalry Maiden, is a significant document of its era because few junior officers of the Napoleonic wars published their experiences, and because it is one of the earliest autobiographies in the Russian language.</abstract>
+                <p>Nadezhda Durova was born in an army camp at Kiev, the daughter of a Russian major. Her father placed her in the care of his soldiers after an incident that nearly killed her in infancy when her abusive mother threw her out the window of a moving carriage. As a small child, Durova learned all the standard marching commands and her favorite toy was an unloaded gun.</p>                    
+                <p>After her father retired from service, she continued playing with broken sabers and frightened her family by secretly taming a stallion that they considered unbreakable. In 1801, she married a Sarapul judge V.S. Chernov and gave birth to a son in 1803. Some accounts claim that she ran away from her home with a Cossack officer in 1805. In 1807, at the age of twenty-four she disguised herself as a boy, deserted her son and husband, and bringing her horse Alkid, enlisted in the Polish Horse Regiment (later classified as Uhlans) under the alias Alexander Sokolov.</p>
+                <p>Durova was fiercely patriotic and considered army life to be freedom. She enjoyed animals and the outdoors. She felt she had little talent for traditional women's work. In her memoirs, she described an unhappy relationship with her mother, warmth toward her father, and nothing at all about her own married life.</p>
+                <citation>Wikipedia. "Nadezhda Durova" Accessed January 30, 2020. https://en.wikipedia.org/wiki/Nadezhda_Durova</citation>
+                <p>Biography source: Wikipedia. Licensed under CC-BY-SA.</p>
+            </biogHist>         
+        </description>
+    </cpfDescription>
+        <!-- Soldier identity -->
+        <cpfDescription> <!-- Descriptive metadata -->
+            <identity>
+                <entityType>person</entityType>
+                <nameEntry scriptCode="Latn" xml:lang="eng"> 
+                    <part localType="forename">Alexander</part>
+                    <part localType="surname">Sokolov</part>
+                    <useDates>
+                        <dateRange>
+                            <fromDate standardDate="1806">1806</fromDate>
+                            <toDate standardDate="1807-12">December 1807</toDate>
+                        </dateRange>      
+                    </useDates>
+                    <authorizedForm>NCA</authorizedForm>
+                </nameEntry>
+                <nameEntry scriptCode="Latn" xml:lang="eng" localType="directOrder"> 
+                    <part>Sokolov, Alexander, ca 1790-1807</part>
+                    <useDates>
+                        <dateRange>
+                            <fromDate standardDate="1806">1806</fromDate>
+                            <toDate standardDate="1807-12">December 1807</toDate>
+                        </dateRange>
+                    </useDates>
+                    <authorizedForm>NCA</authorizedForm>
+                </nameEntry>
+            </identity>
+            <description>
+                <existDates>
+                    <dateRange>
+                        <fromDate standardDate="1790">ca. 1790</fromDate>
+                    <toDate standardDate="1807-12">December 1807</toDate>
+                    </dateRange>
+                </existDates>
+                <localDescription localType="gender">
+                    <term vocabularySource="Homosaurus">Men</term>
+                </localDescription>
+                <languagesUsed>
+                    <languageUsed>
+                        <language languageCode="rus">Russian</language>
+                        <script scriptCode="Cyrl">Cyrillic</script>
+                    </languageUsed>
+                </languagesUsed>
+                <biogHist>
+                    <abstract>Nadezhda Andreyevna Durova (Russian: Наде́жда Андре́евна Ду́рова) (September 17, 1783 – March 21, 1866), also known as Alexander Durov, Alexander Sokolov and Alexander Andreevich Alexandrov, was a woman who, while disguised as a man, became a decorated soldier in the Russian cavalry during the Napoleonic wars.</abstract>
+                    <p>In 1807 [sic], at the age of twenty-four she disguised herself as a boy, deserted her son and husband, and bringing her horse Alkid, enlisted in the Polish Horse Regiment (later classified as Uhlans) under the alias Alexander Sokolov.</p>
+                    <p>She fought in the major Russian engagements of the 1806-1807 Prussian campaign. During two of those battles, she saved the lives of two fellow Russian soldiers. The first was an enlisted man who fell off his horse on the battlefield and suffered a concussion. She gave him first aid under heavy fire and brought him to safety as the army retreated around them. The second was an officer, unhorsed but uninjured. Three French dragoons were closing on him. She couched her lance and scattered the enemy. Then, against regulations, she let the officer borrow her own horse to hasten his retreat, which left her more vulnerable to attack.</p>
+                        <p>During the campaign, she wrote a letter to her family explaining her disappearance. They used their connections in a desperate attempt to locate her. The rumor of an amazon in the army reached Tsar Alexander I, who took a personal interest. Durova's chain of command reported that her courage was peerless. Summoned to the palace at St. Petersburg, she impressed the Tsar so much that he awarded her the Cross of St. George and promoted her to lieutenant in a hussar unit (Mariupol Hussar Regiment). The story that there was the heroine in the army with the name Alexander Sokolov had become well known by that time. So the Tsar awarded her a new pseudonym, Alexandrov, based on his own name.</p>
+                    <citation>Wikipedia. "Nadezhda Durova" Accessed January 30, 2020. https://en.wikipedia.org/wiki/Nadezhda_Durova</citation>
+                    <p>Biography source: Wikipedia. Licensed under CC-BY-SA.</p>
+                </biogHist>         
+            </description>
+        </cpfDescription>
+        <!-- Soldier identity 2 -->
+        <cpfDescription> <!-- Descriptive metadata -->
+            <identity>
+                <entityType>person</entityType>
+                <nameEntry scriptCode="Latn" xml:lang="eng"> 
+                    <part localType="forename">Alexander</part>
+                    <part localType="surname">Alexandrov</part>
+                    <useDates>
+                        <dateRange>
+                            <fromDate standardDate="1807">fl. 1807</fromDate>
+                            <toDate standardDate="1816">ca. 1816</toDate>
+                        </dateRange>      
+                    </useDates>
+                    <authorizedForm>NCA</authorizedForm>
+                </nameEntry>
+                <nameEntry scriptCode="Latn" xml:lang="eng" localType="directOrder"> 
+                    <part>Alexandrov, Alexander, fl 1807-ca 1816</part>
+                    <useDates>
+                        <dateRange>
+                            <fromDate standardDate="1807">fl. 1807</fromDate>
+                            <toDate standardDate="1816">ca. 1816</toDate>
+                        </dateRange>
+                    </useDates>
+                    <authorizedForm>NCA</authorizedForm>
+                </nameEntry>
+            </identity>
+            <description>
+                <existDates>
+                    <dateRange>
+                        <fromDate standardDate="1807">fl. 1807</fromDate>
+                        <toDate standardDate="1816">ca. 1816</toDate>
+                    </dateRange>
+                </existDates>
+                <localDescription localType="gender">
+                    <term vocabularySource="Homosaurus">Men</term>
+                </localDescription>
+                <languagesUsed>
+                    <languageUsed>
+                        <language languageCode="rus">Russian</language>
+                        <script scriptCode="Cyrl">Cyrillic</script>
+                    </languageUsed>
+                </languagesUsed>
+                <biogHist>
+                    <abstract>Nadezhda Andreyevna Durova (Russian: Наде́жда Андре́евна Ду́рова) (September 17, 1783 – March 21, 1866), also known as Alexander Durov, Alexander Sokolov and Alexander Andreevich Alexandrov, was a woman who, while disguised as a man, became a decorated soldier in the Russian cavalry during the Napoleonic wars.</abstract>
+                    <p>The rumor of an amazon in the army reached Tsar Alexander I, who took a personal interest. Durova's chain of command reported that her courage was peerless. Summoned to the palace at St. Petersburg, she impressed the Tsar so much that he awarded her the Cross of St. George and promoted her to lieutenant in a hussar unit (Mariupol Hussar Regiment). The story that there was the heroine in the army with the name Alexander Sokolov had become well known by that time. So the Tsar awarded her a new pseudonym, Alexandrov, based on his own name.</p>
+                    <p>Durova saw action again during Napoleon's invasion of Russia in 1812. She fought in the Battle of Smolensk. During the Battle of Borodino a cannonball wounded her in the leg, yet she continued serving full duty for several days afterward until her command ordered her away to recuperate. She retired from the army in 1816 with the rank of stabs-rotmistr, the equivalent of captain-lieutenant.</p>
+                    <citation>Wikipedia. "Nadezhda Durova" Accessed January 30, 2020. https://en.wikipedia.org/wiki/Nadezhda_Durova</citation>
+                    <p>Biography source: Wikipedia. Licensed under CC-BY-SA.</p>
+                </biogHist>         
+            </description>
+        </cpfDescription>
+    </multipleIdentities>
+</eac-cpf>
+
+
