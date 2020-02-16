@@ -81,22 +81,28 @@
         <maintenanceHistory>
             <maintenanceEvent> <!-- records each maintenance/editing event that occurs throughout the life of the file -->
                 <eventType>created</eventType> <!-- May contain: "cancelled" or "created" or "deleted" or "derived" or "revised" or "updated" -->
-                <eventDateTime standardDateTime="2020-02-07T14:08:00Z">2:08 pm, 7 February 2020</eventDateTime> <!-- ISO 8601 date-time formatting -->
+                <eventDateTime standardDateTime="2020-02-16T14:08:00Z">2:08 pm, 16 February 2020</eventDateTime> <!-- ISO 8601 date-time formatting -->
                 <agentType>human</agentType> <!-- May contain: "human" or "machine" -->
                 <agent xml:id="GPP-00001748">Callaghan, Samantha</agent> <!-- ID may be subject to change in the CW -->
-                <eventDescription>Creation of NAF for Sarah Paul.</eventDescription> <!-- Include a full description of the maintenance event - ie: note what was created/edited during the event -->
+                <eventDescription>Creation of NAF for William Robert Grossmith.</eventDescription> <!-- Include a full description of the maintenance event - ie: note what was created/edited during the event -->
             </maintenanceEvent>
         </maintenanceHistory>
         <sources>
-            <source xlink:type="simple" xlink:href="https://www.tandfonline.com/doi/full/10.1080/01440365.2017.1289674">
-                <sourceEntry>DOI: 10.1080/01440365.2017.1289674</sourceEntry>
-            </source>  
-            <source xlink:href="https://www.geonames.org/2643743/london.html">
-                <sourceEntry>Geonames ID: 2643743</sourceEntry>
+            <source xlink:href="https://viaf.org/viaf/78916337/">
+                <sourceEntry>VIAF ID: 78916337</sourceEntry>
             </source>
-            <source xlink:href="http://www.workhouses.org.uk/StSepulchre/">
-                <sourceEntry>Workhouses ID: StSepulchre</sourceEntry>
-            </source>          
+            <source xlink:href="https://en.wikipedia.org/wiki/Master_Grossmith">
+                <sourceEntry>Wikipedia: Master Grossmith</sourceEntry>
+            </source>
+            <source xlink:href="https://research.britishmuseum.org/research/collection_online/collection_object_details.aspx?objectId=705578&partId=1&searchText=william+robert+grossmith&people=122654&page=1">
+                <sourceEntry>Museum number: 1994,0619.7</sourceEntry>           
+            </source>
+            <source xlink:href="https://books.google.co.uk/books?id=S5cVAAAAYAAJ">
+                <sourceEntry>E.C.B, The Life of the Celebrated Infant Roscius, Master Grossmith, of Reading, Berks, Only Seven Years and a Quarter Old. Reading: M. Cowslade and Co, 1825. https://books.google.co.uk/books?id=S5cVAAAAYAAJ</sourceEntry>
+            </source>
+            <source xlink:href="https://www.geonames.org/2639577/reading.html">
+                <sourceEntry>Geonames ID: 2639577</sourceEntry>
+            </source>         
         </sources>        
     </control>
     <multipleIdentities>
@@ -104,22 +110,22 @@
         <identity>
             <entityType>person</entityType>
             <nameEntry scriptCode="Latn" xml:lang="eng"> 
-                <part localType="forename">Sarah</part>
-                <part localType="surname">Paul</part>
+                <part localType="forename">William Robert</part>
+                <part localType="surname">Grossmith</part>
                 <useDates>
                     <dateRange>
-                        <fromDate standardDate="1739">ca. 1739</fromDate>
-                        <toDate standardDate="1766">ca. 1766</toDate>
+                        <fromDate standardDate="1818">1818</fromDate>
+                        <toDate standardDate="1899">1899</toDate>
                     </dateRange>
                 </useDates>
                 <authorizedForm>NCA</authorizedForm>
             </nameEntry>
             <nameEntry scriptCode="Latn" xml:lang="eng" localType="directOrder"> 
-                <part>Paul, Sarah, ca 1739-ca 1766</part>
+                <part>Grossmith, William Robert, 1818-1899</part>
                 <useDates>
                     <dateRange>
-                        <fromDate standardDate="1739">ca. 1739</fromDate>
-                        <toDate standardDate="1766">ca. 1766</toDate>
+                        <fromDate standardDate="1818">1818</fromDate>
+                        <toDate standardDate="1899">1899</toDate>
                     </dateRange>
                 </useDates>
                 <authorizedForm>NCA</authorizedForm>
@@ -128,19 +134,19 @@
         <description>
             <existDates> <!-- Birth and death dates, if known. -->
                 <dateRange>
-                    <fromDate standardDate="1739">ca. 1739</fromDate>
-                    <toDate standardDate="1766">ca. 1766</toDate>
+                    <fromDate standardDate="1818">1818</fromDate>
+                    <toDate standardDate="1899">1899</toDate>
                 </dateRange>
             </existDates>
             <localDescription localType="gender">
-                <term vocabularySource="Homosaurus">Women</term>
+                <term vocabularySource="Homosaurus">Men</term>
             </localDescription>
             <!-- For preference we prefer to capture birth and death places. If it is considered useful, further places (and dates can be captured)such as residences and so on, time permitting. -->
             <places>
                 <place>
-                    <placeRole>death</placeRole>
-                    <placeEntry vocabularySource="GeoNames" latitude="51.50853" longitude="-0.12574">St. Sepulchre's workhouse (uncertain whether St. Sepulchre's without Newgate or St. Sepulchre's, Middlesex), London</placeEntry>
-                    <date standardDate="1766">ca. 1766</date>
+                    <placeRole>birth</placeRole>
+                    <placeEntry vocabularySource="GeoNames" latitude="51.45625" longitude="-0.97113">Reading</placeEntry>
+                    <date standardDate="1818">1818</date>
                 </place>
             </places>
             <languagesUsed>
@@ -148,43 +154,50 @@
                     <language languageCode="eng">English</language>
                     <script scriptCode="Latn">Latin</script>
                 </languageUsed>
-            </languagesUsed>
-            <biogHist> 
-                <abstract>Little is known of Sarah Paul's early life. She came to the attention of the public after being discovered by her neighbours to be a woman in 1760. At that time she had been married to Mary Parlour for about 6 months. She was charged with 'defrauding a young woman of money and apparel, by marrying her' but as Mary did not appear at court the ???????. It is reported that Sarah died around 1766 in a St. Sepulchre's workhouse.</abstract>
-                <citation>Derry, Caroline. “‘Female Husbands’, Community and Courts in the Eighteenth Century.” The Journal of Legal History 38, no. 1 (2017): 41–82. https://doi.org/10.1080/01440365.2017.1289674.</citation>
-            </biogHist>         
+            </languagesUsed>         
         </description>
     </cpfDescription>
     <cpfDescription> <!-- Descriptive metadata -->
         <identity>
             <entityType>person</entityType>
             <nameEntry scriptCode="Latn" xml:lang="eng"> 
-                <part localType="forename">Samuel</part>
-                <part localType="surname">Bundy</part>
+                <part localType="forename">Roscius</part>
+                <part localType="epithet">Infant</part>
                 <useDates>
                     <dateRange>
-                        <fromDate standardDate="1759">fl. 1759</fromDate>
-                        <toDate standardDate="1760">fl. 1760</toDate>
+                        <fromDate standardDate="1824">fl. 1824</fromDate>
+                        <toDate standardDate="1833">fl. 1833</toDate>
                     </dateRange>      
                 </useDates>
                 <authorizedForm>NCA</authorizedForm>
             </nameEntry>
             <nameEntry scriptCode="Latn" xml:lang="eng" localType="directOrder"> 
-                <part>Bundy, Samuel, fl 1759-fl 1760</part>
+                <part>Infant Roscius, fl 1824-fl 1833</part>
                 <useDates>
                     <dateRange>
-                        <fromDate standardDate="1759">fl. 1759</fromDate>
-                        <toDate standardDate="1760">fl. 1760</toDate>
+                        <fromDate standardDate="1824">fl. 1824</fromDate>
+                        <toDate standardDate="1833">fl. 1833</toDate>
                     </dateRange>
                 </useDates>
                 <authorizedForm>NCA</authorizedForm>
+            </nameEntry>
+            <nameEntry scriptCode="Latn" xml:lang="eng"> 
+                <part localType="forename">Roscius</part>
+                <part localType="epithet">Young</part>
+                <useDates>
+                    <dateRange>
+                        <fromDate standardDate="1824">fl. 1824</fromDate>
+                        <toDate standardDate="1833">fl. 1833</toDate>
+                    </dateRange>      
+                </useDates>
+                <alternativeForm>NCA</alternativeForm>
             </nameEntry>
         </identity>
         <description>
             <existDates>
                 <dateRange>
-                    <fromDate standardDate="1759">fl. 1759</fromDate>
-                    <toDate standardDate="1760">fl. 1760</toDate>
+                    <fromDate standardDate="1824">fl. 1824</fromDate>
+                    <toDate standardDate="1833">fl. 1833</toDate>
                 </dateRange>
             </existDates>
             <localDescription localType="gender">
@@ -195,12 +208,7 @@
                     <language languageCode="eng">English</language>
                     <script scriptCode="Latn">Latin</script>
                 </languageUsed>
-            </languagesUsed>
-            <!-- From here! -->
-            <biogHist>
-                <abstract>Samuel Bundy married Mary Parlour in 1759</abstract>
-                <citation>Derry, Caroline. “‘Female Husbands’, Community and Courts in the Eighteenth Century.” The Journal of Legal History 38, no. 1 (2017): 41–82. https://doi.org/10.1080/01440365.2017.1289674.</citation>
-            </biogHist>         
+            </languagesUsed>         
         </description>
     </cpfDescription>
     </multipleIdentities>
