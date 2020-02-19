@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eac-cpf xmlns="urn:isbn:1-931666-33-4" xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="urn:isbn:1-931666-33-4 http://eac.staatsbibliothek-berlin.de/schema/cpf.xsd">
+    <control> <!-- Administrative metadata -->
+        <recordId>NAF-0000000A</recordId> <!-- placeholder as this will be assigned within the CW -->
+        <maintenanceStatus>new</maintenanceStatus> <!-- Updated when edited. May contain: "cancelled" or "deleted" or "deletedReplaced" or "deletedSplit" or "derived" or "new" or "revised" -->
+        <publicationStatus>inProcess</publicationStatus> <!-- May contain: "inProcess" or "approved" -->
+        <maintenanceAgency>
+            <agencyName>King's Digital Laboratory</agencyName>
+        </maintenanceAgency>
+        <languageDeclaration> <!-- Of the EAC-CPF file. The EAC-CPF files created for the GPP project are all (at this time) in English and use the latin script. -->
+            <language languageCode="eng">English</language>
+            <script scriptCode="Latn">Latin</script>
+        </languageDeclaration>
+        <conventionDeclaration> <!-- Date and time format convention. -->
+            <abbreviation>ISO8601</abbreviation>
+            <citation xlink:href="https://www.iso.org/iso-8601-date-and-time-format.html" xlink:type="simple">Date and time format - ISO 8601</citation>
+            <descriptiveNote>
+                <p>Dates and times are formatted according to the ISO 8601 standard in the following forms: YYYY-MM-DD or YYYY-MM-DDTHH:MM:SSZ.</p>
+            </descriptiveNote>
+        </conventionDeclaration>
+        <conventionDeclaration> <!-- Personal and organisational naming conventions -->
+            <abbreviation>NCA</abbreviation>
+            <citation xlink:href="http://anws.llgc.org.uk/ncarules/title.htm" xlink:type="simple">National Council on Archives Rules for the construction of personal, place and
+                corporate names, 1997.</citation>
+            <descriptiveNote>
+                <p>Personal and organisational names are formatted according to NCA Rules.</p>
+            </descriptiveNote>
+        </conventionDeclaration>
+        <conventionDeclaration> <!-- Geographical naming conventions -->
+            <abbreviation>GeoNames</abbreviation>
+            <citation xlink:href="http://www.geonames.org/" xlink:type="simple">GeoNames</citation>
+            <descriptiveNote>
+                <p>Geographic names are formatted according to GeoNames usage.</p>
+            </descriptiveNote>
+        </conventionDeclaration>
+        <conventionDeclaration>
+            <abbreviation>Wikidata</abbreviation>
+            <citation xlink:href="https://www.wikidata.org/wiki/Wikidata:Main_Page" xlink:type="simple">Wikidata</citation>
+            <descriptiveNote>
+                <p>Geographic names may be formatted according to Wikidata usage if not present on GeoNames.</p>
+            </descriptiveNote>
+        </conventionDeclaration>
+        <conventionDeclaration> <!-- Geographic coordinates convention. -->
+            <abbreviation>WGS84</abbreviation>
+            <citation xlink:href="https://en.wikipedia.org/wiki/World_Geodetic_System" xlink:type="simple">World Geodetic System 1984</citation>
+            <descriptiveNote>
+                <p>Latitude/longitude coordinates are in the WGS84 standard. Coordinates should be taken from GeoNames where possible.</p>
+            </descriptiveNote>
+        </conventionDeclaration>
+        <conventionDeclaration> <!-- Function thesaurus. -->
+            <abbreviation>UKAT</abbreviation>
+            <citation xlink:href="http://www.ukat.org.uk/" xlink:type="simple">UK Archival Thesaurus</citation>
+            <descriptiveNote>
+                <p>UKAT terms are used to specify the function/s of an EAC-CPF entity.</p>
+            </descriptiveNote>
+        </conventionDeclaration>
+        <localTypeDeclaration>
+            <abbreviation>Name Parts</abbreviation>
+            <citation xlink:href="http://anws.llgc.org.uk/ncarules/title.htm" xlink:type="simple"
+                >National Council on Archives Rules for the construction of personal, place and
+                corporate names, 1997.</citation>
+            <descriptiveNote>
+                <p>The name parts (and direct order) that constitute name formation are taken from the NCA Rules.</p>
+            </descriptiveNote>
+        </localTypeDeclaration>
+        <localTypeDeclaration>
+            <abbreviation>Date Styles</abbreviation>
+            <citation xlink:href="http://www.cree.name/genuki/dates.htm" xlink:type="simple"
+                >Spathaky, Mike. "Old Style and New Style Dates and the change to the Gregorian Calendar: A summary for genealogists." Last modified December 13, 2011. http://www.cree.name/genuki/dates.htm</citation>
+            <descriptiveNote>
+                <p>The time period over which the Georgian papers spans includes the change from the Old Style dating system (Julian calendar, year beginning Lady Day [25th March]) to the New Style system (Gregorian calendar, year beginning 1st January). This change was implemented in Britain and her colonies in 1752 but was implemented throughout Europe at differing times in history.</p>
+                <p>For the purpose of the Georgian Papers Programme Name Authority File, in EAC-CPF all dates given with no @localType attached are implicitly New Style; only those that are Old Style will include @localType="oldStyle".</p>
+            </descriptiveNote>
+        </localTypeDeclaration>
+        <localTypeDeclaration>
+            <abbreviation>gender</abbreviation>
+            <citation xlink:href="http://homosaurus.org/terms" xlink:type="simple">Homosaurus: International Thesaurus of Lesbian, Gay, Bisexual and Transgender Index Terms</citation>
+        </localTypeDeclaration>
+        <maintenanceHistory>
+            <maintenanceEvent> <!-- records each maintenance/editing event that occurs throughout the life of the file -->
+                <eventType>created</eventType> <!-- May contain: "cancelled" or "created" or "deleted" or "derived" or "revised" or "updated" -->
+                <eventDateTime standardDateTime="2019-12-17T14:16:00Z">2:16 pm, 17 December 2019</eventDateTime> <!-- ISO 8601 date-time formatting -->
+                <agentType>human</agentType> <!-- May contain: "human" or "machine" -->
+                <agent xml:id="GPP-00001748">Callaghan, Samantha</agent> <!-- ID may be subject to change in the CW -->
+                <eventDescription>Creation of NAF for Enriqueta Favez.</eventDescription> <!-- Include a full description of the maintenance event - ie: note what was created/edited during the event -->
+            </maintenanceEvent>
+            <maintenanceEvent> <!-- records each maintenance/editing event that occurs throughout the life of the file -->
+                <eventType>updated</eventType> <!-- May contain: "cancelled" or "created" or "deleted" or "derived" or "revised" or "updated" -->
+                <eventDateTime standardDateTime="2019-12-19T14:16:00Z">2:16 pm, 19 December 2019</eventDateTime> <!-- ISO 8601 date-time formatting -->
+                <agentType>human</agentType> <!-- May contain: "human" or "machine" -->
+                <agent xml:id="GPP-00001748">Callaghan, Samantha</agent> <!-- ID may be subject to change in the CW -->
+                <eventDescription>updated info for NAF of Enriqueta Favez.</eventDescription> <!-- Include a full description of the maintenance event - ie: note what was created/edited during the event -->
+            </maintenanceEvent>
+        </maintenanceHistory>
+        <sources>
+            <source xlink:type="simple" xlink:href="https://viaf.org/viaf/35553056/">
+                <sourceEntry>VIAF ID: 35553056</sourceEntry>
+            </source>
+            <source xlink:type="simple" xlink:href="https://en.wikipedia.org/wiki/Enriqueta_Favez">
+                <sourceEntry>Wikipedia: Enriqueta Favez</sourceEntry>
+            </source>
+            <source xlink:type="simple" xlink:href="https://www.geonames.org/6458866/lausanne-district.html">
+                <sourceEntry>GeoNames ID: 6458866</sourceEntry>
+            </source>
+            <source xlink:type="simple" xlink:href="https://www.geonames.org/4335045/new-orleans.html">
+                <sourceEntry>GeoNames ID: 4335045</sourceEntry> 
+            </source>
+            <source xlink:type="simple" xlink:href="https://largeur.com/?p=1706">
+                <sourceEntry>Balbo, Sophie. "Henriette Favez, travestie vaudoise qui fascine Cuba" Largeur, November 9, 2004. https://largeur.com/?p=1706.</sourceEntry> 
+            </source>
+            <source xlink:type="simple" xlink:href="http://www.swissinfo.ch/eng/the-amazing-double-life-of-enriqueta-favez/6206770">
+                <sourceEntry>Leybold-Johnson, Isobel. "The amazing double life of Enriqueta Favez" swissinfo.ch, December 17, 2007. http://www.swissinfo.ch/eng/the-amazing-double-life-of-enriqueta-favez/6206770.</sourceEntry> 
+            </source>
+            <source xlink:type="simple" xlink:href="http://www.walterlippmann.com/docs364.html">
+                <sourceEntry>Diéguez, Danae C. "For Dressing Like a Man. A New Book on Transexuality." Accessed February 19, 2020. http://www.walterlippmann.com/docs364.html.</sourceEntry> 
+            </source>
+        </sources>        
+    </control>
+    <multipleIdentities>
+    <cpfDescription> <!-- Descriptive metadata -->
+        <identity>
+            <entityType>person</entityType>
+            <nameEntry scriptCode="Latn" xml:lang="spa"> 
+                <part localType="forename">Enriqueta</part>
+                <part localType="surname">Favez</part>
+                <useDates>
+                        <date standardDate="1823">ca. 1823</date>
+                </useDates>
+                <authorizedForm>NCA</authorizedForm>
+            </nameEntry>
+            <nameEntry scriptCode="Latn" xml:lang="eng" localType="directOrder"> 
+                <part>Favez, Enriqueta, c 1791-c 1856</part>
+                <useDates>
+                        <date standardDate="1823">ca. 1823</date>
+                </useDates>
+                <authorizedForm>NCA</authorizedForm>
+            </nameEntry>
+        <nameEntry scriptCode="Latn" xml:lang="fre"> 
+            <part localType="forename">Henriette</part>
+            <part localType="surname">Favez</part>
+            <useDates>
+                <dateRange>
+                    <fromDate standardDate="1791">ca. 1791</fromDate>
+                    <toDate standardDate="1811">? 1811</toDate>
+                </dateRange>
+            </useDates>
+            <alternativeForm>NCA</alternativeForm>
+        </nameEntry>
+            <nameEntry scriptCode="Latn" xml:lang="spa"> 
+                <part localType="forename">Mary-Magdalena</part>
+                <part localType="epithet">nun</part>
+                <useDates>
+                    <dateRange>
+                        <fromDate standardDate="1823">? 1823</fromDate>
+                        <toDate standardDate="1856">ca. 1856</toDate>
+                    </dateRange>
+                </useDates>
+                <alternativeForm>NCA</alternativeForm>
+            </nameEntry>
+            <nameEntry scriptCode="Latn" xml:lang="spa"> 
+                <part localType="forename">Magdalena</part>
+                <part localType="epithet">Sor</part>
+                <useDates>
+                    <dateRange>
+                        <fromDate standardDate="1823">? 1823</fromDate>
+                        <toDate standardDate="1856">ca. 1856</toDate>
+                    </dateRange>
+                </useDates>
+                <alternativeForm>NCA</alternativeForm>
+            </nameEntry>
+        </identity>
+        <description>
+            <existDates> <!-- Birth and death dates, if known. -->
+                <dateRange>
+                    <fromDate standardDate="1791">ca. 1791</fromDate>
+                    <toDate standardDate="1856">ca. 1856</toDate>
+                </dateRange>
+            </existDates>
+            <localDescription localType="gender">
+                <term vocabularySource="Homosaurus">Women</term>
+            </localDescription>
+            <!-- For preference we prefer to capture birth and death places. If it is considered useful, further places (and dates can be captured)such as residences and so on, time permitting. -->
+            <places>
+                <place>
+                    <placeRole>Birth</placeRole>
+                    <placeEntry vocabularySource="GeoNames" latitude="46.52131" longitude="6.63334">Lausanne District, Switzerland</placeEntry>
+                    <date standardDate="1791">ca. 1791</date>
+                </place>
+                <place>
+                    <placeRole>Death</placeRole>
+                    <placeEntry vocabularySource="GeoNames" latitude="29.95465" longitude="-90.07507">New Orleans, Louisiana</placeEntry>
+                    <date standardDate="1856">ca. 1856</date>
+                </place>
+            </places>
+            <languagesUsed>
+                <languageUsed> <!-- From evidence in the GPP, if possible -->
+                    <language languageCode="fre">French</language>
+                    <script scriptCode="Latn">Latin</script>
+                </languageUsed>
+                <languageUsed>
+                    <language languageCode="spa">Spanish</language>
+                    <script scriptCode="Latn">Latin</script>
+                </languageUsed>
+            </languagesUsed>
+            <biogHist> 
+                <abstract>Enriqueta Favez (c. 1791 – 1856) also known as Henriette Favez, was a Swiss physician and surgeon who practiced medicine in the Napoleonic Wars and in Cuba. Although female, Favez lived as a male surgeon for approximately four years in Cuba—a fact that culminated in a well-documented trial and expulsion from the Spanish territories. Following her expulsion, she lived the remainder of her life as Sor Magdalena, a nurse for Daughters of Charity Services in New Orleans, eventually rising to the position of Mother Superior for that congregation.</abstract>
+                <citation>Wikipedia. "Enriqueta Favez." Accessed February 19, 2020. https://en.wikipedia.org/wiki/Enriqueta_Favez</citation>
+                <p>Biography source: Wikipedia. Licensed under CC-BY-SA.</p>
+            </biogHist>         
+        </description>
+    </cpfDescription>
+        <cpfDescription> <!-- Descriptive metadata -->
+            <identity>
+                <entityType>person</entityType>
+                <nameEntry scriptCode="Latn" xml:lang="spa"> 
+                    <part localType="forename">Enrique</part>
+                    <part localType="surname">Faver</part>
+                    <useDates>
+                        <dateRange>
+                            <fromDate standardDate="1815">? 1815</fromDate>
+                            <toDate standardDate="1822">ca. 1822</toDate>
+                        </dateRange>                        
+                    </useDates>
+                    <authorizedForm>NCA</authorizedForm>
+                </nameEntry>
+                <nameEntry scriptCode="Latn" xml:lang="eng" localType="directOrder"> 
+                    <part>Faver, Enrique, ? 1815-c 1822</part>
+                    <useDates>
+                        <dateRange>
+                            <fromDate standardDate="1815">? 1815</fromDate>
+                            <toDate standardDate="1822">ca. 1822</toDate>
+                        </dateRange>  
+                    </useDates>
+                    <authorizedForm>NCA</authorizedForm>
+                </nameEntry>
+                <nameEntry scriptCode="Latn" xml:lang="fre"> 
+                    <part localType="forename">Henri</part>
+                    <part localType="surname">Faber</part>
+                    <useDates>
+                        <dateRange>
+                            <fromDate standardDate="1811">? 1811</fromDate>
+                            <toDate standardDate="1815">? 1815</toDate>
+                        </dateRange>                        
+                    </useDates>
+                    <alternativeForm>NCA</alternativeForm>
+                </nameEntry>
+            </identity>
+            <description>
+                <existDates> <!-- Birth and death dates, if known. -->
+                    <dateRange>
+                        <fromDate standardDate="1811">? 1811</fromDate>
+                        <toDate standardDate="1822">? 1822</toDate>
+                    </dateRange>
+                </existDates>
+                <localDescriptions localType="gender">
+                <localDescription localType="gender">
+                    <term vocabularySource="Homosaurus">Men</term>
+                </localDescription>
+                    <localDescription localType="gender">
+                        <term vocabularySource="Homosaurus">Transgender</term>
+                        <citation>Diéguez, Danae C. "For Dressing Like a Man. A New Book on Transexuality." Accessed February 19, 2020. http://www.walterlippmann.com/docs364.html.</citation>
+                        <descriptiveNote>
+                            <p>Julio Cesar González Pagés, a biographer of Favez states in the cited interview that Favez declared that she has, "... the spirit of a man caught in a woman’s body" and this statement appears in documents in 1829.</p>
+                        </descriptiveNote>
+                    </localDescription>
+                </localDescriptions>
+                <!-- For preference we prefer to capture birth and death places. If it is considered useful, further places (and dates can be captured)such as residences and so on, time permitting. -->
+                <languagesUsed>
+                <languageUsed> <!-- From evidence in the GPP, if possible -->
+                    <language languageCode="fre">French</language>
+                    <script scriptCode="Latn">Latin</script>
+                </languageUsed>
+                    <languageUsed> <!-- From evidence in the GPP, if possible -->
+                        <language languageCode="spa">Spanish</language>
+                        <script scriptCode="Latn">Latin</script>
+                    </languageUsed>
+                </languagesUsed>
+                <biogHist> 
+                    <abstract>Enriqueta Favez (c. 1791 – 1856) also known as Henriette Favez, was a Swiss physician and surgeon who practiced medicine in the Napoleonic Wars and in Cuba. Although female, Favez lived as a male surgeon for approximately four years in Cuba—a fact that culminated in a well-documented trial and expulsion from the Spanish territories. Following her expulsion, she lived the remainder of her life as Sor Magdalena, a nurse for Daughters of Charity Services in New Orleans, eventually rising to the position of Mother Superior for that congregation.</abstract>
+                    <p>According to Favez's own testimony, collected during a trial in Cuba, her parents died while she was an infant, and she was married to a French soldier at the age of 15 (c. 1806) by an uncle. Three years later, both her husband and infant daughter died. The former allegedly died in battle, the latter died for unknown reasons at eight days old.</p>
+                    <p>Favez remained in Paris and took up the study of medicine at the Sorbonne, taking on the dress and identity of a male army officer with her deceased husband's rank. After Favez's graduation, she worked as a French army surgeon during the Napoleonic Wars, allegedly alongside her uncle, until she was captured by Wellington's forces in Spain, and imprisoned.</p>
+                    <p>After the war, Favez left for Cuba. She was licensed by the medical board in Habana, and started a practice in Baracoa, then a small outpost in eastern Cuba. Her clients included the largely poor local population.</p>
+                    <p>Eventually, Favez married an impoverished, mestizo woman from a neighboring town, Juana de Léon. Although Juana was most likely aware of the fact that Favez was female, there is lingering speculation about whether Juana knew of that fact when they were married. Four years after her marriage to Juana, and successful integration into the elite in Baracoa, speculation about Favez' biological sex surfaced. Despite efforts to stem rumors, Favez was found inebriated, with her shirt unbuttoned, by a servant, who promptly informed the local authorities. Favez was arrested, imprisoned, and put on trial. The charges cited by the court included the illegal practice of medicine by a woman, fraud against the medical board and local authorities, and coercing a woman into disreputable marriage. Forcible examinations by local doctors revealed her sexual anatomy, and several accusatory letters allegedly written by Juana de Léon surfaced throughout her trial. Historical documents at his trial record that she defended himself against the charges by stating that she was a male spirit in a female body. Favez was declared guilty, and her marriage to Juana de Léon was annulled.</p>
+                    <citation>Wikipedia. "Enriqueta Favez." Accessed February 19, 2020. https://en.wikipedia.org/wiki/Enriqueta_Favez</citation>
+                    <p>Biography source: Wikipedia. Licensed under CC-BY-SA.</p>
+                </biogHist>         
+            </description>
+        </cpfDescription>
+    </multipleIdentities>
+</eac-cpf>
+
+
