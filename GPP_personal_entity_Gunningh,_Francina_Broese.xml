@@ -81,22 +81,28 @@
         <maintenanceHistory>
             <maintenanceEvent> <!-- records each maintenance/editing event that occurs throughout the life of the file -->
                 <eventType>created</eventType> <!-- May contain: "cancelled" or "created" or "deleted" or "derived" or "revised" or "updated" -->
-                <eventDateTime standardDateTime="2020-02-07T14:08:00Z">2:08 pm, 7 February 2020</eventDateTime> <!-- ISO 8601 date-time formatting -->
+                <eventDateTime standardDateTime="2020-02-19T14:08:00Z">2:08 pm, 19 February 2020</eventDateTime> <!-- ISO 8601 date-time formatting -->
                 <agentType>human</agentType> <!-- May contain: "human" or "machine" -->
                 <agent xml:id="GPP-00001748">Callaghan, Samantha</agent> <!-- ID may be subject to change in the CW -->
-                <eventDescription>Creation of NAF for Sarah Paul.</eventDescription> <!-- Include a full description of the maintenance event - ie: note what was created/edited during the event -->
+                <eventDescription>Creation of NAF for Francina Broese Gunningh.</eventDescription> <!-- Include a full description of the maintenance event - ie: note what was created/edited during the event -->
             </maintenanceEvent>
         </maintenanceHistory>
         <sources>
             <source xlink:type="simple" xlink:href="https://www.tandfonline.com/doi/full/10.1080/01440365.2017.1289674">
                 <sourceEntry>DOI: 10.1080/01440365.2017.1289674</sourceEntry>
             </source>  
-            <source xlink:href="https://www.geonames.org/2643743/london.html">
-                <sourceEntry>Geonames ID: 2643743</sourceEntry>
+            <source xlink:href="https://www.geonames.org/2753106/kampen.html">
+                <sourceEntry>Geonames ID: 2753106</sourceEntry>
             </source>
-            <source xlink:href="http://www.workhouses.org.uk/StSepulchre/">
-                <sourceEntry>Workhouses ID: StSepulchre</sourceEntry>
-            </source>          
+            <source xlink:href="https://www.geonames.org/2756431/edam.html">
+                <sourceEntry>Geonames ID: 2756431</sourceEntry>
+            </source>
+            <source xlink:href="https://en.wikipedia.org/wiki/Francina_Broese_Gunningh">
+                <sourceEntry>Wikipedia: Francina Broese Gunningh</sourceEntry>
+            </source>
+            <source xlink:href="http://resources.huygens.knaw.nl/vrouwenlexicon/lemmata/data/Gunningh%20Sloet">
+                <sourceEntry>Biography number in 1001 Women: 649</sourceEntry>
+            </source>  
         </sources>        
     </control>
     <multipleIdentities>
@@ -104,32 +110,43 @@
         <identity>
             <entityType>person</entityType>
             <nameEntry scriptCode="Latn" xml:lang="eng"> 
-                <part localType="forename">Sarah</part>
-                <part localType="surname">Paul</part>
+                <part localType="forename">Francina</part>
+                <part localType="surname">Broese Gunningh</part>
                 <useDates>
                     <dateRange>
-                        <fromDate standardDate="1739">ca. 1739</fromDate>
-                        <toDate standardDate="1766">ca. 1766</toDate>
+                        <fromDate standardDate="1783-10-03">3 October 1783</fromDate>
+                        <toDate standardDate="1824-08-16">16 August 1824</toDate>
                     </dateRange>
                 </useDates>
                 <authorizedForm>NCA</authorizedForm>
             </nameEntry>
             <nameEntry scriptCode="Latn" xml:lang="eng" localType="directOrder"> 
-                <part>Paul, Sarah, ca 1739-ca 1766</part>
+                <part>Gunningh, Francina, Broese, 1783-1824</part>
                 <useDates>
                     <dateRange>
-                        <fromDate standardDate="1739">ca. 1739</fromDate>
-                        <toDate standardDate="1766">ca. 1766</toDate>
+                        <fromDate standardDate="1783-10-03">3 October 1783</fromDate>
+                        <toDate standardDate="1824-08-16">16 August 1824</toDate>
                     </dateRange>
                 </useDates>
                 <authorizedForm>NCA</authorizedForm>
+            </nameEntry>
+            <nameEntry scriptCode="Latn" xml:lang="eng"> 
+                <part localType="forename">Francina</part>
+                <part localType="surname">Broese</part>
+                <useDates>
+                    <dateRange>
+                        <fromDate standardDate="1783-10-03">3 October 1783</fromDate>
+                        <toDate standardDate="1813">fl. 1813</toDate>
+                    </dateRange>
+                </useDates>
+                <alternativeForm>NCA</alternativeForm>
             </nameEntry>
         </identity>
         <description>
             <existDates> <!-- Birth and death dates, if known. -->
                 <dateRange>
-                    <fromDate standardDate="1739">ca. 1739</fromDate>
-                    <toDate standardDate="1766">ca. 1766</toDate>
+                    <fromDate standardDate="1783-10-03">3 October 1783</fromDate>
+                    <toDate standardDate="1824-08-16">16 August 1824</toDate>
                 </dateRange>
             </existDates>
             <localDescription localType="gender">
@@ -138,20 +155,29 @@
             <!-- For preference we prefer to capture birth and death places. If it is considered useful, further places (and dates can be captured)such as residences and so on, time permitting. -->
             <places>
                 <place>
-                    <placeRole>death</placeRole>
-                    <placeEntry vocabularySource="GeoNames" latitude="51.50853" longitude="-0.12574">St. Sepulchre's workhouse (uncertain whether St. Sepulchre's without Newgate or St. Sepulchre's, Middlesex), London</placeEntry>
-                    <date standardDate="1766">ca. 1766</date>
+                    <placeRole>Birth</placeRole>
+                    <placeEntry vocabularySource="GeoNames" latitude="52.555" longitude="5.91111">Kampen</placeEntry>
+                    <date standardDate="1783-10-03">3 October 1783</date>
+                </place>
+                <place>
+                    <placeRole>Death</placeRole>
+                    <placeEntry vocabularySource="GeoNames" latitude="52.51215" longitude="5.04805">Edam</placeEntry>
+                    <date standardDate="1824-08-16">16 August 1824</date>
                 </place>
             </places>
             <languagesUsed>
                 <languageUsed> <!-- From evidence in the GPP, if possible -->
-                    <language languageCode="eng">English</language>
+                    <language languageCode="dut">Dutch</language>
                     <script scriptCode="Latn">Latin</script>
                 </languageUsed>
             </languagesUsed>
             <biogHist> 
-                <abstract>Little is known of Sarah Paul's early life. She came to the attention of the public after being discovered by her neighbours to be a woman in 1760. At that time she had been married to Mary Parlour for about 6 months. She was charged with 'defrauding a young woman of money and apparel, by marrying her' but as Mary did not appear at court the ???????. It is reported that Sarah died around 1766 in a St. Sepulchre's workhouse.</abstract>
-                <citation>Derry, Caroline. “‘Female Husbands’, Community and Courts in the Eighteenth Century.” The Journal of Legal History 38, no. 1 (2017): 41–82. https://doi.org/10.1080/01440365.2017.1289674.</citation>
+                <abstract>Francina Broese Gunningh, also known as Frans Gunningh Sloet (1783 - 1824), was a Dutch soldier, in service of the French, Prussian and Dutch army.</abstract>
+                    <p>Gunningh Sloet was born 3 October 1783 in Kampen as the illegitimate daughter of Antje Broese, and worked as a domestic. During a trip back from Paris to the Netherlands, she dressed as a man, which was common for female travelers to avoid harassment during journeys. During the trip, however, she was arrested by the French military police as a suspected deserter after having failed to provide sufficient identifications papers, and was forcibly enlisted in the French army. She deserted, and instead enlisted in the Prussian army. When she was wounded in the chest, her gender was discovered, and she was forced to leave service.</p>
+                    <p>She returned to the Netherlands, and enlisted in the Dutch army. She served in combat during the sieges of Kampen, Coevorden, and Deventer during the War of the Sixth Coalition.</p>
+                    <p>In 1814, she was engaged to be married to Alida Landeel, and added the title "Lord of Amerongen" to her name. She was arrested for using a false noble title, but escaped prison. When she was arrested, she was forced to undergo a medical examination, which revealed her gender. She was sentenced to three years in prison for fraud. She died as the widow of one Mr. Lettener on 16 August 1824 in Edam, North Holland.</p>
+                <citation>Wikipedia. "Francina Broese Gunningh" Accessed February 19, 2020. https://en.wikipedia.org/wiki/Francina_Broese_Gunningh</citation>
+                <p>Biography source: Wikipedia. Licensed under CC-BY-SA.</p>
             </biogHist>         
         </description>
     </cpfDescription>
@@ -159,47 +185,46 @@
         <identity>
             <entityType>person</entityType>
             <nameEntry scriptCode="Latn" xml:lang="eng"> 
-                <part localType="forename">Samuel</part>
-                <part localType="surname">Bundy</part>
+                <part localType="forename">Frans</part>
+                <part localType="surname">Gunningh Sloet</part>
                 <useDates>
-                    <dateRange>
-                        <fromDate standardDate="1759">fl. 1759</fromDate>
-                        <toDate standardDate="1760">fl. 1760</toDate>
-                    </dateRange>      
+                    <date standardDate="1813">fl. 1813</date>
                 </useDates>
                 <authorizedForm>NCA</authorizedForm>
             </nameEntry>
             <nameEntry scriptCode="Latn" xml:lang="eng" localType="directOrder"> 
-                <part>Bundy, Samuel, fl 1759-fl 1760</part>
+                <part>Sloet, Frans, Gunningh, fl 1713-fl 1814</part>
                 <useDates>
-                    <dateRange>
-                        <fromDate standardDate="1759">fl. 1759</fromDate>
-                        <toDate standardDate="1760">fl. 1760</toDate>
-                    </dateRange>
+                        <date standardDate="1813">fl. 1813</date>
                 </useDates>
                 <authorizedForm>NCA</authorizedForm>
+            </nameEntry>
+            <nameEntry scriptCode="Latn" xml:lang="eng"> 
+                <part localType="forename">Frans</part>
+                <part localType="surname">Gunningh</part>
+                <useDates>
+                    <date standardDate="1814">fl. 1814</date>
+                </useDates>
+                <alternativeForm>NCA</alternativeForm>
             </nameEntry>
         </identity>
         <description>
             <existDates>
-                <dateRange>
-                    <fromDate standardDate="1759">fl. 1759</fromDate>
-                    <toDate standardDate="1760">fl. 1760</toDate>
-                </dateRange>
+                <date standardDate="1813">fl. 1813</date>
             </existDates>
             <localDescription localType="gender">
                 <term vocabularySource="Homosaurus">Men</term>
             </localDescription>
             <languagesUsed>
                 <languageUsed> <!-- From evidence in the GPP, if possible -->
-                    <language languageCode="eng">English</language>
+                    <language languageCode="dut">Dutch</language>
                     <script scriptCode="Latn">Latin</script>
                 </languageUsed>
             </languagesUsed>
-            <!-- From here! -->
             <biogHist>
-                <abstract>Samuel Bundy married Mary Parlour in 1759</abstract>
-                <citation>Derry, Caroline. “‘Female Husbands’, Community and Courts in the Eighteenth Century.” The Journal of Legal History 38, no. 1 (2017): 41–82. https://doi.org/10.1080/01440365.2017.1289674.</citation>
+                <abstract>Francina Broese Gunningh, also known as Frans Gunningh Sloet (1783 - 1824), was a Dutch soldier, in service of the French, Prussian and Dutch army.</abstract>
+                <citation>Wikipedia. "Francina Broese Gunningh" Accessed February 19, 2020. https://en.wikipedia.org/wiki/Francina_Broese_Gunningh</citation>
+                <p>Biography source: Wikipedia. Licensed under CC-BY-SA.</p> 
             </biogHist>         
         </description>
     </cpfDescription>
