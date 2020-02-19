@@ -81,22 +81,31 @@
         <maintenanceHistory>
             <maintenanceEvent> <!-- records each maintenance/editing event that occurs throughout the life of the file -->
                 <eventType>created</eventType> <!-- May contain: "cancelled" or "created" or "deleted" or "derived" or "revised" or "updated" -->
-                <eventDateTime standardDateTime="2020-02-07T14:08:00Z">2:08 pm, 7 February 2020</eventDateTime> <!-- ISO 8601 date-time formatting -->
+                <eventDateTime standardDateTime="2020-02-19T14:08:00Z">2:08 pm, 19 February 2020</eventDateTime> <!-- ISO 8601 date-time formatting -->
                 <agentType>human</agentType> <!-- May contain: "human" or "machine" -->
                 <agent xml:id="GPP-00001748">Callaghan, Samantha</agent> <!-- ID may be subject to change in the CW -->
-                <eventDescription>Creation of NAF for Sarah Paul.</eventDescription> <!-- Include a full description of the maintenance event - ie: note what was created/edited during the event -->
+                <eventDescription>Creation of NAF for Anna Lühring.</eventDescription> <!-- Include a full description of the maintenance event - ie: note what was created/edited during the event -->
             </maintenanceEvent>
         </maintenanceHistory>
         <sources>
-            <source xlink:type="simple" xlink:href="https://www.tandfonline.com/doi/full/10.1080/01440365.2017.1289674">
-                <sourceEntry>DOI: 10.1080/01440365.2017.1289674</sourceEntry>
-            </source>  
-            <source xlink:href="https://www.geonames.org/2643743/london.html">
-                <sourceEntry>Geonames ID: 2643743</sourceEntry>
+            <source xlink:type="simple" xlink:href="https://viaf.org/viaf/37798196/">
+                <sourceEntry>VIAF ID: 37798196</sourceEntry>
             </source>
-            <source xlink:href="http://www.workhouses.org.uk/StSepulchre/">
-                <sourceEntry>Workhouses ID: StSepulchre</sourceEntry>
-            </source>          
+            <source xlink:type="simple" xlink:href="https://www.wikidata.org/wiki/Q561780">
+                <sourceEntry>Wikidata ID: Q561780</sourceEntry>
+            </source>  
+            <source xlink:href="https://www.geonames.org/2944388/bremen.html">
+                <sourceEntry>Geonames ID: 2944388</sourceEntry>
+            </source>
+            <source xlink:href="https://www.geonames.org/2911298/hamburg.html">
+                <sourceEntry>Geonames ID: 2911298</sourceEntry>
+            </source>
+            <source xlink:href="https://en.wikipedia.org/wiki/Anna_L%C3%BChring">
+                <sourceEntry>Wikipedia: Anna Lühring</sourceEntry>
+            </source>
+            <source xlink:href="https://de.wikisource.org/wiki/ADB:L%C3%BChring,_Anna">
+                <sourceEntry>Wikisource: ADB:Lühring, Anna</sourceEntry>
+            </source>  
         </sources>        
     </control>
     <multipleIdentities>
@@ -104,22 +113,22 @@
         <identity>
             <entityType>person</entityType>
             <nameEntry scriptCode="Latn" xml:lang="eng"> 
-                <part localType="forename">Sarah</part>
-                <part localType="surname">Paul</part>
+                <part localType="forename">Anna</part>
+                <part localType="surname">Lühring</part>
                 <useDates>
                     <dateRange>
-                        <fromDate standardDate="1739">ca. 1739</fromDate>
-                        <toDate standardDate="1766">ca. 1766</toDate>
+                        <fromDate standardDate="1796-08-03">3 August 1796</fromDate>
+                        <toDate standardDate="1866-08-25">25 August 1866</toDate>
                     </dateRange>
                 </useDates>
                 <authorizedForm>NCA</authorizedForm>
             </nameEntry>
             <nameEntry scriptCode="Latn" xml:lang="eng" localType="directOrder"> 
-                <part>Paul, Sarah, ca 1739-ca 1766</part>
+                <part>Lühring, Anna, 1796-1866</part>
                 <useDates>
                     <dateRange>
-                        <fromDate standardDate="1739">ca. 1739</fromDate>
-                        <toDate standardDate="1766">ca. 1766</toDate>
+                        <fromDate standardDate="1796-08-03">3 August 1796</fromDate>
+                        <toDate standardDate="1866-08-25">25 August 1866</toDate>
                     </dateRange>
                 </useDates>
                 <authorizedForm>NCA</authorizedForm>
@@ -128,8 +137,8 @@
         <description>
             <existDates> <!-- Birth and death dates, if known. -->
                 <dateRange>
-                    <fromDate standardDate="1739">ca. 1739</fromDate>
-                    <toDate standardDate="1766">ca. 1766</toDate>
+                    <fromDate standardDate="1796-08-03">3 August 1796</fromDate>
+                    <toDate standardDate="1866-08-25">25 August 1866</toDate>
                 </dateRange>
             </existDates>
             <localDescription localType="gender">
@@ -138,20 +147,26 @@
             <!-- For preference we prefer to capture birth and death places. If it is considered useful, further places (and dates can be captured)such as residences and so on, time permitting. -->
             <places>
                 <place>
-                    <placeRole>death</placeRole>
-                    <placeEntry vocabularySource="GeoNames" latitude="51.50853" longitude="-0.12574">St. Sepulchre's workhouse (uncertain whether St. Sepulchre's without Newgate or St. Sepulchre's, Middlesex), London</placeEntry>
-                    <date standardDate="1766">ca. 1766</date>
+                    <placeRole>Birth</placeRole>
+                    <placeEntry vocabularySource="GeoNames" latitude="53.07582" longitude="8.80717">Bremen</placeEntry>
+                    <date standardDate="1796-08-03">3 August 1796</date>
+                </place>
+                <place>
+                    <placeRole>Death</placeRole>
+                    <placeEntry vocabularySource="GeoNames" latitude="53.55073" longitude="9.99302">Hamburg</placeEntry>
+                    <date standardDate="1866-08-25">25 August 1866</date>
                 </place>
             </places>
             <languagesUsed>
                 <languageUsed> <!-- From evidence in the GPP, if possible -->
-                    <language languageCode="eng">English</language>
+                    <language languageCode="ger">German</language>
                     <script scriptCode="Latn">Latin</script>
                 </languageUsed>
             </languagesUsed>
             <biogHist> 
-                <abstract>Little is known of Sarah Paul's early life. She came to the attention of the public after being discovered by her neighbours to be a woman in 1760. At that time she had been married to Mary Parlour for about 6 months. She was charged with 'defrauding a young woman of money and apparel, by marrying her' but as Mary did not appear at court the ???????. It is reported that Sarah died around 1766 in a St. Sepulchre's workhouse.</abstract>
-                <citation>Derry, Caroline. “‘Female Husbands’, Community and Courts in the Eighteenth Century.” The Journal of Legal History 38, no. 1 (2017): 41–82. https://doi.org/10.1080/01440365.2017.1289674.</citation>
+                <abstract>Anna Lühring (3 August 1796, in Bremen – 25 August 1866, in Hamburg) (sometimes wrongly referred to as Anna Lührmann) was a soldier in the Prussian army during the Napoleonic Wars.</abstract>
+                <citation>Wikipedia. "Anna Lühring" Accessed February 19, 2020. https://en.wikipedia.org/wiki/Anna_L%C3%BChring</citation>
+                <p>Biography source: Wikipedia. Licensed under CC-BY-SA.</p>
             </biogHist>         
         </description>
     </cpfDescription>
@@ -159,22 +174,22 @@
         <identity>
             <entityType>person</entityType>
             <nameEntry scriptCode="Latn" xml:lang="eng"> 
-                <part localType="forename">Samuel</part>
-                <part localType="surname">Bundy</part>
+                <part localType="forename">Eduard</part>
+                <part localType="surname">Kruse</part>
                 <useDates>
                     <dateRange>
-                        <fromDate standardDate="1759">fl. 1759</fromDate>
-                        <toDate standardDate="1760">fl. 1760</toDate>
+                        <fromDate standardDate="1814-02-28">28 February 1814</fromDate>
+                        <toDate standardDate="1815">ca. 1815</toDate>
                     </dateRange>      
                 </useDates>
                 <authorizedForm>NCA</authorizedForm>
             </nameEntry>
             <nameEntry scriptCode="Latn" xml:lang="eng" localType="directOrder"> 
-                <part>Bundy, Samuel, fl 1759-fl 1760</part>
+                <part>Kruse, Eduard, 1814-fl 1815</part>
                 <useDates>
                     <dateRange>
-                        <fromDate standardDate="1759">fl. 1759</fromDate>
-                        <toDate standardDate="1760">fl. 1760</toDate>
+                        <fromDate standardDate="1814-02-28">28 February 1814</fromDate>
+                        <toDate standardDate="1815">ca. 1815</toDate>
                     </dateRange>
                 </useDates>
                 <authorizedForm>NCA</authorizedForm>
@@ -183,8 +198,8 @@
         <description>
             <existDates>
                 <dateRange>
-                    <fromDate standardDate="1759">fl. 1759</fromDate>
-                    <toDate standardDate="1760">fl. 1760</toDate>
+                    <fromDate standardDate="1814-02-28">28 February 1814</fromDate>
+                    <toDate standardDate="1815">ca. 1815</toDate>
                 </dateRange>
             </existDates>
             <localDescription localType="gender">
@@ -192,14 +207,15 @@
             </localDescription>
             <languagesUsed>
                 <languageUsed> <!-- From evidence in the GPP, if possible -->
-                    <language languageCode="eng">English</language>
+                    <language languageCode="ger">German</language>
                     <script scriptCode="Latn">Latin</script>
                 </languageUsed>
             </languagesUsed>
-            <!-- From here! -->
             <biogHist>
-                <abstract>Samuel Bundy married Mary Parlour in 1759</abstract>
-                <citation>Derry, Caroline. “‘Female Husbands’, Community and Courts in the Eighteenth Century.” The Journal of Legal History 38, no. 1 (2017): 41–82. https://doi.org/10.1080/01440365.2017.1289674.</citation>
+                <abstract>Anna Lühring (3 August 1796, in Bremen – 25 August 1866, in Hamburg) (sometimes wrongly referred to as Anna Lührmann) was a soldier who served initially under the name Eduard Kruse in the Prussian army during the Napoleonic Wars.</abstract>
+                    <p>The daughter of a craftsman in Bremen, she became keen to join up after Tettenborn's capture of Bremen and the death of Eleonore Prochaska whilst serving in the Prussian Army. Dressed in her brother's clothing, she left Bremen in February 1814 and joined the Lützow Free Corps under the name Eduard Kruse at Jülich. In this unit she participated in the siege of Jülich and some smaller engagements during this. Even after her true identity became known, she remained in the unit until its return to Berlin, where she was honoured for her services.</p>
+                <citation>Wikipedia. "Anna Lühring" Accessed February 19, 2020. https://en.wikipedia.org/wiki/Anna_L%C3%BChring</citation>
+                <p>Biography source: Wikipedia. Licensed under CC-BY-SA.</p>
             </biogHist>         
         </description>
     </cpfDescription>
