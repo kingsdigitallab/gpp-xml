@@ -88,7 +88,7 @@
             </maintenanceEvent>
             <maintenanceEvent> <!-- records each maintenance/editing event that occurs throughout the life of the file -->
                 <eventType>updated</eventType> <!-- May contain: "cancelled" or "created" or "deleted" or "derived" or "revised" or "updated" -->
-                <eventDateTime standardDateTime="2020-01-17T14:48:00Z">2:48 pm, 17 January 2020</eventDateTime> <!-- ISO 8601 date-time formatting -->
+                <eventDateTime standardDateTime="2020-01-19T14:48:00Z">2:48 pm, 17 January 2020</eventDateTime> <!-- ISO 8601 date-time formatting -->
                 <agentType>human</agentType> <!-- May contain: "human" or "machine" -->
                 <agent xml:id="GPP-00001748">Callaghan, Samantha</agent> <!-- ID may be subject to change in the CW -->
                 <eventDescription>Continuing to build NAF for Qánqon-Kámek-Klaúla.</eventDescription> <!-- Include a full description of the maintenance event - ie: note what was created/edited during the event -->
@@ -101,39 +101,52 @@
             <source xlink:type="simple" xlink:href="https://en.wikipedia.org/wiki/Ka%C3%BAxuma_N%C3%BApika">
                 <sourceEntry>Wikipedia: Kaúxuma Núpika</sourceEntry>
             </source>
+            <source xlink:type="simple" xlink:href="https://www.encyclopedia.com/social-sciences/encyclopedias-almanacs-transcripts-and-maps/qanqon-kamek-klaula">
+                <sourceEntry>Brownlie, Robin Jarvis."Qánqon-Kámek-Klaúla" Encyclopedia.com. Last updated Jan 8, 2020. https://www.encyclopedia.com/social-sciences/encyclopedias-almanacs-transcripts-and-maps/qanqon-kamek-klaula</sourceEntry>
+            </source>
         </sources>        
     </control>
     <multipleIdentities>
+        <!-- FROM HERE - multigendered rather than multi-identitied. -->
     <cpfDescription> <!-- Descriptive metadata -->
         <identity>
             <entityType>person</entityType>
             <nameEntry scriptCode="Latn" xml:lang="eng"> 
-                <part localType="forename"></part>
+                <part localType="forename">Qánqon-Kámek-Klaúla</part>
                 <useDates>
                     <dateRange>
-                        <fromDate standardDate="1773-05">May 1773</fromDate>
-                        <toDate standardDate="1843-01-24">24 January 1843</toDate>
+                        <fromDate standardDate="1811">fl. 1811</fromDate>
+                        <toDate standardDate="1837-06-13">13 June 1837</toDate>
                     </dateRange>
                 </useDates>
                 <authorizedForm>NCA</authorizedForm>
             </nameEntry>
             <nameEntry scriptCode="Latn" xml:lang="eng" localType="directOrder"> 
-                <part>Barreau, Rose-Alexandrine, 1773-1843</part>
+                <part>Qánqon-Kámek-Klaúla, fl 1780-1837</part>
                 <useDates>
                     <dateRange>
-                        <fromDate standardDate="1773-05">May 1773</fromDate>
-                        <toDate standardDate="1843-01-24">24 January 1843</toDate>
+                        <fromDate standardDate="1811">fl. 1811</fromDate>
+                        <toDate standardDate="1837-06-13">13 June 1837</toDate>
                     </dateRange>
                 </useDates>
                 <authorizedForm>NCA</authorizedForm>
             </nameEntry>
             <nameEntry scriptCode="Latn" xml:lang="eng"> 
-                <part localType="forename">Alexandrine-Rose</part>
-                <part localType="surname">Barreau</part>
+                <part localType="forename">Kaúxuma Núpika</part>
                 <useDates>
                     <dateRange>
-                        <fromDate standardDate="1773-05">May 1773</fromDate>
-                        <toDate standardDate="1843-01-24">24 January 1843</toDate>
+                        <fromDate standardDate="1808">c. 1808</fromDate>
+                        <toDate standardDate="1837-06-13">13 June 1837</toDate>
+                    </dateRange>
+                </useDates>
+                <alternativeForm>NCA</alternativeForm>
+            </nameEntry>
+            <nameEntry scriptCode="Latn" xml:lang="eng"> 
+                <part localType="forename">Kaúxuma Núpika</part>
+                <useDates>
+                    <dateRange>
+                        <fromDate standardDate="1780">fl 1780</fromDate>
+                        <toDate standardDate="1808">c. 1808</toDate>
                     </dateRange>
                 </useDates>
                 <alternativeForm>NCA</alternativeForm>
@@ -142,7 +155,7 @@
         <description>
             <existDates> <!-- Birth and death dates, if known. -->
                 <dateRange>
-                    <fromDate standardDate="1773-05">May 1773</fromDate>
+                    <fromDate standardDate="1780">fl 1780</fromDate>
                     <toDate standardDate="1843-01-24">24 January 1843</toDate>
                 </dateRange>
             </existDates>
