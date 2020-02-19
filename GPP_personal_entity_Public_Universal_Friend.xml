@@ -81,21 +81,21 @@
         <maintenanceHistory>
             <maintenanceEvent> <!-- records each maintenance/editing event that occurs throughout the life of the file -->
                 <eventType>created</eventType> <!-- May contain: "cancelled" or "created" or "deleted" or "derived" or "revised" or "updated" -->
-                <eventDateTime standardDateTime="2020-02-07T14:08:00Z">2:08 pm, 7 February 2020</eventDateTime> <!-- ISO 8601 date-time formatting -->
+                <eventDateTime standardDateTime="2020-02-19T14:08:00Z">2:08 pm, 19 February 2020</eventDateTime> <!-- ISO 8601 date-time formatting -->
                 <agentType>human</agentType> <!-- May contain: "human" or "machine" -->
                 <agent xml:id="GPP-00001748">Callaghan, Samantha</agent> <!-- ID may be subject to change in the CW -->
-                <eventDescription>Creation of NAF for Sarah Paul.</eventDescription> <!-- Include a full description of the maintenance event - ie: note what was created/edited during the event -->
+                <eventDescription>Creation of NAF for the Public Universal Friend.</eventDescription> <!-- Include a full description of the maintenance event - ie: note what was created/edited during the event -->
             </maintenanceEvent>
         </maintenanceHistory>
         <sources>
-            <source xlink:type="simple" xlink:href="https://www.tandfonline.com/doi/full/10.1080/01440365.2017.1289674">
-                <sourceEntry>DOI: 10.1080/01440365.2017.1289674</sourceEntry>
+            <source xlink:type="simple" xlink:href="https://viaf.org/viaf/30843294/">
+                <sourceEntry>VIAF ID: 30843294</sourceEntry>
             </source>  
-            <source xlink:href="https://www.geonames.org/2643743/london.html">
-                <sourceEntry>Geonames ID: 2643743</sourceEntry>
+            <source xlink:href="https://www.geonames.org/5221703/cumberland.html">
+                <sourceEntry>Geonames ID: 5221703</sourceEntry>
             </source>
-            <source xlink:href="http://www.workhouses.org.uk/StSepulchre/">
-                <sourceEntry>Workhouses ID: StSepulchre</sourceEntry>
+            <source xlink:href="https://en.wikipedia.org/wiki/Public_Universal_Friend">
+                <sourceEntry>Wikipedia: Public Universal Friend</sourceEntry>
             </source>          
         </sources>        
     </control>
@@ -104,22 +104,22 @@
         <identity>
             <entityType>person</entityType>
             <nameEntry scriptCode="Latn" xml:lang="eng"> 
-                <part localType="forename">Sarah</part>
-                <part localType="surname">Paul</part>
+                <part localType="forename">Jemima</part>
+                <part localType="surname">Wilkinson</part>
                 <useDates>
                     <dateRange>
-                        <fromDate standardDate="1739">ca. 1739</fromDate>
-                        <toDate standardDate="1766">ca. 1766</toDate>
+                        <fromDate standardDate="1752-11-29">29 November 1752</fromDate>
+                        <toDate standardDate="1766-10">ca. October 1766</toDate>
                     </dateRange>
                 </useDates>
                 <authorizedForm>NCA</authorizedForm>
             </nameEntry>
             <nameEntry scriptCode="Latn" xml:lang="eng" localType="directOrder"> 
-                <part>Paul, Sarah, ca 1739-ca 1766</part>
+                <part>Wilkinson, Jemima, 1752-1766</part>
                 <useDates>
                     <dateRange>
-                        <fromDate standardDate="1739">ca. 1739</fromDate>
-                        <toDate standardDate="1766">ca. 1766</toDate>
+                        <fromDate standardDate="1752-11-29">29 November 1752</fromDate>
+                        <toDate standardDate="1766-10">ca. October 1766</toDate>
                     </dateRange>
                 </useDates>
                 <authorizedForm>NCA</authorizedForm>
@@ -128,9 +128,12 @@
         <description>
             <existDates> <!-- Birth and death dates, if known. -->
                 <dateRange>
-                    <fromDate standardDate="1739">ca. 1739</fromDate>
-                    <toDate standardDate="1766">ca. 1766</toDate>
+                    <fromDate standardDate="1752-11-29">29 November 1752</fromDate>
+                    <toDate standardDate="1766-10">ca. October 1766</toDate>
                 </dateRange>
+                <descriptiveNote>
+                    <p>This entity claims to have died and been reborn and the dates of existence (and the direct order form of the name) reflect this.</p>
+                </descriptiveNote>
             </existDates>
             <localDescription localType="gender">
                 <term vocabularySource="Homosaurus">Women</term>
@@ -138,9 +141,9 @@
             <!-- For preference we prefer to capture birth and death places. If it is considered useful, further places (and dates can be captured)such as residences and so on, time permitting. -->
             <places>
                 <place>
-                    <placeRole>death</placeRole>
-                    <placeEntry vocabularySource="GeoNames" latitude="51.50853" longitude="-0.12574">St. Sepulchre's workhouse (uncertain whether St. Sepulchre's without Newgate or St. Sepulchre's, Middlesex), London</placeEntry>
-                    <date standardDate="1766">ca. 1766</date>
+                    <placeRole>Birth</placeRole>
+                    <placeEntry vocabularySource="GeoNames" latitude="41.96677" longitude="-71.43284">Cumberland, Providence, United States of America</placeEntry>
+                    <date standardDate="1752-11-29">29 November 1752</date>
                 </place>
             </places>
             <languagesUsed>
@@ -150,8 +153,9 @@
                 </languageUsed>
             </languagesUsed>
             <biogHist> 
-                <abstract>Little is known of Sarah Paul's early life. She came to the attention of the public after being discovered by her neighbours to be a woman in 1760. At that time she had been married to Mary Parlour for about 6 months. She was charged with 'defrauding a young woman of money and apparel, by marrying her' but as Mary did not appear at court the ???????. It is reported that Sarah died around 1766 in a St. Sepulchre's workhouse.</abstract>
-                <citation>Derry, Caroline. “‘Female Husbands’, Community and Courts in the Eighteenth Century.” The Journal of Legal History 38, no. 1 (2017): 41–82. https://doi.org/10.1080/01440365.2017.1289674.</citation>
+                <abstract>The Public Universal Friend (November 29, 1752 – July 1, 1819), born Jemima Wilkinson, was an American preacher born in Cumberland, Rhode Island, to Quaker parents. Wilkinson suffered a severe illness in 1776 and reported having died and been reanimated as a genderless evangelist named the Public Universal Friend, and afterward shunned both birth name and gendered pronouns. In androgynous clothes, the Friend preached throughout the northeastern United States, attracting many followers who became the Society of Universal Friends.</abstract>
+                <citation>Wikipedia. "Public Universal Friend" Accessed February 19, 2020. https://en.wikipedia.org/wiki/Public_Universal_Friend</citation>
+                <p>Biography source: Wikipedia. Licensed under CC-BY-SA.</p>
             </biogHist>         
         </description>
     </cpfDescription>
@@ -159,37 +163,82 @@
         <identity>
             <entityType>person</entityType>
             <nameEntry scriptCode="Latn" xml:lang="eng"> 
-                <part localType="forename">Samuel</part>
-                <part localType="surname">Bundy</part>
+                <part localType="forename">Public Universal Friend</part>
                 <useDates>
                     <dateRange>
-                        <fromDate standardDate="1759">fl. 1759</fromDate>
-                        <toDate standardDate="1760">fl. 1760</toDate>
+                        <fromDate standardDate="1766-10">ca. October 1766</fromDate>
+                        <toDate standardDate="1819-07-01">1 July 1819</toDate>
                     </dateRange>      
                 </useDates>
                 <authorizedForm>NCA</authorizedForm>
             </nameEntry>
             <nameEntry scriptCode="Latn" xml:lang="eng" localType="directOrder"> 
-                <part>Bundy, Samuel, fl 1759-fl 1760</part>
+                <part>Public Universal Friend, 1766-1819</part>
                 <useDates>
                     <dateRange>
-                        <fromDate standardDate="1759">fl. 1759</fromDate>
-                        <toDate standardDate="1760">fl. 1760</toDate>
+                        <fromDate standardDate="1766-10">ca. October 1766</fromDate>
+                        <toDate standardDate="1819-07-01">1 July 1819</toDate>
                     </dateRange>
                 </useDates>
                 <authorizedForm>NCA</authorizedForm>
+            </nameEntry>
+            <nameEntry scriptCode="Latn" xml:lang="eng"> 
+                <part localType="forename">The Publick Universal Friend</part>
+                <useDates>
+                    <dateRange>
+                        <fromDate standardDate="1766-10">ca. October 1766</fromDate>
+                        <toDate standardDate="1819-07-01">1 July 1819</toDate>
+                    </dateRange>      
+                </useDates>
+                <alternativeForm>NCA</alternativeForm>
+            </nameEntry>
+            <nameEntry scriptCode="Latn" xml:lang="eng"> 
+                <part localType="forename">The Friend</part>
+                <useDates>
+                    <dateRange>
+                        <fromDate standardDate="1766-10">ca. October 1766</fromDate>
+                        <toDate standardDate="1819-07-01">1 July 1819</toDate>
+                    </dateRange>      
+                </useDates>
+                <alternativeForm>NCA</alternativeForm>
+            </nameEntry>
+            <nameEntry scriptCode="Latn" xml:lang="eng"> 
+                <part localType="forename">P.U.F.</part>
+                <useDates>
+                    <dateRange>
+                        <fromDate standardDate="1766-10">ca. October 1766</fromDate>
+                        <toDate standardDate="1819-07-01">1 July 1819</toDate>
+                    </dateRange>      
+                </useDates>
+                <alternativeForm>NCA</alternativeForm>
             </nameEntry>
         </identity>
         <description>
             <existDates>
                 <dateRange>
-                    <fromDate standardDate="1759">fl. 1759</fromDate>
-                    <toDate standardDate="1760">fl. 1760</toDate>
+                    <fromDate standardDate="1766-10">ca. October 1766</fromDate>
+                    <toDate standardDate="1819-07-01">1 July 1819</toDate>
                 </dateRange>
+                <descriptiveNote>
+                    <p>This entity claims to have died and been reborn and the dates of existence (and the direct order form of the name) reflect this.</p>
+                </descriptiveNote>
             </existDates>
+            <localDescriptions localType="gender">
             <localDescription localType="gender">
-                <term vocabularySource="Homosaurus">Men</term>
+                <term vocabularySource="Homosaurus">Agender people</term>
+                <citation>Wikipedia. "Public Universal Friend" Accessed February 19, 2020. https://en.wikipedia.org/wiki/Public_Universal_Friend</citation>
+                <descriptiveNote>
+                    <p>The Public Universal Friend is noted as a 'genderless evangelist' in their Wikipedia page following their death in 1776; "Identifying as neither male nor female, the Friend asked not to be referred to with gendered pronouns."</p>
+                </descriptiveNote>
             </localDescription>
+                <localDescription localType="gender">
+                    <term vocabularySource="Homosaurus">Non-binary people</term>
+                    <citation>Wikipedia. "Non-binary gender" Accessed February 19, 2020. https://en.wikipedia.org/wiki/Non-binary_gender#Definitions_and_identity</citation>
+                    <descriptiveNote>
+                        <p>The Public Universal Friend is discussed as non-binary individual both on Wikipedia and elsewhere ("Non-Binary and Religious: The Public Universal Friend" by a Quaker Youtuber, Jessica Kellgren-Fozard, https://www.youtube.com/watch?v=3vTQE7G648Q). Non-binary is defined as: "Non-binary, or genderqueer, is a spectrum of gender identities that are not exclusively masculine or feminine‍—‌identities that are outside the gender binary." Agender is sometimes considered to under the 'umbrella' terms of 'non-binary' and 'transgender'.</p>
+                    </descriptiveNote>
+                </localDescription>
+            </localDescriptions>
             <languagesUsed>
                 <languageUsed> <!-- From evidence in the GPP, if possible -->
                     <language languageCode="eng">English</language>
@@ -198,8 +247,10 @@
             </languagesUsed>
             <!-- From here! -->
             <biogHist>
-                <abstract>Samuel Bundy married Mary Parlour in 1759</abstract>
-                <citation>Derry, Caroline. “‘Female Husbands’, Community and Courts in the Eighteenth Century.” The Journal of Legal History 38, no. 1 (2017): 41–82. https://doi.org/10.1080/01440365.2017.1289674.</citation>
+                <abstract>The Public Universal Friend (November 29, 1752 – July 1, 1819), born Jemima Wilkinson, was an American preacher born in Cumberland, Rhode Island, to Quaker parents. Wilkinson suffered a severe illness in 1776 and reported having died and been reanimated as a genderless evangelist named the Public Universal Friend, and afterward shunned both birth name and gendered pronouns. In androgynous clothes, the Friend preached throughout the northeastern United States, attracting many followers who became the Society of Universal Friends.</abstract>
+                <p>The Public Universal Friend's theology was broadly similar to that of most Quakers, believing in free will, opposing slavery, and supporting sexual abstinence. The most committed members of the Society of Universal Friends were a group of unmarried women who took leading roles in their households and community. In the 1790s, the Society acquired land in Western New York where they formed the township of Jerusalem near Penn Yan, New York. The Society of Universal Friends ceased to exist by the 1860s. Many writers have portrayed the Friend as a woman, and either a manipulative fraudster or a pioneer for women's rights; others have viewed the preacher as transgender or non-binary.</p>
+                <citation>Wikipedia. "Public Universal Friend" Accessed February 19, 2020. https://en.wikipedia.org/wiki/Public_Universal_Friend</citation>
+                <p>Biography source: Wikipedia. Licensed under CC-BY-SA.</p>
             </biogHist>         
         </description>
     </cpfDescription>
