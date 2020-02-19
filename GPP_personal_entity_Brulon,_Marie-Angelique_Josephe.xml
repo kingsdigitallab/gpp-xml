@@ -81,22 +81,34 @@
         <maintenanceHistory>
             <maintenanceEvent> <!-- records each maintenance/editing event that occurs throughout the life of the file -->
                 <eventType>created</eventType> <!-- May contain: "cancelled" or "created" or "deleted" or "derived" or "revised" or "updated" -->
-                <eventDateTime standardDateTime="2020-02-07T14:08:00Z">2:08 pm, 7 February 2020</eventDateTime> <!-- ISO 8601 date-time formatting -->
+                <eventDateTime standardDateTime="2020-02-19T14:08:00Z">2:08 pm, 19 February 2020</eventDateTime> <!-- ISO 8601 date-time formatting -->
                 <agentType>human</agentType> <!-- May contain: "human" or "machine" -->
                 <agent xml:id="GPP-00001748">Callaghan, Samantha</agent> <!-- ID may be subject to change in the CW -->
-                <eventDescription>Creation of NAF for Sarah Paul.</eventDescription> <!-- Include a full description of the maintenance event - ie: note what was created/edited during the event -->
+                <eventDescription>Creation of NAF for Marie-Angélique Josèphe Brûlon.</eventDescription> <!-- Include a full description of the maintenance event - ie: note what was created/edited during the event -->
             </maintenanceEvent>
         </maintenanceHistory>
         <sources>
-            <source xlink:type="simple" xlink:href="https://www.tandfonline.com/doi/full/10.1080/01440365.2017.1289674">
-                <sourceEntry>DOI: 10.1080/01440365.2017.1289674</sourceEntry>
-            </source>  
-            <source xlink:href="https://www.geonames.org/2643743/london.html">
-                <sourceEntry>Geonames ID: 2643743</sourceEntry>
+            <source xlink:type="simple" xlink:href="https://viaf.org/viaf/308694705/">
+                <sourceEntry>VIAF ID: 308694705</sourceEntry>
             </source>
-            <source xlink:href="http://www.workhouses.org.uk/StSepulchre/">
-                <sourceEntry>Workhouses ID: StSepulchre</sourceEntry>
-            </source>          
+            <source xlink:type="simple" xlink:href="https://www.wikidata.org/wiki/Q3292353">
+                <sourceEntry>Wikidata ID: Q3292353</sourceEntry>
+            </source>  
+            <source xlink:href="https://www.geonames.org/3021356/dinan.html">
+                <sourceEntry>Geonames ID: 3021356</sourceEntry>
+            </source>
+            <source xlink:href="https://www.geonames.org/6269537/les-invalides.html">
+                <sourceEntry>Geonames ID: 6269537</sourceEntry>
+            </source>
+            <source xlink:href="https://en.wikipedia.org/wiki/Ang%C3%A9lique_Br%C3%BBlon">
+                <sourceEntry>Wikipedia: Angélique Brûlon</sourceEntry>
+            </source>
+            <source xlink:href="https://fr.wikipedia.org/wiki/Marie-Ang%C3%A9lique_Duchemin">
+                <sourceEntry>Wikipedia: Marie-Angélique Duchemin</sourceEntry>
+            </source>
+            <source xlink:href="https://www.rosavzw.be/rosa_francais/femmes_remarquables/duchemin.htm">
+                <sourceEntry>RoSa. "Marie-Angélique Duchemin, dit la veuve Brulon" Accessed February 19, 2020. https://www.rosavzw.be/rosa_francais/femmes_remarquables/duchemin.htm</sourceEntry>
+            </source>
         </sources>        
     </control>
     <multipleIdentities>
@@ -104,32 +116,43 @@
         <identity>
             <entityType>person</entityType>
             <nameEntry scriptCode="Latn" xml:lang="eng"> 
-                <part localType="forename">Sarah</part>
-                <part localType="surname">Paul</part>
+                <part localType="forename">Marie-Angélique Josèphe</part>
+                <part localType="surname">Brûlon</part>
                 <useDates>
                     <dateRange>
-                        <fromDate standardDate="1739">ca. 1739</fromDate>
-                        <toDate standardDate="1766">ca. 1766</toDate>
+                        <fromDate standardDate="1789">ca. 1789</fromDate>
+                        <toDate standardDate="1859-07-13">13 July 1859</toDate>
                     </dateRange>
                 </useDates>
                 <authorizedForm>NCA</authorizedForm>
             </nameEntry>
             <nameEntry scriptCode="Latn" xml:lang="eng" localType="directOrder"> 
-                <part>Paul, Sarah, ca 1739-ca 1766</part>
+                <part>Brûlon, Marie-Angélique Josèphe, 1772-1859</part>
                 <useDates>
                     <dateRange>
-                        <fromDate standardDate="1739">ca. 1739</fromDate>
-                        <toDate standardDate="1766">ca. 1766</toDate>
+                        <fromDate standardDate="1789">ca. 1789</fromDate>
+                        <toDate standardDate="1859-07-13">13 July 1859</toDate>
                     </dateRange>
                 </useDates>
                 <authorizedForm>NCA</authorizedForm>
+            </nameEntry>
+            <nameEntry scriptCode="Latn" xml:lang="eng"> 
+                <part localType="forename">Marie-Angélique Josèphe</part>
+                <part localType="surname">Duchemin</part>
+                <useDates>
+                    <dateRange>
+                        <fromDate standardDate="1772-01-20">20 January 1772</fromDate>
+                        <toDate standardDate="1859-07-13">? 13 July 1859</toDate>
+                    </dateRange>
+                </useDates>
+                <alternativeForm>NCA</alternativeForm>
             </nameEntry>
         </identity>
         <description>
             <existDates> <!-- Birth and death dates, if known. -->
                 <dateRange>
-                    <fromDate standardDate="1739">ca. 1739</fromDate>
-                    <toDate standardDate="1766">ca. 1766</toDate>
+                    <fromDate standardDate="1772-01-20">20 January 1772</fromDate>
+                    <toDate standardDate="1859-07-13">13 July 1859</toDate>
                 </dateRange>
             </existDates>
             <localDescription localType="gender">
@@ -138,20 +161,26 @@
             <!-- For preference we prefer to capture birth and death places. If it is considered useful, further places (and dates can be captured)such as residences and so on, time permitting. -->
             <places>
                 <place>
-                    <placeRole>death</placeRole>
-                    <placeEntry vocabularySource="GeoNames" latitude="51.50853" longitude="-0.12574">St. Sepulchre's workhouse (uncertain whether St. Sepulchre's without Newgate or St. Sepulchre's, Middlesex), London</placeEntry>
-                    <date standardDate="1766">ca. 1766</date>
+                    <placeRole>Birth</placeRole>
+                    <placeEntry vocabularySource="GeoNames" latitude="48.45551" longitude="-2.05019">Dinan, France</placeEntry>
+                    <date standardDate="1772-01-20">20 January 1772</date>
+                </place>
+                <place>
+                    <placeRole>Death</placeRole>
+                    <placeEntry vocabularySource="GeoNames" latitude="48.85502" longitude="2.31251">Les Invalides, Paris, France</placeEntry>
+                    <date standardDate="1772-01-20">20 January 1772</date>
                 </place>
             </places>
             <languagesUsed>
                 <languageUsed> <!-- From evidence in the GPP, if possible -->
-                    <language languageCode="eng">English</language>
+                    <language languageCode="fre">French</language>
                     <script scriptCode="Latn">Latin</script>
                 </languageUsed>
             </languagesUsed>
             <biogHist> 
-                <abstract>Little is known of Sarah Paul's early life. She came to the attention of the public after being discovered by her neighbours to be a woman in 1760. At that time she had been married to Mary Parlour for about 6 months. She was charged with 'defrauding a young woman of money and apparel, by marrying her' but as Mary did not appear at court the ???????. It is reported that Sarah died around 1766 in a St. Sepulchre's workhouse.</abstract>
-                <citation>Derry, Caroline. “‘Female Husbands’, Community and Courts in the Eighteenth Century.” The Journal of Legal History 38, no. 1 (2017): 41–82. https://doi.org/10.1080/01440365.2017.1289674.</citation>
+                <abstract>Marie-Angélique Josèphe Brûlon, née Duchemin (January 20, 1772 – July 13, 1859), was a French soldier. Born in Dinan into a soldier family, Duchemin married a soldier named Brûlon and served from 1792–1799 in the defence of Corsica. She initially fought disguised as a man along with her husband, but was eventually discovered to be a woman. Despite this, she had shown such valour in battle that she was allowed to remain in service. She survived her husband and was proficient with sword and dagger in hand-to-hand combat. In 1797, she asked to be allowed into Les Invalides after she received severe wounds in the siege of Calvi, but was denied seven years. When she received the pension in 1804, she was also promoted to the rank of lieutenant.</abstract>
+                <citation>Wikipedia. "Angélique Brûlon" Accessed February 19, 2020. https://en.wikipedia.org/wiki/Ang%C3%A9lique_Br%C3%BBlon</citation>
+                <p>Biography source: Wikipedia. Licensed under CC-BY-SA.</p>
             </biogHist>         
         </description>
     </cpfDescription>
@@ -159,48 +188,37 @@
         <identity>
             <entityType>person</entityType>
             <nameEntry scriptCode="Latn" xml:lang="eng"> 
-                <part localType="forename">Samuel</part>
-                <part localType="surname">Bundy</part>
+                <part localType="surname">Liberté</part>
                 <useDates>
-                    <dateRange>
-                        <fromDate standardDate="1759">fl. 1759</fromDate>
-                        <toDate standardDate="1760">fl. 1760</toDate>
-                    </dateRange>      
+                        <date standardDate="1792">ca. 1792</date>    
                 </useDates>
                 <authorizedForm>NCA</authorizedForm>
             </nameEntry>
             <nameEntry scriptCode="Latn" xml:lang="eng" localType="directOrder"> 
-                <part>Bundy, Samuel, fl 1759-fl 1760</part>
+                <part>Liberté, -, c 1792, Corporal</part>
                 <useDates>
-                    <dateRange>
-                        <fromDate standardDate="1759">fl. 1759</fromDate>
-                        <toDate standardDate="1760">fl. 1760</toDate>
-                    </dateRange>
+                    <date standardDate="1792">ca. 1792</date>    
                 </useDates>
                 <authorizedForm>NCA</authorizedForm>
             </nameEntry>
         </identity>
         <description>
             <existDates>
-                <dateRange>
-                    <fromDate standardDate="1759">fl. 1759</fromDate>
-                    <toDate standardDate="1760">fl. 1760</toDate>
-                </dateRange>
+                <date standardDate="1792">ca. 1792</date>    
             </existDates>
             <localDescription localType="gender">
                 <term vocabularySource="Homosaurus">Men</term>
+                <citation>Wikipedia. "Angélique Brûlon" Accessed February 19, 2020. https://en.wikipedia.org/wiki/Ang%C3%A9lique_Br%C3%BBlon</citation>
+                <descriptiveNote>
+                    <p>It is uncertain whether Angélique Brûlon did disguise herself as a man before joining the army, even the date when she joins is disputed. One source (https://www.rosavzw.be/rosa_francais/femmes_remarquables/duchemin.htm) suggests that Angélique used the name 'Liberté' and it could be conjectured that this was perhaps to obfuscate that the 42nd Regiment were aware of her gender when she joined.</p>
+                </descriptiveNote>
             </localDescription>
             <languagesUsed>
                 <languageUsed> <!-- From evidence in the GPP, if possible -->
-                    <language languageCode="eng">English</language>
+                    <language languageCode="fre">French</language>
                     <script scriptCode="Latn">Latin</script>
                 </languageUsed>
-            </languagesUsed>
-            <!-- From here! -->
-            <biogHist>
-                <abstract>Samuel Bundy married Mary Parlour in 1759</abstract>
-                <citation>Derry, Caroline. “‘Female Husbands’, Community and Courts in the Eighteenth Century.” The Journal of Legal History 38, no. 1 (2017): 41–82. https://doi.org/10.1080/01440365.2017.1289674.</citation>
-            </biogHist>         
+            </languagesUsed>       
         </description>
     </cpfDescription>
     </multipleIdentities>
