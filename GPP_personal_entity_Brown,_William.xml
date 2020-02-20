@@ -84,43 +84,43 @@
                 <eventDateTime standardDateTime="2020-02-07T14:08:00Z">2:08 pm, 7 February 2020</eventDateTime> <!-- ISO 8601 date-time formatting -->
                 <agentType>human</agentType> <!-- May contain: "human" or "machine" -->
                 <agent xml:id="GPP-00001748">Callaghan, Samantha</agent> <!-- ID may be subject to change in the CW -->
-                <eventDescription>Creation of NAF for Sarah Paul.</eventDescription> <!-- Include a full description of the maintenance event - ie: note what was created/edited during the event -->
+                <eventDescription>Creation of NAF for William Brown.</eventDescription> <!-- Include a full description of the maintenance event - ie: note what was created/edited during the event -->
+            </maintenanceEvent>
+            <maintenanceEvent> <!-- records each maintenance/editing event that occurs throughout the life of the file -->
+                <eventType>updated</eventType> <!-- May contain: "cancelled" or "created" or "deleted" or "derived" or "revised" or "updated" -->
+                <eventDateTime standardDateTime="2020-02-07T14:08:00Z">2:08 pm, 7 February 2020</eventDateTime> <!-- ISO 8601 date-time formatting -->
+                <agentType>human</agentType> <!-- May contain: "human" or "machine" -->
+                <agent xml:id="GPP-00001748">Callaghan, Samantha</agent> <!-- ID may be subject to change in the CW -->
+                <eventDescription>Updated info for NAF for William Brown.</eventDescription> <!-- Include a full description of the maintenance event - ie: note what was created/edited during the event -->
             </maintenanceEvent>
         </maintenanceHistory>
         <sources>
-            <source xlink:type="simple" xlink:href="https://www.tandfonline.com/doi/full/10.1080/01440365.2017.1289674">
-                <sourceEntry>DOI: 10.1080/01440365.2017.1289674</sourceEntry>
+            <source xlink:type="simple" xlink:href="https://www.wikidata.org/wiki/Q8006019">
+                <sourceEntry>Wikidata ID: Q8006019</sourceEntry>
             </source>  
-            <source xlink:href="https://www.geonames.org/2643743/london.html">
-                <sourceEntry>Geonames ID: 2643743</sourceEntry>
+            <source xlink:href="https://en.wikipedia.org/wiki/William_Brown_(sailor)">
+                <sourceEntry>Wikipedia: William Brown (sailor)</sourceEntry>
             </source>
-            <source xlink:href="http://www.workhouses.org.uk/StSepulchre/">
-                <sourceEntry>Workhouses ID: StSepulchre</sourceEntry>
+            <source xlink:href="https://www.nationalarchives.gov.uk/pathways/blackhistory/work_community/docs/service_record.htm">
+                <sourceEntry>National Archives. "William Brown, 'a female African'." Accessed February 20, 2020. https://www.nationalarchives.gov.uk/pathways/blackhistory/work_community/docs/service_record.htm</sourceEntry>
             </source>          
         </sources>        
     </control>
-    <multipleIdentities>
     <cpfDescription> <!-- Descriptive metadata -->
         <identity>
             <entityType>person</entityType>
             <nameEntry scriptCode="Latn" xml:lang="eng"> 
-                <part localType="forename">Sarah</part>
-                <part localType="surname">Paul</part>
+                <part localType="forename">William</part>
+                <part localType="surname">Brown</part>
                 <useDates>
-                    <dateRange>
-                        <fromDate standardDate="1739">ca. 1739</fromDate>
-                        <toDate standardDate="1766">ca. 1766</toDate>
-                    </dateRange>
+                    <date standardDate="1815">fl. 1815</date>
                 </useDates>
                 <authorizedForm>NCA</authorizedForm>
             </nameEntry>
             <nameEntry scriptCode="Latn" xml:lang="eng" localType="directOrder"> 
-                <part>Paul, Sarah, ca 1739-ca 1766</part>
+                <part>Brown, William, c 1794-fl 1815</part>
                 <useDates>
-                    <dateRange>
-                        <fromDate standardDate="1739">ca. 1739</fromDate>
-                        <toDate standardDate="1766">ca. 1766</toDate>
-                    </dateRange>
+                        <date standardDate="1815">fl. 1815</date>
                 </useDates>
                 <authorizedForm>NCA</authorizedForm>
             </nameEntry>
@@ -128,63 +128,8 @@
         <description>
             <existDates> <!-- Birth and death dates, if known. -->
                 <dateRange>
-                    <fromDate standardDate="1739">ca. 1739</fromDate>
-                    <toDate standardDate="1766">ca. 1766</toDate>
-                </dateRange>
-            </existDates>
-            <localDescription localType="gender">
-                <term vocabularySource="Homosaurus">Women</term>
-            </localDescription>
-            <!-- For preference we prefer to capture birth and death places. If it is considered useful, further places (and dates can be captured)such as residences and so on, time permitting. -->
-            <places>
-                <place>
-                    <placeRole>death</placeRole>
-                    <placeEntry vocabularySource="GeoNames" latitude="51.50853" longitude="-0.12574">St. Sepulchre's workhouse (uncertain whether St. Sepulchre's without Newgate or St. Sepulchre's, Middlesex), London</placeEntry>
-                    <date standardDate="1766">ca. 1766</date>
-                </place>
-            </places>
-            <languagesUsed>
-                <languageUsed> <!-- From evidence in the GPP, if possible -->
-                    <language languageCode="eng">English</language>
-                    <script scriptCode="Latn">Latin</script>
-                </languageUsed>
-            </languagesUsed>
-            <biogHist> 
-                <abstract>Little is known of Sarah Paul's early life. She came to the attention of the public after being discovered by her neighbours to be a woman in 1760. At that time she had been married to Mary Parlour for about 6 months. She was charged with 'defrauding a young woman of money and apparel, by marrying her' but as Mary did not appear at court the ???????. It is reported that Sarah died around 1766 in a St. Sepulchre's workhouse.</abstract>
-                <citation>Derry, Caroline. “‘Female Husbands’, Community and Courts in the Eighteenth Century.” The Journal of Legal History 38, no. 1 (2017): 41–82. https://doi.org/10.1080/01440365.2017.1289674.</citation>
-            </biogHist>         
-        </description>
-    </cpfDescription>
-    <cpfDescription> <!-- Descriptive metadata -->
-        <identity>
-            <entityType>person</entityType>
-            <nameEntry scriptCode="Latn" xml:lang="eng"> 
-                <part localType="forename">Samuel</part>
-                <part localType="surname">Bundy</part>
-                <useDates>
-                    <dateRange>
-                        <fromDate standardDate="1759">fl. 1759</fromDate>
-                        <toDate standardDate="1760">fl. 1760</toDate>
-                    </dateRange>      
-                </useDates>
-                <authorizedForm>NCA</authorizedForm>
-            </nameEntry>
-            <nameEntry scriptCode="Latn" xml:lang="eng" localType="directOrder"> 
-                <part>Bundy, Samuel, fl 1759-fl 1760</part>
-                <useDates>
-                    <dateRange>
-                        <fromDate standardDate="1759">fl. 1759</fromDate>
-                        <toDate standardDate="1760">fl. 1760</toDate>
-                    </dateRange>
-                </useDates>
-                <authorizedForm>NCA</authorizedForm>
-            </nameEntry>
-        </identity>
-        <description>
-            <existDates>
-                <dateRange>
-                    <fromDate standardDate="1759">fl. 1759</fromDate>
-                    <toDate standardDate="1760">fl. 1760</toDate>
+                    <fromDate standardDate="1794">ca. 1794</fromDate>
+                    <toDate standardDate="1815">fl. 1815</toDate>
                 </dateRange>
             </existDates>
             <localDescription localType="gender">
@@ -196,14 +141,13 @@
                     <script scriptCode="Latn">Latin</script>
                 </languageUsed>
             </languagesUsed>
-            <!-- From here! -->
             <biogHist>
-                <abstract>Samuel Bundy married Mary Parlour in 1759</abstract>
-                <citation>Derry, Caroline. “‘Female Husbands’, Community and Courts in the Eighteenth Century.” The Journal of Legal History 38, no. 1 (2017): 41–82. https://doi.org/10.1080/01440365.2017.1289674.</citation>
-            </biogHist>         
+                <abstract>William Brown (birth name unknown) was a Black woman who joined the Royal Navy under a man's name in the early nineteenth century. It is undisputed that she was a sailor of HMS Queen Charlotte, but historians have reached varying conclusions about her service record.</abstract>
+                <citation>Wikipedia. "William Brown (sailor)" Accessed February 20, 2020. https://en.wikipedia.org/wiki/William_Brown_(sailor)</citation>
+                <p>Biography source: Wikipedia. Licensed under CC-BY-SA.</p>
+            </biogHist>        
         </description>
-    </cpfDescription>
-    </multipleIdentities>
+    </cpfDescription>    
 </eac-cpf>
 
 
