@@ -86,6 +86,13 @@
                 <agent xml:id="GPP-00001748">Callaghan, Samantha</agent> <!-- ID may be subject to change in the CW -->
                 <eventDescription>Creation of NAF for William Robert Grossmith.</eventDescription> <!-- Include a full description of the maintenance event - ie: note what was created/edited during the event -->
             </maintenanceEvent>
+                <maintenanceEvent> <!-- records each maintenance/editing event that occurs throughout the life of the file -->
+                    <eventType>updated</eventType> <!-- May contain: "cancelled" or "created" or "deleted" or "derived" or "revised" or "updated" -->
+                    <eventDateTime standardDateTime="2020-02-20T14:08:00Z">2:08 pm, 20 February 2020</eventDateTime> <!-- ISO 8601 date-time formatting -->
+                    <agentType>human</agentType> <!-- May contain: "human" or "machine" -->
+                    <agent xml:id="GPP-00001748">Callaghan, Samantha</agent> <!-- ID may be subject to change in the CW -->
+                    <eventDescription>Added bio info to NAF for William Robert Grossmith.</eventDescription> <!-- Include a full description of the maintenance event - ie: note what was created/edited during the event -->
+                </maintenanceEvent>
         </maintenanceHistory>
         <sources>
             <source xlink:href="https://viaf.org/viaf/78916337/">
@@ -154,7 +161,14 @@
                     <language languageCode="eng">English</language>
                     <script scriptCode="Latn">Latin</script>
                 </languageUsed>
-            </languagesUsed>         
+            </languagesUsed> 
+            <biogHist>
+                <abstract>William Robert Grossmith, also known as Master Grossmith (1818–1899), was a 19th-century child actor, eldest son of William Grossmith, who then established a second career as a maker of prosthetic limbs.</abstract>
+                <p>Grossmith was known as the 'Infant Roscius' or 'Young Roscius' as he began acting at a very young age. In 1825 a pamphlet was published publicising this prodigy child actor with the title The Life of the Celebrated Infant Roscius, Master Grossmith of Reading, Berks, only seven years and a quarter Old. Another, retitled to not yet nine years of age was published in 1827.</p>
+                <p>After retiring from the stage he made a second career out of prosthetic limb manufacture.[4] In fact, so well-respected were William Grossmith' products that in 1856 he published a book on the subject: Amputations and Artificial Limbs (or Grossmith on Amputations, Artificial Legs, Hands &amp;c.)</p>
+                <citation>Wikipedia. "Master Grossmith" Accessed February 20, 2020. https://en.wikipedia.org/wiki/Master_Grossmith</citation>
+                <p>Biography source: Wikipedia. Licensed under CC-BY-SA.</p>
+            </biogHist>
         </description>
     </cpfDescription>
     <cpfDescription> <!-- Descriptive metadata -->

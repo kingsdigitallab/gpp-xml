@@ -86,6 +86,13 @@
                 <agent xml:id="GPP-00001748">Callaghan, Samantha</agent> <!-- ID may be subject to change in the CW -->
                 <eventDescription>Creation of NAF for Joanna Żubr.</eventDescription> <!-- Include a full description of the maintenance event - ie: note what was created/edited during the event -->
             </maintenanceEvent>
+            <maintenanceEvent> <!-- records each maintenance/editing event that occurs throughout the life of the file -->
+                <eventType>updated</eventType> <!-- May contain: "cancelled" or "created" or "deleted" or "derived" or "revised" or "updated" -->
+                <eventDateTime standardDateTime="2020-02-19T14:08:00Z">2:08 pm, 19 February 2020</eventDateTime> <!-- ISO 8601 date-time formatting -->
+                <agentType>human</agentType> <!-- May contain: "human" or "machine" -->
+                <agent xml:id="GPP-00001748">Callaghan, Samantha</agent> <!-- ID may be subject to change in the CW -->
+                <eventDescription>Added bio info to NAF for Joanna Żubr.</eventDescription> <!-- Include a full description of the maintenance event - ie: note what was created/edited during the event -->
+            </maintenanceEvent>
         </maintenanceHistory>
         <sources>
             <source xlink:type="simple" xlink:href="https://viaf.org/viaf/4931150085884915060002/">
@@ -181,7 +188,17 @@
                     <language languageCode="pol">Polish</language>
                     <script scriptCode="Latn">Latin</script>
                 </languageUsed>
-            </languagesUsed>        
+            </languagesUsed>
+            <biogHist>
+                <abstract>Joanna Żubr (ca. 1770–1852) was a Polish soldier of the Napoleonic Wars, a veteran of the Polish–Austrian War, and the first woman to receive the Virtuti Militari, the highest Polish military decoration.</abstract>
+                <p>After the outbreak of the Napoleonic Wars and creation of the Duchy of Warsaw in 1808, Joanna Żubr with her husband, Michał, left Austrian-ruled Volhynia. Both joined the army of the new Duchy, with Joanna initially a camp-follower. Soon she enlisted in the 2nd Infantry Regiment (4th company, 2nd battalion) as a private, hiding that she was a woman from both her superiors and fellow soldiers.</p>
+                <p>In 1809, Joanna took part in the Galician Campaign, distinguishing herself in the Battle of Zamość on May 19 of that year. For her bravery, Prince Józef Poniatowski awarded her the medal of Virtuti Militari; Joanna was the first female soldier to be awarded the decoration and one of the first women in the world to receive a military award for bravery in battle.</p>
+                <p>After the campaign, she joined the 17th Infantry Regiment in Dąbrowski's Division, under Jan Henryk Dąbrowski. Her husband was an ensign in the same regiment and Joanna Żubr was promoted to sergeant, as the first woman in the Polish Army. Their division, renamed the Greater Polish Division, took part in Napoleon's invasion of Russia and his campaign in present-day Belarus.</p>
+                <p>During the battles and Napoleon's retreat, she was separated from her division, but she managed to escape from Russia on her own. In the summer of 1813, weeks after Prince Józef Poniatowski's forces had abandoned Kraków, she reached Polish units in Saxony and served with distinction until the signing of the Treaty of Fontainebleau and the end of the war.</p>
+                <p>Joanna and her husband returned to Poland. Because she could return to neither Austrian-occupied nor Russian-held parts of Poland, they settled at Wieluń. She died there during a cholera epidemic in 1852, at the age of about eighty.</p>
+                <citation>Wikipedia. "Joanna Żubr" Accessed February 20, 2020. https://en.wikipedia.org/wiki/Joanna_%C5%BBubr</citation>
+                <p>Biography source: Wikipedia. Licensed under CC-BY-SA.</p>
+            </biogHist>
         </description>
     </cpfDescription>
     <cpfDescription> <!-- Descriptive metadata -->
@@ -235,7 +252,13 @@
                     <language languageCode="pol">Polish</language>
                     <script scriptCode="Latn">Latin</script>
                 </languageUsed>
-            </languagesUsed>      
+            </languagesUsed>  
+            <biogHist>
+                <abstract>Joanna Żubr (ca. 1770–1852) was a Polish soldier of the Napoleonic Wars, a veteran of the Polish–Austrian War, and the first woman to receive the Virtuti Militari, the highest Polish military decoration.</abstract>
+                <p>After the outbreak of the Napoleonic Wars and creation of the Duchy of Warsaw in 1808, Joanna Żubr with her husband, Michał, left Austrian-ruled Volhynia. Both joined the army of the new Duchy, with Joanna initially a camp-follower. Soon she enlisted in the 2nd Infantry Regiment (4th company, 2nd battalion) as a private, hiding that she was a woman from both her superiors and fellow soldiers.</p>
+                <citation>Wikipedia. "Joanna Żubr" Accessed February 20, 2020. https://en.wikipedia.org/wiki/Joanna_%C5%BBubr</citation>
+                <p>Biography source: Wikipedia. Licensed under CC-BY-SA.</p>
+            </biogHist>
         </description>
     </cpfDescription>
     </multipleIdentities>

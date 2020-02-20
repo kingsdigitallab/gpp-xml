@@ -86,6 +86,13 @@
                 <agent xml:id="GPP-00001748">Callaghan, Samantha</agent> <!-- ID may be subject to change in the CW -->
                 <eventDescription>Creation of NAF for Charlotte Charke.</eventDescription> <!-- Include a full description of the maintenance event - ie: note what was created/edited during the event -->
             </maintenanceEvent>
+            <maintenanceEvent> <!-- records each maintenance/editing event that occurs throughout the life of the file -->
+                <eventType>updated</eventType> <!-- May contain: "cancelled" or "created" or "deleted" or "derived" or "revised" or "updated" -->
+                <eventDateTime standardDateTime="2020-02-16T14:08:00Z">2:08 pm, 16 February 2020</eventDateTime> <!-- ISO 8601 date-time formatting -->
+                <agentType>human</agentType> <!-- May contain: "human" or "machine" -->
+                <agent xml:id="GPP-00001748">Callaghan, Samantha</agent> <!-- ID may be subject to change in the CW -->
+                <eventDescription>Added bio info for NAF for Charlotte Charke.</eventDescription> <!-- Include a full description of the maintenance event - ie: note what was created/edited during the event -->
+            </maintenanceEvent>
         </maintenanceHistory>
         <sources>
             <source xlink:type="simple" xlink:href="https://viaf.org/viaf/34689258/">
@@ -164,7 +171,12 @@
                     <language languageCode="eng">English</language>
                     <script scriptCode="Latn">Latin</script>
                 </languageUsed>
-            </languagesUsed>        
+            </languagesUsed>
+            <biogHist>
+                <abstract>Charlotte Charke (née Cibber, also Charlotte Secheverell, aka Charles Brown) (13 January 1713 – 6 April 1760) was an English actress, playwright, novelist, autobiographer, and noted transvestite. She acted on the stage from the age of 17, mainly in breeches roles, and took to wearing male clothing off the stage. She assumed the name "Charles Brown" and called her daughter "Mrs. Brown." She suffered a series of failures in her business affairs after working in a variety of trades commonly associated with men, from valet, to sausage maker, farmer, pastry chef, and tavern owner, but finally achieved success under her own name as a writer, ending her life as a novelist and memoirist.</abstract>
+                <citation>Wikipedia. "Charlotte Charke" Accessed February 20, 2020. https://en.wikipedia.org/wiki/Charlotte_Charke</citation>
+                <p>Biography source: Wikipedia. Licensed under CC-BY-SA.</p>
+            </biogHist>
         </description>
     </cpfDescription>
     <cpfDescription> <!-- Descriptive metadata -->
@@ -198,7 +210,17 @@
                     <language languageCode="eng">English</language>
                     <script scriptCode="Latn">Latin</script>
                 </languageUsed>
-            </languagesUsed>      
+            </languagesUsed> 
+            <biogHist>
+                <abstract>Charlotte Charke (née Cibber, also Charlotte Secheverell, aka Charles Brown) (13 January 1713 – 6 April 1760) was an English actress, playwright, novelist, autobiographer, and noted transvestite. She acted on the stage from the age of 17, mainly in breeches roles, and took to wearing male clothing off the stage. She assumed the name "Charles Brown" and called her daughter "Mrs. Brown." She suffered a series of failures in her business affairs after working in a variety of trades commonly associated with men, from valet, to sausage maker, farmer, pastry chef, and tavern owner, but finally achieved success under her own name as a writer, ending her life as a novelist and memoirist.</abstract>
+                <p>According to the autobiography, the principal aid she received at this stage of her life [after 1738] was from other actors. Dressing as a man could of course be explained as one way to avoid being recognised by her many creditors, but it was also clearly Charke's preference. While trying to raise money from friends, she was arrested for debt and imprisoned. According to her in an intriguing passage of her Autobiography, it was the coffee-house keepers and prostitutes of Covent Garden who banded together to raise the money for her bail, and these women, knowing her well, jokingly referred to her as "Master Charles" as if she were a young gentleman.</p>
+                <p>In fact, she had by now begun appearing in public almost exclusively as a male. This becomes apparently indistinct when Charke joined Jockey Adams’ touring company outside of London in 1741 and assumed the billing her Mr Charles Brown. There is no way of telling why she chose the name Brown, there is a possibility that it was chosen because of her elder sister, Catherine Brown. Within 'The Narrative' Charke recalls this male persona going as far as to be the 'improper object' of love, from an orphan heiress who's name has vanished from history. Shevelow names her as Mary Harlowe. Charke speaks in her memoir of the moment they met, 'making a general bow to the room', before Charke, disguised as Mr Brown unveiled her true identity to Ms Harlowe, to which she was astonished and ashamed. Although the identity of the young woman remains "shadowy", many historians believe that she is indeed "Mrs. Brown". Unable to earn a living in the sanctioned theatres, Charlotte began to work any job she could to support herself and Catherine, but she was always attracted to jobs she could perform as a man. Therefore, she was a valet to Richard Annesley, 6th Earl of Anglesey, and then even took up as a sausage maker. Anglesey was famous as a bigamist and libertine, and lived with a paramour during Charlotte's employ. Charlotte claimed that when Anglesey was not entertaining guests, the trio would dine together as friendly equals. As a valet's service would indeed be personal, normally including dressing one's master for the day, the entire arrangement would have been quite unusual. (Anglesey was soon a central party to an infamous scandal, being dispossessed of his lands—but allowed to continue using his title—after a court ruled that he had sold his young kinsman, James Annesley, who had a better claim to the inheritance, into slavery.)</p>
+                <p>In 1742, Charlotte got a new acting company in the New Theatre in St. James's, and she produced her second play, Tit for Tat, or, Comedy and Tragedy at War. In the flush of early success, she borrowed money from her uncle and opened the Charlotte Charke Tavern in Drury Lane. This failed due to thieving by her customers and her own generosity; she sold it at a loss. In the summer season, she appeared in a series of male roles. At this point, she was "Charles Brown" in public in London on an everyday basis. She joined with Theophilus Cibber at the Haymarket in 1744 and then joined William Hallam's company. She married John Sacheverell in 1746, but scholars cannot determine anything about this man, and Charke refers to him only in passing in her autobiography, and not even by name. Whatever the nature of the marriage, it was cut short by Sacheverell's death. It did give Charke a new surname under which to appear for a time.</p>
+                <p>At a typical moment of penury, Charlotte was offered the leading male role of Punch (of Punch &amp; Judy fame) in a new puppet theatre proposed by a Mr. Russell, due to her recognised abilities as both a comic performer and a proven manipulator of difficult stringed marionettes. The short season was an artistic and financial success for Charlotte, but before it could be repeated the theatre's founder was arrested for debts and confined to Newgate Prison, where he died after having lost his fortune and his mind. Charlotte attempted to buy her friend's puppets from Russell's landlord, who had claimed them, but she could not meet his asking price and the little company likewise passed out of existence. An unproduced script Russell had written was also kept by the dead man's creditors as collateral, thus preventing Charlotte from staging it as she had promised its author. The script was thereafter lost as well.</p>
+                <p>Some time in 1747, Charke went on the road as a strolling player, travelling the West Country with Charlotte's daughter in tow. In 1750, Catherine Charke married an actor named John Harman, despite Charlotte's aversion to him. During these peripatetic years, Charlotte was once imprisoned (with males) as a vagabond actor, worked as a (male) pastry cook, and set herself up as a farmer. Earlier she had run a grocery store. All her attempts at business ended alike in failure. Between 1752 and 1753, she wrote for the Bristol Weekly Intelligencer, and in 1754 she worked as a prompter in Bath, under her own name but in men's clothing. She found many of the players difficult and untalented compared to those she had known in her privileged youth. At the end of the year, she decided to move back to London and make her living as a writer.</p>
+                <citation>Wikipedia. "Charlotte Charke" Accessed February 20, 2020. https://en.wikipedia.org/wiki/Charlotte_Charke</citation>
+                <p>Biography source: Wikipedia. Licensed under CC-BY-SA.</p>
+            </biogHist>
         </description>
     </cpfDescription>
     </multipleIdentities>
