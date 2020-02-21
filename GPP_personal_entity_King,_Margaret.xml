@@ -84,19 +84,32 @@
                 <eventDateTime standardDateTime="2020-02-07T14:08:00Z">2:08 pm, 7 February 2020</eventDateTime> <!-- ISO 8601 date-time formatting -->
                 <agentType>human</agentType> <!-- May contain: "human" or "machine" -->
                 <agent xml:id="GPP-00001748">Callaghan, Samantha</agent> <!-- ID may be subject to change in the CW -->
-                <eventDescription>Creation of NAF for Sarah Paul.</eventDescription> <!-- Include a full description of the maintenance event - ie: note what was created/edited during the event -->
+                <eventDescription>Creation of NAF for Margaret King funded by the Marc Fitch Fund (https://www.marcfitchfund.org.uk/)</eventDescription> <!-- Include a full description of the maintenance event - ie: note what was created/edited during the event -->
+            </maintenanceEvent>
+            <maintenanceEvent> <!-- records each maintenance/editing event that occurs throughout the life of the file -->
+                <eventType>updated</eventType> <!-- May contain: "cancelled" or "created" or "deleted" or "derived" or "revised" or "updated" -->
+                <eventDateTime standardDateTime="2020-02-20T14:08:00Z">2:08 pm, 20 February 2020</eventDateTime> <!-- ISO 8601 date-time formatting -->
+                <agentType>human</agentType> <!-- May contain: "human" or "machine" -->
+                <agent xml:id="GPP-00001748">Callaghan, Samantha</agent> <!-- ID may be subject to change in the CW -->
+                <eventDescription>Updated info for NAF for Margaret King funded by the Marc Fitch Fund (https://www.marcfitchfund.org.uk/)</eventDescription> <!-- Include a full description of the maintenance event - ie: note what was created/edited during the event -->
             </maintenanceEvent>
         </maintenanceHistory>
         <sources>
-            <source xlink:type="simple" xlink:href="https://www.tandfonline.com/doi/full/10.1080/01440365.2017.1289674">
-                <sourceEntry>DOI: 10.1080/01440365.2017.1289674</sourceEntry>
-            </source>  
-            <source xlink:href="https://www.geonames.org/2643743/london.html">
-                <sourceEntry>Geonames ID: 2643743</sourceEntry>
+            <source xlink:type="simple" xlink:href="https://viaf.org/viaf/71641726/">
+                <sourceEntry>VIAF ID: 71641726</sourceEntry>
             </source>
-            <source xlink:href="http://www.workhouses.org.uk/StSepulchre/">
-                <sourceEntry>Workhouses ID: StSepulchre</sourceEntry>
-            </source>          
+            <source xlink:type="simple" xlink:href="https://www.wikidata.org/wiki/Q6759592">
+                <sourceEntry>Wikidata ID: Q6759592</sourceEntry>
+            </source>  
+            <source xlink:href="https://www.geonames.org/3170647/pisa.html">
+                <sourceEntry>Geonames ID: 3170647</sourceEntry>
+            </source>
+            <source xlink:href="https://en.wikipedia.org/wiki/Margaret_King">
+                <sourceEntry>Wikipedia: Margaret King</sourceEntry>
+            </source>
+            <source xlink:href="https://en.wikipedia.org/wiki/George_William_Tighe">
+                <sourceEntry>Wikipedia: George William Tighe</sourceEntry>
+            </source>  
         </sources>        
     </control>
     <multipleIdentities>
@@ -104,32 +117,66 @@
         <identity>
             <entityType>person</entityType>
             <nameEntry scriptCode="Latn" xml:lang="eng"> 
-                <part localType="forename">Sarah</part>
-                <part localType="surname">Paul</part>
+                <part localType="forename">Margaret Jane</part>
+                <part localType="surname">King</part>
                 <useDates>
                     <dateRange>
-                        <fromDate standardDate="1739">ca. 1739</fromDate>
-                        <toDate standardDate="1766">ca. 1766</toDate>
+                        <fromDate standardDate="1773">ca. 1773</fromDate>
+                        <toDate standardDate="1835">ca. 1835</toDate>
                     </dateRange>
                 </useDates>
                 <authorizedForm>NCA</authorizedForm>
             </nameEntry>
             <nameEntry scriptCode="Latn" xml:lang="eng" localType="directOrder"> 
-                <part>Paul, Sarah, ca 1739-ca 1766</part>
+                <part>King, Margaret, c 1773-c 1835</part>
                 <useDates>
                     <dateRange>
-                        <fromDate standardDate="1739">ca. 1739</fromDate>
-                        <toDate standardDate="1766">ca. 1766</toDate>
+                        <fromDate standardDate="1773">ca. 1773</fromDate>
+                        <toDate standardDate="1835">ca. 1835</toDate>
                     </dateRange>
                 </useDates>
                 <authorizedForm>NCA</authorizedForm>
+            </nameEntry>
+            <nameEntry scriptCode="Latn" xml:lang="eng"> 
+                <part localType="forename">Margaret Jane</part>
+                <part localType="surname">Moore</part>
+                <part localType="title">1st wife of 2nd Earl Mount Cashell</part>
+                <useDates>
+                    <dateRange>
+                        <fromDate standardDate="1791-09-12">12 September 1791</fromDate>
+                        <toDate standardDate="1822-10">October 1822</toDate>
+                    </dateRange>
+                </useDates>
+                <alternativeForm>NCA</alternativeForm>
+            </nameEntry>
+            <nameEntry scriptCode="Latn" xml:lang="eng"> 
+                <part localType="forename">Margaret</part>
+                <part localType="surname">Mason</part>
+                <useDates>
+                    <dateRange>
+                        <fromDate standardDate="1802">ca. 1802</fromDate>
+                        <toDate standardDate="1835">ca. 1835</toDate>
+                    </dateRange>
+                </useDates>
+                <alternativeForm>NCA</alternativeForm>
+            </nameEntry>
+            <nameEntry scriptCode="Latn" xml:lang="eng"> <!-- From here -->
+                <part localType="forename">Margaret</part>
+                <part localType="surname">Mason</part>
+                <useDates>
+                    <dateRange>
+                        <fromDate standardDate="1802">ca. 1802</fromDate>
+                        <toDate standardDate="1835">ca. 1835</toDate>
+                    </dateRange>
+                </useDates>
+                <alternativeForm>NCA</alternativeForm>
             </nameEntry>
         </identity>
         <description>
             <existDates> <!-- Birth and death dates, if known. -->
                 <dateRange>
-                    <fromDate standardDate="1739">ca. 1739</fromDate>
-                    <toDate standardDate="1766">ca. 1766</toDate>
+                    <fromDate standardDate="1773">ca. 1773</fromDate>
+                    <toDate standardDate="1835">ca. 1835</toDate>
                 </dateRange>
             </existDates>
             <localDescription localType="gender">
