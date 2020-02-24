@@ -59,8 +59,7 @@
         <localTypeDeclaration>
             <abbreviation>Name Parts</abbreviation>
             <citation xlink:href="http://anws.llgc.org.uk/ncarules/title.htm" xlink:type="simple"
-                >National Council on Archives Rules for the construction of personal, place and
-                corporate names, 1997.</citation>
+                >National Council on Archives Rules for the construction of personal, place and corporate names, 1997.</citation>
             <descriptiveNote>
                 <p>The name parts (and direct order) that constitute name formation are taken from the NCA Rules.</p>
             </descriptiveNote>
@@ -99,6 +98,9 @@
             </source>
             <source xlink:type="simple" xlink:href="https://www.geonames.org/2643743/london.html">
                 <sourceEntry>GeoNames ID: 2643743</sourceEntry> 
+            </source>
+            <source xlink:type="simple" xlink:href="http://www.samj.org.za/index.php/samj/article/view/130/425">
+                <sourceEntry>Preez, Hercules Michael du. "Dr James Barry: The Early Years Revealed." South African Journal of Medicine 98, no. 1 (January 2008):52-58. http://www.samj.org.za/index.php/samj/article/view/130/425</sourceEntry>
             </source>
         </sources>        
     </control>
@@ -162,6 +164,9 @@
                     <script scriptCode="Latn">Latin</script>
                 </languageUsed>
             </languagesUsed>
+            <function>
+                <term vocabularySource="UKAT">Doctors</term>
+            </function>
             <biogHist> 
                 <abstract>James Miranda Steuart Barry (c. 1789 – 25 July 1865) was a military surgeon in the British Army, born in Cork, Ireland. Barry obtained a medical degree from the University of Edinburgh Medical School, then served first in Cape Town, South Africa and subsequently in many parts of the British Empire. Before retirement, Barry had risen to the rank of Inspector General (equivalent to Brigadier General) in charge of military hospitals, the second highest medical office in the British Army. Barry not only improved conditions for wounded soldiers, but also the conditions of the native inhabitants, and performed the first caesarean section in Africa by an Irish surgeon in which both the mother and child survived the operation.</abstract>
                 <p>Although Barry's entire adult life was lived as a man, Barry was born Margaret Ann Bulkley and was known as female in childhood. Barry lived as a man in both public and private life, at least in part in order to be accepted as a university student and pursue a career as a surgeon, with Barry's birth sex only becoming known to the public and to military colleagues after death.</p>
@@ -176,7 +181,7 @@
                 <p>Barry was buried in Kensal Green Cemetery under the name James Barry and full military rank.</p>
                 <citation>Wikipedia. "James Barry (surgeon)" Accessed December 17, 2019. https://en.wikipedia.org/wiki/James_Barry_(surgeon)</citation>
                 <p>Biography source: Wikipedia. Licensed under CC-BY-SA.</p>
-            </biogHist>         
+            </biogHist>
         </description>
     </cpfDescription>
         <cpfDescription> <!-- Descriptive metadata -->
@@ -194,7 +199,7 @@
                     <authorizedForm>NCA</authorizedForm>
                 </nameEntry>
                 <nameEntry scriptCode="Latn" xml:lang="eng" localType="directOrder"> 
-                    <part>Bulkley, Margaret Ann, ca 1789-1865</part>
+                    <part>Bulkley, Margaret Ann, c 1789-1865</part>
                     <useDates>
                         <dateRange>
                             <fromDate standardDate="1789">ca. 1789</fromDate>
@@ -237,7 +242,7 @@
                     <p>Barry was the second child born to Jeremiah and Mary-Ann Bulkley, and was given the name Margaret Ann. Mary-Ann Bulkley was the sister of James Barry, a celebrated Irish artist and professor of painting at London's Royal Academy. Jeremiah Bulkley ran the weigh house in Merchant's Quay, Cork. However, anti-Catholic sentiment led to his dismissal from this post. This and subsequent financial mismanagement left Mary-Ann and Barry without the support of either Jeremiah Bulkley (whose debts led to him spending time in the Marshalsea prison in Dublin) or later the Bulkleys' married son John. A third child appeared in the Bulkley family and was named Juliana. Although presented as being Barry's sister, it is likely that she was Barry's daughter as a result of childhood sexual assault, as the charwoman who discovered Barry's sex, Sophia Bishop, when laying out the body stated that pregnancy stretch marks were present.</p>
                     <p>The teenage Barry was educated with the prospect of becoming a tutor, but given a lack of evidence of any work history, the Bulkleys appear to have struggled to find Barry any suitable tutoring positions. A conspiracy appears to have developed between Barry, Mary-Ann Bulkley and some of the late James Barry's influential, liberal-minded friends (General Francisco de Miranda, Dr Edward Fryer, who had become Barry's personal tutor, and Daniel Reardon, the family's solicitor) to enable the teenage Barry to enter medical school. The University of Edinburgh was chosen and Mary-Ann and Barry boarded a Leith smack on 30 November 1809. And so, Margaret Ann Bulkley became James Barry, nephew of the late James Barry RA the Irish romantic painter and remained known thus for the next 56 years. In a letter to Daniel Reardon, sent on 14 December, Barry asked for any letters addressed to Margaret Bulkley to be forwarded to Mary-Ann Bulkley (whom Barry now refers to as "my aunt"), and mentions that '...it was very usefull [sic] for Mrs. Bulkley (my aunt) to have a Gentleman to take care of her on Board Ship and to have one in a strange country...'. Although the letter was signed "James Barry", the solicitor indiscreetly wrote on the back of the envelope 'Miss Bulkley, 14 December'; this crucial piece of evidence was the one which enabled researchers to finally confirm that Margaret Bulkley and James Barry were one and the same.</p>
                     <citation>Preez, Hercules Michael du. "Dr James Barry: The Early Years Revealed." South African Journal of Medicine 98, no. 1 (January 2008):52-58. http://www.samj.org.za/index.php/samj/article/view/130/425</citation>
-                    <citation>Wikipedia. "Deborah Sampson" Accessed December 13, 2019. https://en.wikipedia.org/wiki/Deborah_Sampson</citation>
+                    <citation>Wikipedia. "James Barry (surgeon)" Accessed December 17, 2019. https://en.wikipedia.org/wiki/James_Barry_(surgeon)</citation>
                     <p>Biography source: Wikipedia. Licensed under CC-BY-SA.</p>
                 </biogHist>         
             </description>
