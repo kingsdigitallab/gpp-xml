@@ -83,8 +83,15 @@
                 <eventType>created</eventType> <!-- May contain: "cancelled" or "created" or "deleted" or "derived" or "revised" or "updated" -->
                 <eventDateTime standardDateTime="2019-10-30T13:27:00Z">1:27 pm, 30 October 2019</eventDateTime> <!-- ISO 8601 date-time formatting -->
                 <agentType>human</agentType> <!-- May contain: "human" or "machine" -->
-                <agent xml:id="GPP-00001748">Callaghan, Samantha</agent> <!-- ID may be subject to change in the CW -->
+                <agent xml:id="d">Callaghan, Samantha</agent> <!-- ID may be subject to change in the CW -->
                 <eventDescription>Creation of NAF for Bonnie Prince Charlie funded by the Marc Fitch Fund (https://www.marcfitchfund.org.uk/)</eventDescription> <!-- Include a full description of the maintenance event - ie: note what was created/edited during the event -->
+            </maintenanceEvent>
+            <maintenanceEvent> <!-- records each maintenance/editing event that occurs throughout the life of the file -->
+                <eventType>updated</eventType> <!-- May contain: "cancelled" or "created" or "deleted" or "derived" or "revised" or "updated" -->
+                <eventDateTime standardDateTime="2020-02-24T10:52:00Z">10:52 am, 24 February 2020</eventDateTime> <!-- ISO 8601 date-time formatting -->
+                <agentType>human</agentType> <!-- May contain: "human" or "machine" -->
+                <agent xml:id="e">Callaghan, Samantha</agent> <!-- ID may be subject to change in the CW -->
+                <eventDescription>Minor edits to NAF for Bonnie Prince Charlie.</eventDescription> <!-- Include a full description of the maintenance event - ie: note what was created/edited during the event -->
             </maintenanceEvent>
         </maintenanceHistory>
         <sources>
@@ -164,7 +171,7 @@
                 </useDates>
                 <alternativeForm>NCA</alternativeForm>
             </nameEntry>
-            <nameEntry scriptCode="Latn" xml:lang="eng"> <!-- Alias does not necessarily mean an alternative identity... -->
+            <nameEntry scriptCode="Latn" xml:lang="eng"> <!-- Alias does not necessarily mean an alternative identity. -->
                 <part localType="forename">Charles Edward Louis John Casimir Sylvester Severino Maria</part>
                 <part localType="surname">Stuart</part>
                 <part localType="properTitle">Count of Albany</part>
@@ -232,20 +239,20 @@
             </biogHist>         
         </description>
         <relations> 
-            <cpfRelation cpfRelationType="hierarchical-parent" xlink:href=""> <!-- xlink:href to be created automatically following creation of NAF page -->
-                <relationEntry xml:id="">Stuart, James Francis Edward, 1688-1766, Prince of Wales</relationEntry>
+            <cpfRelation cpfRelationType="hierarchical-parent"> <!-- xlink:href to be created automatically following creation of NAF page -->
+                <relationEntry xml:id="a">Stuart, James Francis Edward, 1688-1766, Prince of Wales</relationEntry> <!-- placeholder ids included until record can be added to Collaborative Workspace -->
                 <descriptiveNote>
                     <p>James was was Charles' father.</p>
                 </descriptiveNote>
             </cpfRelation>
-            <cpfRelation cpfRelationType="hierarchical-parent" xlink:href="">
-                <relationEntry xml:id="">Sobieska, Maria Clementina, 1702-1735, Princess</relationEntry>
+            <cpfRelation cpfRelationType="hierarchical-parent">
+                <relationEntry xml:id="b">Sobieska, Maria Clementina, 1702-1735, Princess</relationEntry>  <!-- placeholder ids included until record can be added to Collaborative Workspace -->
                 <descriptiveNote>
                     <p>Maria was Charles' mother.</p>
                 </descriptiveNote>
             </cpfRelation>
-            <cpfRelation cpfRelationType="family" xlink:href="">
-                <relationEntry xml:id="">Louise Maximilienne Caroline Emmanuele, 1752-1824, Countess of Albany</relationEntry>
+            <cpfRelation cpfRelationType="family">
+                <relationEntry xml:id="c">Louise Maximilienne Caroline Emmanuele, 1752-1824, Countess of Albany</relationEntry>  <!-- placeholder ids included until record can be added to Collaborative Workspace -->
                 <descriptiveNote>
                     <p>Louise was Charles' wife.</p>
                 </descriptiveNote>
