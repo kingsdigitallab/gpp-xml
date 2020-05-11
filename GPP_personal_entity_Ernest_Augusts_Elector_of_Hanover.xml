@@ -117,7 +117,8 @@
                 <agentType>human</agentType>
                 <!-- May contain: "human" or "machine" -->
                 <agent>Vitale, Valeria</agent>
-                <eventDescription>Creation of NAF for Ernest Augustus, Elector of Hanover.</eventDescription>
+                <eventDescription>Creation of NAF for Ernest Augustus, Elector of
+                    Hanover.</eventDescription>
                 <!-- Include a full description of the maintenance event - ie: note what was created/edited during the event -->
             </maintenanceEvent>
         </maintenanceHistory>
@@ -133,8 +134,7 @@
                 xlink:href="http://www.geonames.org/12047344/herzberg-castle.html">
                 <sourceEntry>GeoNames ID: 12047344</sourceEntry>
             </source>
-            <source xlink:type="simple"
-                xlink:href="https://www.wikidata.org/wiki/Q48966707">
+            <source xlink:type="simple" xlink:href="https://www.wikidata.org/wiki/Q48966707">
                 <sourceEntry>Wikidata ID: Q48966707</sourceEntry>
             </source>
         </sources>
@@ -211,76 +211,84 @@
             <places>
                 <place>
                     <placeRole>birth</placeRole>
-                    <placeEntry vocabularySource="GeoNames" latitude="51.65546" longitude="10.33107">
-                        Herzberg Castle</placeEntry>
+                    <placeEntry vocabularySource="GeoNames" latitude="51.65546" longitude="10.33107"
+                        > Herzberg Castle</placeEntry>
                     <date standardDate="1629-11-20">20 November 1629</date>
                 </place>
                 <place>
                     <placeRole>death</placeRole>
-                    <placeEntry vocabularySource="Wikidata" latitude="52.403889" longitude="9.685556"
-                        >Herrenhausen Palace</placeEntry>
+                    <placeEntry vocabularySource="Wikidata" latitude="52.403889"
+                        longitude="9.685556">Herrenhausen Palace</placeEntry>
                     <date standardDate="1698-01-23">23 January 1698</date>
                 </place>
             </places>
             <languagesUsed>
-                
+
                 <languageUsed>
                     <language languageCode="ger">German</language>
                     <script scriptCode="Latn">Latin</script>
                 </languageUsed>
-                
+
             </languagesUsed>
             <biogHist>
-                <abstract>George I (George Louis 28 May 1660 – 11 June
-                    1727) was King of Great Britain and Ireland from 1 August 1714 and ruler of
-                    the Duchy and Electorate of Brunswick-Lüneburg (Hanover) in the Holy Roman
-                    Empire from 23 January 1698 until his death in 1727. He was the first British
-                    monarch of the House of Hanover.</abstract>
-                <citation>Wikipedia. "George I of Great Britain" Accessed May 11, 2020.
-                    https://en.wikipedia.org/wiki/George_I_of_Great_Britain</citation>
+                <abstract>Ernest Augustus (20 November 1629 – 23 January 1698) was ruler of the
+                    Principality of Lüneburg from 1658 and of the Principality of Calenberg from
+                    1679 until his death. He was appointed as the ninth prince-elector of the Holy
+                    Roman Empire in 1692, but died before the appointment became effective. He was
+                    also ruler of the Prince-Bishopric of Osnabrück from 1662 until his
+                    death.</abstract>
+                <citation>Wikipedia. "Ernest Augustus, Elector of Hanover" Accessed May 11, 2020.
+                    https://en.wikipedia.org/wiki/Ernest_Augustus,_Elector_of_Hanover</citation>
                 <p>Biography source: Wikipedia. Licensed under CC-BY-SA.</p>
             </biogHist>
         </description>
         <relations>
             <cpfRelation cpfRelationType="hierarchical-parent" xlink:href="">
                 <!-- xlink:href to be created automatically following creation of NAF page -->
-                <relationEntry xml:id="GPP-00000018">George, 1582-1641, Duke of Brunswick-Lüneburg</relationEntry>
+                <relationEntry xml:id="GPP-00000018">George, 1582-1641, Duke of
+                    Brunswick-Lüneburg</relationEntry>
                 <descriptiveNote>
                     <p>George was Ernest Augustus' father.</p>
                 </descriptiveNote>
             </cpfRelation>
             <cpfRelation cpfRelationType="family" xlink:href="">
-                <relationEntry xml:id="GPP-00009213">Sophia, 1630-1714, Electress of Hanover</relationEntry>
+                <relationEntry xml:id="GPP-00009213">Sophia, 1630-1714, Electress of
+                    Hanover</relationEntry>
                 <descriptiveNote>
                     <p>Sophia was Ernest Augustus' wife.</p>
                 </descriptiveNote>
             </cpfRelation>
             <cpfRelation cpfRelationType="hierarchical-parent" xlink:href="">
-                <relationEntry xml:id="NAF-00000006">Dorothea, 1546-1617, Duchess of Brunswick-Lüneburg</relationEntry>
+                <relationEntry xml:id="NAF-00000006">Dorothea, 1546-1617, Duchess of
+                    Brunswick-Lüneburg</relationEntry>
                 <descriptiveNote>
                     <p>Dorothea was Ernest Augustus' mother.</p>
                 </descriptiveNote>
-                 </cpfRelation>
+            </cpfRelation>
             <cpfRelation cpfRelationType="hierarchical-child" xlink:href="">
-                <relationEntry xml:id="NAF-00000007">George I, 1660-1727, King of Great Britain and Ireland</relationEntry>
+                <relationEntry xml:id="NAF-00000007">George I, 1660-1727, King of Great Britain and
+                    Ireland</relationEntry>
                 <descriptiveNote>
                     <p>George I was Ernest Augustus' son.</p>
                 </descriptiveNote>
-              </cpfRelation>
+            </cpfRelation>
             <cpfRelation cpfRelationType="hierarchical-child" xlink:href="">
-                <relationEntry xml:id="NAF-00000008">Maximilian William, 1666-1726, Duke of Brunswick-Lüneburg </relationEntry>
+                <relationEntry xml:id="NAF-00000008">Maximilian William, 1666-1726, Duke of
+                    Brunswick-Lüneburg </relationEntry>
                 <descriptiveNote>
                     <p>Maximilian William was Ernest Augustus' son.</p>
                 </descriptiveNote>
             </cpfRelation>
             <cpfRelation cpfRelationType="hierarchical-child" xlink:href="">
-                <relationEntry xml:id="NAF-00000009">Sophia Charlotte, 1668-1705, Queen consort in Prussia</relationEntry>
+                <relationEntry xml:id="NAF-00000009">Sophia Charlotte, 1668-1705, Queen consort in
+                    Prussia</relationEntry>
                 <descriptiveNote>
                     <p>Sophia Charlotte was Ernest Augustus' daughter.</p>
                 </descriptiveNote>
             </cpfRelation>
             <cpfRelation cpfRelationType="hierarchical-child" xlink:href="">
-                <relationEntry xml:id="NAF-00000003">Ernest Augustus, 1674-1728, Duke of York and Albany</relationEntry>
+                <relationEntry xml:id="NAF-00000003">Ernest Augustus, 1674-1728, Duke of York and
+                    Albany</relationEntry>
                 <descriptiveNote>
                     <p>Ernest Augustus was Ernest Augustus' son.</p>
                 </descriptiveNote>
