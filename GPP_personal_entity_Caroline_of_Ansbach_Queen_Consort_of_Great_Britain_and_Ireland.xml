@@ -265,7 +265,7 @@
                 </descriptiveNote>
             </cpfRelation>
             <cpfRelation cpfRelationType="hierarchical-child" xlink:href="">
-                <relationEntry xml:id="NAF-00000008">Anne, 1709-1759, Princess Royal</relationEntry>
+                <relationEntry xml:id="NAF-00000008">Anne, 1709-1759, Princess of Orange</relationEntry>
                 <descriptiveNote>
                     <p>Anne was Caroline's daughter.</p>
                 </descriptiveNote>
@@ -299,8 +299,7 @@
                 </descriptiveNote>
             </cpfRelation>
             <cpfRelation cpfRelationType="hierarchical-child" xlink:href="">
-                <relationEntry xml:id="NAF-00000012">Mary, 1723-1772, Princess of Great
-                    Britain</relationEntry>
+                <relationEntry xml:id="NAF-00000012">Mary, 1723-1772, Landgravine of Hesse-Kassel</relationEntry>
                 <descriptiveNote>
                     <p>Mary was Caroline's daughter.</p>
                 </descriptiveNote>
