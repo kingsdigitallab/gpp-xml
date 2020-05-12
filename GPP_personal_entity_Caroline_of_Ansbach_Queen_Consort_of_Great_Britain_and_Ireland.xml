@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eac-cpf xmlns="urn:isbn:1-931666-33-4" xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="urn:isbn:1-931666-33-4 http://eac.staatsbibliothek-berlin.de/schema/cpf.xsd">
+    <control>
+        <!-- Administrative metadata -->
+        <recordId>NAF-00000005</recordId>
+        <maintenanceStatus>new</maintenanceStatus>
+        <!-- Updated when edited. May contain: "cancelled" or "deleted" or "deletedReplaced" or "deletedSplit" or "derived" or "new" or "revised" -->
+        <publicationStatus>inProcess</publicationStatus>
+        <!-- May contain: "inProcess" or "approved" -->
+        <maintenanceAgency>
+            <agencyName>King's Digital Laboratory</agencyName>
+        </maintenanceAgency>
+        <languageDeclaration>
+            <!-- Of the EAC-CPF file. The EAC-CPF files created for the GPP project are all (at this time) in English and use the latin script. -->
+            <language languageCode="eng">English</language>
+            <script scriptCode="Latn">Latin</script>
+        </languageDeclaration>
+        <conventionDeclaration>
+            <!-- Date and time format convention. -->
+            <abbreviation>ISO8601</abbreviation>
+            <citation xlink:href="https://www.iso.org/iso-8601-date-and-time-format.html"
+                xlink:type="simple">Date and time format - ISO 8601</citation>
+            <descriptiveNote>
+                <p>Dates and times are formatted according to the ISO 8601 standard in the following
+                    forms: YYYY-MM-DD or YYYY-MM-DDTHH:MM:SSZ.</p>
+            </descriptiveNote>
+        </conventionDeclaration>
+        <conventionDeclaration>
+            <!-- Personal and organisational naming conventions -->
+            <abbreviation>NCA</abbreviation>
+            <citation xlink:href="http://anws.llgc.org.uk/ncarules/title.htm" xlink:type="simple"
+                >National Council on Archives Rules for the construction of personal, place and
+                corporate names, 1997.</citation>
+            <descriptiveNote>
+                <p>Personal and organisational names are formatted according to NCA Rules.</p>
+            </descriptiveNote>
+        </conventionDeclaration>
+        <conventionDeclaration>
+            <!-- Geographical naming conventions -->
+            <abbreviation>GeoNames</abbreviation>
+            <citation xlink:href="http://www.geonames.org/" xlink:type="simple">GeoNames</citation>
+            <descriptiveNote>
+                <p>Geographic names are formatted according to GeoNames usage.</p>
+            </descriptiveNote>
+        </conventionDeclaration>
+        <conventionDeclaration>
+            <abbreviation>Wikidata</abbreviation>
+            <citation xlink:href="https://www.wikidata.org/wiki/Wikidata:Main_Page"
+                xlink:type="simple">Wikidata</citation>
+            <descriptiveNote>
+                <p>Geographic names may be formatted according to Wikidata usage if not present on
+                    GeoNames.</p>
+            </descriptiveNote>
+        </conventionDeclaration>
+        <conventionDeclaration>
+            <!-- Geographic coordinates convention. -->
+            <abbreviation>WGS84</abbreviation>
+            <citation xlink:href="https://en.wikipedia.org/wiki/World_Geodetic_System"
+                xlink:type="simple">World Geodetic System 1984</citation>
+            <descriptiveNote>
+                <p>Latitude/longitude coordinates are in the WGS84 standard. Coordinates should be
+                    taken from GeoNames where possible.</p>
+            </descriptiveNote>
+        </conventionDeclaration>
+        <conventionDeclaration>
+            <!-- Function thesaurus. -->
+            <abbreviation>UKAT</abbreviation>
+            <citation xlink:href="http://www.ukat.org.uk/" xlink:type="simple">UK Archival
+                Thesaurus</citation>
+            <descriptiveNote>
+                <p>UKAT terms are used to specify the function/s of an EAC-CPF entity.</p>
+            </descriptiveNote>
+        </conventionDeclaration>
+        <localTypeDeclaration>
+            <abbreviation>Name Parts</abbreviation>
+            <citation xlink:href="http://anws.llgc.org.uk/ncarules/title.htm" xlink:type="simple"
+                >National Council on Archives Rules for the construction of personal, place and
+                corporate names, 1997.</citation>
+            <descriptiveNote>
+                <p>The name parts (and direct order) that constitute name formation are taken from
+                    the NCA Rules.</p>
+            </descriptiveNote>
+        </localTypeDeclaration>
+        <localTypeDeclaration>
+            <abbreviation>Date Styles</abbreviation>
+            <citation xlink:href="http://www.cree.name/genuki/dates.htm" xlink:type="simple"
+                >Spathaky, Mike. "Old Style and New Style Dates and the change to the Gregorian
+                Calendar: A summary for genealogists." Last modified December 13, 2011.
+                http://www.cree.name/genuki/dates.htm</citation>
+            <descriptiveNote>
+                <p>The time period over which the Georgian papers spans includes the change from the
+                    Old Style dating system (Julian calendar, year beginning Lady Day [25th March])
+                    to the New Style system (Gregorian calendar, year beginning 1st January). This
+                    change was implemented in Britain and her colonies in 1752 but was implemented
+                    throughout Europe at differing times in history.</p>
+                <p>For the purpose of the Georgian Papers Programme Name Authority File, in EAC-CPF
+                    all dates given with no @localType attached are implicitly New Style; only those
+                    that are Old Style will include @localType="oldStyle".</p>
+            </descriptiveNote>
+        </localTypeDeclaration>
+        <localTypeDeclaration>
+            <abbreviation>gender</abbreviation>
+            <citation xlink:href="http://homosaurus.org/terms" xlink:type="simple">Homosaurus:
+                International Thesaurus of Lesbian, Gay, Bisexual and Transgender Index
+                Terms</citation>
+        </localTypeDeclaration>
+        <maintenanceHistory>
+            <maintenanceEvent>
+                <!-- records each maintenance/editing event that occurs throughout the life of the file -->
+                <eventType>created</eventType>
+                <!-- May contain: "cancelled" or "created" or "deleted" or "derived" or "revised" or "updated" -->
+                <eventDateTime standardDateTime="2020-05-12T16:20:00Z">4.20 pm, 12 May
+                    2020</eventDateTime>
+                <!-- ISO 8601 date-time formatting -->
+                <agentType>human</agentType>
+                <!-- May contain: "human" or "machine" -->
+                <agent>Vitale, Valeria</agent>
+                <eventDescription>Creation of NAF for Caroline of Ansbach, Queen Consort of Great
+                    Britain and Ireland.</eventDescription>
+                <!-- Include a full description of the maintenance event - ie: note what was created/edited during the event -->
+            </maintenanceEvent>
+        </maintenanceHistory>
+        <sources>
+            <source xlink:type="simple" xlink:href="https://viaf.org/viaf/59202141/">
+                <sourceEntry>VIAF ID: 59202141 (Personal)</sourceEntry>
+            </source>
+            <source xlink:type="simple"
+                xlink:href="https://en.wikipedia.org/wiki/Caroline_of_Ansbach">
+                <sourceEntry>Wikipedia: Caroline of Ansbach</sourceEntry>
+            </source>
+            <source xlink:type="simple" xlink:href="https://www.geonames.org/2955936/ansbach.html">
+                <sourceEntry>GeoNames ID: 2955936</sourceEntry>
+            </source>
+            <source xlink:type="simple"
+                xlink:href="https://www.geonames.org/2623184/christiansborg.html">
+                <sourceEntry>GeoNames ID: 2623184</sourceEntry>
+            </source>
+        </sources>
+    </control>
+    <cpfDescription>
+        <!-- Descriptive metadata -->
+        <identity>
+            <entityType>person</entityType>
+            <nameEntry scriptCode="Latn" xml:lang="eng">
+                <part localType="forename">Wilhelmina Charlotte Caroline</part>
+
+                <part localType="properTitle">Queen consort of Great Britain and Ireland</part>
+                <useDates>
+                    <dateRange>
+                        <fromDate standardDate="1727-06-11">11 June 1727</fromDate>
+                        <toDate standardDate="1737-11-20">20 November 1737</toDate>
+                    </dateRange>
+                </useDates>
+                <authorizedForm>NCA</authorizedForm>
+            </nameEntry>
+            <nameEntry scriptCode="Latn" xml:lang="eng">
+                <part localType="forename">Wilhelmina Charlotte Caroline</part>
+                <part localType="properTitle">Electress consort of Hanover</part>
+                <useDates>
+                    <dateRange>
+                        <fromDate standardDate="1727-06">June 1727</fromDate>
+                        <toDate standardDate="1737-11-20">20 November 1737</toDate>
+                    </dateRange>
+                </useDates>
+                <alternativeForm>NCA</alternativeForm>
+            </nameEntry>
+            <nameEntry scriptCode="Latn" xml:lang="eng">
+                <part localType="forename">Wilhelmina Charlotte Caroline</part>
+                <part localType="properTitle">Princess of Wales</part>
+                <useDates>
+                    <dateRange>
+                        <fromDate standardDate="1714">1714</fromDate>
+                        <toDate standardDate="1727">1727</toDate>
+                    </dateRange>
+                </useDates>
+
+                <alternativeForm>NCA</alternativeForm>
+            </nameEntry>
+            <nameEntry scriptCode="Latn" xml:lang="eng" localType="directOrder">
+                <part>Caroline, 1683-1737, Queen consort of Great Britain and Ireland</part>
+                <useDates>
+                    <dateRange>
+                        <fromDate standardDate="1727-06-11">11 June 1727</fromDate>
+                        <toDate standardDate="1737-11-20">20 November 1737</toDate>
+                    </dateRange>
+                </useDates>
+                <authorizedForm>NCA</authorizedForm>
+            </nameEntry>
+        </identity>
+        <description>
+            <existDates>
+                <dateRange>
+                    <fromDate standardDate="1683-03-01">1 March 1683</fromDate>
+                    <toDate standardDate="1737-11-20">20 November 1737</toDate>
+                </dateRange>
+            </existDates>
+            <localDescription localType="gender">
+                <term vocabularySource="Homosaurus">Women</term>
+            </localDescription>
+            <places>
+                <place>
+                    <placeRole>birth</placeRole>
+                    <placeEntry vocabularySource="GeoNames" latitude="49.30481" longitude="10.5931"
+                        >Ansbache</placeEntry>
+                    <date standardDate="1683-03-01">1 March 1683</date>
+                </place>
+                <place>
+                    <placeRole>death</placeRole>
+                    <placeEntry vocabularySource="GeoNames" latitude="55.67594" longitude="12.57952"
+                        >Christiansborg</placeEntry>
+                    <date standardDate="1737-11-20">20 November 1737</date>
+                </place>
+            </places>
+            <languagesUsed>
+                <languageUsed>
+                    <language languageCode="eng">English</language>
+                    <script scriptCode="Latn">Latin</script>
+                </languageUsed>
+                <languageUsed>
+                    <language languageCode="ger">German</language>
+                    <script scriptCode="Latn">Latin</script>
+                </languageUsed>
+                <languageUsed>
+                    <language languageCode="fre">French</language>
+                    <script scriptCode="Latn">Latin</script>
+                </languageUsed>
+            </languagesUsed>
+            <biogHist>
+                <abstract>Caroline of Brandenburg-Ansbach (Wilhelmina Charlotte Caroline; 1 March
+                    1683 – 20 November 1737) was Queen consort of Great Britain as the wife of
+                    King George II.</abstract>
+                <citation>Wikipedia. "Caroline of Ansbach" Accessed May 12, 2020.
+                    https://en.wikipedia.org/wiki/Caroline_of_Ansbach</citation>
+                <p>Biography source: Wikipedia. Licensed under CC-BY-SA.</p>
+            </biogHist>
+        </description>
+        <relations>
+            <cpfRelation cpfRelationType="hierarchical-parent" xlink:href="">
+                <!-- xlink:href to be created automatically following creation of NAF page -->
+                <relationEntry xml:id="GPP-00000018">John Frederick, 1654-1686, Margrave of Brandenburg-Ansbach</relationEntry>
+                <descriptiveNote>
+                    <p>John Frederick was Caroline's father.</p>
+                </descriptiveNote>
+            </cpfRelation>
+            <cpfRelation cpfRelationType="hierarchical-parent" xlink:href="">
+                <relationEntry xml:id="GPP-00009213">Eleonore Erdmuthe Louise, 1662-1696, Margravine consort of Brandenburg-Ansbach</relationEntry>
+                <descriptiveNote>
+                    <p>Eleonore Erdmuthe Louise was Caroline's mother.</p>
+                </descriptiveNote>
+            </cpfRelation>
+            <cpfRelation cpfRelationType="family" xlink:href="">
+                <relationEntry xml:id="NAF-00000006">George II, 1683-1760, King of Great
+                    Britain</relationEntry>
+                <descriptiveNote>
+                    <p>George II was Caroline's husband.</p>
+                </descriptiveNote>
+            </cpfRelation>
+            <cpfRelation cpfRelationType="hierarchical-child" xlink:href="">
+                <relationEntry xml:id="NAF-00000007">Frederick, 1707-1751, Prince of
+                    Wales</relationEntry>
+                <descriptiveNote>
+                    <p>Frederick was Caroline's son.</p>
+                </descriptiveNote>
+            </cpfRelation>
+            <cpfRelation cpfRelationType="hierarchical-child" xlink:href="">
+                <relationEntry xml:id="NAF-00000008">Anne, 1709-1759, Princess Royal</relationEntry>
+                <descriptiveNote>
+                    <p>Anne was Caroline's daughter.</p>
+                </descriptiveNote>
+            </cpfRelation>
+            <cpfRelation cpfRelationType="hierarchical-child" xlink:href="">
+                <relationEntry xml:id="NAF-00000005">Amelia, 1711-1786, Princess of Great
+                    Britain</relationEntry>
+                <descriptiveNote>
+                    <p>Amelia was Caroline's daughter.</p>
+                </descriptiveNote>
+            </cpfRelation>
+            <cpfRelation cpfRelationType="hierarchical-child" xlink:href="">
+                <relationEntry xml:id="NAF-00000004">Caroline, 1713-1757, Princess of Great
+                    Britain</relationEntry>
+                <descriptiveNote>
+                    <p>Caroline was Caroline's daughter.</p>
+                </descriptiveNote>
+            </cpfRelation>
+            <cpfRelation cpfRelationType="hierarchical-child" xlink:href="">
+                <relationEntry xml:id="NAF-00000001">George, 1717-1718, Prince of Great
+                    Britain</relationEntry>
+                <descriptiveNote>
+                    <p>George was Caroline's son.</p>
+                </descriptiveNote>
+            </cpfRelation>
+            <cpfRelation cpfRelationType="hierarchical-child" xlink:href="">
+                <relationEntry xml:id="NAF-00000002">William, 1721-1765, Duke of
+                    Cumberland</relationEntry>
+                <descriptiveNote>
+                    <p>William was Caroline's son.</p>
+                </descriptiveNote>
+            </cpfRelation>
+            <cpfRelation cpfRelationType="hierarchical-child" xlink:href="">
+                <relationEntry xml:id="NAF-00000012">Mary, 1723-1772, Princess of Great
+                    Britain</relationEntry>
+                <descriptiveNote>
+                    <p>Mary was Caroline's daughter.</p>
+                </descriptiveNote>
+            </cpfRelation>
+            <cpfRelation cpfRelationType="hierarchical-child" xlink:href="">
+                <relationEntry xml:id="NAF-00000013">Louisa, 1724-1751, Queen of Denmark and
+                    Norway</relationEntry>
+                <descriptiveNote>
+                    <p>Louisa was Caroline's daughter.</p>
+                </descriptiveNote>
+            </cpfRelation>
+        </relations>
+    </cpfDescription>
+</eac-cpf>
