@@ -149,7 +149,7 @@
                 <part localType="properTitle">King of Great Britain and Ireland</part>
                 <useDates>
                     <dateRange>
-                        <fromDate standardDate="1727-06">June 1727</fromDate>
+                        <fromDate standardDate="1727-06-22">22 June 1727</fromDate>
                         <toDate standardDate="1760-10-25">25 October 1760</toDate>
                     </dateRange>
                 </useDates>
@@ -160,7 +160,7 @@
                 <part localType="properTitle">Elector of Hanover</part>
                 <useDates>
                     <dateRange>
-                        <fromDate standardDate="1727-06">June 1727</fromDate>
+                        <fromDate localType="oldStyle" standardDate="1727-06">11 June 1727</fromDate>
                         <toDate standardDate="1760-10-25">25 October 1760</toDate>
                     </dateRange>
                 </useDates>
@@ -204,7 +204,7 @@
                 <part>George II, 1683-1760, King of Great Britain and Ireland</part>
                 <useDates>
                     <dateRange>
-                        <fromDate standardDate="1727-06">June 1727</fromDate>
+                        <fromDate standardDate="1727-06-22">22 June 1727</fromDate>
                         <toDate standardDate="1760-10-25">25 October 1760</toDate>
                     </dateRange>
                 </useDates>
