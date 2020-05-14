@@ -117,7 +117,7 @@
                 <agentType>human</agentType>
                 <!-- May contain: "human" or "machine" -->
                 <agent>Vitale, Valeria</agent>
-                <eventDescription>Creation of NAF for Caroline of Ansbach, Queen Consort of Great
+                <eventDescription>Creation of NAF for Caroline, Queen Consort of George II, King of Great
                     Britain and Ireland.</eventDescription>
                 <!-- Include a full description of the maintenance event - ie: note what was created/edited during the event -->
             </maintenanceEvent>
@@ -146,7 +146,8 @@
             <nameEntry scriptCode="Latn" xml:lang="eng">
                 <part localType="forename">Wilhelmina Charlotte Caroline</part>
 
-                <part localType="properTitle">Queen consort of Great Britain and Ireland</part>
+                <part localType="properTitle">Queen Consort of George II, King of Great Britain and
+                    Ireland</part>
                 <useDates>
                     <dateRange>
                         <fromDate standardDate="1727-06-11">11 June 1727</fromDate>
@@ -157,10 +158,11 @@
             </nameEntry>
             <nameEntry scriptCode="Latn" xml:lang="eng">
                 <part localType="forename">Wilhelmina Charlotte Caroline</part>
-                <part localType="properTitle">Electress consort of Hanover</part>
+                <part localType="properTitle">Electress Consort of George Augustus, Elector of
+                    Hanover</part>
                 <useDates>
                     <dateRange>
-                        <fromDate standardDate="1727-06">June 1727</fromDate>
+                        <fromDate standardDate="1727-06-22">22 June 1727</fromDate>
                         <toDate standardDate="1737-11-20">20 November 1737</toDate>
                     </dateRange>
                 </useDates>
@@ -168,18 +170,21 @@
             </nameEntry>
             <nameEntry scriptCode="Latn" xml:lang="eng">
                 <part localType="forename">Wilhelmina Charlotte Caroline</part>
-                <part localType="properTitle">Princess of Wales</part>
+                <part localType="properTitle">Princess Consort of George Augustus, Prince of
+                    Wales</part>
                 <useDates>
                     <dateRange>
-                        <fromDate standardDate="1714">1714</fromDate>
-                        <toDate standardDate="1727">1727</toDate>
+                        <fromDate localType="oldStyle" standardDate="1714-09-27">27 September
+                            1714</fromDate>
+                        <toDate standardDate="1727-06-22">22 June 1727</toDate>
                     </dateRange>
                 </useDates>
 
                 <alternativeForm>NCA</alternativeForm>
             </nameEntry>
             <nameEntry scriptCode="Latn" xml:lang="eng" localType="directOrder">
-                <part>Caroline, 1683-1737, Queen consort of Great Britain and Ireland</part>
+                <part>Caroline, 1683-1737, Queen Consort of George II, King of Great Britain and
+                    Ireland</part>
                 <useDates>
                     <dateRange>
                         <fromDate standardDate="1727-06-11">11 June 1727</fromDate>
@@ -229,8 +234,8 @@
             </languagesUsed>
             <biogHist>
                 <abstract>Caroline of Brandenburg-Ansbach (Wilhelmina Charlotte Caroline; 1 March
-                    1683 – 20 November 1737) was Queen consort of Great Britain as the wife of
-                    King George II.</abstract>
+                    1683 – 20 November 1737) was Queen consort of Great Britain as the wife of King
+                    George II.</abstract>
                 <citation>Wikipedia. "Caroline of Ansbach" Accessed May 12, 2020.
                     https://en.wikipedia.org/wiki/Caroline_of_Ansbach</citation>
                 <p>Biography source: Wikipedia. Licensed under CC-BY-SA.</p>
@@ -239,73 +244,77 @@
         <relations>
             <cpfRelation cpfRelationType="hierarchical-parent" xlink:href="">
                 <!-- xlink:href to be created automatically following creation of NAF page -->
-                <relationEntry xml:id="GPP-00000018">John Frederick, 1654-1686, Margrave of Brandenburg-Ansbach</relationEntry>
+                <relationEntry xml:id="GPP-00000018">John Frederick, 1654-1686, Margrave of
+                    Brandenburg-Ansbach</relationEntry>
                 <descriptiveNote>
                     <p>John Frederick was Caroline's father.</p>
                 </descriptiveNote>
             </cpfRelation>
             <cpfRelation cpfRelationType="hierarchical-parent" xlink:href="">
-                <relationEntry xml:id="GPP-00009213">Eleonore Erdmuthe Louise, 1662-1696, Margravine consort of Brandenburg-Ansbach</relationEntry>
+                <relationEntry xml:id="GPP-00009213">Eleonore Erdmuthe Louise, 1662-1696, Margravine
+                    consort of John Frederick, Margrave of Brandenburg-Ansbach</relationEntry>
                 <descriptiveNote>
                     <p>Eleonore Erdmuthe Louise was Caroline's mother.</p>
                 </descriptiveNote>
             </cpfRelation>
             <cpfRelation cpfRelationType="family" xlink:href="">
                 <relationEntry xml:id="NAF-00000006">George II, 1683-1760, King of Great
-                    Britain</relationEntry>
+                    Britain and Ireland</relationEntry>
                 <descriptiveNote>
                     <p>George II was Caroline's husband.</p>
                 </descriptiveNote>
             </cpfRelation>
             <cpfRelation cpfRelationType="hierarchical-child" xlink:href="">
-                <relationEntry xml:id="NAF-00000007">Frederick, 1707-1751, Prince of
+                <relationEntry xml:id="NAF-00000007">Frederick Louis, 1707-1751, Prince of
                     Wales</relationEntry>
                 <descriptiveNote>
-                    <p>Frederick was Caroline's son.</p>
+                    <p>Frederick Louis was Caroline's son.</p>
                 </descriptiveNote>
             </cpfRelation>
             <cpfRelation cpfRelationType="hierarchical-child" xlink:href="">
-                <relationEntry xml:id="NAF-00000008">Anne, 1709-1759, Princess of Orange</relationEntry>
+                <relationEntry xml:id="NAF-00000008">Anne, 1709-1759, Princess Consort of William
+                    IV, Prince of Orange</relationEntry>
                 <descriptiveNote>
                     <p>Anne was Caroline's daughter.</p>
                 </descriptiveNote>
             </cpfRelation>
             <cpfRelation cpfRelationType="hierarchical-child" xlink:href="">
-                <relationEntry xml:id="NAF-00000005">Amelia, 1711-1786, Princess of Great
-                    Britain</relationEntry>
+                <relationEntry xml:id="NAF-00000005">Amelia Sophia Eleanor, 1711-1786,
+                    Princess</relationEntry>
                 <descriptiveNote>
-                    <p>Amelia was Caroline's daughter.</p>
+                    <p>Amelia Sophia Eleanor was Caroline's daughter.</p>
                 </descriptiveNote>
             </cpfRelation>
             <cpfRelation cpfRelationType="hierarchical-child" xlink:href="">
-                <relationEntry xml:id="NAF-00000004">Caroline, 1713-1757, Princess of Great
-                    Britain</relationEntry>
+                <relationEntry xml:id="NAF-00000004">Caroline Elizabeth, 1713-1757,
+                    Princess</relationEntry>
                 <descriptiveNote>
-                    <p>Caroline was Caroline's daughter.</p>
+                    <p>Caroline Elizabeth was Caroline's daughter.</p>
                 </descriptiveNote>
             </cpfRelation>
             <cpfRelation cpfRelationType="hierarchical-child" xlink:href="">
-                <relationEntry xml:id="NAF-00000001">George, 1717-1718, Prince of Great
-                    Britain</relationEntry>
+                <relationEntry xml:id="NAF-00000001">George William, 1717-1718,
+                    Prince</relationEntry>
                 <descriptiveNote>
-                    <p>George was Caroline's son.</p>
+                    <p>George William was Caroline's son.</p>
                 </descriptiveNote>
             </cpfRelation>
             <cpfRelation cpfRelationType="hierarchical-child" xlink:href="">
-                <relationEntry xml:id="NAF-00000002">William, 1721-1765, Duke of
+                <relationEntry xml:id="NAF-00000002">William Augustus, 1721-1765, Duke of
                     Cumberland</relationEntry>
                 <descriptiveNote>
-                    <p>William was Caroline's son.</p>
+                    <p>William Augustus was Caroline's son.</p>
                 </descriptiveNote>
             </cpfRelation>
             <cpfRelation cpfRelationType="hierarchical-child" xlink:href="">
-                <relationEntry xml:id="NAF-00000012">Mary, 1723-1772, Landgravine of Hesse-Kassel</relationEntry>
+                <relationEntry xml:id="NAF-00000012">Mary, 1723-1772, Landgravine Consort of
+                    Frederick II, Landgrave of Hesse-Kassel</relationEntry>
                 <descriptiveNote>
                     <p>Mary was Caroline's daughter.</p>
                 </descriptiveNote>
             </cpfRelation>
             <cpfRelation cpfRelationType="hierarchical-child" xlink:href="">
-                <relationEntry xml:id="NAF-00000013">Louisa, 1724-1751, Queen of Denmark and
+                <relationEntry xml:id="NAF-00000013">Louisa, 1724-1751, Queen Consort of Frederick V, King of Denmark and
                     Norway</relationEntry>
                 <descriptiveNote>
                     <p>Louisa was Caroline's daughter.</p>
