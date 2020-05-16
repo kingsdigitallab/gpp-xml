@@ -117,8 +117,7 @@
                 <agentType>human</agentType>
                 <!-- May contain: "human" or "machine" -->
                 <agent>Vitale, Valeria</agent>
-                <eventDescription>Creation of NAF for Caroline Elizabeth, 1713-1757,
-                    Princess.</eventDescription>
+                <eventDescription>Creation of NAF for Caroline Elizabeth, Princess.</eventDescription>
                 <!-- Include a full description of the maintenance event - ie: note what was created/edited during the event -->
             </maintenanceEvent>
         </maintenanceHistory>

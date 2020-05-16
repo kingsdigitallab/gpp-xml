@@ -117,7 +117,7 @@
                 <agentType>human</agentType>
                 <!-- May contain: "human" or "machine" -->
                 <agent>Vitale, Valeria</agent>
-                <eventDescription>Creation of NAF for Frederick, Prince of
+                <eventDescription>Creation of NAF for Frederick Louis, Prince of
                     Wales.</eventDescription>
                 <!-- Include a full description of the maintenance event - ie: note what was created/edited during the event -->
             </maintenanceEvent>
@@ -190,7 +190,7 @@
                 <alternativeForm>NCA</alternativeForm>
             </nameEntry>
             <nameEntry scriptCode="Latn" xml:lang="eng" localType="directOrder">
-                <part>Frederick, 1707-1751, Prince of Wales</part>
+                <part>Frederick Louis, 1707-1751, Prince of Wales</part>
                 <useDates>
                     <dateRange>
                         <fromDate standardDate="1729-01-08">8 January 1729</fromDate>
