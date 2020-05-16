@@ -111,31 +111,30 @@
                 <!-- records each maintenance/editing event that occurs throughout the life of the file -->
                 <eventType>created</eventType>
                 <!-- May contain: "cancelled" or "created" or "deleted" or "derived" or "revised" or "updated" -->
-                <eventDateTime standardDateTime="2020-05-16T15:11:00Z">3.11 pm, 16 May
+                <eventDateTime standardDateTime="2020-05-16T16:30:00Z">4.30 pm, 16 May
                     2020</eventDateTime>
                 <!-- ISO 8601 date-time formatting -->
                 <agentType>human</agentType>
                 <!-- May contain: "human" or "machine" -->
                 <agent>Vitale, Valeria</agent>
-                <eventDescription>Creation of NAF for Mary, 1723-1772, Landgravine Consort of
-                    Frederick II, Landgrave of Hesse-Kassel.</eventDescription>
+                <eventDescription>Creation of NAF for Louisa, 1724-1751, Queen Consort of Frederick
+                    V, King of Denmark and Norway</eventDescription>
                 <!-- Include a full description of the maintenance event - ie: note what was created/edited during the event -->
             </maintenanceEvent>
         </maintenanceHistory>
         <sources>
-            <source xlink:type="simple" xlink:href="https://viaf.org/viaf/173060937/">
-                <sourceEntry>VIAF ID: 173060937 (Personal)</sourceEntry>
+            <source xlink:type="simple" xlink:href="https://viaf.org/viaf/60284961/">
+                <sourceEntry>VIAF ID: 60284961 (Personal)</sourceEntry>
             </source>
             <source xlink:type="simple"
-                xlink:href="https://en.wikipedia.org/wiki/Princess_Mary_of_Great_Britain">
-                <sourceEntry>Princess Mary of Great Britain</sourceEntry>
+                xlink:href="https://en.wikipedia.org/wiki/Louise_of_Great_Britain">
+                <sourceEntry>Louise of Great Britain</sourceEntry>
             </source>
             <source xlink:type="simple" xlink:href="https://www.wikidata.org/wiki/Q848912">
                 <sourceEntry>Wikidata ID: Q848912</sourceEntry>
             </source>
-            <source xlink:type="simple"
-                xlink:href="https://www.geonames.org/2911007/hanau-am-main.html">
-                <sourceEntry>GeoNames ID: 2911007</sourceEntry>
+            <source xlink:type="simple" xlink:href="https://www.wikidata.org/wiki/Q940733">
+                <sourceEntry>Wikidata ID: Q940733</sourceEntry>
             </source>
         </sources>
     </control>
@@ -144,49 +143,49 @@
         <identity>
             <entityType>person</entityType>
             <nameEntry scriptCode="Latn" xml:lang="eng">
-                <part localType="forename">Mary</part>
-                <part localType="properTitle">Landgravine Consort of Frederick II, Landgrave of
-                    Hesse-Kassel</part>
+                <part localType="forename">Louisa</part>
+                <part localType="properTitle">Queen Consort of Frederick V, King of Denmark and
+                    Norway</part>
                 <useDates>
                     <dateRange>
-                        <fromDate standardDate="1760-02-01">1 February 1760</fromDate>
-                        <toDate standardDate="1772-01-14">14 January 1772</toDate>
+                        <fromDate standardDate="1746-08-06">6 August 1746</fromDate>
+                        <toDate standardDate="1751-12-19">19 December 1751</toDate>
 
                     </dateRange>
                 </useDates>
                 <authorizedForm>NCA</authorizedForm>
             </nameEntry>
             <nameEntry scriptCode="Latn" xml:lang="eng">
-                <part localType="forename">Mary</part>
+                <part localType="forename">Louisa</part>
                 <part localType="properTitle">Princess</part>
                 <useDates>
                     <dateRange>
-                        <fromDate standardDate="1723-03-05">5 March 1723</fromDate>
-                        <toDate standardDate="1740-05-08">8 May 1740</toDate>
+                        <fromDate standardDate="1724-12-18">18 December 1724</fromDate>
+                        <toDate standardDate="1743-12-11">11 December 1743</toDate>
                     </dateRange>
                 </useDates>
                 <alternativeForm>NCA</alternativeForm>
             </nameEntry>
             <nameEntry scriptCode="Latn" xml:lang="eng">
-                <part localType="forename">Mary</part>
-                <part localType="properTitle">Princess Consort of Frederick II, Prince of
-                    Hesse-Kassel</part>
+                <part localType="forename">Louisa</part>
+                <part localType="properTitle">Princess Consort of Frederick, Prince of Denmark and
+                    Norway</part>
                 <useDates>
                     <dateRange>
-                        <fromDate standardDate="1740-05-08">8 May 1740</fromDate>
-                        <toDate standardDate="1760-02-01">1 February 1760</toDate>
+                        <fromDate standardDate="1743-12-11">11 December 1743</fromDate>
+                        <toDate standardDate="1746-08-06">6 August 1746</toDate>
                     </dateRange>
                 </useDates>
 
                 <alternativeForm>NCA</alternativeForm>
             </nameEntry>
             <nameEntry scriptCode="Latn" xml:lang="eng" localType="directOrder">
-                <part>Mary, 1723-1772, Landgravine Consort of Frederick II, Landgrave of
-                    Hesse-Kassel</part>
+                <part>Louisa, 1724-1751, Queen Consort of Frederick V, King of Denmark and
+                    Norway</part>
                 <useDates>
                     <dateRange>
-                        <fromDate standardDate="1760-02-01">1 February 1760</fromDate>
-                        <toDate standardDate="1772-01-14">14 January 1772</toDate>
+                        <fromDate standardDate="1746-08-06">6 August 1746</fromDate>
+                        <toDate standardDate="1751-12-19">19 December 1751</toDate>
                     </dateRange>
                 </useDates>
                 <authorizedForm>NCA</authorizedForm>
@@ -195,8 +194,8 @@
         <description>
             <existDates>
                 <dateRange>
-                    <fromDate standardDate="1723-03-05">5 March 1723</fromDate>
-                    <toDate standardDate="1772-01-14">14 January 1772</toDate>
+                    <fromDate standardDate="1724-12-18">18 December 1724</fromDate>
+                    <toDate standardDate="1751-12-19">19 December 1751</toDate>
                 </dateRange>
             </existDates>
             <localDescription localType="gender">
@@ -207,13 +206,13 @@
                     <placeRole>birth</placeRole>
                     <placeEntry vocabularySource="Wikidata" latitude="51.5104" longitude="-0.1301"
                         >Leicester Palace</placeEntry>
-                    <date standardDate="1723-03-05">5 March 1723</date>
+                    <date standardDate="1724-12-18">18 December 1724</date>
                 </place>
                 <place>
                     <placeRole>death</placeRole>
-                    <placeEntry vocabularySource="GeoNames" latitude="50.13423" longitude="8.91418"
-                        >Hanau</placeEntry>
-                    <date standardDate="1772-01-14">14 January 1772</date>
+                    <placeEntry vocabularySource="Wikidata" latitude="55.675833"
+                        longitude="12.578889">Christiansborg Palace</placeEntry>
+                    <date standardDate="1751-12-19">19 December 1751</date>
                 </place>
             </places>
             <languagesUsed>
@@ -221,17 +220,22 @@
                     <language languageCode="eng">English</language>
                     <script scriptCode="Latn">Latin</script>
                 </languageUsed>
-
-
+                <languageUsed>
+                    <language languageCode="eng">German</language>
+                    <script scriptCode="Latn">Latin</script>
+                </languageUsed>
+                <languageUsed>
+                    <language languageCode="eng">Danish</language>
+                    <script scriptCode="Latn">Latin</script>
+                </languageUsed>
             </languagesUsed>
             <biogHist>
-                <abstract>Princess Mary of Great Britain (5 March 1723 – 14 January 1772) was the
-                    second-youngest daughter of King George II of Great Britain and his wife,
-                    Caroline of Ansbach, and Landgravine of Hesse-Kassel as the wife of Frederick
-                    II, Landgrave of Hesse-Kassel.</abstract>
-                <citation>Wikipedia. "Princess Mary of Great Britain" Accessed May 16,
-                    2020.
-                    https://en.wikipedia.org/wiki/Princess_Mary_of_Great_Britain</citation>
+                <abstract>Louise of Great Britain (originally Louisa; 18 December 1724 – 19 December
+                    1751) was Queen of Denmark and Norway from 1746 until her death, as the first
+                    wife of King Frederick V. She was the youngest surviving daughter of King George
+                    II of Great Britain and Caroline of Ansbach.</abstract>
+                <citation>Wikipedia. "Louise of Great Britain" Accessed May 16, 2020.
+                    https://en.wikipedia.org/wiki/Louise_of_Great_Britain</citation>
                 <p>Biography source: Wikipedia. Licensed under CC-BY-SA.</p>
             </biogHist>
         </description>
@@ -241,40 +245,47 @@
                 <relationEntry xml:id="GPP-00000018">George II, 1683-1760, King of Great
                     Britain</relationEntry>
                 <descriptiveNote>
-                    <p>George II was Mary's father.</p>
+                    <p>George II was Louisa's father.</p>
                 </descriptiveNote>
             </cpfRelation>
             <cpfRelation cpfRelationType="hierarchical-parent" xlink:href="">
                 <relationEntry xml:id="GPP-00009213">Caroline, 1683-1737, Queen Consort of George
                     II, King of Great Britain</relationEntry>
                 <descriptiveNote>
-                    <p>Caroline was Mary's mother.</p>
+                    <p>Caroline was Louisa's mother.</p>
                 </descriptiveNote>
             </cpfRelation>
             <cpfRelation cpfRelationType="family" xlink:href="">
-                <relationEntry xml:id="NAF-00000006"> Frederick II, 1720-1785, Landgrave of Hesse-Kassel</relationEntry>
+                <relationEntry xml:id="NAF-00000006"> Frederick V, 1723-1766, King of Denmark and
+                    Norway</relationEntry>
                 <descriptiveNote>
-                    <p>Frederick II was Mary's husband.</p>
+                    <p>Frederick V was Louisa's husband.</p>
                 </descriptiveNote>
             </cpfRelation>
             <cpfRelation cpfRelationType="hierarchical-child" xlink:href="">
-                <relationEntry xml:id="NAF-00000007">William I, 1743-1821, Elector of Hesse</relationEntry>
+                <relationEntry xml:id="NAF-00000007">Sophia Magdalena, 1771-1792, Queen Consort of
+                    Gustav III, King of Sweden</relationEntry>
                 <descriptiveNote>
-                    <p>William I was Mary's son.</p>
+                    <p>Sophia Magdalena was Louisa's daughter.</p>
                 </descriptiveNote>
             </cpfRelation>
             <cpfRelation cpfRelationType="hierarchical-child" xlink:href="">
-                <relationEntry xml:id="NAF-00000008">Charles, 1744-1836, Prince of
-                    of Hesse-Kassel</relationEntry>
+                <relationEntry xml:id="NAF-00000008">Wilhelmina Caroline, 1747-1820, Electress
+                    Consort of William I, Elector of Hesse </relationEntry>
                 <descriptiveNote>
-                    <p>Charles was Mary's son.</p>
+                    <p>Wilhelmina Caroline was Louisa's daughter.</p>
                 </descriptiveNote>
             </cpfRelation>
             <cpfRelation cpfRelationType="hierarchical-child" xlink:href="">
-                <relationEntry xml:id="NAF-00000009">Frederick, 1747-1837, Landgrave of
-                    of Hesse-Kassel</relationEntry>
+                <relationEntry xml:id="NAF-00000009">Christian VII, 1749-1808, King of Denmark and Norway</relationEntry>
                 <descriptiveNote>
-                    <p>Frederick was Mary's son.</p>
+                    <p>Christian VII was Louisa's son.</p>
+                </descriptiveNote>
+            </cpfRelation>
+            <cpfRelation cpfRelationType="hierarchical-child" xlink:href="">
+                <relationEntry xml:id="NAF-00000003">Louise, 1750–1831, Princess Consort of Charles, Prince of Hesse-Kassel</relationEntry>
+                <descriptiveNote>
+                    <p>Louise was Louisa's daughter.</p>
                 </descriptiveNote>
             </cpfRelation>
         </relations>
