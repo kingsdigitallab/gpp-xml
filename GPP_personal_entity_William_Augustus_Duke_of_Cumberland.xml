@@ -165,6 +165,17 @@
                 </useDates>
                 <alternativeForm>NCA</alternativeForm>
             </nameEntry>
+            <nameEntry scriptCode="Latn" xml:lang="eng">
+                <part localType="forename">William Augustus</part>
+                <part localType="properTitle">called The Butcher of Cumberland</part>
+                <useDates>
+                    <dateRange>
+                        <fromDate standardDate="1746-04">April 1746</fromDate>
+                        <toDate standardDate="1765-10-31">31 October 1765</toDate>
+                    </dateRange>
+                </useDates>
+                <alternativeForm>NCA</alternativeForm>
+            </nameEntry>
             <nameEntry scriptCode="Latn" xml:lang="eng" localType="directOrder">
                 <part>William Augustus, 1721-1765, Duke of Cumberland</part>
                 <useDates>

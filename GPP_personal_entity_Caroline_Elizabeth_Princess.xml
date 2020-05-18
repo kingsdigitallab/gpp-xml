@@ -146,7 +146,7 @@
                 <part localType="properTitle">Princess of Great Britain</part>
                 <useDates>
                     <dateRange>
-                        <fromDate standardDate="1727">1727</fromDate>
+                        <fromDate standardDate="1727-06-22">22 June 1727</fromDate>
                         <toDate standardDate="1757-12-28">28 December 1757</toDate>
                     </dateRange>
                 </useDates>
@@ -154,7 +154,7 @@
             </nameEntry>
             <nameEntry scriptCode="Latn" xml:lang="eng">
                 <part localType="forename">Caroline Elizabeth</part>
-                <part localType="properTitle">Princess Caroline of Hanover</part>
+                <part localType="properTitle">Princess of Hanover</part>
                 <useDates>
                     <dateRange>
                         <fromDate standardDate="1713-06-10">10 June 1713</fromDate>
@@ -168,7 +168,7 @@
                 <part>Caroline Elizabeth, 1713-1757, Princess</part>
                 <useDates>
                     <dateRange>
-                        <fromDate standardDate="1727">1727</fromDate>
+                        <fromDate standardDate="1727-06-22">22 June 1727</fromDate>
                         <toDate standardDate="1757-12-28">28 December 1757</toDate>
                     </dateRange>
                 </useDates>
