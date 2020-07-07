@@ -167,7 +167,7 @@
                 </useDates>
                 <authorizedForm>NCA</authorizedForm>
             </nameEntry>
-            <nameEntry scriptCode="Latn" xml:lang="ger">
+            <nameEntry scriptCode="Latn" xml:lang="deu">
                 <part localType="forename">Friederike Louise Caroline Sophie Charlotte Alexandrine</part>
                 <part localType="properTitle">Königin von Hannover</part>
                 <useDates>
@@ -203,7 +203,7 @@
             </places>
             <languagesUsed>
                 <languageUsed>
-                    <language languageCode="ger">German</language>
+                    <language languageCode="deu">German</language>
                     <script scriptCode="Latn">Latin</script>
                 </languageUsed>
             </languagesUsed>
@@ -217,13 +217,13 @@
         </description>
         <relations> 
             <cpfRelation cpfRelationType="hierarchical-parent" xlink:href=""> <!-- xlink:href to be created automatically following creation of NAF page -->
-                <relationEntry xml:id="">Charles II, 1741-1816, Grand Duke of Mecklenburg-Strelitz</relationEntry>
+                <relationEntry>Charles II, 1741-1816, Grand Duke of Mecklenburg-Strelitz</relationEntry>
                 <descriptiveNote>
                     <p>Charles II was Frederica's father.</p>
                 </descriptiveNote>
             </cpfRelation>
             <cpfRelation cpfRelationType="hierarchical-parent" xlink:href="">
-                <relationEntry xml:id="">Frederica Caroline Louise, 1752-1782, Duchess of Mecklenburg-Strelitz</relationEntry>
+                <relationEntry>Frederica Caroline Louise, 1752-1782, Duchess of Mecklenburg-Strelitz</relationEntry>
                 <descriptiveNote>
                     <p>Duchess Frederica was Frederica's mother.</p>
                 </descriptiveNote>
@@ -237,7 +237,3 @@
         </relations>
     </cpfDescription>
 </eac-cpf>
-
-
-
-

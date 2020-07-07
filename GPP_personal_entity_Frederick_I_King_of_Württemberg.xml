@@ -180,7 +180,7 @@
             </places>
             <languagesUsed>
                 <languageUsed>
-                    <language languageCode="ger">German</language>
+                    <language languageCode="deu">German</language>
                     <script scriptCode="Latn">Latin</script>
                 </languageUsed>
                 <languageUsed>
@@ -196,13 +196,13 @@
         </description>
         <relations> 
             <cpfRelation cpfRelationType="hierarchical-parent" xlink:href=""> <!-- xlink:href to be created automatically following creation of NAF page -->
-                <relationEntry xml:id="">George I Frederick Carl, 1761-1803, Duke of Saxe-Meiningen</relationEntry>
+                <relationEntry>George I Frederick Carl, 1761-1803, Duke of Saxe-Meiningen</relationEntry>
                 <descriptiveNote>
                     <p>George I was Adelaide's father.</p>
                 </descriptiveNote>
             </cpfRelation>
             <cpfRelation cpfRelationType="hierarchical-parent" xlink:href="">
-                <relationEntry xml:id="">Louise Eleanor, 1763-1837, Duchess of Saxe-Meiningen</relationEntry>
+                <relationEntry>Louise Eleanor, 1763-1837, Duchess of Saxe-Meiningen</relationEntry>
                 <descriptiveNote>
                     <p>Louise was Adelaide's mother.</p>
                 </descriptiveNote>

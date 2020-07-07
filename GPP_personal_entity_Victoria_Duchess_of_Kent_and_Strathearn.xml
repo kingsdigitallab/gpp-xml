@@ -90,7 +90,7 @@
                 <eventType>updated</eventType>
                 <eventDateTime standardDateTime="2018-08-15T13:59:00Z">1.59pm, 15 August 2018</eventDateTime>
                 <agentType>human</agentType> 
-                <agent xml:id="">Callaghan, Samantha</agent>
+                <agent>Callaghan, Samantha</agent>
                 <eventDescription>Continued to fill out NAF for Victoria, Duke of Kent and Strathearn.</eventDescription>
             </maintenanceEvent>
         </maintenanceHistory>
@@ -133,7 +133,7 @@
                 </useDates>
                 <authorizedForm>NCA</authorizedForm>
             </nameEntry> 
-            <nameEntry scriptCode="Latn" xml:lang="ger">
+            <nameEntry scriptCode="Latn" xml:lang="deu">
                 <part localType="forename">Marie Luise Viktoria</part>
                 <part localType="properTitle">Princess of Saxe-Coburn-Saalfield</part>
                 <useDates>
@@ -144,7 +144,7 @@
                 </useDates>
                 <alternativeForm>NCA</alternativeForm>
             </nameEntry>
-            <nameEntry scriptCode="Latn" xml:lang="ger">
+            <nameEntry scriptCode="Latn" xml:lang="deu">
                 <part localType="forename">Marie Luise Viktoria</part>
                 <part localType="properTitle">Princess of Leiningen</part>
                 <useDates>
@@ -208,13 +208,13 @@
         </description>
         <relations> 
             <cpfRelation cpfRelationType="hierarchical-parent" xlink:href=""> <!-- xlink:href to be created automatically following creation of NAF page -->
-                <relationEntry xml:id="">Francis, 1750-1806, Duke of Saxe-Coburg-Saalfeld</relationEntry>
+                <relationEntry>Francis, 1750-1806, Duke of Saxe-Coburg-Saalfeld</relationEntry>
                 <descriptiveNote>
                     <p>Francis was Victoria's father.</p>
                 </descriptiveNote>
             </cpfRelation>
             <cpfRelation cpfRelationType="hierarchical-parent" xlink:href="">
-                <relationEntry xml:id="">Augusta Caroline Sophie, 1757-1831, Duchess of Saxe-Coburg-Saalfeld</relationEntry>
+                <relationEntry>Augusta Caroline Sophie, 1757-1831, Duchess of Saxe-Coburg-Saalfeld</relationEntry>
                 <descriptiveNote>
                     <p>Augusta was Victoria's mother.</p>
                 </descriptiveNote>

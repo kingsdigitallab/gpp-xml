@@ -90,7 +90,7 @@
                 <eventType>updated</eventType> <!-- May contain: "cancelled" or "created" or "deleted" or "derived" or "revised" or "updated" -->
                 <eventDateTime standardDateTime="2020-01-19T14:48:00Z">2:48 pm, 17 January 2020</eventDateTime> <!-- ISO 8601 date-time formatting -->
                 <agentType>human</agentType> <!-- May contain: "human" or "machine" -->
-                <agent xml:id="GPP-00001748">Callaghan, Samantha</agent> <!-- ID may be subject to change in the CW -->
+                <agent>Callaghan, Samantha</agent> <!-- ID may be subject to change in the CW -->
                 <eventDescription>Continuing to build NAF for Qánqon-Kámek-Klaúla.</eventDescription> <!-- Include a full description of the maintenance event - ie: note what was created/edited during the event -->
             </maintenanceEvent>
         </maintenanceHistory>
@@ -177,7 +177,7 @@
             </places>
             <languagesUsed>
                 <languageUsed> <!-- From evidence in the GPP, if possible -->
-                    <language languageCode="fre">French</language>
+                    <language languageCode="fra">French</language>
                     <script scriptCode="Latn">Latin</script>
                 </languageUsed>
             </languagesUsed>
@@ -195,7 +195,7 @@
         <cpfDescription> <!-- Descriptive metadata -->
             <identity>
                 <entityType>person</entityType>
-                <nameEntry scriptCode="Latn" xml:lang="fre"> 
+                <nameEntry scriptCode="Latn" xml:lang="fra"> 
                     <part localType="forename">Liberté</part>
                     <part localType="surname">Barreau</part>
                     <useDates>
@@ -206,7 +206,7 @@
                     </useDates>
                     <authorizedForm>NCA</authorizedForm>
                 </nameEntry>
-                <nameEntry scriptCode="Latn" xml:lang="fre" localType="directOrder"> 
+                <nameEntry scriptCode="Latn" xml:lang="fra" localType="directOrder"> 
                     <part>Barreau, Liberté, fl 1792-c 1793</part>
                     <useDates>
                         <dateRange>
@@ -216,7 +216,7 @@
                     </useDates>
                     <authorizedForm>NCA</authorizedForm>
                 </nameEntry>
-                <nameEntry scriptCode="Latn" xml:lang="fre"> 
+                <nameEntry scriptCode="Latn" xml:lang="fra"> 
                     <part localType="forename">Liberté</part>
                     <part localType="surname">Barrau</part>
                     <useDates>
@@ -240,7 +240,7 @@
                 </localDescription>
                 <languagesUsed>
                     <languageUsed>
-                        <language languageCode="fre">French</language>
+                        <language languageCode="fra">French</language>
                         <script scriptCode="Latn">Latin</script>
                     </languageUsed>
                 </languagesUsed>

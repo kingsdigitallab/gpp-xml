@@ -90,7 +90,7 @@
                 <eventType>created</eventType> <!-- May contain: "cancelled" or "created" or "deleted" or "derived" or "revised" or "updated" -->
                 <eventDateTime standardDateTime="2018-08-24T11:05:00Z">11.05 am, 24 August 2018</eventDateTime> <!-- ISO 8601 date-time formatting -->
                 <agentType>human</agentType> <!-- May contain: "human" or "machine" -->
-                <agent xml:id="GPP-00001748">Callaghan, Samantha</agent>
+                <agent>Callaghan, Samantha</agent>
                 <eventDescription>Completion of NAF for Ernest Augustus, King of Hanover.</eventDescription> <!-- Include a full description of the maintenance event - ie: note what was created/edited during the event -->
             </maintenanceEvent>
         </maintenanceHistory>
@@ -196,7 +196,7 @@
                 </languageUsed>
                 <!-- Could not find easily evidence of him having spoken or written in German but in all likelihood he could. -->
                 <!-- <languageUsed>
-                    <language languageCode="ger">German</language>
+                    <language languageCode="deu">German</language>
                     <script scriptCode="Latn">Latin</script>
                 </languageUsed>
                 -->

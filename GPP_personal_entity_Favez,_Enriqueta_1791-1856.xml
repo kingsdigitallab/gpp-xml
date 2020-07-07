@@ -90,7 +90,7 @@
                 <eventType>updated</eventType> <!-- May contain: "cancelled" or "created" or "deleted" or "derived" or "revised" or "updated" -->
                 <eventDateTime standardDateTime="2019-12-19T14:16:00Z">2:16 pm, 19 December 2019</eventDateTime> <!-- ISO 8601 date-time formatting -->
                 <agentType>human</agentType> <!-- May contain: "human" or "machine" -->
-                <agent xml:id="GPP-00001748">Callaghan, Samantha</agent> <!-- ID may be subject to change in the CW -->
+                <agent>Callaghan, Samantha</agent> <!-- ID may be subject to change in the CW -->
                 <eventDescription>updated info for NAF of Enriqueta Favez.</eventDescription> <!-- Include a full description of the maintenance event - ie: note what was created/edited during the event -->
             </maintenanceEvent>
         </maintenanceHistory>
@@ -137,7 +137,7 @@
                 </useDates>
                 <authorizedForm>NCA</authorizedForm>
             </nameEntry>
-        <nameEntry scriptCode="Latn" xml:lang="fre"> 
+        <nameEntry scriptCode="Latn" xml:lang="fra"> 
             <part localType="forename">Henriette</part>
             <part localType="surname">Favez</part>
             <useDates>
@@ -196,7 +196,7 @@
             </places>
             <languagesUsed>
                 <languageUsed> <!-- From evidence in the GPP, if possible -->
-                    <language languageCode="fre">French</language>
+                    <language languageCode="fra">French</language>
                     <script scriptCode="Latn">Latin</script>
                 </languageUsed>
                 <languageUsed>
@@ -235,7 +235,7 @@
                     </useDates>
                     <authorizedForm>NCA</authorizedForm>
                 </nameEntry>
-                <nameEntry scriptCode="Latn" xml:lang="fre"> 
+                <nameEntry scriptCode="Latn" xml:lang="fra"> 
                     <part localType="forename">Henri</part>
                     <part localType="surname">Faber</part>
                     <useDates>
@@ -269,7 +269,7 @@
                 <!-- For preference we prefer to capture birth and death places. If it is considered useful, further places (and dates can be captured)such as residences and so on, time permitting. -->
                 <languagesUsed>
                 <languageUsed> <!-- From evidence in the GPP, if possible -->
-                    <language languageCode="fre">French</language>
+                    <language languageCode="fra">French</language>
                     <script scriptCode="Latn">Latin</script>
                 </languageUsed>
                     <languageUsed> <!-- From evidence in the GPP, if possible -->

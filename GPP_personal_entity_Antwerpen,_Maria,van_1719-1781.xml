@@ -90,7 +90,7 @@
                 <eventType>updated</eventType> <!-- May contain: "cancelled" or "created" or "deleted" or "derived" or "revised" or "updated" -->
                 <eventDateTime standardDateTime="2019-12-18T09:55:00Z">9:55 am, 18 December 2019</eventDateTime> <!-- ISO 8601 date-time formatting -->
                 <agentType>human</agentType> <!-- May contain: "human" or "machine" -->
-                <agent xml:id="GPP-00001748">Callaghan, Samantha</agent> <!-- ID may be subject to change in the CW -->
+                <agent>Callaghan, Samantha</agent> <!-- ID may be subject to change in the CW -->
                 <eventDescription>Updated NAF for Maria van Antwerpen to include variant names drawn from another source as well as included additional gender term with citation and descriptive note.</eventDescription> <!-- Include a full description of the maintenance event - ie: note what was created/edited during the event -->
             </maintenanceEvent>
         </maintenanceHistory>
@@ -119,7 +119,7 @@
     <cpfDescription> <!-- Descriptive metadata -->
         <identity>
             <entityType>person</entityType>
-            <nameEntry scriptCode="Latn" xml:lang="dut"> 
+            <nameEntry scriptCode="Latn" xml:lang="nld"> 
                 <part localType="forename">Maria</part>
                 <part localType="surname">van Antwerpen</part>
                 <useDates>
@@ -130,7 +130,7 @@
                 </useDates>
                 <authorizedForm>NCA</authorizedForm>
             </nameEntry>
-            <nameEntry scriptCode="Latn" xml:lang="dut" localType="directOrder"> 
+            <nameEntry scriptCode="Latn" xml:lang="nld" localType="directOrder"> 
                 <part>Antwerpen, Maria, van, 1719-1781</part>
                 <useDates>
                     <dateRange>
@@ -165,7 +165,7 @@
                 </place>
             </places>
             <languageUsed> <!-- From evidence in the GPP, if possible -->
-                <language languageCode="dut">Dutch</language>
+                <language languageCode="nld">Dutch</language>
                 <script scriptCode="Latn">Latin</script>
             </languageUsed>
             <biogHist> 
@@ -179,7 +179,7 @@
         <cpfDescription> <!-- Descriptive metadata -->
             <identity>
                 <entityType>person</entityType>
-                <nameEntry scriptCode="Latn" xml:lang="dut"> 
+                <nameEntry scriptCode="Latn" xml:lang="nld"> 
                     <part localType="forename">Jan</part>
                     <part localType="surname">van Ant</part>
                     <useDates>
@@ -190,7 +190,7 @@
                     </useDates>
                     <authorizedForm>NCA</authorizedForm>
                 </nameEntry>
-                <nameEntry scriptCode="Latn" xml:lang="dut" localType="directOrder"> 
+                <nameEntry scriptCode="Latn" xml:lang="nld" localType="directOrder"> 
                     <part>Ant, Jan, van, 1730-1751</part>
                     <useDates>
                         <dateRange>
@@ -200,7 +200,7 @@
                     </useDates>
                     <authorizedForm>NCA</authorizedForm>
                 </nameEntry>
-                <nameEntry scriptCode="Latn" xml:lang="dut"> 
+                <nameEntry scriptCode="Latn" xml:lang="nld"> 
                     <part localType="forename">Johannes</part>
                     <part localType="surname">van Ant</part>
                     <useDates>
@@ -231,7 +231,7 @@
                     </place>
                 </places>
                 <languageUsed> <!-- From evidence in the GPP, if possible -->
-                    <language languageCode="dut">Dutch</language>
+                    <language languageCode="nld">Dutch</language>
                     <script scriptCode="Latn">Latin</script>
                 </languageUsed>
                 <biogHist> 
@@ -243,7 +243,7 @@
         <cpfDescription> <!-- Descriptive metadata -->
             <identity>
                 <entityType>person</entityType>
-                <nameEntry scriptCode="Latn" xml:lang="dut"> 
+                <nameEntry scriptCode="Latn" xml:lang="nld"> 
                     <part localType="forename">Machiel</part>
                     <part localType="surname">van Hantwerpen</part>
                     <useDates>
@@ -254,7 +254,7 @@
                     </useDates>
                     <authorizedForm>NCA</authorizedForm>
                 </nameEntry>
-                <nameEntry scriptCode="Latn" xml:lang="dut" localType="directOrder"> 
+                <nameEntry scriptCode="Latn" xml:lang="nld" localType="directOrder"> 
                     <part>Hantwerpen, Jan, van, fl 1762-fl 1769</part>
                     <useDates>
                         <dateRange>
@@ -264,7 +264,7 @@
                     </useDates>
                     <authorizedForm>NCA</authorizedForm>
                 </nameEntry>
-                <nameEntry scriptCode="Latn" xml:lang="dut"> 
+                <nameEntry scriptCode="Latn" xml:lang="nld"> 
                     <part localType="forename">Maggiel</part>
                     <part localType="surname">van Hantwerpen</part>
                     <useDates>
@@ -297,7 +297,7 @@
                 </localDescriptions>
                 <!-- For preference we prefer to capture birth and death places. If it is considered useful, further places (and dates can be captured)such as residences and so on, time permitting. -->
                 <languageUsed> <!-- From evidence in the GPP, if possible -->
-                    <language languageCode="dut">Dutch</language>
+                    <language languageCode="nld">Dutch</language>
                     <script scriptCode="Latn">Latin</script>
                 </languageUsed>
                 <biogHist> 

@@ -109,7 +109,7 @@
     <cpfDescription> <!-- Descriptive metadata -->
         <identity>
             <entityType>person</entityType>
-            <nameEntry scriptCode="Latn" xml:lang="fre"> 
+            <nameEntry scriptCode="Latn" xml:lang="fra"> 
                 <part localType="forename">Charles Geneviève Louis Auguste André Timothée</part>
                 <part localType="surname">d'Éon de Beaumont</part>
                 <part localType="epithet">Chevalier</part>
@@ -121,7 +121,7 @@
                 </useDates>
                 <authorizedForm>NCA</authorizedForm>
             </nameEntry>
-            <nameEntry scriptCode="Latn" xml:lang="fre" localType="directOrder"> 
+            <nameEntry scriptCode="Latn" xml:lang="fra" localType="directOrder"> 
                 <part>Beaumont, Charles Geneviève Louis Auguste André Timothée, d'Éon de, 1728-1810, Chevalier</part>
                 <useDates>
                     <dateRange>
@@ -131,7 +131,7 @@
                 </useDates>
                 <authorizedForm>NCA</authorizedForm>
             </nameEntry>
-            <nameEntry scriptCode="Latn" xml:lang="fre"> 
+            <nameEntry scriptCode="Latn" xml:lang="fra"> 
                 <part localType="forename">Charles Geneviève Louis Auguste André Timothée</part>
                 <part localType="surname">d'Éon de Beaumont</part>
                 <useDates>
@@ -188,7 +188,7 @@
                     <script scriptCode="Latn">Latin</script>
                 </languageUsed>
                 <languageUsed>
-                    <language languageCode="fre">French</language>
+                    <language languageCode="fra">French</language>
                     <script scriptCode="Latn">Latin</script>
                 </languageUsed>
             </languagesUsed>
@@ -227,7 +227,7 @@
                 </localDescription>
                 <languagesUsed>
                     <languageUsed>
-                        <language languageCode="fre">French</language>
+                        <language languageCode="fra">French</language>
                         <script scriptCode="Latn">Latin</script>
                     </languageUsed>
                 </languagesUsed>
