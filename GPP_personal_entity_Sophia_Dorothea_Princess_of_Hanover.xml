@@ -73,6 +73,12 @@
                 <p>UKAT terms are used to specify the function/s of an EAC-CPF entity.</p>
             </descriptiveNote>
         </conventionDeclaration>
+        <rightsDeclaration localType="biogHist">
+          <citation>Wikipedia</citation>
+          <descriptiveNote>
+            <p>Licensed under CC-BY-SA.</p>
+          </descriptiveNote>
+        </rightsDeclaration>
         <localTypeDeclaration>
             <abbreviation>Name Parts</abbreviation>
             <citation xlink:href="http://anws.llgc.org.uk/ncarules/title.htm" xlink:type="simple"
@@ -208,7 +214,6 @@
                     Ahlden for the last thirty years of her life.</abstract>
                 <citation>Wikipedia. "Sophia Dorothea of Celle" Accessed May 12, 2020.
                     https://en.wikipedia.org/wiki/Sophia_Dorothea_of_Celle</citation>
-                <p>Biography source: Wikipedia. Licensed under CC-BY-SA.</p>
             </biogHist>
         </description>
         <relations>

@@ -56,6 +56,12 @@
                 <p>UKAT terms are used to specify the function/s of an EAC-CPF entity.</p>
             </descriptiveNote>
         </conventionDeclaration>
+        <rightsDeclaration localType="biogHist">
+          <citation>Wikipedia</citation>
+          <descriptiveNote>
+            <p>Licensed under CC-BY-SA.</p>
+          </descriptiveNote>
+        </rightsDeclaration>
         <localTypeDeclaration>
             <abbreviation>Name Parts</abbreviation>
             <citation xlink:href="http://anws.llgc.org.uk/ncarules/title.htm" xlink:type="simple"
@@ -144,7 +150,6 @@
             <biogHist> 
                 <abstract>Elisa Servenius, née Bernström, also known as Johanna Servenius (fl. 1810), was a woman who served in the Swedish army dressed as a man during the Finnish War between Sweden and Russia 1808-1809. She was decorated for bravery in battle, and was the first and only woman in Sweden awarded the För tapperhet i fält for bravery in battle on land, while Brita Hagberg and Anna Maria Engsten were decorated for bravery at sea.</abstract>
                 <citation>Wikipedia. "Elisa Servenius" Accessed February 19, 2020. https://en.wikipedia.org/wiki/Elisa_Servenius</citation>
-                <p>Biography source: Wikipedia. Licensed under CC-BY-SA.</p>
             </biogHist>         
         </description>
     </cpfDescription>

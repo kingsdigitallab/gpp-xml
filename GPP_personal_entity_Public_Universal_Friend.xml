@@ -56,6 +56,12 @@
                 <p>UKAT terms are used to specify the function/s of an EAC-CPF entity.</p>
             </descriptiveNote>
         </conventionDeclaration>
+        <rightsDeclaration localType="biogHist">
+          <citation>Wikipedia</citation>
+          <descriptiveNote>
+            <p>Licensed under CC-BY-SA.</p>
+          </descriptiveNote>
+        </rightsDeclaration>
         <localTypeDeclaration>
             <abbreviation>Name Parts</abbreviation>
             <citation xlink:href="http://anws.llgc.org.uk/ncarules/title.htm" xlink:type="simple"
@@ -155,7 +161,6 @@
             <biogHist> 
                 <abstract>The Public Universal Friend (November 29, 1752 – July 1, 1819), born Jemima Wilkinson, was an American preacher born in Cumberland, Rhode Island, to Quaker parents. Wilkinson suffered a severe illness in 1776 and reported having died and been reanimated as a genderless evangelist named the Public Universal Friend, and afterward shunned both birth name and gendered pronouns. In androgynous clothes, the Friend preached throughout the northeastern United States, attracting many followers who became the Society of Universal Friends.</abstract>
                 <citation>Wikipedia. "Public Universal Friend" Accessed February 19, 2020. https://en.wikipedia.org/wiki/Public_Universal_Friend</citation>
-                <p>Biography source: Wikipedia. Licensed under CC-BY-SA.</p>
             </biogHist>         
         </description>
     </cpfDescription>
@@ -250,7 +255,6 @@
                 <abstract>The Public Universal Friend (November 29, 1752 – July 1, 1819), born Jemima Wilkinson, was an American preacher born in Cumberland, Rhode Island, to Quaker parents. Wilkinson suffered a severe illness in 1776 and reported having died and been reanimated as a genderless evangelist named the Public Universal Friend, and afterward shunned both birth name and gendered pronouns. In androgynous clothes, the Friend preached throughout the northeastern United States, attracting many followers who became the Society of Universal Friends.</abstract>
                 <p>The Public Universal Friend's theology was broadly similar to that of most Quakers, believing in free will, opposing slavery, and supporting sexual abstinence. The most committed members of the Society of Universal Friends were a group of unmarried women who took leading roles in their households and community. In the 1790s, the Society acquired land in Western New York where they formed the township of Jerusalem near Penn Yan, New York. The Society of Universal Friends ceased to exist by the 1860s. Many writers have portrayed the Friend as a woman, and either a manipulative fraudster or a pioneer for women's rights; others have viewed the preacher as transgender or non-binary.</p>
                 <citation>Wikipedia. "Public Universal Friend" Accessed February 19, 2020. https://en.wikipedia.org/wiki/Public_Universal_Friend</citation>
-                <p>Biography source: Wikipedia. Licensed under CC-BY-SA.</p>
             </biogHist>         
         </description>
     </cpfDescription>

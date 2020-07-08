@@ -56,6 +56,12 @@
                 <p>UKAT terms are used to specify the function/s of an EAC-CPF entity.</p>
             </descriptiveNote>
         </conventionDeclaration>
+        <rightsDeclaration localType="biogHist">
+          <citation>Wikipedia</citation>
+          <descriptiveNote>
+            <p>Licensed under CC-BY-SA.</p>
+          </descriptiveNote>
+        </rightsDeclaration>
         <localTypeDeclaration>
             <abbreviation>Name Parts</abbreviation>
             <citation xlink:href="http://anws.llgc.org.uk/ncarules/title.htm" xlink:type="simple"
@@ -172,7 +178,6 @@
                 <abstract>Maria van Antwerpen (1719–1781) was a Dutch soldier and cross dresser. She is perhaps the most famous and well-documented example of a female cross dresser enlisting in the army as a man. She also married twice to women. Two biographies were published about Maria in her own lifetime, one by Franciscus Lievens Kersteman in 1751.</abstract>
                 <p>Van Antwerpen was born in Breda, the daughter of a brewer. She was orphaned at thirteen and worked as a servant maid until she was fired in the middle of winter in 1745. She enlisted in the military as Jan van Ant in 1746 and married the sergeant daughter Johanna Cramers in 1748. Recognised by a former employer in 1751, she was put on trial for making a mockery of marriage and by entering an illegal marriage, and sentenced to exile from all garrison cities. She worked as a seamstress until 1762, when she married Cornelia Swartsenberg, pregnant after a rape, and enlisted again. A son was baptised with her as a father. In 1769, she was recognised by someone who knew her as a seamstress, and put on trial again. Cornelia fled and Maria was exiled to the area of Holland. She died in Breda at the age of 62.</p>
                 <citation>Wikipedia. "Maria van Antwerpen" Accessed December 17, 2019. https://en.wikipedia.org/wiki/Maria_van_Antwerpen</citation>
-                <p>Biography source: Wikipedia. Licensed under CC-BY-SA.</p>
             </biogHist>         
         </description>
     </cpfDescription>

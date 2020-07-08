@@ -56,6 +56,12 @@
                 <p>UKAT terms are used to specify the function/s of an EAC-CPF entity.</p>
             </descriptiveNote>
         </conventionDeclaration>
+        <rightsDeclaration localType="biogHist">
+          <citation>Wikipedia</citation>
+          <descriptiveNote>
+            <p>Licensed under CC-BY-SA.</p>
+          </descriptiveNote>
+        </rightsDeclaration>
         <localTypeDeclaration>
             <abbreviation>Name Parts</abbreviation>
             <citation xlink:href="http://anws.llgc.org.uk/ncarules/title.htm" xlink:type="simple"
@@ -180,7 +186,6 @@
             <biogHist> 
                 <abstract>Marie-Angélique Josèphe Brûlon, née Duchemin (January 20, 1772 – July 13, 1859), was a French soldier. Born in Dinan into a soldier family, Duchemin married a soldier named Brûlon and served from 1792–1799 in the defence of Corsica. She initially fought disguised as a man along with her husband, but was eventually discovered to be a woman. Despite this, she had shown such valour in battle that she was allowed to remain in service. She survived her husband and was proficient with sword and dagger in hand-to-hand combat. In 1797, she asked to be allowed into Les Invalides after she received severe wounds in the siege of Calvi, but was denied seven years. When she received the pension in 1804, she was also promoted to the rank of lieutenant.</abstract>
                 <citation>Wikipedia. "Angélique Brûlon" Accessed February 19, 2020. https://en.wikipedia.org/wiki/Ang%C3%A9lique_Br%C3%BBlon</citation>
-                <p>Biography source: Wikipedia. Licensed under CC-BY-SA.</p>
             </biogHist>         
         </description>
     </cpfDescription>

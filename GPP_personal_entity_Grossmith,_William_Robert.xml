@@ -56,6 +56,12 @@
                 <p>UKAT terms are used to specify the function/s of an EAC-CPF entity.</p>
             </descriptiveNote>
         </conventionDeclaration>
+        <rightsDeclaration localType="biogHist">
+          <citation>Wikipedia</citation>
+          <descriptiveNote>
+            <p>Licensed under CC-BY-SA.</p>
+          </descriptiveNote>
+        </rightsDeclaration>
         <localTypeDeclaration>
             <abbreviation>Name Parts</abbreviation>
             <citation xlink:href="http://anws.llgc.org.uk/ncarules/title.htm" xlink:type="simple"
@@ -167,7 +173,6 @@
                 <p>Grossmith was known as the 'Infant Roscius' or 'Young Roscius' as he began acting at a very young age. In 1825 a pamphlet was published publicising this prodigy child actor with the title The Life of the Celebrated Infant Roscius, Master Grossmith of Reading, Berks, only seven years and a quarter Old. Another, retitled to not yet nine years of age was published in 1827.</p>
                 <p>After retiring from the stage he made a second career out of prosthetic limb manufacture.[4] In fact, so well-respected were William Grossmith' products that in 1856 he published a book on the subject: Amputations and Artificial Limbs (or Grossmith on Amputations, Artificial Legs, Hands &amp;c.)</p>
                 <citation>Wikipedia. "Master Grossmith" Accessed February 20, 2020. https://en.wikipedia.org/wiki/Master_Grossmith</citation>
-                <p>Biography source: Wikipedia. Licensed under CC-BY-SA.</p>
             </biogHist>
         </description>
     </cpfDescription>

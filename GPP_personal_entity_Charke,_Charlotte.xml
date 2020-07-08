@@ -56,6 +56,12 @@
                 <p>UKAT terms are used to specify the function/s of an EAC-CPF entity.</p>
             </descriptiveNote>
         </conventionDeclaration>
+        <rightsDeclaration localType="biogHist">
+          <citation>Wikipedia</citation>
+          <descriptiveNote>
+            <p>Licensed under CC-BY-SA.</p>
+          </descriptiveNote>
+        </rightsDeclaration>
         <localTypeDeclaration>
             <abbreviation>Name Parts</abbreviation>
             <citation xlink:href="http://anws.llgc.org.uk/ncarules/title.htm" xlink:type="simple"
@@ -175,7 +181,6 @@
             <biogHist>
                 <abstract>Charlotte Charke (née Cibber, also Charlotte Secheverell, aka Charles Brown) (13 January 1713 – 6 April 1760) was an English actress, playwright, novelist, autobiographer, and noted transvestite. She acted on the stage from the age of 17, mainly in breeches roles, and took to wearing male clothing off the stage. She assumed the name "Charles Brown" and called her daughter "Mrs. Brown." She suffered a series of failures in her business affairs after working in a variety of trades commonly associated with men, from valet, to sausage maker, farmer, pastry chef, and tavern owner, but finally achieved success under her own name as a writer, ending her life as a novelist and memoirist.</abstract>
                 <citation>Wikipedia. "Charlotte Charke" Accessed February 20, 2020. https://en.wikipedia.org/wiki/Charlotte_Charke</citation>
-                <p>Biography source: Wikipedia. Licensed under CC-BY-SA.</p>
             </biogHist>
         </description>
     </cpfDescription>

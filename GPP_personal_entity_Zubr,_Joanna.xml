@@ -56,6 +56,12 @@
                 <p>UKAT terms are used to specify the function/s of an EAC-CPF entity.</p>
             </descriptiveNote>
         </conventionDeclaration>
+        <rightsDeclaration localType="biogHist">
+          <citation>Wikipedia</citation>
+          <descriptiveNote>
+            <p>Licensed under CC-BY-SA.</p>
+          </descriptiveNote>
+        </rightsDeclaration>
         <localTypeDeclaration>
             <abbreviation>Name Parts</abbreviation>
             <citation xlink:href="http://anws.llgc.org.uk/ncarules/title.htm" xlink:type="simple"
@@ -197,7 +203,6 @@
                 <p>During the battles and Napoleon's retreat, she was separated from her division, but she managed to escape from Russia on her own. In the summer of 1813, weeks after Prince Józef Poniatowski's forces had abandoned Kraków, she reached Polish units in Saxony and served with distinction until the signing of the Treaty of Fontainebleau and the end of the war.</p>
                 <p>Joanna and her husband returned to Poland. Because she could return to neither Austrian-occupied nor Russian-held parts of Poland, they settled at Wieluń. She died there during a cholera epidemic in 1852, at the age of about eighty.</p>
                 <citation>Wikipedia. "Joanna Żubr" Accessed February 20, 2020. https://en.wikipedia.org/wiki/Joanna_%C5%BBubr</citation>
-                <p>Biography source: Wikipedia. Licensed under CC-BY-SA.</p>
             </biogHist>
         </description>
     </cpfDescription>
@@ -257,7 +262,6 @@
                 <abstract>Joanna Żubr (ca. 1770–1852) was a Polish soldier of the Napoleonic Wars, a veteran of the Polish–Austrian War, and the first woman to receive the Virtuti Militari, the highest Polish military decoration.</abstract>
                 <p>After the outbreak of the Napoleonic Wars and creation of the Duchy of Warsaw in 1808, Joanna Żubr with her husband, Michał, left Austrian-ruled Volhynia. Both joined the army of the new Duchy, with Joanna initially a camp-follower. Soon she enlisted in the 2nd Infantry Regiment (4th company, 2nd battalion) as a private, hiding that she was a woman from both her superiors and fellow soldiers.</p>
                 <citation>Wikipedia. "Joanna Żubr" Accessed February 20, 2020. https://en.wikipedia.org/wiki/Joanna_%C5%BBubr</citation>
-                <p>Biography source: Wikipedia. Licensed under CC-BY-SA.</p>
             </biogHist>
         </description>
     </cpfDescription>

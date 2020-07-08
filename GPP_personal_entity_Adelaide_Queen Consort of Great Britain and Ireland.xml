@@ -56,6 +56,12 @@
                 <p>UKAT terms are used to specify the function/s of an EAC-CPF entity.</p>
             </descriptiveNote>
         </conventionDeclaration>
+        <rightsDeclaration localType="biogHist">
+          <citation>Wikipedia</citation>
+          <descriptiveNote>
+            <p>Licensed under CC-BY-SA.</p>
+          </descriptiveNote>
+        </rightsDeclaration>
         <localTypeDeclaration>
             <abbreviation>Name Parts</abbreviation>
             <citation xlink:href="http://anws.llgc.org.uk/ncarules/title.htm" xlink:type="simple"
@@ -188,7 +194,6 @@
             <biogHist> 
                 <abstract>Adelaide of Saxe-Meiningen (Adelaide Louise Theresa Caroline Amelia; German: Adelheid; 13 August 1792 – 2 December 1849) was the queen consort of the United Kingdom and of Hanover as spouse of William IV of the United Kingdom. Adelaide was the daughter of George I, Duke of Saxe-Meiningen, and Luise Eleonore of Hohenlohe-Langenburg.</abstract>
                 <citation>Wikipedia. "Adelaide of Saxe-Meiningen" Accessed September 6, 2018. https://en.wikipedia.org/wiki/Adelaide_of_Saxe-Meiningen</citation>
-                <p>Biography source: Wikipedia. Licensed under CC-BY-SA.</p>
             </biogHist>         
         </description>
         <relations> 

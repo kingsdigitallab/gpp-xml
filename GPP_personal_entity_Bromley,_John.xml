@@ -56,6 +56,12 @@
                 <p>UKAT terms are used to specify the function/s of an EAC-CPF entity.</p>
             </descriptiveNote>
         </conventionDeclaration>
+        <rightsDeclaration localType="biogHist">
+          <citation>Wikipedia</citation>
+          <descriptiveNote>
+            <p>Licensed under CC-BY-SA.</p>
+          </descriptiveNote>
+        </rightsDeclaration>
         <localTypeDeclaration>
             <abbreviation>Name Parts</abbreviation>
             <citation xlink:href="http://anws.llgc.org.uk/ncarules/title.htm" xlink:type="simple"
@@ -164,7 +170,6 @@
             <biogHist>
                 <abstract>Jacques Jean-Marie François Boudin, comte de Tromelin (22 August 1771, Ploujean, now part of Morlaix, Finistère - 3 March 1842, Ploujean) was a French general of the First French Empire.</abstract>
                 <citation>Wikipedia. "Jacques Boudin de Tromelin" Accessed February 20, 2020. https://en.wikipedia.org/wiki/Jacques_Boudin_de_Tromelin</citation>
-                <p>Biography source: Wikipedia. Licensed under CC-BY-SA.</p>
             </biogHist>
         </description>
     </cpfDescription>

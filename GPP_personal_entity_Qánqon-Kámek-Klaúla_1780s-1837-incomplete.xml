@@ -56,6 +56,12 @@
                 <p>UKAT terms are used to specify the function/s of an EAC-CPF entity.</p>
             </descriptiveNote>
         </conventionDeclaration>
+        <rightsDeclaration localType="biogHist">
+          <citation>Wikipedia</citation>
+          <descriptiveNote>
+            <p>Licensed under CC-BY-SA.</p>
+          </descriptiveNote>
+        </rightsDeclaration>
         <localTypeDeclaration>
             <abbreviation>Name Parts</abbreviation>
             <citation xlink:href="http://anws.llgc.org.uk/ncarules/title.htm" xlink:type="simple"
@@ -187,7 +193,6 @@
                 <p>It was against a Spanish Empire incursion into France at Biriatou in July 1793 that she would become known. Under the command of Théophile Corret de la Tour d'Auvergne, they were engaged by the Spanish forces. First, Barreau witnessed the death of her brother, and then her husband was seriously injured. Barreau moved further forward with the other infantry, before rushing into enemy fire where she fired her musket until she ran out of ammunition. At that point, she charged the enemy with her saber.</p>
                 <p>Following the end of the battle, she went to her husband's side and tended his wounds. Follow a year and two months of service, Barreau was discharged from the infantry, as she had been experiencing complications from being six months pregnant. The National Convention granted her 300 livre tournois in recognition of her service, and in the following years she remained in the train following the army as her husband continued to serve. She was written of as a national hero in the 1793 Annales du Civisme et de la Vertu. Barreau received a military pension in 1806, and by 1809 she had five children. After falling ill, she petitioned for treatment as per a veteran, however it was not until 1832 that she and her husband were admitted to the veterans' hospital in Avignon. She died there on 24 January 1843.</p>
                 <citation>Wikipedia. "Rose-Alexandrine Barreau" Accessed December 18, 2019. https://en.wikipedia.org/wiki/Rose-Alexandrine_Barreau</citation>
-                <p>Biography source: Wikipedia. Licensed under CC-BY-SA.</p>
             </biogHist>         
         </description>
     </cpfDescription>
@@ -247,7 +252,6 @@
                 <biogHist>
                     <abstract>Rose-Alexandrine Barreau signed up alongside her brother Cyprien Barreau and her new husband for the 2nd Battalion of the Tarn in the Army of the French First Republic. She was listed in records as "Liberte" Barreau, a "son of Jacques and Jeanne Barreau". Barreau and the rest of the Battalion were subsequently amalgamated into the 63rd Demi-Brigade.</abstract>
                     <citation>Wikipedia. "Rose-Alexandrine Barreau" Accessed December 18, 2019. https://en.wikipedia.org/wiki/Rose-Alexandrine_Barreau</citation>
-                    <p>Biography source: Wikipedia. Licensed under CC-BY-SA.</p>
                 </biogHist>         
             </description>
         </cpfDescription>

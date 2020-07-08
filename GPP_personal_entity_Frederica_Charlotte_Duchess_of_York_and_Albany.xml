@@ -56,6 +56,12 @@
                 <p>UKAT terms are used to specify the function/s of an EAC-CPF entity.</p>
             </descriptiveNote>
         </conventionDeclaration>
+        <rightsDeclaration localType="biogHist">
+          <citation>Wikipedia</citation>
+          <descriptiveNote>
+            <p>Licensed under CC-BY-SA.</p>
+          </descriptiveNote>
+        </rightsDeclaration>
         <localTypeDeclaration>
             <abbreviation>Name Parts</abbreviation>
             <citation xlink:href="http://anws.llgc.org.uk/ncarules/title.htm" xlink:type="simple"
@@ -203,7 +209,6 @@
                 <abstract>Princess Frederica Charlotte of Prussia (Friederike Charlotte Ulrike Katharina; 7 May 1767 – 6 August 1820) was a Prussian and British princess. She was the eldest daughter of King Frederick William II of Prussia and the wife of Prince Frederick, Duke of York and Albany, second son of King George III of the United Kingdom.</abstract>
                 
                 <citation>Wikipedia. "Princess Frederica Charlotte of Prussia" Accessed August 30, 2018. https://en.wikipedia.org/wiki/Princess_Frederica_Charlotte_of_Prussia</citation>
-                <p>Biography source: Wikipedia. Licensed under CC-BY-SA.</p>
             </biogHist>         
         </description>
         <relations> 

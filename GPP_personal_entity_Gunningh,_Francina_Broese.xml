@@ -56,6 +56,12 @@
                 <p>UKAT terms are used to specify the function/s of an EAC-CPF entity.</p>
             </descriptiveNote>
         </conventionDeclaration>
+        <rightsDeclaration localType="biogHist">
+          <citation>Wikipedia</citation>
+          <descriptiveNote>
+            <p>Licensed under CC-BY-SA.</p>
+          </descriptiveNote>
+        </rightsDeclaration>
         <localTypeDeclaration>
             <abbreviation>Name Parts</abbreviation>
             <citation xlink:href="http://anws.llgc.org.uk/ncarules/title.htm" xlink:type="simple"
@@ -177,7 +183,6 @@
                     <p>She returned to the Netherlands, and enlisted in the Dutch army. She served in combat during the sieges of Kampen, Coevorden, and Deventer during the War of the Sixth Coalition.</p>
                     <p>In 1814, she was engaged to be married to Alida Landeel, and added the title "Lord of Amerongen" to her name. She was arrested for using a false noble title, but escaped prison. When she was arrested, she was forced to undergo a medical examination, which revealed her gender. She was sentenced to three years in prison for fraud. She died as the widow of one Mr. Lettener on 16 August 1824 in Edam, North Holland.</p>
                 <citation>Wikipedia. "Francina Broese Gunningh" Accessed February 19, 2020. https://en.wikipedia.org/wiki/Francina_Broese_Gunningh</citation>
-                <p>Biography source: Wikipedia. Licensed under CC-BY-SA.</p>
             </biogHist>         
         </description>
     </cpfDescription>
@@ -224,7 +229,6 @@
             <biogHist>
                 <abstract>Francina Broese Gunningh, also known as Frans Gunningh Sloet (1783 - 1824), was a Dutch soldier, in service of the French, Prussian and Dutch army.</abstract>
                 <citation>Wikipedia. "Francina Broese Gunningh" Accessed February 19, 2020. https://en.wikipedia.org/wiki/Francina_Broese_Gunningh</citation>
-                <p>Biography source: Wikipedia. Licensed under CC-BY-SA.</p> 
             </biogHist>         
         </description>
     </cpfDescription>

@@ -56,6 +56,12 @@
                 <p>UKAT terms are used to specify the function/s of an EAC-CPF entity.</p>
             </descriptiveNote>
         </conventionDeclaration>
+        <rightsDeclaration localType="biogHist">
+          <citation>Wikipedia</citation>
+          <descriptiveNote>
+            <p>Licensed under CC-BY-SA.</p>
+          </descriptiveNote>
+        </rightsDeclaration>
         <localTypeDeclaration>
             <abbreviation>Name Parts</abbreviation>
             <citation xlink:href="http://anws.llgc.org.uk/ncarules/title.htm" xlink:type="simple"
@@ -144,7 +150,6 @@
             <biogHist>
                 <abstract>William Brown (birth name unknown) was a Black woman who joined the Royal Navy under a man's name in the early nineteenth century. It is undisputed that she was a sailor of HMS Queen Charlotte, but historians have reached varying conclusions about her service record.</abstract>
                 <citation>Wikipedia. "William Brown (sailor)" Accessed February 20, 2020. https://en.wikipedia.org/wiki/William_Brown_(sailor)</citation>
-                <p>Biography source: Wikipedia. Licensed under CC-BY-SA.</p>
             </biogHist>        
         </description>
     </cpfDescription>    
