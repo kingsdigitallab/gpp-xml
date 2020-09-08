@@ -93,6 +93,13 @@
                 <agent xml:id="GPP-00001748">Callaghan, Samantha</agent> <!-- ID may be subject to change in the CW -->
                 <eventDescription>Updated info for NAF for Margaret King funded by the Marc Fitch Fund (https://www.marcfitchfund.org.uk/)</eventDescription> <!-- Include a full description of the maintenance event - ie: note what was created/edited during the event -->
             </maintenanceEvent>
+            <maintenanceEvent> <!-- records each maintenance/editing event that occurs throughout the life of the file -->
+                <eventType>updated</eventType> <!-- May contain: "cancelled" or "created" or "deleted" or "derived" or "revised" or "updated" -->
+                <eventDateTime standardDateTime="2020-04-28T15:33:00Z">3:33 pm, 28 April 2020</eventDateTime> <!-- ISO 8601 date-time formatting -->
+                <agentType>human</agentType> <!-- May contain: "human" or "machine" -->
+                <agent xml:id="GPP-00001748">Callaghan, Samantha</agent> <!-- ID may be subject to change in the CW -->
+                <eventDescription>Added further info to NAF for Margaret King.</eventDescription> <!-- Include a full description of the maintenance event - ie: note what was created/edited during the event -->
+            </maintenanceEvent>
         </maintenanceHistory>
         <sources>
             <source xlink:type="simple" xlink:href="https://viaf.org/viaf/71641726/">
@@ -101,8 +108,8 @@
             <source xlink:type="simple" xlink:href="https://www.wikidata.org/wiki/Q6759592">
                 <sourceEntry>Wikidata ID: Q6759592</sourceEntry>
             </source>  
-            <source xlink:href="https://www.geonames.org/3170647/pisa.html">
-                <sourceEntry>Geonames ID: 3170647</sourceEntry>
+            <source xlink:href="https://www.geonames.org/3174659/livorno.html">
+                <sourceEntry>Geonames ID: 3174659</sourceEntry>
             </source>
             <source xlink:href="https://en.wikipedia.org/wiki/Margaret_King">
                 <sourceEntry>Wikipedia: Margaret King</sourceEntry>
@@ -112,7 +119,6 @@
             </source>  
         </sources>        
     </control>
-    <multipleIdentities>
     <cpfDescription> <!-- Descriptive metadata -->
         <identity>
             <entityType>person</entityType>
@@ -122,7 +128,7 @@
                 <useDates>
                     <dateRange>
                         <fromDate standardDate="1773">ca. 1773</fromDate>
-                        <toDate standardDate="1835">ca. 1835</toDate>
+                        <toDate standardDate="1835-01">ca. Jan 1835</toDate>
                     </dateRange>
                 </useDates>
                 <authorizedForm>NCA</authorizedForm>
@@ -137,7 +143,8 @@
                 </useDates>
                 <authorizedForm>NCA</authorizedForm>
             </nameEntry>
-            <nameEntry scriptCode="Latn" xml:lang="eng"> 
+            <nameEntry scriptCode="Latn" xml:lang="eng">
+                <part localType="pretitle">Lady</part>
                 <part localType="forename">Margaret Jane</part>
                 <part localType="surname">Moore</part>
                 <part localType="title">1st wife of 2nd Earl Mount Cashell</part>
@@ -155,18 +162,7 @@
                 <useDates>
                     <dateRange>
                         <fromDate standardDate="1802">ca. 1802</fromDate>
-                        <toDate standardDate="1835">ca. 1835</toDate>
-                    </dateRange>
-                </useDates>
-                <alternativeForm>NCA</alternativeForm>
-            </nameEntry>
-            <nameEntry scriptCode="Latn" xml:lang="eng"> <!-- From here -->
-                <part localType="forename">Margaret</part>
-                <part localType="surname">Mason</part>
-                <useDates>
-                    <dateRange>
-                        <fromDate standardDate="1802">ca. 1802</fromDate>
-                        <toDate standardDate="1835">ca. 1835</toDate>
+                        <toDate standardDate="1835-01">ca. Jan 1835</toDate>
                     </dateRange>
                 </useDates>
                 <alternativeForm>NCA</alternativeForm>
@@ -176,7 +172,7 @@
             <existDates> <!-- Birth and death dates, if known. -->
                 <dateRange>
                     <fromDate standardDate="1773">ca. 1773</fromDate>
-                    <toDate standardDate="1835">ca. 1835</toDate>
+                    <toDate standardDate="1835-01">ca. Jan 1835</toDate>
                 </dateRange>
             </existDates>
             <localDescription localType="gender">
@@ -185,9 +181,9 @@
             <!-- For preference we prefer to capture birth and death places. If it is considered useful, further places (and dates can be captured)such as residences and so on, time permitting. -->
             <places>
                 <place>
-                    <placeRole>death</placeRole>
-                    <placeEntry vocabularySource="GeoNames" latitude="51.50853" longitude="-0.12574">St. Sepulchre's workhouse (uncertain whether St. Sepulchre's without Newgate or St. Sepulchre's, Middlesex), London</placeEntry>
-                    <date standardDate="1766">ca. 1766</date>
+                    <placeRole>burial</placeRole>
+                    <placeEntry vocabularySource="GeoNames" latitude="43.54427" longitude="10.32615">Old English Cemetery, Livorno, Italy</placeEntry>
+                    <date standardDate="1835-01">ca. Jan 1835</date>
                 </place>
             </places>
             <languagesUsed>
@@ -197,60 +193,13 @@
                 </languageUsed>
             </languagesUsed>
             <biogHist> 
-                <abstract>Little is known of Sarah Paul's early life. She came to the attention of the public after being discovered by her neighbours to be a woman in 1760. At that time she had been married to Mary Parlour for about 6 months. She was charged with 'defrauding a young woman of money and apparel, by marrying her' but as Mary did not appear at court the ???????. It is reported that Sarah died around 1766 in a St. Sepulchre's workhouse.</abstract>
-                <citation>Derry, Caroline. “‘Female Husbands’, Community and Courts in the Eighteenth Century.” The Journal of Legal History 38, no. 1 (2017): 41–82. https://doi.org/10.1080/01440365.2017.1289674.</citation>
+                <abstract>Margaret King (1773–1835), also known as Lady Mount Cashell and Mrs Mason, was an Irish hostess, writer, traveller, and medical adviser. Despite her wealthy aristocratic background, she had republican sympathies, shaped in part by having been a favoured pupil of Mary Wollstonecraft. In Italy in later life, she reciprocated her governess's care by offering maternal aid and advice to Wollstonecraft's daughter Mary Shelley (author of Frankenstein) and her travelling companions, husband Percy Bysshe Shelley and stepsister Claire Clairmont.</abstract>
+                
+                <citation>Wikipedia. "Margaret King" Accessed April 28, 2020. https://en.wikipedia.org/wiki/Margaret_King</citation>
+                <p>Biography source: Wikipedia. Licensed under CC-BY-SA.</p>
             </biogHist>         
         </description>
     </cpfDescription>
-    <cpfDescription> <!-- Descriptive metadata -->
-        <identity>
-            <entityType>person</entityType>
-            <nameEntry scriptCode="Latn" xml:lang="eng"> 
-                <part localType="forename">Samuel</part>
-                <part localType="surname">Bundy</part>
-                <useDates>
-                    <dateRange>
-                        <fromDate standardDate="1759">fl. 1759</fromDate>
-                        <toDate standardDate="1760">fl. 1760</toDate>
-                    </dateRange>      
-                </useDates>
-                <authorizedForm>NCA</authorizedForm>
-            </nameEntry>
-            <nameEntry scriptCode="Latn" xml:lang="eng" localType="directOrder"> 
-                <part>Bundy, Samuel, fl 1759-fl 1760</part>
-                <useDates>
-                    <dateRange>
-                        <fromDate standardDate="1759">fl. 1759</fromDate>
-                        <toDate standardDate="1760">fl. 1760</toDate>
-                    </dateRange>
-                </useDates>
-                <authorizedForm>NCA</authorizedForm>
-            </nameEntry>
-        </identity>
-        <description>
-            <existDates>
-                <dateRange>
-                    <fromDate standardDate="1759">fl. 1759</fromDate>
-                    <toDate standardDate="1760">fl. 1760</toDate>
-                </dateRange>
-            </existDates>
-            <localDescription localType="gender">
-                <term vocabularySource="Homosaurus">Men</term>
-            </localDescription>
-            <languagesUsed>
-                <languageUsed> <!-- From evidence in the GPP, if possible -->
-                    <language languageCode="eng">English</language>
-                    <script scriptCode="Latn">Latin</script>
-                </languageUsed>
-            </languagesUsed>
-            <!-- From here! -->
-            <biogHist>
-                <abstract>Samuel Bundy married Mary Parlour in 1759</abstract>
-                <citation>Derry, Caroline. “‘Female Husbands’, Community and Courts in the Eighteenth Century.” The Journal of Legal History 38, no. 1 (2017): 41–82. https://doi.org/10.1080/01440365.2017.1289674.</citation>
-            </biogHist>         
-        </description>
-    </cpfDescription>
-    </multipleIdentities>
 </eac-cpf>
 
 
