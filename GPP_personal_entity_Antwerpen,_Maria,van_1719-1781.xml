@@ -83,14 +83,14 @@
                 <eventType>created</eventType> <!-- May contain: "cancelled" or "created" or "deleted" or "derived" or "revised" or "updated" -->
                 <eventDateTime standardDateTime="2019-12-17T14:44:00Z">2:44 pm, 17 December 2019</eventDateTime> <!-- ISO 8601 date-time formatting -->
                 <agentType>human</agentType> <!-- May contain: "human" or "machine" -->
-                <agent xml:id="GPP-00001748">Callaghan, Samantha</agent> <!-- ID may be subject to change in the CW -->
+                <agent>Callaghan, Samantha</agent> <!-- ID may be subject to change in the CW -->
                 <eventDescription>Creation of NAF for Maria van Antwerpen funded by the Marc Fitch Fund (https://www.marcfitchfund.org.uk/)</eventDescription> <!-- Include a full description of the maintenance event - ie: note what was created/edited during the event -->
             </maintenanceEvent>
             <maintenanceEvent> <!-- records each maintenance/editing event that occurs throughout the life of the file -->
                 <eventType>updated</eventType> <!-- May contain: "cancelled" or "created" or "deleted" or "derived" or "revised" or "updated" -->
                 <eventDateTime standardDateTime="2019-12-18T09:55:00Z">9:55 am, 18 December 2019</eventDateTime> <!-- ISO 8601 date-time formatting -->
                 <agentType>human</agentType> <!-- May contain: "human" or "machine" -->
-                <agent xml:id="GPP-00001748">Callaghan, Samantha</agent> <!-- ID may be subject to change in the CW -->
+                <agent>Callaghan, Samantha</agent> <!-- ID may be subject to change in the CW -->
                 <eventDescription>Updated NAF for Maria van Antwerpen to include variant names drawn from another source as well as included additional gender term with citation and descriptive note.</eventDescription> <!-- Include a full description of the maintenance event - ie: note what was created/edited during the event -->
             </maintenanceEvent>
         </maintenanceHistory>
@@ -255,7 +255,7 @@
                     <authorizedForm>NCA</authorizedForm>
                 </nameEntry>
                 <nameEntry scriptCode="Latn" xml:lang="dut" localType="directOrder"> 
-                    <part>Hantwerpen, Jan, van, fl 1762-fl 1769</part>
+                    <part>Hantwerpen, Machiel, van, fl 1762-fl 1769</part>
                     <useDates>
                         <dateRange>
                             <fromDate standardDate="1762">fl. 1762</fromDate>

@@ -83,7 +83,7 @@
                 <eventType>created</eventType> <!-- May contain: "cancelled" or "created" or "deleted" or "derived" or "revised" or "updated" -->
                 <eventDateTime standardDateTime="2018-09-06T12:13:00Z">12.13 pm, 6 September 2018</eventDateTime> <!-- ISO 8601 date-time formatting -->
                 <agentType>human</agentType> <!-- May contain: "human" or "machine" -->
-                <agent xml:id="GPP-00001748">Callaghan, Samantha</agent>
+                <agent>Callaghan, Samantha</agent>
                 <eventDescription>Creation of NAF for Adelaide, Queen Consort of Great Britain and Ireland.</eventDescription> <!-- Include a full description of the maintenance event - ie: note what was created/edited during the event -->
             </maintenanceEvent>
         </maintenanceHistory>
@@ -97,27 +97,35 @@
             <source xlink:type="simple" xlink:href="http://www.geonames.org/2872225/meiningen.html">
                 <sourceEntry>GeoNames ID: 2872225</sourceEntry>
             </source>
-            <!-- having problems adding Betley Priory (51.6267, -0.3342) to GeoNames - try again tomorrow. -->
-            <source xlink:type="simple" xlink:href="">
-                <sourceEntry>GeoNames ID: </sourceEntry>
+            <source xlink:type="simple" xlink:href="https://www.geonames.org/12182129/betley-priory.html">
+                <sourceEntry>GeoNames ID: 12182129</sourceEntry>
             </source>
         </sources>        
     </control>
     <cpfDescription> <!-- Descriptive metadata -->
         <identity>
             <entityType>person</entityType>
-            <!-- COME BACK AND CHECK QUEEN CONSORT VS. DOWAGER QUEEN -->
             <nameEntry scriptCode="Latn" xml:lang="eng"> 
                 <part localType="forename">Adelaide Amelia Louise Theresa Caroline</part>
                 <part localType="properTitle">Queen Consort of Great Britain and Ireland</part>
                 <useDates>
                     <dateRange>
                         <fromDate standardDate="1830-06-26">26 June 1830</fromDate>
-                        <!-- ??? -->
                         <toDate standardDate="1821-08-07">20 June 1837</toDate>
                     </dateRange>
                 </useDates>
                 <authorizedForm>NCA</authorizedForm>
+            </nameEntry>
+            <nameEntry scriptCode="Latn" xml:lang="eng"> 
+                <part localType="forename">Adelaide Amelia Louise Theresa Caroline</part>
+                <part localType="properTitle">Queen Dowager of Great Britain and Ireland</part>
+                <useDates>
+                    <dateRange>
+                        <fromDate standardDate="1837-06-20">20 June 1837</fromDate>
+                        <toDate standardDate="1849-12-02">2 December 1849</toDate>
+                    </dateRange>
+                </useDates>
+                <alternativeForm>NCA</alternativeForm>
             </nameEntry>
             <nameEntry scriptCode="Latn" xml:lang="eng"> 
                 <part localType="forename">Adelaide Amelia Louise Theresa Caroline</part>
@@ -146,7 +154,6 @@
                 <useDates>
                     <dateRange>
                         <fromDate standardDate="1830-06-26">26 June 1830</fromDate>
-                        <!-- ??? -->
                         <toDate standardDate="1821-08-07">20 June 1837</toDate>
                     </dateRange>
                 </useDates>
@@ -171,7 +178,7 @@
                 </place>
                 <place>
                     <placeRole>death</placeRole>
-                    <placeEntry vocabularySource="GeoNames" latitude="51.62669" longitude="-0.334175">Bentley Priory</placeEntry>
+                    <placeEntry vocabularySource="GeoNames" latitude="51.6267" longitude="-0.3342">Betley Priory</placeEntry>
                     <date standardDate="1849-12-02">2 December 1849</date>
                 </place>
             </places>
@@ -193,13 +200,13 @@
         </description>
         <relations> 
             <cpfRelation cpfRelationType="hierarchical-parent" xlink:href=""> <!-- xlink:href to be created automatically following creation of NAF page -->
-                <relationEntry xml:id="">George I Frederick Carl, 1761-1803, Duke of Saxe-Meiningen</relationEntry>
+                <relationEntry>George I Frederick Carl, 1761-1803, Duke of Saxe-Meiningen</relationEntry>
                 <descriptiveNote>
                     <p>George I was Adelaide's father.</p>
                 </descriptiveNote>
             </cpfRelation>
             <cpfRelation cpfRelationType="hierarchical-parent" xlink:href="">
-                <relationEntry xml:id="">Louise Eleanor, 1763-1837, Duchess of Saxe-Meiningen</relationEntry>
+                <relationEntry>Louise Eleanor, 1763-1837, Duchess of Saxe-Meiningen</relationEntry>
                 <descriptiveNote>
                     <p>Louise was Adelaide's mother.</p>
                 </descriptiveNote>

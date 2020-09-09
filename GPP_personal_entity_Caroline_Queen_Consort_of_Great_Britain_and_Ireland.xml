@@ -152,7 +152,7 @@
         <description>
             <existDates>
                 <dateRange>
-                    <<fromDate standardDate="1768-05-17">17 May 1768</fromDate>
+                    <fromDate standardDate="1768-05-17">17 May 1768</fromDate>
                     <toDate standardDate="1821-08-07">7 August 1821</toDate>
                 </dateRange>
             </existDates>
@@ -198,13 +198,13 @@
         </description>
         <relations> 
             <cpfRelation cpfRelationType="hierarchical-parent" xlink:href=""> <!-- xlink:href to be created automatically following creation of NAF page -->
-                <relationEntry xml:id="">Charles William Ferdinand, 1735-1806, Duke of Brunswick-Lüneburg</relationEntry>
+                <relationEntry>Charles William Ferdinand, 1735-1806, Duke of Brunswick-Lüneburg</relationEntry>
                 <descriptiveNote>
                     <p>Charles was Caroline's father.</p>
                 </descriptiveNote>
             </cpfRelation>
             <cpfRelation cpfRelationType="hierarchical-parent" xlink:href="">
-                <relationEntry xml:id="">Augusta Frederica, 1737-1813, Duchess of Brunswick-Lüneburg</relationEntry>
+                <relationEntry>Augusta Frederica, 1737-1813, Duchess of Brunswick-Lüneburg</relationEntry>
                 <descriptiveNote>
                     <p>Augusta was Caroline's mother.</p>
                 </descriptiveNote>

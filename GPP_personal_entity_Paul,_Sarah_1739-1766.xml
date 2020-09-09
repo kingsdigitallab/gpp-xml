@@ -83,14 +83,14 @@
                 <eventType>created</eventType> <!-- May contain: "cancelled" or "created" or "deleted" or "derived" or "revised" or "updated" -->
                 <eventDateTime standardDateTime="2020-02-07T14:08:00Z">2:08 pm, 7 February 2020</eventDateTime> <!-- ISO 8601 date-time formatting -->
                 <agentType>human</agentType> <!-- May contain: "human" or "machine" -->
-                <agent xml:id="GPP-00001748">Callaghan, Samantha</agent> <!-- ID may be subject to change in the CW -->
+                <agent>Callaghan, Samantha</agent> <!-- ID may be subject to change in the CW -->
                 <eventDescription>Creation of NAF for Sarah Paul funded by the Marc Fitch Fund (https://www.marcfitchfund.org.uk/)</eventDescription> <!-- Include a full description of the maintenance event - ie: note what was created/edited during the event -->
             </maintenanceEvent>
             <maintenanceEvent> <!-- records each maintenance/editing event that occurs throughout the life of the file -->
                 <eventType>updated</eventType> <!-- May contain: "cancelled" or "created" or "deleted" or "derived" or "revised" or "updated" -->
                 <eventDateTime standardDateTime="2020-02-16T14:08:00Z">2:08 pm, 16 February 2020</eventDateTime> <!-- ISO 8601 date-time formatting -->
                 <agentType>human</agentType> <!-- May contain: "human" or "machine" -->
-                <agent xml:id="GPP-00001748">Callaghan, Samantha</agent> <!-- ID may be subject to change in the CW -->
+                <agent>Callaghan, Samantha</agent> <!-- ID may be subject to change in the CW -->
                 <eventDescription>Updated NAF for Sarah Paul.</eventDescription> <!-- Include a full description of the maintenance event - ie: note what was created/edited during the event -->
             </maintenanceEvent>
         </maintenanceHistory>
@@ -122,7 +122,7 @@
                 <authorizedForm>NCA</authorizedForm>
             </nameEntry>
             <nameEntry scriptCode="Latn" xml:lang="eng" localType="directOrder"> 
-                <part>Paul, Sarah, ca 1739-ca 1766</part>
+                <part>Paul, Sarah, c 1739-c 1766</part>
                 <useDates>
                     <dateRange>
                         <fromDate standardDate="1739">ca. 1739</fromDate>
@@ -203,9 +203,8 @@
                     <script scriptCode="Latn">Latin</script>
                 </languageUsed>
             </languagesUsed>
-            <!-- From here! -->
             <biogHist>
-                <abstract>Samuel Bundy married Mary Parlour in 1759. Neighbours became suspicious of the couple and doubted that the marriage had been consumated. Eventually the neighbours' curiousity overcame them and they discovered that Samuel was a woman. The case came to court but Sarah was not convicted.</abstract>
+                <abstract>Samuel Bundy married Mary Parlour in 1759. Neighbours became suspicious of the couple and doubted that the marriage had been consumated. Eventually the neighbours' curiousity overcame them and they discovered that Samuel was a woman named Sarah Paul. The case came to court but Sarah was not convicted.</abstract>
                 <citation>Derry, Caroline. “‘Female Husbands’, Community and Courts in the Eighteenth Century.” The Journal of Legal History 38, no. 1 (2017): 41–82. https://doi.org/10.1080/01440365.2017.1289674.</citation>
             </biogHist>         
         </description>

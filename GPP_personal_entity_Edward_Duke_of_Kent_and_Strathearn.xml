@@ -90,7 +90,7 @@
                 <eventType>updated</eventType>
                 <eventDateTime standardDateTime="2018-08-14T16:07:00Z">4.07pm, 14 August 2018</eventDateTime>
                 <agentType>human</agentType>
-                <agent xml:id="GPP-00001748">Callaghan, Samantha</agent>
+                <agent>Callaghan, Samantha</agent>
                 <eventDescription>Continued populating NAF fields.</eventDescription>
             </maintenanceEvent>
         </maintenanceHistory>

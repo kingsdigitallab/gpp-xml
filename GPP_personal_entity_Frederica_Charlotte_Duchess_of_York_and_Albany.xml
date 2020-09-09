@@ -90,7 +90,7 @@
                 <eventType>updated</eventType> <!-- May contain: "cancelled" or "created" or "deleted" or "derived" or "revised" or "updated" -->
                 <eventDateTime standardDateTime="2018-09-03T12:51:00Z">12.51 pm, 3 September 2018</eventDateTime> <!-- ISO 8601 date-time formatting -->
                 <agentType>human</agentType> <!-- May contain: "human" or "machine" -->
-                <agent xml:id="GPP-00001748">Callaghan, Samantha</agent>
+                <agent>Callaghan, Samantha</agent>
                 <eventDescription>Update of NAF for Frederica Charlotte, Duchess of York and Albany.</eventDescription> <!-- Include a full description of the maintenance event - ie: note what was created/edited during the event -->
             </maintenanceEvent>
         </maintenanceHistory>
@@ -208,13 +208,13 @@
         </description>
         <relations> 
             <cpfRelation cpfRelationType="hierarchical-parent" xlink:href=""> <!-- xlink:href to be created automatically following creation of NAF page -->
-                <relationEntry xml:id="">Frederick William II, 1744-1797, King of Prussia</relationEntry>
+                <relationEntry>Frederick William II, 1744-1797, King of Prussia</relationEntry>
                 <descriptiveNote>
                     <p>Frederick was Frederica's father.</p>
                 </descriptiveNote>
             </cpfRelation>
             <cpfRelation cpfRelationType="hierarchical-parent" xlink:href="">
-                <relationEntry xml:id="">Elisabeth Christine Ulrica, 1746-1840, Crown Princess of Prussia</relationEntry>
+                <relationEntry>Elisabeth Christine Ulrica, 1746-1840, Crown Princess of Prussia</relationEntry>
                 <descriptiveNote>
                     <p>Elisabeth was Frederica's mother.</p>
                 </descriptiveNote>
