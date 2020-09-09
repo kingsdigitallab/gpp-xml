@@ -83,8 +83,15 @@
                 <eventType>created</eventType> <!-- May contain: "cancelled" or "created" or "deleted" or "derived" or "revised" or "updated" -->
                 <eventDateTime standardDateTime="2018-09-06T14:58:00Z">2.58 pm, 6 September 2018</eventDateTime> <!-- ISO 8601 date-time formatting -->
                 <agentType>human</agentType> <!-- May contain: "human" or "machine" -->
-                <agent xml:id="GPP-00001748">Callaghan, Samantha</agent>
+                <agent>Callaghan, Samantha</agent>
                 <eventDescription>Creation of NAF for Frederick I, King of Württemberg.</eventDescription> <!-- Include a full description of the maintenance event - ie: note what was created/edited during the event -->
+            </maintenanceEvent>
+            <maintenanceEvent> <!-- records each maintenance/editing event that occurs throughout the life of the file -->
+                <eventType>updated</eventType> <!-- May contain: "cancelled" or "created" or "deleted" or "derived" or "revised" or "updated" -->
+                <eventDateTime standardDateTime="2020-09-09T11:03:00Z">11.03 am, 9 September 2020</eventDateTime> <!-- ISO 8601 date-time formatting -->
+                <agentType>human</agentType> <!-- May contain: "human" or "machine" -->
+                <agent>Callaghan, Samantha</agent>
+                <eventDescription>Updated NAF for Frederick I, King of Württemberg adding entirety of content of cpfDescription/descriptive metadata.</eventDescription> <!-- Include a full description of the maintenance event - ie: note what was created/edited during the event -->
             </maintenanceEvent>
         </maintenanceHistory>
         <sources>
@@ -97,85 +104,110 @@
             <source xlink:type="simple" xlink:href="https://en.wikipedia.org/wiki/Frederick_I_of_W%C3%BCrttemberg">
                 <sourceEntry>Wikipedia: Frederick I of Württemberg</sourceEntry>
             </source>
-            <source xlink:type="simple" xlink:href="http://www.geonames.org/7533463/trzebiatow.html">
-                <sourceEntry>GeoNames ID: 7533463</sourceEntry>
+            <source xlink:type="simple" xlink:href="https://de.wikipedia.org/wiki/Friedrich_(W%C3%BCrttemberg)">
+                <sourceEntry>Wikipedia: Friedrich (Württemberg)</sourceEntry>
+            </source>
+            <source xlink:type="simple" xlink:href="https://www.geonames.org/3083145/trzebiatow.html">
+                <sourceEntry>GeoNames ID: 3083145</sourceEntry>
             </source>
             <source xlink:type="simple" xlink:href="http://www.geonames.org/2825297/stuttgart.html">
                 <sourceEntry>GeoNames ID: 2825297</sourceEntry>
             </source>
         </sources>        
     </control>
-    <!-- from here -->
     <cpfDescription> <!-- Descriptive metadata -->
         <identity>
             <entityType>person</entityType>
-            <!-- COME BACK AND CHECK QUEEN CONSORT VS. DOWAGER QUEEN -->
             <nameEntry scriptCode="Latn" xml:lang="eng"> 
-                <part localType="forename">Adelaide Amelia Louise Theresa Caroline</part>
-                <part localType="properTitle">Queen Consort of Great Britain and Ireland</part>
+                <part localType="forename">Frederick William Carl</part>
+                <part localType="ordinalNumber">I</part>
+                <part localType="properTitle">King of Württemberg</part>
                 <useDates>
                     <dateRange>
-                        <fromDate standardDate="1830-06-26">26 June 1830</fromDate>
-                        <!-- ??? -->
-                        <toDate standardDate="1821-08-07">20 June 1837</toDate>
+                        <fromDate standardDate="1806-01-01">1 January 1806</fromDate>
+                        <toDate standardDate="1816-10-30">30 October 1816</toDate>
                     </dateRange>
                 </useDates>
                 <authorizedForm>NCA</authorizedForm>
             </nameEntry>
-            <nameEntry scriptCode="Latn" xml:lang="eng"> 
-                <part localType="forename">Adelaide Amelia Louise Theresa Caroline</part>
-                <part localType="properTitle">Princess of Saxe-Meiningen</part>
+            <nameEntry scriptCode="Latn" xml:lang="ger"> 
+                <part localType="forename">Friedrich Wilhelm Karl</part>
+                <part localType="properTitle">König von Württemberg</part>
                 <useDates>
                     <dateRange>
-                        <fromDate standardDate="1792-08-13">13 August 1792</fromDate>
-                        <toDate standardDate="1818-07-11">11 July 1818</toDate>
-                    </dateRange>
-                </useDates>
-                <alternativeForm>NCA</alternativeForm>
-            </nameEntry>
-            <nameEntry scriptCode="Latn" xml:lang="eng"> 
-                <part localType="forename">Adelaide Amelia Louise Theresa Caroline</part>
-                <part localType="properTitle">Duchess of Clarence</part>
-                <useDates>
-                    <dateRange>
-                        <fromDate standardDate="1818-07-11">11 July 1818</fromDate>
-                        <toDate standardDate="1830-06-26">26 June 1830</toDate>
+                        <fromDate standardDate="1806-01-01">1 January 1806</fromDate>
+                        <toDate standardDate="1816-10-30">30 October 1816</toDate>
                     </dateRange>
                 </useDates>
                 <alternativeForm>NCA</alternativeForm>
             </nameEntry>
             <nameEntry scriptCode="Latn" xml:lang="eng" localType="directOrder"> 
-                <part>Adelaide Amelia Louise Theresa Caroline, 1792-1849, Queen Consort of Great Britain and Ireland</part>
+                <part>Frederick William Carl I, 1754-1815, King of Württemberg</part>
                 <useDates>
                     <dateRange>
-                        <fromDate standardDate="1830-06-26">26 June 1830</fromDate>
-                        <!-- ??? -->
-                        <toDate standardDate="1821-08-07">20 June 1837</toDate>
+                        <fromDate standardDate="1806-01-01">1 January 1806</fromDate>
+                        <toDate standardDate="1816-10-30">30 October 1816</toDate>
                     </dateRange>
                 </useDates>
                 <authorizedForm>NCA</authorizedForm>
+            </nameEntry>
+            <nameEntry scriptCode="Latn" xml:lang="eng"> 
+                <part localType="forename">Frederick William Carl</part>
+                <part localType="ordinalNumber">I</part>
+                <part localType="properTitle">Elector of Württemberg</part>
+                <useDates>
+                    <dateRange>
+                        <fromDate standardDate="1803-02-25">25 February 1803</fromDate>
+                        <toDate standardDate="1806-01-01">1 January 1806</toDate>
+                    </dateRange>
+                </useDates>
+                <alternativeForm>NCA</alternativeForm>
+            </nameEntry>
+            <nameEntry scriptCode="Latn" xml:lang="eng"> 
+                <part localType="forename">Frederick William Carl</part>
+                <part localType="ordinalNumber">III</part>
+                <part localType="properTitle">Duke of Württemberg</part>
+                <useDates>
+                    <dateRange>
+                        <fromDate standardDate="1797-12-22">22 December 1797</fromDate>
+                        <toDate standardDate="1803-02-25">25 February 1803</toDate>
+                    </dateRange>
+                </useDates>
+                <alternativeForm>NCA</alternativeForm>
+            </nameEntry>
+            <nameEntry scriptCode="Latn" xml:lang="eng"> 
+                <part localType="forename">Frederick William Carl</part>
+                <part localType="ordinalNumber">III</part>
+                <part localType="properTitle">Duke of Württemberg</part>
+                <useDates>
+                    <dateRange>
+                        <fromDate standardDate="1797-12-22">22 December 1797</fromDate>
+                        <toDate standardDate="1803-02-25">25 February 1803</toDate>
+                    </dateRange>
+                </useDates>
+                <alternativeForm>NCA</alternativeForm>
             </nameEntry>
         </identity>
         <description>
             <existDates>
                 <dateRange>
-                    <fromDate standardDate="1792-08-13">13 August 1792</fromDate>
-                    <toDate standardDate="1849-12-02">2 December 1849</toDate>
+                    <fromDate standardDate="1754-11-06">6 November 1754</fromDate>
+                    <toDate standardDate="1816-10-30">30 October 1816</toDate>
                 </dateRange>
             </existDates>
             <localDescription localType="gender">
-                <term vocabularySource="Homosaurus">Women</term>
+                <term vocabularySource="Homosaurus">Men</term>
             </localDescription>
             <places>
                 <place>
                     <placeRole>birth</placeRole>
-                    <placeEntry vocabularySource="GeoNames" latitude="50.56787" longitude="10.41521">Meiningen</placeEntry>
-                    <date standardDate="1792-08-13">13 August 1792</date>
+                    <placeEntry vocabularySource="GeoNames" latitude="54.06147" longitude="15.26475">Treptow an der Rega</placeEntry>
+                    <date standardDate="1754-11-06">6 November 1754</date>
                 </place>
                 <place>
                     <placeRole>death</placeRole>
-                    <placeEntry vocabularySource="GeoNames" latitude="51.62669" longitude="-0.334175">Bentley Priory</placeEntry>
-                    <date standardDate="1849-12-02">2 December 1849</date>
+                    <placeEntry vocabularySource="GeoNames" latitude="48.78232" longitude="9.17702">Stuttgard</placeEntry>
+                    <date standardDate="1816-10-30">30 October 1816</date>
                 </place>
             </places>
             <languagesUsed>
@@ -183,34 +215,18 @@
                     <language languageCode="ger">German</language>
                     <script scriptCode="Latn">Latin</script>
                 </languageUsed>
-                <languageUsed>
-                    <language languageCode="eng">English</language>
-                    <script scriptCode="Latn">Latin</script>
-                </languageUsed>
             </languagesUsed>
             <biogHist> 
-                <abstract>Adelaide of Saxe-Meiningen (Adelaide Louise Theresa Caroline Amelia; German: Adelheid; 13 August 1792 – 2 December 1849) was the queen consort of the United Kingdom and of Hanover as spouse of William IV of the United Kingdom. Adelaide was the daughter of George I, Duke of Saxe-Meiningen, and Luise Eleonore of Hohenlohe-Langenburg.</abstract>
-                <citation>Wikipedia. "Adelaide of Saxe-Meiningen" Accessed September 6, 2018. https://en.wikipedia.org/wiki/Adelaide_of_Saxe-Meiningen</citation>
+                <abstract>Frederick I (German: Friedrich Wilhelm Karl; 6 November 1754 – 30 October 1816) was the ruler of Württemberg from 1797 to his death. He was the last Duke of Württemberg from 1797 to 1803, then the first and only Elector of Württemberg from 1803 to 1806, before raising Württemberg to a kingdom in 1806 with the approval of Napoleon I. On 18 May 1797, Frederick married Princess Charlotte, Princess Royal, the eldest daughter of King George III. The couple had only one child, a stillborn daughter delivered on 27 April 1798.</abstract>
+                <citation>Wikipedia. "Frederick I of Württemberg" Accessed September 9, 2020. https://en.wikipedia.org/wiki/Frederick_I_of_W%C3%BCrttemberg</citation>
                 <p>Biography source: Wikipedia. Licensed under CC-BY-SA.</p>
             </biogHist>         
         </description>
         <relations> 
             <cpfRelation cpfRelationType="hierarchical-parent" xlink:href=""> <!-- xlink:href to be created automatically following creation of NAF page -->
-                <relationEntry xml:id="">George I Frederick Carl, 1761-1803, Duke of Saxe-Meiningen</relationEntry>
+                <relationEntry>Charlotte Augusta Matilda, 1766-1828, Queen of Württemberg</relationEntry>
                 <descriptiveNote>
-                    <p>George I was Adelaide's father.</p>
-                </descriptiveNote>
-            </cpfRelation>
-            <cpfRelation cpfRelationType="hierarchical-parent" xlink:href="">
-                <relationEntry xml:id="">Louise Eleanor, 1763-1837, Duchess of Saxe-Meiningen</relationEntry>
-                <descriptiveNote>
-                    <p>Louise was Adelaide's mother.</p>
-                </descriptiveNote>
-            </cpfRelation>
-            <cpfRelation cpfRelationType="family" xlink:href="">
-                <relationEntry xml:id="GPP-00026812">William IV, 1765-1837, King of Great Britain and Ireland</relationEntry>
-                <descriptiveNote>
-                    <p>William IV was Adelaide's husband.</p>
+                    <p>Charlotte was Frederick's second wife.</p>
                 </descriptiveNote>
             </cpfRelation>
         </relations>
