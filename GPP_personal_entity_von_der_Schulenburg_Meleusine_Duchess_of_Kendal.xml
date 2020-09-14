@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eac-cpf xmlns="urn:isbn:1-931666-33-4" xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="urn:isbn:1-931666-33-4 http://eac.staatsbibliothek-berlin.de/schema/cpf.xsd">
+    <control>
+        <!-- Administrative metadata -->
+        <recordId>NAF-00000007</recordId>
+        <maintenanceStatus>new</maintenanceStatus>
+        <!-- Updated when edited. May contain: "cancelled" or "deleted" or "deletedReplaced" or "deletedSplit" or "derived" or "new" or "revised" -->
+        <publicationStatus>inProcess</publicationStatus>
+        <!-- May contain: "inProcess" or "approved" -->
+        <maintenanceAgency>
+            <agencyName>King's Digital Laboratory</agencyName>
+        </maintenanceAgency>
+        <languageDeclaration>
+            <!-- Of the EAC-CPF file. The EAC-CPF files created for the GPP project are all (at this time) in English and use the latin script. -->
+            <language languageCode="eng">English</language>
+            <script scriptCode="Latn">Latin</script>
+        </languageDeclaration>
+        <conventionDeclaration>
+            <!-- Date and time format convention. -->
+            <abbreviation>ISO8601</abbreviation>
+            <citation xlink:href="https://www.iso.org/iso-8601-date-and-time-format.html"
+                xlink:type="simple">Date and time format - ISO 8601</citation>
+            <descriptiveNote>
+                <p>Dates and times are formatted according to the ISO 8601 standard in the following
+                    forms: YYYY-MM-DD or YYYY-MM-DDTHH:MM:SSZ.</p>
+            </descriptiveNote>
+        </conventionDeclaration>
+        <conventionDeclaration>
+            <!-- Personal and organisational naming conventions -->
+            <abbreviation>NCA</abbreviation>
+            <citation xlink:href="http://anws.llgc.org.uk/ncarules/title.htm" xlink:type="simple"
+                >National Council on Archives Rules for the construction of personal, place and
+                corporate names, 1997.</citation>
+            <descriptiveNote>
+                <p>Personal and organisational names are formatted according to NCA Rules.</p>
+            </descriptiveNote>
+        </conventionDeclaration>
+        <conventionDeclaration>
+            <!-- Geographical naming conventions -->
+            <abbreviation>GeoNames</abbreviation>
+            <citation xlink:href="http://www.geonames.org/" xlink:type="simple">GeoNames</citation>
+            <descriptiveNote>
+                <p>Geographic names are formatted according to GeoNames usage.</p>
+            </descriptiveNote>
+        </conventionDeclaration>
+        <conventionDeclaration>
+            <abbreviation>Wikidata</abbreviation>
+            <citation xlink:href="https://www.wikidata.org/wiki/Wikidata:Main_Page"
+                xlink:type="simple">Wikidata</citation>
+            <descriptiveNote>
+                <p>Geographic names may be formatted according to Wikidata usage if not present on
+                    GeoNames.</p>
+            </descriptiveNote>
+        </conventionDeclaration>
+        <conventionDeclaration>
+            <!-- Geographic coordinates convention. -->
+            <abbreviation>WGS84</abbreviation>
+            <citation xlink:href="https://en.wikipedia.org/wiki/World_Geodetic_System"
+                xlink:type="simple">World Geodetic System 1984</citation>
+            <descriptiveNote>
+                <p>Latitude/longitude coordinates are in the WGS84 standard. Coordinates should be
+                    taken from GeoNames where possible.</p>
+            </descriptiveNote>
+        </conventionDeclaration>
+        <conventionDeclaration>
+            <!-- Function thesaurus. -->
+            <abbreviation>UKAT</abbreviation>
+            <citation xlink:href="http://www.ukat.org.uk/" xlink:type="simple">UK Archival
+                Thesaurus</citation>
+            <descriptiveNote>
+                <p>UKAT terms are used to specify the function/s of an EAC-CPF entity.</p>
+            </descriptiveNote>
+        </conventionDeclaration>
+        <rightsDeclaration localType="biogHist">
+          <citation>Wikipedia</citation>
+          <descriptiveNote>
+            <p>Licensed under CC-BY-SA.</p>
+          </descriptiveNote>
+        </rightsDeclaration>
+        <localTypeDeclaration>
+            <abbreviation>Name Parts</abbreviation>
+            <citation xlink:href="http://anws.llgc.org.uk/ncarules/title.htm" xlink:type="simple"
+                >National Council on Archives Rules for the construction of personal, place and
+                corporate names, 1997.</citation>
+            <descriptiveNote>
+                <p>The name parts (and direct order) that constitute name formation are taken from
+                    the NCA Rules.</p>
+            </descriptiveNote>
+        </localTypeDeclaration>
+        <localTypeDeclaration>
+            <abbreviation>Date Styles</abbreviation>
+            <citation xlink:href="http://www.cree.name/genuki/dates.htm" xlink:type="simple"
+                >Spathaky, Mike. "Old Style and New Style Dates and the change to the Gregorian
+                Calendar: A summary for genealogists." Last modified December 13, 2011.
+                http://www.cree.name/genuki/dates.htm</citation>
+            <descriptiveNote>
+                <p>The time period over which the Georgian papers spans includes the change from the
+                    Old Style dating system (Julian calendar, year beginning Lady Day [25th March])
+                    to the New Style system (Gregorian calendar, year beginning 1st January). This
+                    change was implemented in Britain and her colonies in 1752 but was implemented
+                    throughout Europe at differing times in history.</p>
+                <p>For the purpose of the Georgian Papers Programme Name Authority File, in EAC-CPF
+                    all dates given with no @localType attached are implicitly New Style; only those
+                    that are Old Style will include @localType="oldStyle".</p>
+            </descriptiveNote>
+        </localTypeDeclaration>
+        <localTypeDeclaration>
+            <abbreviation>gender</abbreviation>
+            <citation xlink:href="http://homosaurus.org/terms" xlink:type="simple">Homosaurus:
+                International Thesaurus of Lesbian, Gay, Bisexual and Transgender Index
+                Terms</citation>
+        </localTypeDeclaration>
+        <maintenanceHistory>
+            <maintenanceEvent>
+                <!-- records each maintenance/editing event that occurs throughout the life of the file -->
+                <eventType>created</eventType>
+                <!-- May contain: "cancelled" or "created" or "deleted" or "derived" or "revised" or "updated" -->
+                <eventDateTime standardDateTime="2020-05-18T11:50:00Z">11.50 am, 12 May
+                    2020</eventDateTime>
+                <!-- ISO 8601 date-time formatting -->
+                <agentType>human</agentType>
+                <!-- May contain: "human" or "machine" -->
+                <agent>Vitale, Valeria</agent>
+                <eventDescription>Creation of NAF for von der Schulenburg, Ehrengard Melusine,
+                    Duchess of Kendal.</eventDescription>
+                <!-- Include a full description of the maintenance event - ie: note what was created/edited during the event -->
+            </maintenanceEvent>
+        </maintenanceHistory>
+        <sources>
+            <source xlink:type="simple" xlink:href="https://viaf.org/viaf/80587374/">
+                <sourceEntry>VIAF ID: 80587374 (Personal)</sourceEntry>
+            </source>
+            <source xlink:type="simple"
+                xlink:href="https://en.wikipedia.org/wiki/Melusine_von_der_Schulenburg,_Duchess_of_Kendal">
+                <sourceEntry>Melusine von der Schulenburg, Duchess of Kendal</sourceEntry>
+            </source>
+            <source xlink:type="simple" xlink:href="https://www.geonames.org/2930596/emden.html">
+                <sourceEntry>GeoNames ID: 2930596</sourceEntry>
+            </source>
+            <source xlink:type="simple" xlink:href="https://www.geonames.org/2646517/hounslow.html">
+                <sourceEntry>GeoNames ID: 2646517</sourceEntry>
+            </source>
+        </sources>
+    </control>
+    <cpfDescription>
+        <!-- Descriptive metadata -->
+        <identity>
+            <entityType>person</entityType>
+            <nameEntry scriptCode="Latn" xml:lang="eng">
+                <part localType="forename">von der Schulenburg, Ehrengard Melusine</part>
+                <part localType="properTitle">Duchess of Kendal</part>
+                <useDates>
+                    <dateRange>
+                        <fromDate standardDate="1719-03-19">19 March 1719</fromDate>
+                        <toDate standardDate="1743-05-10">10 May 1743</toDate>
+                    </dateRange>
+                </useDates>
+                <authorizedForm>NCA</authorizedForm>
+            </nameEntry>
+            <nameEntry scriptCode="Latn" xml:lang="eng">
+                <part localType="forename">von der Schulenburg, Ehrengard Melusine</part>
+                <part localType="properTitle">Duchess of Munster</part>
+                <useDates>
+                    <dateRange>
+                        <fromDate standardDate="1716-07-18">18 July 1716</fromDate>
+                        <toDate standardDate="1743-05-10">10 May 1743</toDate>
+                    </dateRange>
+                </useDates>
+                <alternativeForm>NCA</alternativeForm>
+            </nameEntry>
+            <nameEntry scriptCode="Latn" xml:lang="eng">
+                <part localType="forename">von der Schulenburg, Ehrengard Melusine</part>
+                <part localType="properTitle">Princess of Eberstein</part>
+                <useDates>
+                    <dateRange>
+                        <fromDate standardDate="1723">1723</fromDate>
+                        <toDate standardDate="1743-05-10">10 May 1743</toDate>
+                    </dateRange>
+                </useDates>
+                <alternativeForm>NCA</alternativeForm>
+            </nameEntry>
+            <nameEntry scriptCode="Latn" xml:lang="eng" localType="directOrder">
+                <part>von der Schulenburg, Ehrengard Melusine, 1667-1743, Duchess of Kendal</part>
+                <useDates>
+                    <dateRange>
+                        <fromDate standardDate="1719-03-19">19 March 1719</fromDate>
+                        <toDate standardDate="1743-05-10">10 May 1743</toDate>
+                    </dateRange>
+                </useDates>
+                <authorizedForm>NCA</authorizedForm>
+            </nameEntry>
+
+        </identity>
+        <description>
+            <existDates>
+                <dateRange>
+                    <fromDate standardDate="1667-12-25">25 December 1667</fromDate>
+                    <toDate standardDate="1743-05-10">10 May 1743</toDate>
+                </dateRange>
+            </existDates>
+            <localDescription localType="gender">
+                <term vocabularySource="Homosaurus">Women</term>
+            </localDescription>
+            <places>
+                <place>
+                    <placeRole>birth</placeRole>
+                    <placeEntry vocabularySource="GeoNames" latitude="53.36745" longitude="7.20778"
+                        >Emden</placeEntry>
+                    <date standardDate="1667-12-25">25 December 1667</date>
+                </place>
+                <place>
+                    <placeRole>death</placeRole>
+                    <placeEntry vocabularySource="GeoNames" latitude="51.46839" longitude="-0.36092"
+                        >Hounslow </placeEntry>
+                    <date standardDate="1743-05-10">10 May 1743</date>
+                </place>
+            </places>
+            <languagesUsed>
+
+                <languageUsed>
+                    <language languageCode="deu">German</language>
+                    <script scriptCode="Latn">Latin</script>
+                </languageUsed>
+                <languageUsed>
+                    <language languageCode="eng">English</language>
+                    <script scriptCode="Latn">Latin</script>
+                </languageUsed>
+
+            </languagesUsed>
+            <biogHist>
+                <abstract>Ehrengard Melusine von der Schulenburg, Duchess of Kendal, Duchess of
+                    Munster (25 December 1667 – 10 May 1743) was a longtime mistress to King George
+                    I of Great Britain.</abstract>
+                <citation>Wikipedia. "Melusine von der Schulenburg, Duchess of Kendal" Accessed May
+                    18, 2020.
+                    https://en.wikipedia.org/wiki/Melusine_von_der_Schulenburg,_Duchess_of_Kendal</citation>
+            </biogHist>
+        </description>
+        <relations>
+            <cpfRelation cpfRelationType="hierarchical-parent" xlink:href="">
+                <!-- xlink:href to be created automatically following creation of NAF page -->
+                <relationEntry xml:id="GPP-00000018">Gustavus Adolphus, 1632-1691, Baron von der
+                    Schulenburg</relationEntry>
+                <descriptiveNote>
+                    <p>Gustavus Adolphus was Ehrengard Melusine's father.</p>
+                </descriptiveNote>
+            </cpfRelation>
+            <cpfRelation cpfRelationType="associative" xlink:href="">
+                <relationEntry xml:id="GPP-00009213">George I, 1660-1727, King of Great Britain and
+                    Ireland</relationEntry>
+                <descriptiveNote>
+                    <p>Ehrengard Melusine was George I's long time mistress.</p>
+                </descriptiveNote>
+            </cpfRelation>
+            <cpfRelation cpfRelationType="hierarchical-parent" xlink:href="">
+                <relationEntry xml:id="NAF-00000006">von Schwencken, Petronella Ottilie, 1637-1674,
+                    Baroness Consort of Gustavus Adolphus, Baron von der Schulenburg</relationEntry>
+                <descriptiveNote>
+                    <p>Petronella Ottilie was Ehrengard Melusine's mother.</p>
+                </descriptiveNote>
+            </cpfRelation>
+            <cpfRelation cpfRelationType="hierarchical-child" xlink:href="">
+                <relationEntry xml:id="NAF-00000007">von der Schulenburg, Anna Luise Sophie,
+                    1692–1773, Countess of Dölitz </relationEntry>
+                <descriptiveNote>
+                    <p>Anna Luise Sophie was Ehrengard Melusine's daughter.</p>
+                </descriptiveNote>
+            </cpfRelation>
+            <cpfRelation cpfRelationType="hierarchical-child" xlink:href="">
+                <relationEntry xml:id="NAF-00000008">von der Schulenburg, Petronilla Melusina,
+                    1693–1778</relationEntry>
+                <descriptiveNote>
+                    <p>Petronilla Melusina was Ehrengard Melusine's daughter.</p>
+                </descriptiveNote>
+            </cpfRelation>
+            <cpfRelation cpfRelationType="hierarchical-child" xlink:href="">
+                <relationEntry xml:id="NAF-00000009">von Oeynhausen, Margarethe Gertrud, 1701–1726,
+                    Countess Consort of Albert Wolfgang, Count of Schaumburg-Lippe</relationEntry>
+                <descriptiveNote>
+                    <p>Margarethe Gertrud was was Ehrengard Melusine's daughter.</p>
+                </descriptiveNote>
+            </cpfRelation>
+        </relations>
+    </cpfDescription>
+</eac-cpf>
