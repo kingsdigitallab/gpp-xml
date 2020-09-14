@@ -56,6 +56,12 @@
                 <p>UKAT terms are used to specify the function/s of an EAC-CPF entity.</p>
             </descriptiveNote>
         </conventionDeclaration>
+        <rightsDeclaration localType="biogHist">
+          <citation>Wikipedia</citation>
+          <descriptiveNote>
+            <p>Licensed under CC-BY-SA.</p>
+          </descriptiveNote>
+        </rightsDeclaration>
         <localTypeDeclaration>
             <abbreviation>Name Parts</abbreviation>
             <citation xlink:href="http://anws.llgc.org.uk/ncarules/title.htm" xlink:type="simple"
@@ -160,7 +166,7 @@
             </places>
             <languagesUsed>
                 <languageUsed> <!-- From evidence in the GPP, if possible -->
-                    <language languageCode="ger">German</language>
+                    <language languageCode="deu">German</language>
                     <script scriptCode="Latn">Latin</script>
                 </languageUsed>
             </languagesUsed>
@@ -169,7 +175,6 @@
                 <p>She served disguised as a man during the Napoleonic Wars in Germany from 1813 to 1815 in the first company of the Kolbergsches Infanterieregiment (renamed the 9th Grenadier regiment in 1914). Trained as a tailor, at 23 years old she cut off her hair, put on a male costume she had designed herself and obeyed a mobilisation proclamation. Owing to the speed of mobilisation there were no medical examinations and so she was not discovered at first. Her comrades admired her courage very much and were loyal to her, but during one attack her high voice caused the others to realize that she was female. However, she had got into favour with Bravour and so she was not ejected from the army. Indeed, she was even promoted to corporal after the Battle of Möckern. She was promoted to Sergeant after the battle of Dennewitz and subsequently fought in the battle of Waterloo in 1815.</p>
                 <p>At the end of the war she married a Prussian corporal Karl Köhler on 5 March 1816 and left the army. They had four children. She was awarded the Iron Cross and the Commemorative War Medal by King Frederick William III of Prussia for her bravery. On her death, she was buried in the St.-Georgen-Friedhof in Templin, where her grave can still be seen.</p>
                 <citation>Wikipedia. "Friederike Krüger" Accessed November 29, 2019. https://en.wikipedia.org/wiki/Friederike_Kr%C3%BCger</citation>
-                <p>Biography source: Wikipedia. Licensed under CC-BY-SA.</p>
             </biogHist>         
         </description>
     </cpfDescription>
@@ -198,7 +203,7 @@
                     </useDates>
                     <authorizedForm>NCA</authorizedForm>
                 </nameEntry>
-                <nameEntry scriptCode="Latn" xml:lang="ger"> 
+                <nameEntry scriptCode="Latn" xml:lang="deu"> 
                     <part localType="forename">Auguste</part>
                     <part localType="surname">Krüger</part>
                     <useDates>
@@ -222,14 +227,13 @@
                 </localDescription>
                 <languagesUsed>
                     <languageUsed>
-                        <language languageCode="ger">German</language>
+                        <language languageCode="deu">German</language>
                         <script scriptCode="Latn">Latin</script>
                     </languageUsed>
                 </languagesUsed>
                 <biogHist> 
                     <abstract>(Sophie Dorothea) Friederike Krüger, alias August Lübeck or Auguste Krüger was a soldier in the Prussian army. She served disguised as a man during the Napoleonic Wars in Germany from 1813 to 1815 in the first company of the Kolbergsches Infanterieregiment (renamed the 9th Grenadier regiment in 1914). Owing to the speed of mobilisation there were no medical examinations and so she was not discovered at first. Her comrades admired her courage very much and were loyal to her, but during one attack her high voice caused the others to realize that she was female. However, she had got into favour with Bravour and so she was not ejected from the army. Indeed, she was even promoted to corporal after the Battle of Möckern. She was promoted to Sergeant after the battle of Dennewitz and subsequently fought in the battle of Waterloo in 1815.</abstract>
                     <citation>Wikipedia. "Friederike Krüger" Accessed November 29, 2019. https://en.wikipedia.org/wiki/Friederike_Kr%C3%BCger</citation>
-                    <p>Biography source: Wikipedia. Licensed under CC-BY-SA.</p>
                 </biogHist>         
             </description>
         </cpfDescription>

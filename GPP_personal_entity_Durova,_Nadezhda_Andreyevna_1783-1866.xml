@@ -56,6 +56,12 @@
                 <p>UKAT terms are used to specify the function/s of an EAC-CPF entity.</p>
             </descriptiveNote>
         </conventionDeclaration>
+        <rightsDeclaration localType="biogHist">
+          <citation>Wikipedia</citation>
+          <descriptiveNote>
+            <p>Licensed under CC-BY-SA.</p>
+          </descriptiveNote>
+        </rightsDeclaration>
         <localTypeDeclaration>
             <abbreviation>Name Parts</abbreviation>
             <citation xlink:href="http://anws.llgc.org.uk/ncarules/title.htm" xlink:type="simple"
@@ -195,7 +201,6 @@
                 <p>After her father retired from service, she continued playing with broken sabers and frightened her family by secretly taming a stallion that they considered unbreakable. In 1801, she married a Sarapul judge V.S. Chernov and gave birth to a son in 1803. Some accounts claim that she ran away from her home with a Cossack officer in 1805. In 1807, at the age of twenty-four she disguised herself as a boy, deserted her son and husband, and bringing her horse Alkid, enlisted in the Polish Horse Regiment (later classified as Uhlans) under the alias Alexander Sokolov.</p>
                 <p>Durova was fiercely patriotic and considered army life to be freedom. She enjoyed animals and the outdoors. She felt she had little talent for traditional women's work. In her memoirs, she described an unhappy relationship with her mother, warmth toward her father, and nothing at all about her own married life.</p>
                 <citation>Wikipedia. "Nadezhda Durova" Accessed January 30, 2020. https://en.wikipedia.org/wiki/Nadezhda_Durova</citation>
-                <p>Biography source: Wikipedia. Licensed under CC-BY-SA.</p>
             </biogHist>         
         </description>
     </cpfDescription>
@@ -247,7 +252,6 @@
                     <p>She fought in the major Russian engagements of the 1806-1807 Prussian campaign. During two of those battles, she saved the lives of two fellow Russian soldiers. The first was an enlisted man who fell off his horse on the battlefield and suffered a concussion. She gave him first aid under heavy fire and brought him to safety as the army retreated around them. The second was an officer, unhorsed but uninjured. Three French dragoons were closing on him. She couched her lance and scattered the enemy. Then, against regulations, she let the officer borrow her own horse to hasten his retreat, which left her more vulnerable to attack.</p>
                         <p>During the campaign, she wrote a letter to her family explaining her disappearance. They used their connections in a desperate attempt to locate her. The rumor of an amazon in the army reached Tsar Alexander I, who took a personal interest. Durova's chain of command reported that her courage was peerless. Summoned to the palace at St. Petersburg, she impressed the Tsar so much that he awarded her the Cross of St. George and promoted her to lieutenant in a hussar unit (Mariupol Hussar Regiment). The story that there was the heroine in the army with the name Alexander Sokolov had become well known by that time. So the Tsar awarded her a new pseudonym, Alexandrov, based on his own name.</p>
                     <citation>Wikipedia. "Nadezhda Durova" Accessed January 30, 2020. https://en.wikipedia.org/wiki/Nadezhda_Durova</citation>
-                    <p>Biography source: Wikipedia. Licensed under CC-BY-SA.</p>
                 </biogHist>         
             </description>
         </cpfDescription>
@@ -298,7 +302,6 @@
                     <p>The rumor of an amazon in the army reached Tsar Alexander I, who took a personal interest. Durova's chain of command reported that her courage was peerless. Summoned to the palace at St. Petersburg, she impressed the Tsar so much that he awarded her the Cross of St. George and promoted her to lieutenant in a hussar unit (Mariupol Hussar Regiment). The story that there was the heroine in the army with the name Alexander Sokolov had become well known by that time. So the Tsar awarded her a new pseudonym, Alexandrov, based on his own name.</p>
                     <p>Durova saw action again during Napoleon's invasion of Russia in 1812. She fought in the Battle of Smolensk. During the Battle of Borodino a cannonball wounded her in the leg, yet she continued serving full duty for several days afterward until her command ordered her away to recuperate. She retired from the army in 1816 with the rank of stabs-rotmistr, the equivalent of captain-lieutenant.</p>
                     <citation>Wikipedia. "Nadezhda Durova" Accessed January 30, 2020. https://en.wikipedia.org/wiki/Nadezhda_Durova</citation>
-                    <p>Biography source: Wikipedia. Licensed under CC-BY-SA.</p>
                 </biogHist>         
             </description>
         </cpfDescription>

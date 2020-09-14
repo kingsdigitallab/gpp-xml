@@ -56,6 +56,12 @@
                 <p>UKAT terms are used to specify the function/s of an EAC-CPF entity.</p>
             </descriptiveNote>
         </conventionDeclaration>
+        <rightsDeclaration localType="biogHist">
+          <citation>Wikipedia</citation>
+          <descriptiveNote>
+            <p>Licensed under CC-BY-SA.</p>
+          </descriptiveNote>
+        </rightsDeclaration>
         <localTypeDeclaration>
             <abbreviation>Name Parts</abbreviation>
             <citation xlink:href="http://anws.llgc.org.uk/ncarules/title.htm" xlink:type="simple"
@@ -90,7 +96,7 @@
                     <eventType>updated</eventType> <!-- May contain: "cancelled" or "created" or "deleted" or "derived" or "revised" or "updated" -->
                     <eventDateTime standardDateTime="2020-02-20T14:08:00Z">2:08 pm, 20 February 2020</eventDateTime> <!-- ISO 8601 date-time formatting -->
                     <agentType>human</agentType> <!-- May contain: "human" or "machine" -->
-                    <agent xml:id="GPP-00001748">Callaghan, Samantha</agent> <!-- ID may be subject to change in the CW -->
+                    <agent>Callaghan, Samantha</agent> <!-- ID may be subject to change in the CW -->
                     <eventDescription>Added bio info to NAF for William Robert Grossmith.</eventDescription> <!-- Include a full description of the maintenance event - ie: note what was created/edited during the event -->
                 </maintenanceEvent>
         </maintenanceHistory>
@@ -101,7 +107,7 @@
             <source xlink:href="https://en.wikipedia.org/wiki/Master_Grossmith">
                 <sourceEntry>Wikipedia: Master Grossmith</sourceEntry>
             </source>
-            <source xlink:href="https://research.britishmuseum.org/research/collection_online/collection_object_details.aspx?objectId=705578&partId=1&searchText=william+robert+grossmith&people=122654&page=1">
+            <source xlink:href="https://research.britishmuseum.org/research/collection_online/collection_object_details.aspx?objectId=705578&amp;partId=1&amp;searchText=william+robert+grossmith&amp;people=122654&amp;page=1">
                 <sourceEntry>Museum number: 1994,0619.7</sourceEntry>           
             </source>
             <source xlink:href="https://books.google.co.uk/books?id=S5cVAAAAYAAJ">
@@ -167,7 +173,6 @@
                 <p>Grossmith was known as the 'Infant Roscius' or 'Young Roscius' as he began acting at a very young age. In 1825 a pamphlet was published publicising this prodigy child actor with the title The Life of the Celebrated Infant Roscius, Master Grossmith of Reading, Berks, only seven years and a quarter Old. Another, retitled to not yet nine years of age was published in 1827.</p>
                 <p>After retiring from the stage he made a second career out of prosthetic limb manufacture.[4] In fact, so well-respected were William Grossmith' products that in 1856 he published a book on the subject: Amputations and Artificial Limbs (or Grossmith on Amputations, Artificial Legs, Hands &amp;c.)</p>
                 <citation>Wikipedia. "Master Grossmith" Accessed February 20, 2020. https://en.wikipedia.org/wiki/Master_Grossmith</citation>
-                <p>Biography source: Wikipedia. Licensed under CC-BY-SA.</p>
             </biogHist>
         </description>
     </cpfDescription>

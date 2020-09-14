@@ -56,6 +56,12 @@
                 <p>UKAT terms are used to specify the function/s of an EAC-CPF entity.</p>
             </descriptiveNote>
         </conventionDeclaration>
+        <rightsDeclaration localType="biogHist">
+          <citation>Wikipedia</citation>
+          <descriptiveNote>
+            <p>Licensed under CC-BY-SA.</p>
+          </descriptiveNote>
+        </rightsDeclaration>
         <localTypeDeclaration>
             <abbreviation>Name Parts</abbreviation>
             <citation xlink:href="http://anws.llgc.org.uk/ncarules/title.htm" xlink:type="simple"
@@ -90,7 +96,7 @@
                 <eventType>updated</eventType> <!-- May contain: "cancelled" or "created" or "deleted" or "derived" or "revised" or "updated" -->
                 <eventDateTime standardDateTime="2020-02-16T14:08:00Z">2:08 pm, 16 February 2020</eventDateTime> <!-- ISO 8601 date-time formatting -->
                 <agentType>human</agentType> <!-- May contain: "human" or "machine" -->
-                <agent xml:id="GPP-00001748">Callaghan, Samantha</agent> <!-- ID may be subject to change in the CW -->
+                <agent>Callaghan, Samantha</agent> <!-- ID may be subject to change in the CW -->
                 <eventDescription>Added bio info to NAF for Jacques-Jean-Marie François Boudin de Tromelin.</eventDescription> <!-- Include a full description of the maintenance event - ie: note what was created/edited during the event -->
             </maintenanceEvent>
         </maintenanceHistory>
@@ -164,7 +170,6 @@
             <biogHist>
                 <abstract>Jacques Jean-Marie François Boudin, comte de Tromelin (22 August 1771, Ploujean, now part of Morlaix, Finistère - 3 March 1842, Ploujean) was a French general of the First French Empire.</abstract>
                 <citation>Wikipedia. "Jacques Boudin de Tromelin" Accessed February 20, 2020. https://en.wikipedia.org/wiki/Jacques_Boudin_de_Tromelin</citation>
-                <p>Biography source: Wikipedia. Licensed under CC-BY-SA.</p>
             </biogHist>
         </description>
     </cpfDescription>

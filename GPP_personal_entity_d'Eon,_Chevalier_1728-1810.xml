@@ -56,6 +56,12 @@
                 <p>UKAT terms are used to specify the function/s of an EAC-CPF entity.</p>
             </descriptiveNote>
         </conventionDeclaration>
+        <rightsDeclaration localType="biogHist">
+          <citation>Wikipedia</citation>
+          <descriptiveNote>
+            <p>Licensed under CC-BY-SA.</p>
+          </descriptiveNote>
+        </rightsDeclaration>
         <localTypeDeclaration>
             <abbreviation>Name Parts</abbreviation>
             <citation xlink:href="http://anws.llgc.org.uk/ncarules/title.htm" xlink:type="simple"
@@ -109,7 +115,7 @@
     <cpfDescription> <!-- Descriptive metadata -->
         <identity>
             <entityType>person</entityType>
-            <nameEntry scriptCode="Latn" xml:lang="fre"> 
+            <nameEntry scriptCode="Latn" xml:lang="fra"> 
                 <part localType="forename">Charles Geneviève Louis Auguste André Timothée</part>
                 <part localType="surname">d'Éon de Beaumont</part>
                 <part localType="epithet">Chevalier</part>
@@ -121,7 +127,7 @@
                 </useDates>
                 <authorizedForm>NCA</authorizedForm>
             </nameEntry>
-            <nameEntry scriptCode="Latn" xml:lang="fre" localType="directOrder"> 
+            <nameEntry scriptCode="Latn" xml:lang="fra" localType="directOrder"> 
                 <part>Beaumont, Charles Geneviève Louis Auguste André Timothée, d'Éon de, 1728-1810, Chevalier</part>
                 <useDates>
                     <dateRange>
@@ -131,7 +137,7 @@
                 </useDates>
                 <authorizedForm>NCA</authorizedForm>
             </nameEntry>
-            <nameEntry scriptCode="Latn" xml:lang="fre"> 
+            <nameEntry scriptCode="Latn" xml:lang="fra"> 
                 <part localType="forename">Charles Geneviève Louis Auguste André Timothée</part>
                 <part localType="surname">d'Éon de Beaumont</part>
                 <useDates>
@@ -188,14 +194,13 @@
                     <script scriptCode="Latn">Latin</script>
                 </languageUsed>
                 <languageUsed>
-                    <language languageCode="fre">French</language>
+                    <language languageCode="fra">French</language>
                     <script scriptCode="Latn">Latin</script>
                 </languageUsed>
             </languagesUsed>
             <biogHist> 
                 <abstract>Charles-Geneviève-Louis-Auguste-André-Timothée d'Éon de Beaumont (5 October 1728 – 21 May 1810), usually known as the Chevalier d'Éon, was a French diplomat, spy, Freemason and soldier who fought in the Seven Years' War. D'Éon had androgynous physical characteristics and natural abilities as a mimic and a spy. D'Éon appeared publicly as a man and pursued masculine occupations for 49 years, although during that time d'Éon successfully infiltrated the court of Empress Elizabeth of Russia by presenting as a woman. For 33 years, from 1777, d'Éon dressed as a woman, identifying as female. Doctors who examined d'Éon's body after death discovered "male organs in every respect perfectly formed", but also feminine characteristics.</abstract>
                 <citation>Wikipedia. "Chevalier d'Éon" Accessed February 20, 2020. https://en.wikipedia.org/wiki/Chevalier_d%27%C3%89on</citation>
-                <p>Biography source: Wikipedia. Licensed under CC-BY-SA.</p>
             </biogHist>         
         </description>
     </cpfDescription>
@@ -227,7 +232,7 @@
                 </localDescription>
                 <languagesUsed>
                     <languageUsed>
-                        <language languageCode="fre">French</language>
+                        <language languageCode="fra">French</language>
                         <script scriptCode="Latn">Latin</script>
                     </languageUsed>
                 </languagesUsed>
@@ -235,7 +240,6 @@
                     <abstract>Lia de Beaumont was a supposed identity of Chevalier d'Éon adopted when they accompanied an individual called Chevalier Douglas to the court of Empress Elizabeth of Russia on a secret mission.</abstract>
                     <p>In 1756, d'Éon joined the secret network of spies called the Secret du Roi (King's Secret) employed by King Louis XV without the knowledge of the government. It sometimes promoted policies that contradicted official policies and treaties. According to d'Éon's memoirs (although there is no documentary evidence to support that account) the monarch sent d'Éon with the Chevalier Douglas, Alexandre-Pierre de Mackensie-Douglas, Baron de Kildin, a Scottish Jacobite in French service, on a secret mission to Russia in order to meet Empress Elizabeth and conspire with the pro-French faction against the Habsburg monarchy. At that time the English and French were at odds, and the English were attempting to deny the French access to the Empress by allowing only women and children to cross the border into Russia. D'Éon later claimed having to pass convincingly as a woman or risk being executed by the English upon discovery and therefore travelled disguised as the lady Lia de Beaumont, and served as a maid of honour to the Empress. However, there is little or no evidence to support this and it is now commonly accepted to be a story told to demonstrate how identifying as female had been of benefit to France in the past.</p>
                     <citation>Wikipedia. "Chevalier d'Éon" Accessed February 20, 2020. https://en.wikipedia.org/wiki/Chevalier_d%27%C3%89on</citation>
-                    <p>Biography source: Wikipedia. Licensed under CC-BY-SA.</p>
                 </biogHist>         
             </description>
         </cpfDescription>

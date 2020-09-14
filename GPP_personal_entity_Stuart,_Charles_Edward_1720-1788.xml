@@ -56,6 +56,12 @@
                 <p>UKAT terms are used to specify the function/s of an EAC-CPF entity.</p>
             </descriptiveNote>
         </conventionDeclaration>
+        <rightsDeclaration localType="biogHist">
+          <citation>Wikipedia</citation>
+          <descriptiveNote>
+            <p>Licensed under CC-BY-SA.</p>
+          </descriptiveNote>
+        </rightsDeclaration>
         <localTypeDeclaration>
             <abbreviation>Name Parts</abbreviation>
             <citation xlink:href="http://anws.llgc.org.uk/ncarules/title.htm" xlink:type="simple"
@@ -228,14 +234,13 @@
                     <script scriptCode="Latn">Latin</script>
                 </languageUsed>
                 <languageUsed>
-                    <language languageCode="fre">French</language>
+                    <language languageCode="fra">French</language>
                     <script scriptCode="Latn">Latin</script>
                 </languageUsed>
             </languagesUsed>
             <biogHist> 
                 <abstract>Charles Edward Louis John Casimir Sylvester Severino Maria Stuart was the elder son of James Francis Edward Stuart, grandson of James II and VII, and the Stuart claimant to the throne of Great Britain after 1766. He is best remembered for his role in the 1745 rising; his defeat at Culloden in April 1746 effectively ended the Stuart cause, and subsequent attempts failed to materialise, such as a planned French invasion in 1759. His escape from Scotland after the uprising led to his portrayal as a romantic figure of heroic failure.</abstract>
                 <citation>Wikipedia. "Charles Edward Stuart" Accessed October 30, 2019. https://en.wikipedia.org/wiki/Charles_Edward_Stuart</citation>
-                <p>Biography source: Wikipedia. Licensed under CC-BY-SA.</p>
             </biogHist>         
         </description>
         <relations> 
@@ -310,7 +315,6 @@
                     <p>MacDonald of Sleat had not joined the Rebellion and Benbecula was controlled by a pro-government militia commanded by Flora's step-father, Hugh MacDonald. This connection allowed her to obtain the necessary permits but she apparently hesitated, fearing the consequences for her family if they were caught. She may have been taking less of a risk than it appears; witnesses later claimed Hugh advised the Prince where to hide from his search parties.</p>
                     <p>Passes were issued allowing passage to the mainland for Flora, a boat's crew of six men and two personal servants, including Charles disguised as an Irish maid called Betty Burke. On 27 June, they landed near Sir Alexander's house at Monkstadt, near Kilbride, Skye. In his absence, his wife Lady Margaret arranged lodging with her steward, MacDonald of Kingsburgh, who told Charles to remove his disguise, as it simply made him more conspicuous. The next day, Charles was taken from Portree to the island of Raasay; Flora remained on Skye and they never met again.</p>
                     <citation>Wikipedia. "Flora MacDonald" Accessed October 30, 2019. https://en.wikipedia.org/wiki/Flora_MacDonald</citation>
-                    <p>Biography source: Wikipedia. Licensed under CC-BY-SA.</p>
                 </biogHist>         
             </description>
         </cpfDescription>

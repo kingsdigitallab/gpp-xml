@@ -56,6 +56,12 @@
                 <p>UKAT terms are used to specify the function/s of an EAC-CPF entity.</p>
             </descriptiveNote>
         </conventionDeclaration>
+        <rightsDeclaration localType="biogHist">
+          <citation>Wikipedia</citation>
+          <descriptiveNote>
+            <p>Licensed under CC-BY-SA.</p>
+          </descriptiveNote>
+        </rightsDeclaration>
         <localTypeDeclaration>
             <abbreviation>Name Parts</abbreviation>
             <citation xlink:href="http://anws.llgc.org.uk/ncarules/title.htm" xlink:type="simple"
@@ -167,7 +173,7 @@
                 </useDates>
                 <authorizedForm>NCA</authorizedForm>
             </nameEntry>
-            <nameEntry scriptCode="Latn" xml:lang="ger">
+            <nameEntry scriptCode="Latn" xml:lang="deu">
                 <part localType="forename">Friederike Louise Caroline Sophie Charlotte Alexandrine</part>
                 <part localType="properTitle">Königin von Hannover</part>
                 <useDates>
@@ -203,7 +209,7 @@
             </places>
             <languagesUsed>
                 <languageUsed>
-                    <language languageCode="ger">German</language>
+                    <language languageCode="deu">German</language>
                     <script scriptCode="Latn">Latin</script>
                 </languageUsed>
             </languagesUsed>
@@ -212,7 +218,6 @@
                 <p>She was born in the Altes Palais of Hanover as the fifth daughter of Charles II, Duke of Mecklenburg-Strelitz, and his first wife, Frederica, daughter of Prince George William of Hesse-Darmstadt.</p>                    
                 <p>Her father assumed the title of Grand Duke of Mecklenburg on 18 June 1815. Duchess Frederica was the niece of her future mother-in-law, Queen Charlotte, through her father.</p>
                 <citation>Wikipedia. "Frederica of Mecklenburg-Strelitz" Accessed August 30, 2018. https://en.wikipedia.org/wiki/Frederica_of_Mecklenburg-Strelitz</citation>
-                <p>Biography source: Wikipedia. Licensed under CC-BY-SA.</p>
             </biogHist>         
         </description>
         <relations> 
@@ -237,7 +242,3 @@
         </relations>
     </cpfDescription>
 </eac-cpf>
-
-
-
-

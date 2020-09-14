@@ -56,6 +56,12 @@
                 <p>UKAT terms are used to specify the function/s of an EAC-CPF entity.</p>
             </descriptiveNote>
         </conventionDeclaration>
+        <rightsDeclaration localType="biogHist">
+          <citation>Wikipedia</citation>
+          <descriptiveNote>
+            <p>Licensed under CC-BY-SA.</p>
+          </descriptiveNote>
+        </rightsDeclaration>
         <localTypeDeclaration>
             <abbreviation>Name Parts</abbreviation>
             <citation xlink:href="http://anws.llgc.org.uk/ncarules/title.htm" xlink:type="simple"
@@ -162,7 +168,6 @@
             <biogHist> 
                     <abstract>Mary Hamilton (fl. 1746) was the subject of a notorious 18th-century case of fraud and female cross-dressing, in which Hamilton, under the name of Charles, duped a woman into a supposed marriage. While the surviving records of the case indicate that Hamilton was only prosecuted for deceiving one woman into marriage, newspaper reports at the time claimed that there had been 14 marriages in all.</abstract>
                 <citation>Wikipedia. "Mary Hamilton (transvestite)" Accessed February 7, 2020. https://en.wikipedia.org/wiki/Mary_Hamilton_(transvestite)</citation>
-                    <p>Biography source: Wikipedia. Licensed under CC-BY-SA.</p>
                 </biogHist>         
             </description>
         </cpfDescription>
@@ -202,7 +207,6 @@
                     <p>The justices delivered their verdict that "The he or she prisoner at the bar is an uncommon, notorious cheat, and we, the Court, do sentence her, or him, whichever he or she may be, to be imprisoned six months, and during that time to be whipped in the towns of Taunton, Glastonbury, Wells, and Shepton Mallet ..."</p>
                     <p>The report in the Newgate Calendar concludes "And Mary, the monopoliser of her own sex, was imprisoned and whipped accordingly, in the severity of the winter of the year 1746.</p>
                     <citation>Wikipedia. "Mary Hamilton (transvestite)" Accessed February 7, 2020. https://en.wikipedia.org/wiki/Mary_Hamilton_(transvestite)</citation>
-                    <p>Biography source: Wikipedia. Licensed under CC-BY-SA.</p>
                 </biogHist>         
             </description>
         </cpfDescription>

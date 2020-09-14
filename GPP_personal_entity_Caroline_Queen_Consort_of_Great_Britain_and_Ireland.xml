@@ -56,6 +56,12 @@
                 <p>UKAT terms are used to specify the function/s of an EAC-CPF entity.</p>
             </descriptiveNote>
         </conventionDeclaration>
+        <rightsDeclaration localType="biogHist">
+          <citation>Wikipedia</citation>
+          <descriptiveNote>
+            <p>Licensed under CC-BY-SA.</p>
+          </descriptiveNote>
+        </rightsDeclaration>
         <localTypeDeclaration>
             <abbreviation>Name Parts</abbreviation>
             <citation xlink:href="http://anws.llgc.org.uk/ncarules/title.htm" xlink:type="simple"
@@ -174,7 +180,7 @@
             </places>
             <languagesUsed>
                 <languageUsed>
-                    <language languageCode="ger">German</language>
+                    <language languageCode="deu">German</language>
                     <script scriptCode="Latn">Latin</script>
                 </languageUsed>
                 <languageUsed>
@@ -182,7 +188,7 @@
                     <script scriptCode="Latn">Latin</script>
                 </languageUsed>
                 <languageUsed>
-                    <language languageCode="fre">French</language>
+                    <language languageCode="fra">French</language>
                     <script scriptCode="Latn">Latin</script>
                 </languageUsed>
             </languagesUsed>
@@ -193,7 +199,6 @@
                 <p>In 1814, Caroline moved to Italy, where she employed Bartolomeo Pergami as a servant. Pergami soon became Caroline's closest companion, and it was widely assumed that they were lovers. In 1817, Caroline was devastated when her daughter Charlotte died in childbirth; she heard the news from a passing courier as George had refused to write and tell her. He was determined to divorce Caroline, and set up a second investigation to collect evidence of her adultery.</p>
                 <p>In 1820, George became king of the United Kingdom and Hanover. George hated her, vowed she would never be the queen, and insisted on a divorce, which she refused. A legal divorce was possible but difficult to obtain. Caroline returned to Britain to assert her position as queen. She was wildly popular with the British populace, who sympathized with her and who despised the new king for his immoral behaviour. On the basis of the loose evidence collected against her, George attempted to divorce her by introducing the Pains and Penalties Bill to Parliament, but George and the bill were so unpopular, and Caroline so popular with the masses, that it was withdrawn by the Tory government. In July 1821, Caroline was barred from the coronation on the orders of her husband. She fell ill in London and died three weeks later; her funeral procession passed through London on its way to her native Brunswick, where she was buried.</p>
                 <citation>Wikipedia. "Caroline of Brunswick" Accessed August 30, 2018. https://en.wikipedia.org/wiki/Caroline_of_Brunswick</citation>
-                <p>Biography source: Wikipedia. Licensed under CC-BY-SA.</p>
             </biogHist>         
         </description>
         <relations> 

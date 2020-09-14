@@ -73,6 +73,12 @@
                 <p>UKAT terms are used to specify the function/s of an EAC-CPF entity.</p>
             </descriptiveNote>
         </conventionDeclaration>
+        <rightsDeclaration localType="biogHist">
+          <citation>Wikipedia</citation>
+          <descriptiveNote>
+            <p>Licensed under CC-BY-SA.</p>
+          </descriptiveNote>
+        </rightsDeclaration>
         <localTypeDeclaration>
             <abbreviation>Name Parts</abbreviation>
             <citation xlink:href="http://anws.llgc.org.uk/ncarules/title.htm" xlink:type="simple"
@@ -117,7 +123,7 @@
                 <agentType>human</agentType>
                 <!-- May contain: "human" or "machine" -->
                 <agent>Vitale, Valeria</agent>
-                <eventDescription>Creation of NAF for Sophia, Electress of
+                <eventDescription>Creation of NAF for Sophia, Electress Consort of Ernest Augustus, Elector of
                     Hanover.</eventDescription>
                 <!-- Include a full description of the maintenance event - ie: note what was created/edited during the event -->
             </maintenanceEvent>
@@ -143,7 +149,8 @@
             <entityType>person</entityType>
             <nameEntry scriptCode="Latn" xml:lang="eng">
                 <part localType="forename">Sophia</part>
-                <part localType="properTitle">Electress of Hanover</part>
+                <part localType="properTitle">Electress Consort of Ernest Augustus, Elector of
+                    Hanover</part>
                 <useDates>
                     <dateRange>
                         <fromDate standardDate="1692-12-19">19 December 1692</fromDate>
@@ -154,7 +161,8 @@
             </nameEntry>
             <nameEntry scriptCode="Latn" xml:lang="eng">
                 <part localType="forename">Sophia</part>
-                <part localType="properTitle">Duchess consort of Brunswick-Lüneburg</part>
+                <part localType="properTitle">Duchess Consort of Ernest Augustus, Duke of
+                    Brunswick-Lüneburg</part>
                 <useDates>
                     <dateRange>
                         <fromDate standardDate="1679-12-18">18 December 1679</fromDate>
@@ -163,9 +171,19 @@
                 </useDates>
                 <alternativeForm>NCA</alternativeForm>
             </nameEntry>
-
             <nameEntry scriptCode="Latn" xml:lang="eng" localType="directOrder">
-                <part>Sophia, 1630-1714, Electress of Hanover</part>
+                <part>Sophia of the Palatinate</part>
+                <useDates>
+                    <dateRange>
+                        <fromDate standardDate="1630-10-14">14 October 1630</fromDate>
+                        <toDate standardDate="1714-06-08">8 June 1714</toDate>
+                    </dateRange>
+                </useDates>
+                <authorizedForm>NCA</authorizedForm>
+            </nameEntry>
+            <nameEntry scriptCode="Latn" xml:lang="eng" localType="directOrder">
+                <part>Sophia, 1630-1714, Electress Consort of Ernest Augustus, Elector of
+                    Hanover</part>
                 <useDates>
                     <dateRange>
                         <fromDate standardDate="1692-12-19">19 December 1692</fromDate>
@@ -174,6 +192,7 @@
                 </useDates>
                 <authorizedForm>NCA</authorizedForm>
             </nameEntry>
+
         </identity>
         <description>
             <existDates>
@@ -202,37 +221,39 @@
             <languagesUsed>
 
                 <languageUsed>
-                    <language languageCode="ger">German</language>
+                    <language languageCode="deu">German</language>
                     <script scriptCode="Latn">Latin</script>
                 </languageUsed>
 
             </languagesUsed>
             <biogHist>
-                <abstract>Sophia of Hanover (14 October 1630 – 8 June
-                    1714) was the heir presumptive to the thrones of England (later Great
-                    Britain) and Ireland under the Act of Settlement 1701. She died less than two
-                    months before she would have become queen.</abstract>
+                <abstract>Sophia of Hanover (14 October 1630 – 8 June 1714) was the heir presumptive
+                    to the thrones of England (later Great Britain) and Ireland under the Act of
+                    Settlement 1701. She died less than two months before she would have become
+                    queen.</abstract>
                 <citation>Wikipedia. "Sophia of Hanover" Accessed May 12, 2020.
                     https://en.wikipedia.org/wiki/Sophia_of_Hanover</citation>
-                <p>Biography source: Wikipedia. Licensed under CC-BY-SA.</p>
             </biogHist>
         </description>
         <relations>
             <cpfRelation cpfRelationType="hierarchical-parent" xlink:href="">
                 <!-- xlink:href to be created automatically following creation of NAF page -->
-                <relationEntry xml:id="GPP-00000018">Frederick V, 1596-1632, Elector Palatine</relationEntry>
+                <relationEntry xml:id="GPP-00000018">Frederick V, 1596-1632, Elector
+                    Palatine</relationEntry>
                 <descriptiveNote>
                     <p>Frederick V was Sophia's father.</p>
                 </descriptiveNote>
             </cpfRelation>
             <cpfRelation cpfRelationType="family" xlink:href="">
-                <relationEntry xml:id="GPP-00009213">Ernest Augustus, 1629-1698, Elector of Hanover</relationEntry>
+                <relationEntry xml:id="GPP-00009213">Ernest Augustus, 1629-1698, Elector of
+                    Hanover</relationEntry>
                 <descriptiveNote>
                     <p>Ernest Augustus was Sophia's husband.</p>
                 </descriptiveNote>
             </cpfRelation>
             <cpfRelation cpfRelationType="hierarchical-parent" xlink:href="">
-                <relationEntry xml:id="NAF-00000006">Elizabeth Stuart, 1596-1662, Queen of Bohemia</relationEntry>
+                <relationEntry xml:id="NAF-00000006">Elizabeth Stuart, 1596-1662, Electress Consort
+                    of Frederick V, Elector Palatine</relationEntry>
                 <descriptiveNote>
                     <p>Elizabeth Stuart was Sophia's mother.</p>
                 </descriptiveNote>
@@ -252,8 +273,7 @@
                 </descriptiveNote>
             </cpfRelation>
             <cpfRelation cpfRelationType="hierarchical-child" xlink:href="">
-                <relationEntry xml:id="NAF-00000009">Sophia Charlotte, 1668-1705, Queen consort in
-                    Prussia</relationEntry>
+                <relationEntry xml:id="NAF-00000009">Sophia Charlotte, 1668-1705, Queen Consort of Frederick I, King of Prussia</relationEntry>
                 <descriptiveNote>
                     <p>Sophia Charlotte was Sophia's daughter.</p>
                 </descriptiveNote>

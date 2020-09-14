@@ -73,6 +73,12 @@
                 <p>UKAT terms are used to specify the function/s of an EAC-CPF entity.</p>
             </descriptiveNote>
         </conventionDeclaration>
+        <rightsDeclaration localType="biogHist">
+          <citation>Wikipedia</citation>
+          <descriptiveNote>
+            <p>Licensed under CC-BY-SA.</p>
+          </descriptiveNote>
+        </rightsDeclaration>
         <localTypeDeclaration>
             <abbreviation>Name Parts</abbreviation>
             <citation xlink:href="http://anws.llgc.org.uk/ncarules/title.htm" xlink:type="simple"
@@ -130,8 +136,8 @@
                 xlink:href="https://en.wikipedia.org/wiki/George_II_of_Great_Britain">
                 <sourceEntry>Wikipedia: George II of Great Britain</sourceEntry>
             </source>
-            <source xlink:type="simple" xlink:href="https://www.geonames.org/2910831/hannover.html">
-                <sourceEntry>GeoNames ID: 2910831</sourceEntry>
+            <source xlink:type="simple" xlink:href="https://www.wikidata.org/wiki/Q574773">
+                <sourceEntry>Wikidata ID: Q574773</sourceEntry>
             </source>
             <source xlink:type="simple"
                 xlink:href="https://www.geonames.org/7627143/kensington-palace.html">
@@ -149,7 +155,7 @@
                 <part localType="properTitle">King of Great Britain and Ireland</part>
                 <useDates>
                     <dateRange>
-                        <fromDate standardDate="1727-06">June 1727</fromDate>
+                        <fromDate standardDate="1727-06-22">22 June 1727</fromDate>
                         <toDate standardDate="1760-10-25">25 October 1760</toDate>
                     </dateRange>
                 </useDates>
@@ -160,7 +166,7 @@
                 <part localType="properTitle">Elector of Hanover</part>
                 <useDates>
                     <dateRange>
-                        <fromDate standardDate="1727-06">June 1727</fromDate>
+                        <fromDate standardDate="1727-06-22">22 June 1727</fromDate>
                         <toDate standardDate="1760-10-25">25 October 1760</toDate>
                     </dateRange>
                 </useDates>
@@ -171,8 +177,8 @@
                 <part localType="properTitle">Prince of Wales</part>
                 <useDates>
                     <dateRange>
-                        <fromDate standardDate="1714">1714</fromDate>
-                        <toDate standardDate="1727">1727</toDate>
+                        <fromDate localType="oldStyle" standardDate="1714-09-27">27 September 1714</fromDate>
+                        <toDate standardDate="1727-06-22">22 June 1727</toDate>
                     </dateRange>
                 </useDates>
                 <alternativeForm>NCA</alternativeForm>
@@ -182,8 +188,8 @@
                 <part localType="properTitle">Duke of Cornwall</part>
                 <useDates>
                     <dateRange>
-                        <fromDate standardDate="1714">1714</fromDate>
-                        <toDate standardDate="1727">1727</toDate>
+                        <fromDate localType="oldStyle" standardDate="1714-08-01">1 August 1714</fromDate>
+                        <toDate localType="oldStyle" standardDate="1727-09-27">27 September 1714</toDate>
                     </dateRange>
                 </useDates>
                 <alternativeForm>NCA</alternativeForm>
@@ -193,8 +199,8 @@
                 <part localType="properTitle">Duke of Rothesay</part>
                 <useDates>
                     <dateRange>
-                        <fromDate standardDate="1714">1714</fromDate>
-                        <toDate standardDate="1727">1727</toDate>
+                        <fromDate localType="oldStyle" standardDate="1714-08-01">1 August 1714</fromDate>
+                        <toDate localType="oldStyle" standardDate="1727-09-27">27 September 1714</toDate>
                     </dateRange>
                 </useDates>
 
@@ -204,7 +210,7 @@
                 <part>George II, 1683-1760, King of Great Britain and Ireland</part>
                 <useDates>
                     <dateRange>
-                        <fromDate standardDate="1727-06">June 1727</fromDate>
+                        <fromDate standardDate="1727-06-22">22 June 1727</fromDate>
                         <toDate standardDate="1760-10-25">25 October 1760</toDate>
                     </dateRange>
                 </useDates>
@@ -241,11 +247,11 @@
                     <script scriptCode="Latn">Latin</script>
                 </languageUsed>
                 <languageUsed>
-                    <language languageCode="ger">German</language>
+                    <language languageCode="deu">German</language>
                     <script scriptCode="Latn">Latin</script>
                 </languageUsed>
                 <languageUsed>
-                    <language languageCode="fre">French</language>
+                    <language languageCode="fra">French</language>
                     <script scriptCode="Latn">Latin</script>
                 </languageUsed>
             </languagesUsed>
@@ -255,7 +261,6 @@
                     11 June 1727 (O.S.) until his death in 1760..</abstract>
                 <citation>Wikipedia. "George II of Great Britain" Accessed May 12, 2020.
                     https://en.wikipedia.org/wiki/George_II_of_Great_Britain</citation>
-                <p>Biography source: Wikipedia. Licensed under CC-BY-SA.</p>
             </biogHist>
         </description>
         <relations>
@@ -275,55 +280,64 @@
                 </descriptiveNote>
             </cpfRelation>
             <cpfRelation cpfRelationType="family" xlink:href="">
-                <relationEntry xml:id="NAF-00000006">Caroline, 1683-1737, Queen consort of Great Britain</relationEntry>
+                <relationEntry xml:id="NAF-00000006">Caroline, 1683-1737, Queen Consort of George
+                    II, King of Great Britain</relationEntry>
                 <descriptiveNote>
                     <p>Caroline was George II's wife.</p>
                 </descriptiveNote>
             </cpfRelation>
             <cpfRelation cpfRelationType="hierarchical-child" xlink:href="">
-                <relationEntry xml:id="NAF-00000007">Frederick, 1707-1751, Prince of Wales</relationEntry>
+                <relationEntry xml:id="NAF-00000007">Frederick Louis, 1707-1751, Prince of
+                    Wales</relationEntry>
                 <descriptiveNote>
-                    <p>Frederick was George II's son.</p>
+                    <p>Frederick Louis was George II's son.</p>
                 </descriptiveNote>
             </cpfRelation>
             <cpfRelation cpfRelationType="hierarchical-child" xlink:href="">
-                <relationEntry xml:id="NAF-00000008">Anne, 1709-1759, Princess of Orange</relationEntry>
+                <relationEntry xml:id="NAF-00000008">Anne, 1709-1759, Princess Consort of William
+                    IV, Prince of Orange</relationEntry>
                 <descriptiveNote>
                     <p>Anne was George II's daughter.</p>
                 </descriptiveNote>
             </cpfRelation>
             <cpfRelation cpfRelationType="hierarchical-child" xlink:href="">
-                <relationEntry xml:id="NAF-00000005">Amelia, 1711-1786, Princess of Great Britain</relationEntry>
+                <relationEntry xml:id="NAF-00000005">Amelia Sophia Eleanor, 1711-1786,
+                    Princess</relationEntry>
                 <descriptiveNote>
-                    <p>Amelia was George II's daughter.</p>
+                    <p>Amelia Sophia Eleanor was George II's daughter.</p>
                 </descriptiveNote>
             </cpfRelation>
             <cpfRelation cpfRelationType="hierarchical-child" xlink:href="">
-                <relationEntry xml:id="NAF-00000004">Caroline, 1713-1757, Princess of Great Britain</relationEntry>
+                <relationEntry xml:id="NAF-00000004">Caroline Elizabeth, 1713-1757,
+                    Princess</relationEntry>
                 <descriptiveNote>
                     <p>Caroline was George II's daughter.</p>
                 </descriptiveNote>
             </cpfRelation>
             <cpfRelation cpfRelationType="hierarchical-child" xlink:href="">
-                <relationEntry xml:id="NAF-00000001">George, 1717-1718, Prince of Great Britain</relationEntry>
+                <relationEntry xml:id="NAF-00000001">George William, 1717-1718,
+                    Prince</relationEntry>
                 <descriptiveNote>
-                    <p>George was George II's son.</p>
+                    <p>George William was George II's son.</p>
                 </descriptiveNote>
             </cpfRelation>
             <cpfRelation cpfRelationType="hierarchical-child" xlink:href="">
-                <relationEntry xml:id="NAF-00000002">William, 1721-1765, Duke of Cumberland</relationEntry>
+                <relationEntry xml:id="NAF-00000002">William Augustus, 1721-1765, Duke of
+                    Cumberland</relationEntry>
                 <descriptiveNote>
-                    <p>William was George II's son.</p>
+                    <p>William Augustus was George II's son.</p>
                 </descriptiveNote>
             </cpfRelation>
             <cpfRelation cpfRelationType="hierarchical-child" xlink:href="">
-                <relationEntry xml:id="NAF-00000012">Mary, 1723-1772, Landgravine of Hesse-Kassel</relationEntry>
+                <relationEntry xml:id="NAF-00000012">Mary, 1723-1772, Landgravine Consort of
+                    Frederick II, Landgrave of Hesse-Kassel</relationEntry>
                 <descriptiveNote>
                     <p>Mary was George II's daughter.</p>
                 </descriptiveNote>
             </cpfRelation>
             <cpfRelation cpfRelationType="hierarchical-child" xlink:href="">
-                <relationEntry xml:id="NAF-00000013">Louisa, 1724-1751, Queen of Denmark and Norway</relationEntry>
+                <relationEntry xml:id="NAF-00000013">Louisa, 1724-1751, Queen Consort of Frederick V, King of Denmark and
+                    Norway</relationEntry>
                 <descriptiveNote>
                     <p>Louisa was George II's daughter.</p>
                 </descriptiveNote>

@@ -56,6 +56,12 @@
                 <p>UKAT terms are used to specify the function/s of an EAC-CPF entity.</p>
             </descriptiveNote>
         </conventionDeclaration>
+        <rightsDeclaration localType="biogHist">
+          <citation>Wikipedia</citation>
+          <descriptiveNote>
+            <p>Licensed under CC-BY-SA.</p>
+          </descriptiveNote>
+        </rightsDeclaration>
         <localTypeDeclaration>
             <abbreviation>Name Parts</abbreviation>
             <citation xlink:href="http://anws.llgc.org.uk/ncarules/title.htm" xlink:type="simple"
@@ -90,7 +96,7 @@
                 <eventType>updated</eventType> <!-- May contain: "cancelled" or "created" or "deleted" or "derived" or "revised" or "updated" -->
                 <eventDateTime standardDateTime="2020-02-17T14:08:00Z">2:08 pm, 17 February 2020</eventDateTime> <!-- ISO 8601 date-time formatting -->
                 <agentType>human</agentType> <!-- May contain: "human" or "machine" -->
-                <agent xml:id="GPP-00001748">Callaghan, Samantha</agent> <!-- ID may be subject to change in the CW -->
+                <agent>Callaghan, Samantha</agent> <!-- ID may be subject to change in the CW -->
                 <eventDescription>Added bio info to NAF for Alastair Ruadh MacDonnell.</eventDescription> <!-- Include a full description of the maintenance event - ie: note what was created/edited during the event -->
             </maintenanceEvent>
         </maintenanceHistory>
@@ -187,7 +193,6 @@
                 <p>After his release from the Tower of London in 1747, he continued to be active in Jacobite plotting but became a British government agent. This remained secret until 1897 when Scottish historian Andrew Lang confirmed his identity as 'Pickle the Spy.'</p> 
                 <p>He became 13th chief of Glengarry in 1754 and died unmarried in 1761, when he was succeeded by his nephew Donald.</p>
                 <citation>Wikipedia. "Alastair Ruadh MacDonnell" Accessed February 20, 2020. https://en.wikipedia.org/wiki/Alastair_Ruadh_MacDonnell</citation>
-                <p>Biography source: Wikipedia. Licensed under CC-BY-SA.</p>
             </biogHist>
         </description>
     </cpfDescription>
@@ -226,7 +231,6 @@
             <biogHist>
                 <abstract>Alastair MacDonnell of Glengarry (ca 1725-1761), also known as Alasdair Ruadh Mac Dhomhnuil, was the 13th chief of Clan MacDonell of Glengarry. Brought up as a Catholic and largely educated in France, he was arrested in November 1745 on his way to join the 1745 Jacobite Rising. After his release from the Tower of London in 1747, he continued to be active in Jacobite plotting but became a British government agent. This remained secret until 1897 when Scottish historian Andrew Lang confirmed his identity as 'Pickle the Spy.'</abstract> 
                 <citation>Wikipedia. "Alastair Ruadh MacDonnell" Accessed February 20, 2020. https://en.wikipedia.org/wiki/Alastair_Ruadh_MacDonnell</citation>
-                <p>Biography source: Wikipedia. Licensed under CC-BY-SA.</p>
             </biogHist>
         </description>
     </cpfDescription>

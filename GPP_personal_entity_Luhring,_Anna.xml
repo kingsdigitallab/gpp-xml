@@ -56,6 +56,12 @@
                 <p>UKAT terms are used to specify the function/s of an EAC-CPF entity.</p>
             </descriptiveNote>
         </conventionDeclaration>
+        <rightsDeclaration localType="biogHist">
+          <citation>Wikipedia</citation>
+          <descriptiveNote>
+            <p>Licensed under CC-BY-SA.</p>
+          </descriptiveNote>
+        </rightsDeclaration>
         <localTypeDeclaration>
             <abbreviation>Name Parts</abbreviation>
             <citation xlink:href="http://anws.llgc.org.uk/ncarules/title.htm" xlink:type="simple"
@@ -159,14 +165,13 @@
             </places>
             <languagesUsed>
                 <languageUsed> <!-- From evidence in the GPP, if possible -->
-                    <language languageCode="ger">German</language>
+                    <language languageCode="deu">German</language>
                     <script scriptCode="Latn">Latin</script>
                 </languageUsed>
             </languagesUsed>
             <biogHist> 
                 <abstract>Anna Lühring (3 August 1796, in Bremen – 25 August 1866, in Hamburg) (sometimes wrongly referred to as Anna Lührmann) was a soldier in the Prussian army during the Napoleonic Wars.</abstract>
                 <citation>Wikipedia. "Anna Lühring" Accessed February 19, 2020. https://en.wikipedia.org/wiki/Anna_L%C3%BChring</citation>
-                <p>Biography source: Wikipedia. Licensed under CC-BY-SA.</p>
             </biogHist>         
         </description>
     </cpfDescription>
@@ -207,7 +212,7 @@
             </localDescription>
             <languagesUsed>
                 <languageUsed> <!-- From evidence in the GPP, if possible -->
-                    <language languageCode="ger">German</language>
+                    <language languageCode="deu">German</language>
                     <script scriptCode="Latn">Latin</script>
                 </languageUsed>
             </languagesUsed>
@@ -215,7 +220,6 @@
                 <abstract>Anna Lühring (3 August 1796, in Bremen – 25 August 1866, in Hamburg) (sometimes wrongly referred to as Anna Lührmann) was a soldier who served initially under the name Eduard Kruse in the Prussian army during the Napoleonic Wars.</abstract>
                     <p>The daughter of a craftsman in Bremen, she became keen to join up after Tettenborn's capture of Bremen and the death of Eleonore Prochaska whilst serving in the Prussian Army. Dressed in her brother's clothing, she left Bremen in February 1814 and joined the Lützow Free Corps under the name Eduard Kruse at Jülich. In this unit she participated in the siege of Jülich and some smaller engagements during this. Even after her true identity became known, she remained in the unit until its return to Berlin, where she was honoured for her services.</p>
                 <citation>Wikipedia. "Anna Lühring" Accessed February 19, 2020. https://en.wikipedia.org/wiki/Anna_L%C3%BChring</citation>
-                <p>Biography source: Wikipedia. Licensed under CC-BY-SA.</p>
             </biogHist>         
         </description>
     </cpfDescription>

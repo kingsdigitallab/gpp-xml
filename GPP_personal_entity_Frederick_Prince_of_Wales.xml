@@ -73,6 +73,12 @@
                 <p>UKAT terms are used to specify the function/s of an EAC-CPF entity.</p>
             </descriptiveNote>
         </conventionDeclaration>
+        <rightsDeclaration localType="biogHist">
+          <citation>Wikipedia</citation>
+          <descriptiveNote>
+            <p>Licensed under CC-BY-SA.</p>
+          </descriptiveNote>
+        </rightsDeclaration>
         <localTypeDeclaration>
             <abbreviation>Name Parts</abbreviation>
             <citation xlink:href="http://anws.llgc.org.uk/ncarules/title.htm" xlink:type="simple"
@@ -117,7 +123,8 @@
                 <agentType>human</agentType>
                 <!-- May contain: "human" or "machine" -->
                 <agent>Vitale, Valeria</agent>
-                <eventDescription>Creation of NAF for Frederick, Prince of Wales.</eventDescription>
+                <eventDescription>Creation of NAF for Frederick Louis, Prince of
+                    Wales.</eventDescription>
                 <!-- Include a full description of the maintenance event - ie: note what was created/edited during the event -->
             </maintenanceEvent>
         </maintenanceHistory>
@@ -158,8 +165,8 @@
                 <part localType="properTitle">Duke of Cornwall</part>
                 <useDates>
                     <dateRange>
-                        <fromDate standardDate="1727">1727</fromDate>
-                        <toDate standardDate="1751-03-31">31 March 1751</toDate>
+                        <fromDate standardDate="1727-06-11">11 June 1727</fromDate>
+                        <toDate standardDate="1729-01-08">8 January 1729</toDate>
                     </dateRange>
                 </useDates>
                 <alternativeForm>NCA</alternativeForm>
@@ -169,8 +176,8 @@
                 <part localType="properTitle">Duke of Rothesay</part>
                 <useDates>
                     <dateRange>
-                        <fromDate standardDate="1727">1727</fromDate>
-                        <toDate standardDate="1751-03-31">31 March 1751</toDate>
+                        <fromDate standardDate="1727-06-11">11 June 1727</fromDate>
+                        <toDate standardDate="1729-01-08">8 January 172</toDate>
                     </dateRange>
                 </useDates>
                 <alternativeForm>NCA</alternativeForm>
@@ -180,8 +187,8 @@
                 <part localType="properTitle">Duke of Edinburgh</part>
                 <useDates>
                     <dateRange>
-                        <fromDate standardDate="1726">1726</fromDate>
-                        <toDate standardDate="1751-03-31">31 March 1751</toDate>
+                        <fromDate standardDate="1726-07-26">26 July 1726</fromDate>
+                        <toDate standardDate="1727-06-11">11 June 1727</toDate>
                     </dateRange>
                 </useDates>
 
@@ -189,7 +196,7 @@
                 <alternativeForm>NCA</alternativeForm>
             </nameEntry>
             <nameEntry scriptCode="Latn" xml:lang="eng" localType="directOrder">
-                <part>Frederick, 1707-1751, Prince of Wales</part>
+                <part>Frederick Louis, 1707-1751, Prince of Wales</part>
                 <useDates>
                     <dateRange>
                         <fromDate standardDate="1729-01-08">8 January 1729</fromDate>
@@ -229,20 +236,18 @@
                     <script scriptCode="Latn">Latin</script>
                 </languageUsed>
                 <languageUsed>
-                    <language languageCode="ger">German</language>
+                    <language languageCode="deu">German</language>
                     <script scriptCode="Latn">Latin</script>
                 </languageUsed>
 
             </languagesUsed>
             <biogHist>
-                <abstract>Frederick, Prince of Wales, (1 February 1707 – 31
-                    March 1751), was heir apparent to the British throne from 1727 until his death
-                    from a lung injury at the age of 44. He was the eldest but estranged son of King
-                    George II and Caroline of Ansbach, and the father of King George
-                    III.</abstract>
+                <abstract>Frederick, Prince of Wales, (1 February 1707 – 31 March 1751), was heir
+                    apparent to the British throne from 1727 until his death from a lung injury at
+                    the age of 44. He was the eldest but estranged son of King George II and
+                    Caroline of Ansbach, and the father of King George III.</abstract>
                 <citation>Wikipedia. "Frederick, Prince of Wales" Accessed May 12, 2020.
                     https://en.wikipedia.org/wiki/Frederick,_Prince_of_Wales</citation>
-                <p>Biography source: Wikipedia. Licensed under CC-BY-SA.</p>
             </biogHist>
         </description>
         <relations>
@@ -255,70 +260,74 @@
                 </descriptiveNote>
             </cpfRelation>
             <cpfRelation cpfRelationType="hierarchical-parent" xlink:href="">
-                <relationEntry xml:id="GPP-00009213">Caroline, 1683-1737, Queen consort of Great Britain</relationEntry>
+                <relationEntry xml:id="GPP-00009213">Caroline, 1683-1737, Queen Consort of George II, King of Great
+                    Britain</relationEntry>
                 <descriptiveNote>
                     <p>Caroline was Frederick's mother.</p>
                 </descriptiveNote>
             </cpfRelation>
             <cpfRelation cpfRelationType="family" xlink:href="">
-                <relationEntry xml:id="NAF-00000006"> Augusta, 1719-1772, Princess of Wales,</relationEntry>
+                <relationEntry xml:id="NAF-00000006"> Augusta, 1719-1772, Princess Consort of Frederick, Prince of
+                    Wales,</relationEntry>
                 <descriptiveNote>
                     <p>Augusta was Frederick's wife.</p>
                 </descriptiveNote>
             </cpfRelation>
             <cpfRelation cpfRelationType="hierarchical-child" xlink:href="">
-                <relationEntry xml:id="NAF-00000007">Augusta, 1737-1813, Princess consort of Brunswick-Wolfenbüttel</relationEntry>
+                <relationEntry xml:id="NAF-00000007">Augusta Frederica, 1737-1813, Princess Consort of
+                    Charles William Ferdinand, Prince of Brunswick-Wolfenbüttel</relationEntry>
                 <descriptiveNote>
-                    <p>Augusta was Frederick's daughter.</p>
+                    <p>Augusta Frederica was Frederick's daughter.</p>
                 </descriptiveNote>
             </cpfRelation>
             <cpfRelation cpfRelationType="hierarchical-child" xlink:href="">
-                <relationEntry xml:id="NAF-00000008">George III, 1738-1820, King of the United Kingdom</relationEntry>
+                <relationEntry xml:id="NAF-00000008">George III, 1738-1820, King of the United
+                    Kingdom</relationEntry>
                 <descriptiveNote>
                     <p>George III was Frederick's son.</p>
                 </descriptiveNote>
             </cpfRelation>
             <cpfRelation cpfRelationType="hierarchical-child" xlink:href="">
-                <relationEntry xml:id="NAF-00000005">Edward, 1739-1767, Duke of York and Albany</relationEntry>
+                <relationEntry xml:id="NAF-00000005">Edward, 1739-1767, Duke of York and
+                    Albany</relationEntry>
                 <descriptiveNote>
                     <p>Edward was Frederick's son.</p>
                 </descriptiveNote>
             </cpfRelation>
             <cpfRelation cpfRelationType="hierarchical-child" xlink:href="">
-                <relationEntry xml:id="NAF-00000004">Elizabeth, 1741-1759, Princess of Great
-                    Britain</relationEntry>
+                <relationEntry xml:id="NAF-00000004">Elizabeth Caroline, 1741-1759, Princess</relationEntry>
                 <descriptiveNote>
-                    <p>Elizabeth was Frederick's daughter.</p>
+                    <p>Elizabeth Caroline was Frederick's daughter.</p>
                 </descriptiveNote>
             </cpfRelation>
             <cpfRelation cpfRelationType="hierarchical-child" xlink:href="">
-                <relationEntry xml:id="NAF-00000001">William, 1743-1805, Duke of Gloucester and Edinburgh</relationEntry>
+                <relationEntry xml:id="NAF-00000001">William, 1743-1805, Duke of Gloucester and
+                    Edinburgh</relationEntry>
                 <descriptiveNote>
                     <p>William was Frederick's son.</p>
                 </descriptiveNote>
             </cpfRelation>
             <cpfRelation cpfRelationType="hierarchical-child" xlink:href="">
-                <relationEntry xml:id="NAF-00000002">Henry, 1745-1790, Duke of Cumberland and Strathearn</relationEntry>
+                <relationEntry xml:id="NAF-00000002">Henry, 1745-1790, Duke of Cumberland and
+                    Strathearn</relationEntry>
                 <descriptiveNote>
                     <p>Henry was Frederick's son.</p>
                 </descriptiveNote>
             </cpfRelation>
             <cpfRelation cpfRelationType="hierarchical-child" xlink:href="">
-                <relationEntry xml:id="NAF-00000012">Louisa, 1749-1768, Princess of Great
-                    Britain</relationEntry>
+                <relationEntry xml:id="NAF-00000012">Louisa, 1749-1768, Princess</relationEntry>
                 <descriptiveNote>
                     <p>Louisa was Frederick's daughter.</p>
                 </descriptiveNote>
             </cpfRelation>
             <cpfRelation cpfRelationType="hierarchical-child" xlink:href="">
-                <relationEntry xml:id="NAF-00000013">Frederick, 1750-1765, Prince of Great
-                    Britain</relationEntry>
+                <relationEntry xml:id="NAF-00000013">Frederick William, 1750-1765, Prince</relationEntry>
                 <descriptiveNote>
-                    <p>Frederick was Frederick's son.</p>
+                    <p>Frederick William was Frederick's son.</p>
                 </descriptiveNote>
             </cpfRelation>
             <cpfRelation cpfRelationType="hierarchical-child" xlink:href="">
-                <relationEntry xml:id="NAF-00000015">Caroline Matilda, 1751-1775, Queen consort of Denmark and Norway</relationEntry>
+                <relationEntry xml:id="NAF-00000015">Caroline Matilda, 1751-1775, Queen Consort Christian VII, King of Denmark and Norway</relationEntry>
                 <descriptiveNote>
                     <p>Caroline Matilda was Frederick's daughter.</p>
                 </descriptiveNote>

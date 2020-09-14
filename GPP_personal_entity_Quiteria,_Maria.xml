@@ -56,6 +56,12 @@
                 <p>UKAT terms are used to specify the function/s of an EAC-CPF entity.</p>
             </descriptiveNote>
         </conventionDeclaration>
+        <rightsDeclaration localType="biogHist">
+          <citation>Wikipedia</citation>
+          <descriptiveNote>
+            <p>Licensed under CC-BY-SA.</p>
+          </descriptiveNote>
+        </rightsDeclaration>
         <localTypeDeclaration>
             <abbreviation>Name Parts</abbreviation>
             <citation xlink:href="http://anws.llgc.org.uk/ncarules/title.htm" xlink:type="simple"
@@ -180,7 +186,6 @@
             <biogHist> 
                 <abstract>Maria Quitéria (27 July 1792 – 21 August 1853) was a Brazilian lieutenant and national heroine. She served in the Brazilian War of Independence in 1822–23 dressed as a man. She was promoted to cadet and Lieutenant and decorated with the Imperial order. She has been called "Brazilian Joan of Arc," and has become a kind of national legendary figure. Quitéria was the first woman to serve in a military unit in Brazil. She, along with Maria Felipa de Oliveira (died 1873) and Sister Joana Angélica (1761-1822), are known as the three Bahian women resistance fighters in the War of Independence against the Portuguese.</abstract>
                 <citation>Wikipedia. "Maria Quitéria" Accessed February 19, 2020. https://en.wikipedia.org/wiki/Maria_Quit%C3%A9ria</citation>
-                <p>Biography source: Wikipedia. Licensed under CC-BY-SA.</p>
             </biogHist>         
         </description>
     </cpfDescription>
@@ -227,7 +232,6 @@
             <biogHist>
                 <abstract>Maria Quitéria (27 July 1792 – 21 August 1853) was a Brazilian lieutenant and national heroine, sometimes known as Soldado Medeiros. She served in the Brazilian War of Independence in 1822–23 dressed as a man. She was promoted to cadet and Lieutenant and decorated with the Imperial order. She has been called "Brazilian Joan of Arc," and has become a kind of national legendary figure. Quitéria was the first woman to serve in a military unit in Brazil. She, along with Maria Felipa de Oliveira (died 1873) and Sister Joana Angélica (1761-1822), are known as the three Bahian women resistance fighters in the War of Independence against the Portuguese.</abstract>
                 <citation>Wikipedia. "Maria Quitéria" Accessed February 19, 2020. https://en.wikipedia.org/wiki/Maria_Quit%C3%A9ria</citation>
-                <p>Biography source: Wikipedia. Licensed under CC-BY-SA.</p>
             </biogHist>         
         </description>
     </cpfDescription>

@@ -73,6 +73,12 @@
                 <p>UKAT terms are used to specify the function/s of an EAC-CPF entity.</p>
             </descriptiveNote>
         </conventionDeclaration>
+        <rightsDeclaration localType="biogHist">
+          <citation>Wikipedia</citation>
+          <descriptiveNote>
+            <p>Licensed under CC-BY-SA.</p>
+          </descriptiveNote>
+        </rightsDeclaration>
         <localTypeDeclaration>
             <abbreviation>Name Parts</abbreviation>
             <citation xlink:href="http://anws.llgc.org.uk/ncarules/title.htm" xlink:type="simple"
@@ -193,7 +199,7 @@
             <languagesUsed>
 
                 <languageUsed>
-                    <language languageCode="ger">German</language>
+                    <language languageCode="deu">German</language>
                     <script scriptCode="Latn">Latin</script>
                 </languageUsed>
 
@@ -208,21 +214,22 @@
                     Ahlden for the last thirty years of her life.</abstract>
                 <citation>Wikipedia. "Sophia Dorothea of Celle" Accessed May 12, 2020.
                     https://en.wikipedia.org/wiki/Sophia_Dorothea_of_Celle</citation>
-                <p>Biography source: Wikipedia. Licensed under CC-BY-SA.</p>
             </biogHist>
         </description>
         <relations>
             <cpfRelation cpfRelationType="hierarchical-parent" xlink:href="">
                 <!-- xlink:href to be created automatically following creation of NAF page -->
-                <relationEntry xml:id="GPP-00000018">George William, 1624-1705, Duke of Saxe-Lauenburg</relationEntry>
+                <relationEntry xml:id="GPP-00000018">George William, 1624-1705, Duke of
+                    Saxe-Lauenburg</relationEntry>
                 <descriptiveNote>
                     <p>George William was Sophia Dorothea's father.</p>
                 </descriptiveNote>
             </cpfRelation>
             <cpfRelation cpfRelationType="hierarchical-parent" xlink:href="">
-                <relationEntry xml:id="GPP-00009213">Éléonore Desmier d'Olbreuse, 1639-1722, Duchess consort of Saxe-Lauenburg</relationEntry>
+                <relationEntry xml:id="GPP-00009213">d'Olbreuse, Éléonore Desmier, 1639-1722,
+                    Duchess Consort of George William, Duke of Saxe-Lauenburg</relationEntry>
                 <descriptiveNote>
-                    <p>Éléonore was Sophia Dorothea's mother.</p>
+                    <p>Éléonore Desmier was Sophia Dorothea's mother.</p>
                 </descriptiveNote>
             </cpfRelation>
             <cpfRelation cpfRelationType="family" xlink:href="">
@@ -234,14 +241,14 @@
             </cpfRelation>
             <cpfRelation cpfRelationType="hierarchical-child" xlink:href="">
                 <relationEntry xml:id="NAF-00000007">George II, 1683-1760, King of Great
-                    Britain</relationEntry>
+                    Britain and Ireland</relationEntry>
                 <descriptiveNote>
                     <p>George II was Sophia Dorothea's son.</p>
                 </descriptiveNote>
             </cpfRelation>
             <cpfRelation cpfRelationType="hierarchical-child" xlink:href="">
-                <relationEntry xml:id="NAF-00000008">Sophia Dorothea, 1687-1757, Queen Consort in
-                    Prussia</relationEntry>
+                <relationEntry xml:id="NAF-00000008">Sophia Dorothea, 1687-1757, Queen Consort of
+                    Frederick II, King of Prussia.</relationEntry>
                 <descriptiveNote>
                     <p>Sophia Dorothea was Sophia Dorothea's daughter.</p>
                 </descriptiveNote>

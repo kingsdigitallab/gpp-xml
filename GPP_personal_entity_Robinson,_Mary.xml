@@ -56,6 +56,12 @@
                 <p>UKAT terms are used to specify the function/s of an EAC-CPF entity.</p>
             </descriptiveNote>
         </conventionDeclaration>
+        <rightsDeclaration localType="biogHist">
+          <citation>Wikipedia</citation>
+          <descriptiveNote>
+            <p>Licensed under CC-BY-SA.</p>
+          </descriptiveNote>
+        </rightsDeclaration>
         <localTypeDeclaration>
             <abbreviation>Name Parts</abbreviation>
             <citation xlink:href="http://anws.llgc.org.uk/ncarules/title.htm" xlink:type="simple"
@@ -90,7 +96,7 @@
                 <eventType>updated</eventType> <!-- May contain: "cancelled" or "created" or "deleted" or "derived" or "revised" or "updated" -->
                 <eventDateTime standardDateTime="2020-02-20T14:08:00Z">2:08 pm, 20 February 2020</eventDateTime> <!-- ISO 8601 date-time formatting -->
                 <agentType>human</agentType> <!-- May contain: "human" or "machine" -->
-                <agent xml:id="GPP-00001748">Callaghan, Samantha</agent> <!-- ID may be subject to change in the CW -->
+                <agent>Callaghan, Samantha</agent> <!-- ID may be subject to change in the CW -->
                 <eventDescription>Added bio info to NAF for Mary Robinson.</eventDescription> <!-- Include a full description of the maintenance event - ie: note what was created/edited during the event -->
             </maintenanceEvent>
         </maintenanceHistory>
@@ -173,7 +179,6 @@
             <biogHist>
                 <abstract>Mary Robinson (née Darby; 27 November 1757 – 26 December 1800) was an English actress, poet, dramatist, novelist, and celebrity figure. She lived in England, in the cities of Bristol and London; she also lived for a time in France and Germany. She enjoyed poetry from the age of seven and started working, first as a teacher and then as actress, from the age of fourteen. She wrote many plays, poems and novels. She was a celebrity, gossiped about in newspapers, famous for her acting and writing. During her lifetime she was known as "the English Sappho". She earned her nickname "Perdita" for her role as Perdita (heroine of Shakespeare's The Winter's Tale) in 1779. She was the first public mistress of King George IV while he was still Prince of Wales.</abstract>
                 <citation>Wikipedia. "Mary Robinson (poet)" Accessed February 20, 2020. https://en.wikipedia.org/wiki/Mary_Robinson_(poet)</citation>
-                <p>Biography source: Wikipedia. Licensed under CC-BY-SA.</p>
             </biogHist>
         </description>
     </cpfDescription>

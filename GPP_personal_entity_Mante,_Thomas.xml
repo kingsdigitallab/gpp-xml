@@ -56,6 +56,12 @@
                 <p>UKAT terms are used to specify the function/s of an EAC-CPF entity.</p>
             </descriptiveNote>
         </conventionDeclaration>
+        <rightsDeclaration localType="biogHist">
+          <citation>Wikipedia</citation>
+          <descriptiveNote>
+            <p>Licensed under CC-BY-SA.</p>
+          </descriptiveNote>
+        </rightsDeclaration>
         <localTypeDeclaration>
             <abbreviation>Name Parts</abbreviation>
             <citation xlink:href="http://anws.llgc.org.uk/ncarules/title.htm" xlink:type="simple"
@@ -90,7 +96,7 @@
                 <eventType>updated</eventType> <!-- May contain: "cancelled" or "created" or "deleted" or "derived" or "revised" or "updated" -->
                 <eventDateTime standardDateTime="2020-02-07T14:08:00Z">2:08 pm, 8 February 2020</eventDateTime> <!-- ISO 8601 date-time formatting -->
                 <agentType>human</agentType> <!-- May contain: "human" or "machine" -->
-                <agent xml:id="GPP-00001748">Callaghan, Samantha</agent> <!-- ID may be subject to change in the CW -->
+                <agent>Callaghan, Samantha</agent> <!-- ID may be subject to change in the CW -->
                 <eventDescription>Updated info in NAF for Thomas Mante.</eventDescription> <!-- Include a full description of the maintenance event - ie: note what was created/edited during the event -->
             </maintenanceEvent>
         </maintenanceHistory>
@@ -161,7 +167,6 @@
                 <p>Later in 1764 Mante was in London. He has been taken to be the author of the 1765 plan to plant a British colony at Detroit, which was rejected. Running up debts, Mante offended his patrons, Bradstreet and Sir Charles Gould. He became involved in British intelligence work through dealings in the 1770s with the government official John Robinson; but he had already by then been recruited to spy for the French, from 1769, by Jean-Charles-Adolphe Grant de Blairfindy.</p>
                 <p>Mante's role as a double agent was probably known to the British by 1774, when they ceased to pay him. He had emigrated to Dieppe in northern France in 1773, and spent time in debtors' prison. To make ends meet he wrote, producing a work in French on agriculture, and novels in English based on French originals, published by Thomas Hookham. He was back in London in 1781, and at the end of his life was working still on his Naval and Military History.</p>
                 <citation>Wikipedia. "Thomas Mante" Accessed February 20, 2020. https://en.wikipedia.org/wiki/Thomas_Mante</citation>
-                <p>Biography source: Wikipedia. Licensed under CC-BY-SA.</p>
             </biogHist>        
         </description>
     </cpfDescription>

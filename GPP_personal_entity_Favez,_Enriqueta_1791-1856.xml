@@ -56,6 +56,12 @@
                 <p>UKAT terms are used to specify the function/s of an EAC-CPF entity.</p>
             </descriptiveNote>
         </conventionDeclaration>
+        <rightsDeclaration localType="biogHist">
+          <citation>Wikipedia</citation>
+          <descriptiveNote>
+            <p>Licensed under CC-BY-SA.</p>
+          </descriptiveNote>
+        </rightsDeclaration>
         <localTypeDeclaration>
             <abbreviation>Name Parts</abbreviation>
             <citation xlink:href="http://anws.llgc.org.uk/ncarules/title.htm" xlink:type="simple"
@@ -90,7 +96,7 @@
                 <eventType>updated</eventType> <!-- May contain: "cancelled" or "created" or "deleted" or "derived" or "revised" or "updated" -->
                 <eventDateTime standardDateTime="2019-12-19T14:16:00Z">2:16 pm, 19 December 2019</eventDateTime> <!-- ISO 8601 date-time formatting -->
                 <agentType>human</agentType> <!-- May contain: "human" or "machine" -->
-                <agent xml:id="GPP-00001748">Callaghan, Samantha</agent> <!-- ID may be subject to change in the CW -->
+                <agent>Callaghan, Samantha</agent> <!-- ID may be subject to change in the CW -->
                 <eventDescription>updated info for NAF of Enriqueta Favez.</eventDescription> <!-- Include a full description of the maintenance event - ie: note what was created/edited during the event -->
             </maintenanceEvent>
         </maintenanceHistory>
@@ -137,7 +143,7 @@
                 </useDates>
                 <authorizedForm>NCA</authorizedForm>
             </nameEntry>
-        <nameEntry scriptCode="Latn" xml:lang="fre"> 
+        <nameEntry scriptCode="Latn" xml:lang="fra"> 
             <part localType="forename">Henriette</part>
             <part localType="surname">Favez</part>
             <useDates>
@@ -196,7 +202,7 @@
             </places>
             <languagesUsed>
                 <languageUsed> <!-- From evidence in the GPP, if possible -->
-                    <language languageCode="fre">French</language>
+                    <language languageCode="fra">French</language>
                     <script scriptCode="Latn">Latin</script>
                 </languageUsed>
                 <languageUsed>
@@ -207,7 +213,6 @@
             <biogHist> 
                 <abstract>Enriqueta Favez (c. 1791 – 1856) also known as Henriette Favez, was a Swiss physician and surgeon who practiced medicine in the Napoleonic Wars and in Cuba. Although female, Favez lived as a male surgeon for approximately four years in Cuba—a fact that culminated in a well-documented trial and expulsion from the Spanish territories. Following her expulsion, she lived the remainder of her life as Sor Magdalena, a nurse for Daughters of Charity Services in New Orleans, eventually rising to the position of Mother Superior for that congregation.</abstract>
                 <citation>Wikipedia. "Enriqueta Favez." Accessed February 19, 2020. https://en.wikipedia.org/wiki/Enriqueta_Favez</citation>
-                <p>Biography source: Wikipedia. Licensed under CC-BY-SA.</p>
             </biogHist>         
         </description>
     </cpfDescription>
@@ -235,7 +240,7 @@
                     </useDates>
                     <authorizedForm>NCA</authorizedForm>
                 </nameEntry>
-                <nameEntry scriptCode="Latn" xml:lang="fre"> 
+                <nameEntry scriptCode="Latn" xml:lang="fra"> 
                     <part localType="forename">Henri</part>
                     <part localType="surname">Faber</part>
                     <useDates>
@@ -269,7 +274,7 @@
                 <!-- For preference we prefer to capture birth and death places. If it is considered useful, further places (and dates can be captured)such as residences and so on, time permitting. -->
                 <languagesUsed>
                 <languageUsed> <!-- From evidence in the GPP, if possible -->
-                    <language languageCode="fre">French</language>
+                    <language languageCode="fra">French</language>
                     <script scriptCode="Latn">Latin</script>
                 </languageUsed>
                     <languageUsed> <!-- From evidence in the GPP, if possible -->
@@ -284,7 +289,6 @@
                     <p>After the war, Favez left for Cuba. She was licensed by the medical board in Habana, and started a practice in Baracoa, then a small outpost in eastern Cuba. Her clients included the largely poor local population.</p>
                     <p>Eventually, Favez married an impoverished, mestizo woman from a neighboring town, Juana de Léon. Although Juana was most likely aware of the fact that Favez was female, there is lingering speculation about whether Juana knew of that fact when they were married. Four years after her marriage to Juana, and successful integration into the elite in Baracoa, speculation about Favez' biological sex surfaced. Despite efforts to stem rumors, Favez was found inebriated, with her shirt unbuttoned, by a servant, who promptly informed the local authorities. Favez was arrested, imprisoned, and put on trial. The charges cited by the court included the illegal practice of medicine by a woman, fraud against the medical board and local authorities, and coercing a woman into disreputable marriage. Forcible examinations by local doctors revealed her sexual anatomy, and several accusatory letters allegedly written by Juana de Léon surfaced throughout her trial. Historical documents at his trial record that she defended himself against the charges by stating that she was a male spirit in a female body. Favez was declared guilty, and her marriage to Juana de Léon was annulled.</p>
                     <citation>Wikipedia. "Enriqueta Favez." Accessed February 19, 2020. https://en.wikipedia.org/wiki/Enriqueta_Favez</citation>
-                    <p>Biography source: Wikipedia. Licensed under CC-BY-SA.</p>
                 </biogHist>         
             </description>
         </cpfDescription>

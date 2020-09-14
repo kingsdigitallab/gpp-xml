@@ -56,6 +56,12 @@
                 <p>UKAT terms are used to specify the function/s of an EAC-CPF entity.</p>
             </descriptiveNote>
         </conventionDeclaration>
+        <rightsDeclaration localType="biogHist">
+          <citation>Wikipedia</citation>
+          <descriptiveNote>
+            <p>Licensed under CC-BY-SA.</p>
+          </descriptiveNote>
+        </rightsDeclaration>
         <localTypeDeclaration>
             <abbreviation>Name Parts</abbreviation>
             <citation xlink:href="http://anws.llgc.org.uk/ncarules/title.htm" xlink:type="simple"
@@ -187,7 +193,6 @@
                     <p>Despite protesting the decision, Barry was forcefully retired by the army on 19 July 1859 due to ill health and old age, and was succeeded as inspector general of hospitals by David Dumbreck. After a quiet retirement in London, Barry finally died from dysentery on 25 July 1865. The identity of the woman who discovered the truth of Barry's sex is disputed, but she was probably a charwoman who also laid out the dead. The charwoman, after failing to elicit payment for her services, sought redress in another way; she visited Barry's physician, Major D. R. McKinnon, who had issued the death certificate upon which Barry was identified as male. The woman claimed that Barry's body had been biologically female and had marks suggesting Barry had at one point borne a child. When McKinnon refused to pay her, she took the story to the press, and the situation became public.</p>
                 <p>Barry was buried in Kensal Green Cemetery under the name James Barry and full military rank.</p>
                 <citation>Wikipedia. "James Barry (surgeon)" Accessed December 17, 2019. https://en.wikipedia.org/wiki/James_Barry_(surgeon)</citation>
-                <p>Biography source: Wikipedia. Licensed under CC-BY-SA.</p>
             </biogHist>
         </description>
     </cpfDescription>
@@ -250,7 +255,6 @@
                     <p>The teenage Barry was educated with the prospect of becoming a tutor, but given a lack of evidence of any work history, the Bulkleys appear to have struggled to find Barry any suitable tutoring positions. A conspiracy appears to have developed between Barry, Mary-Ann Bulkley and some of the late James Barry's influential, liberal-minded friends (General Francisco de Miranda, Dr Edward Fryer, who had become Barry's personal tutor, and Daniel Reardon, the family's solicitor) to enable the teenage Barry to enter medical school. The University of Edinburgh was chosen and Mary-Ann and Barry boarded a Leith smack on 30 November 1809. And so, Margaret Ann Bulkley became James Barry, nephew of the late James Barry RA the Irish romantic painter and remained known thus for the next 56 years. In a letter to Daniel Reardon, sent on 14 December, Barry asked for any letters addressed to Margaret Bulkley to be forwarded to Mary-Ann Bulkley (whom Barry now refers to as "my aunt"), and mentions that '...it was very usefull [sic] for Mrs. Bulkley (my aunt) to have a Gentleman to take care of her on Board Ship and to have one in a strange country...'. Although the letter was signed "James Barry", the solicitor indiscreetly wrote on the back of the envelope 'Miss Bulkley, 14 December'; this crucial piece of evidence was the one which enabled researchers to finally confirm that Margaret Bulkley and James Barry were one and the same.</p>
                     <citation>Preez, Hercules Michael du. "Dr James Barry: The Early Years Revealed." South African Journal of Medicine 98, no. 1 (January 2008):52-58. http://www.samj.org.za/index.php/samj/article/view/130/425</citation>
                     <citation>Wikipedia. "James Barry (surgeon)" Accessed December 17, 2019. https://en.wikipedia.org/wiki/James_Barry_(surgeon)</citation>
-                    <p>Biography source: Wikipedia. Licensed under CC-BY-SA.</p>
                 </biogHist>         
             </description>
         </cpfDescription>

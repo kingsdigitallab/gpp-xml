@@ -56,6 +56,12 @@
                 <p>UKAT terms are used to specify the function/s of an EAC-CPF entity.</p>
             </descriptiveNote>
         </conventionDeclaration>
+        <rightsDeclaration localType="biogHist">
+          <citation>Wikipedia</citation>
+          <descriptiveNote>
+            <p>Licensed under CC-BY-SA.</p>
+          </descriptiveNote>
+        </rightsDeclaration>
         <localTypeDeclaration>
             <abbreviation>Name Parts</abbreviation>
             <citation xlink:href="http://anws.llgc.org.uk/ncarules/title.htm" xlink:type="simple"
@@ -133,7 +139,7 @@
                 </useDates>
                 <authorizedForm>NCA</authorizedForm>
             </nameEntry> 
-            <nameEntry scriptCode="Latn" xml:lang="ger">
+            <nameEntry scriptCode="Latn" xml:lang="deu">
                 <part localType="forename">Marie Luise Viktoria</part>
                 <part localType="properTitle">Princess of Saxe-Coburn-Saalfield</part>
                 <useDates>
@@ -144,7 +150,7 @@
                 </useDates>
                 <alternativeForm>NCA</alternativeForm>
             </nameEntry>
-            <nameEntry scriptCode="Latn" xml:lang="ger">
+            <nameEntry scriptCode="Latn" xml:lang="deu">
                 <part localType="forename">Marie Luise Viktoria</part>
                 <part localType="properTitle">Princess of Leiningen</part>
                 <useDates>
@@ -203,7 +209,6 @@
                 <p>Conroy had high hopes for his patroness and himself: He envisaged Victoria succeeding the throne at a young age, thus needing a regency government, which, following the Regency Act 1830, would be headed by the princess's mother (who had already served in that capacity in Germany following the death of her first husband). As the personal secretary of the Duchess, Conroy would be the veritable "power behind the throne". He had not counted on William IV surviving long enough for Victoria to succeed to the throne as an adult and consequently, while cultivating her mother, had shown little consideration for Victoria. When the latter succeeded, Conroy risked having no influence over her. He tried to force Victoria to agree to make him her personal secretary once she succeeded, but this plan, too, backfired. Victoria resented her mother's support for Conroy's schemes and being pressured by her to sign a paper declaring Conroy her personal secretary. The result was that when Victoria became queen, she relegated the Duchess to separate accommodations, away from her own.</p>
                 <p>When the Queen's first child, the Princess Royal, was born, the Duchess of Kent unexpectedly found herself welcomed back into Victoria's inner circle. It is likely that this came about as a result of the dismissal of Baroness Lehzen at the behest of Victoria's husband (and the Duchess's nephew), Prince Albert. Firstly, this removed Lehzen's influence, and Lehzen had long despised the Duchess and Conroy, suspecting them of an illicit affair. Secondly, it left the Queen wholly open to Albert's influence, and he likely prevailed upon her to reconcile with her mother. Thirdly, Conroy by now lived in exile on the Continent and so his divisive influence was removed. The Duchess's finances, which had been left in shambles by Conroy, were restored thanks to Victoria and her advisors. By all accounts, the Duchess became a doting grandmother and was closer to her daughter than she ever had been.</p>                
                 <citation>Wikipedia. "Princess Victoria of Saxe-Coburg-Saalfeld" Accessed August 15, 2018. https://en.wikipedia.org/wiki/Princess_Victoria_of_Saxe-Coburg-Saalfeld</citation>
-                <p>Biography source: Wikipedia. Licensed under CC-BY-SA.</p>
             </biogHist>         
         </description>
         <relations> 

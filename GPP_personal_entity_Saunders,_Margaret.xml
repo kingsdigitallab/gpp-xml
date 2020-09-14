@@ -97,8 +97,8 @@
             <source xlink:href="https://en.wikipedia.org/wiki/Margaret_Saunders">
                 <sourceEntry>Wikipedia: Margaret Saunders</sourceEntry>
             </source>
-            <source xlink:href="https://books.google.co.uk/books?id=NfcTUoBuM9IC&pg=PA213&lpg=PA213&dq=margaret+saunders+1686&source=bl&ots=I8owFFMjL5&sig=ACfU3U0iaab6SilGbMOriIscBDqiqAhRVw&hl=en&sa=X&ved=2ahUKEwigs_27sdbnAhWPTRUIHeYcA9wQ6AEwBHoECAoQAQ#v=onepage&q=margaret%20saunders%201686&f=false">
-                <sourceEntry>Highfill, Philip H., Kalman A. Burnim and Edward A. Langhans. A Biographical Dictionary of Actors, Actresses, Musicians, Dancers, Managers &amp; Other Stage Personnel in London, 1660-1800, Volume 13: Roach to H. Siddons. Carbondale and Edwardsville: Southern Illinois University Press, 1991. https://books.google.co.uk/books?id=NfcTUoBuM9IC&pg=PA213&lpg=PA213&dq=margaret+saunders+1686&source=bl&ots=I8owFFMjL5&sig=ACfU3U0iaab6SilGbMOriIscBDqiqAhRVw&hl=en&sa=X&ved=2ahUKEwigs_27sdbnAhWPTRUIHeYcA9wQ6AEwBHoECAoQAQ#v=onepage&q=margaret%20saunders%201686&f=false</sourceEntry>
+            <source xlink:href="https://books.google.co.uk/books?id=NfcTUoBuM9IC&amp;pg=PA213&amp;lpg=PA213&amp;dq=margaret+saunders+1686&amp;source=bl&amp;ots=I8owFFMjL5&amp;sig=ACfU3U0iaab6SilGbMOriIscBDqiqAhRVw&amp;hl=en&amp;sa=X&amp;ved=2ahUKEwigs_27sdbnAhWPTRUIHeYcA9wQ6AEwBHoECAoQAQ#v=onepage&amp;q=margaret%20saunders%201686&amp;f=false">
+                <sourceEntry>Highfill, Philip H., Kalman A. Burnim and Edward A. Langhans. A Biographical Dictionary of Actors, Actresses, Musicians, Dancers, Managers &amp; Other Stage Personnel in London, 1660-1800, Volume 13: Roach to H. Siddons. Carbondale and Edwardsville: Southern Illinois University Press, 1991. https://books.google.co.uk/books?id=NfcTUoBuM9IC&amp;pg=PA213&amp;lpg=PA213&amp;dq=margaret+saunders+1686&amp;source=bl&amp;ots=I8owFFMjL5&amp;sig=ACfU3U0iaab6SilGbMOriIscBDqiqAhRVw&amp;hl=en&amp;sa=X&amp;ved=2ahUKEwigs_27sdbnAhWPTRUIHeYcA9wQ6AEwBHoECAoQAQ#v=onepage&amp;q=margaret%20saunders%201686&amp;f=false</sourceEntry>
             </source>    
         </sources>        
     </control>
@@ -168,18 +168,14 @@
             <nameEntry scriptCode="Latn" xml:lang="eng" localType="directOrder"> 
                 <part>Mrs. Saunders, fl 1708</part>
                 <useDates>
-                    <dateRange>
                         <date standardDate="1708">fl. 1708</date> 
-                    </dateRange>
                 </useDates>
                 <authorizedForm>NCA</authorizedForm>
             </nameEntry>
         </identity>
         <description>
             <existDates>
-                <dateRange>
                     <date standardDate="1708">fl. 1708</date> 
-                </dateRange>
             </existDates>
             <localDescription localType="gender">
                 <term vocabularySource="Homosaurus">Women</term>

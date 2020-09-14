@@ -56,6 +56,12 @@
                 <p>UKAT terms are used to specify the function/s of an EAC-CPF entity.</p>
             </descriptiveNote>
         </conventionDeclaration>
+        <rightsDeclaration localType="biogHist">
+          <citation>Wikipedia</citation>
+          <descriptiveNote>
+            <p>Licensed under CC-BY-SA.</p>
+          </descriptiveNote>
+        </rightsDeclaration>
         <localTypeDeclaration>
             <abbreviation>Name Parts</abbreviation>
             <citation xlink:href="http://anws.llgc.org.uk/ncarules/title.htm" xlink:type="simple"
@@ -174,7 +180,7 @@
                     <script scriptCode="Latn">Latin</script>
                 </languageUsed>
                 <languageUsed>
-                    <language languageCode="fre">French</language>
+                    <language languageCode="fra">French</language>
                     <script scriptCode="Latn">Latin</script>
                 </languageUsed>
             </languagesUsed>
@@ -184,7 +190,6 @@
                 <p>He was the first member of the royal family to live in North America for more than a short visit (1791–1800) and, in 1794, the first prince to enter the United States (travelling to Boston on foot from Lower Canada) after independence.</p>
                 <p>On June 27, 1792, Edward is credited with the first use of the term "Canadian" to mean both French and English settlers in Upper and Lower Canada. The Prince used the term in an effort to quell a riot between the two groups at a polling station in Charlesbourg, Lower Canada. Recently he has been styled the "Father of the Canadian Crown" for his impact on the development of Canada.</p>
                 <citation>Wikipedia. "Prince Frederick, Duke of York and Albany." Accessed August 14, 2018. https://en.wikipedia.org/wiki/Prince_Edward,_Duke_of_Kent_and_Strathearn</citation>
-                <p>Biography source: Wikipedia. Licensed under CC-BY-SA.</p>
             </biogHist>         
         </description>
         <relations> 

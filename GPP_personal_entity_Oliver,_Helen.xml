@@ -88,8 +88,8 @@
             </maintenanceEvent>
         </maintenanceHistory>
         <sources>
-            <source xlink:type="simple" xlink:href="https://digital.nls.uk/broadsides/view/?id=15324&transcript=1">
-                <sourceEntry>Broadside report regarding a woman who masqueraded as a man, c. 1820. National Library of Scotland, shelfmark: L.C.Fol.74(069). Accessed February 16, 2020. https://digital.nls.uk/broadsides/view/?id=15324&transcript=1</sourceEntry>
+            <source xlink:type="simple" xlink:href="https://digital.nls.uk/broadsides/view/?id=15324&amp;transcript=1">
+                <sourceEntry>Broadside report regarding a woman who masqueraded as a man, c. 1820. National Library of Scotland, shelfmark: L.C.Fol.74(069). Accessed February 16, 2020. https://digital.nls.uk/broadsides/view/?id=15324&amp;transcript=1</sourceEntry>
             </source>            
         </sources>        
     </control>

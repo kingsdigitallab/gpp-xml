@@ -56,6 +56,12 @@
                 <p>UKAT terms are used to specify the function/s of an EAC-CPF entity.</p>
             </descriptiveNote>
         </conventionDeclaration>
+        <rightsDeclaration localType="biogHist">
+          <citation>Wikipedia</citation>
+          <descriptiveNote>
+            <p>Licensed under CC-BY-SA.</p>
+          </descriptiveNote>
+        </rightsDeclaration>
         <localTypeDeclaration>
             <abbreviation>Name Parts</abbreviation>
             <citation xlink:href="http://anws.llgc.org.uk/ncarules/title.htm" xlink:type="simple"
@@ -196,7 +202,7 @@
                 </languageUsed>
                 <!-- Could not find easily evidence of him having spoken or written in German but in all likelihood he could. -->
                 <!-- <languageUsed>
-                    <language languageCode="ger">German</language>
+                    <language languageCode="deu">German</language>
                     <script scriptCode="Latn">Latin</script>
                 </languageUsed>
                 -->
@@ -206,7 +212,6 @@
                 <p>Ernest was born in England but was sent to Hanover in his adolescence for his education and military training. While serving with Hanoverian forces near Tournai against Revolutionary France, he received a disfiguring facial wound. In 1799, he was created Duke of Cumberland and Teviotdale. Although his marriage in 1815 to his twice-widowed cousin Frederica of Mecklenburg-Strelitz met with the disapproval of his mother, Charlotte of Mecklenburg-Strelitz, it proved a happy one. By 1817, King George III had only one legitimate grandchild, Princess Charlotte of Wales, and when she died in childbirth, Ernest was the senior son to be both married and not estranged from his wife. This gave him some prospect of succeeding to the British throne. However, both of his unmarried elder brothers quickly married and King George III's fourth son, Edward, Duke of Kent, fathered the eventual British monarch, Victoria.</p>
                 <p>Ernest was an active member of the House of Lords, where he maintained an extremely conservative voting record. There were persistent allegations (reportedly spread by his political foes) that he had murdered his valet and had fathered a son by his sister, Princess Sophia. Before Victoria succeeded to the British throne, it was rumoured that Ernest intended to murder her and take the throne himself. When King William IV died on 20 June 1837, Ernest acceded to the Hanoverian throne. Becoming Hanover's first resident ruler since George I, he had a generally successful fourteen-year reign but excited controversy when he dismissed the Göttingen Seven (including the two Brothers Grimm) from their professorial positions for agitating against his policies.</p>
                 <citation>Wikipedia. "Ernest Augustus, King of Hanover" Accessed August 24, 2018. https://en.wikipedia.org/wiki/Ernest_Augustus,_King_of_Hanover</citation>
-                <p>Biography source: Wikipedia. Licensed under CC-BY-SA.</p>
             </biogHist>         
         </description>
         <relations> 

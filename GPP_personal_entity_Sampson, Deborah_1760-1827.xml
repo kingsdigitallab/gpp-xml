@@ -56,6 +56,12 @@
                 <p>UKAT terms are used to specify the function/s of an EAC-CPF entity.</p>
             </descriptiveNote>
         </conventionDeclaration>
+        <rightsDeclaration localType="biogHist">
+          <citation>Wikipedia</citation>
+          <descriptiveNote>
+            <p>Licensed under CC-BY-SA.</p>
+          </descriptiveNote>
+        </rightsDeclaration>
         <localTypeDeclaration>
             <abbreviation>Name Parts</abbreviation>
             <citation xlink:href="http://anws.llgc.org.uk/ncarules/title.htm" xlink:type="simple"
@@ -189,7 +195,6 @@
             <biogHist> 
                 <abstract>Deborah Sampson Gannett (December 17, 1760 – April 29, 1827), better known as Deborah Samson or Deborah Sampson, was a Massachusetts woman who disguised herself as a man in order to serve in the Continental Army during the American Revolutionary War. She is one of a small number of women with a documented record of military combat experience in that war. She served 17 months in the army under the name "Robert Shirtliff" (also spelled in various sources as Shirtliffe and Shurtleff) of Uxbridge, Massachusetts, was wounded in 1782, and was honorably discharged at West Point, New York, in 1783.</abstract>
                 <citation>Wikipedia. "Deborah Sampson" Accessed December 13, 2019. https://en.wikipedia.org/wiki/Deborah_Sampson</citation>
-                <p>Biography source: Wikipedia. Licensed under CC-BY-SA.</p>
             </biogHist>         
         </description>
     </cpfDescription>
@@ -273,7 +278,6 @@
                         <p>The war was thought to be over following the Battle of Yorktown, but since there was no official peace treaty, the Continental Army remained in uniform. On June 24, the President of Congress ordered George Washington to send a contingent of soldiers under Paterson to Philadelphia to help quell a rebellion of American soldiers who were protesting delays in receiving their pay and discharges. During the summer of 1783, Sampson became ill in Philadelphia and was cared for by Doctor Barnabas Binney (1751–1787). He removed her clothes to treat her and discovered the cloth she used to bind her breasts. Without revealing his discovery to army authorities, he took her to his house, where his wife, daughters, and a nurse took care of her.</p>
                         <p>In September 1783, following the signing of the Treaty of Paris, November 3 was set as the date for soldiers to muster out. When Dr. Binney asked Sampson to deliver a note to General Paterson, she correctly assumed that it would reveal her gender. In other cases, women who pretended to be men to serve in the army were reprimanded, but Paterson gave her a discharge, a note with some words of advice, and enough money to travel home. She was honorably discharged at West Point, New York, on October 25, 1783, after a year and a half of service.</p>
                     <citation>Wikipedia. "Deborah Sampson" Accessed December 13, 2019. https://en.wikipedia.org/wiki/Deborah_Sampson</citation>
-                    <p>Biography source: Wikipedia. Licensed under CC-BY-SA.</p>
                 </biogHist>         
             </description>
         </cpfDescription>

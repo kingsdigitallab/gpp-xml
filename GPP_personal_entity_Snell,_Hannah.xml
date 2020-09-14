@@ -56,6 +56,12 @@
                 <p>UKAT terms are used to specify the function/s of an EAC-CPF entity.</p>
             </descriptiveNote>
         </conventionDeclaration>
+        <rightsDeclaration localType="biogHist">
+          <citation>Wikipedia</citation>
+          <descriptiveNote>
+            <p>Licensed under CC-BY-SA.</p>
+          </descriptiveNote>
+        </rightsDeclaration>
         <localTypeDeclaration>
             <abbreviation>Name Parts</abbreviation>
             <citation xlink:href="http://anws.llgc.org.uk/ncarules/title.htm" xlink:type="simple"
@@ -90,7 +96,7 @@
                 <eventType>updated</eventType> <!-- May contain: "cancelled" or "created" or "deleted" or "derived" or "revised" or "updated" -->
                 <eventDateTime standardDateTime="2020-02-17T14:08:00Z">2:08 pm, 17 February 2020</eventDateTime> <!-- ISO 8601 date-time formatting -->
                 <agentType>human</agentType> <!-- May contain: "human" or "machine" -->
-                <agent xml:id="GPP-00001748">Callaghan, Samantha</agent> <!-- ID may be subject to change in the CW -->
+                <agent>Callaghan, Samantha</agent> <!-- ID may be subject to change in the CW -->
                 <eventDescription>Added bio info to NAF for Hannah Snell.</eventDescription> <!-- Include a full description of the maintenance event - ie: note what was created/edited during the event -->
             </maintenanceEvent>
         </maintenanceHistory>
@@ -181,7 +187,6 @@
             <biogHist>
                 <abstract>Hannah Snell (23 April 1723 – 8 February 1792) was an 18th-century British woman who disguised herself as a man and became a soldier.</abstract>
                 <citation>Wikipedia. "Hannah Snell" Accessed February 20, 2020. https://en.wikipedia.org/wiki/Hannah_Snell</citation>
-                <p>Biography source: Wikipedia. Licensed under CC-BY-SA.</p>
             </biogHist>
         </description>
     </cpfDescription>
@@ -233,7 +238,6 @@
                 <p>In August 1748, her unit was sent to an expedition to capture the French colony of Pondicherry in India. Later, she also fought in the battle in Devicottail in June 1749. She was wounded in the legs eleven times. She was also shot in her groin and, to avoid revealing her gender, she instructed a local woman to take out the bullet instead of being tended by the regimental surgeon.</p>
                 <p>In 1750, her unit returned to Britain and traveled from Portsmouth to London, where she revealed her sex to her shipmates on 2 June. She petitioned the Duke of Cumberland, the head of the army, for her pension. She also sold her story to London publisher Robert Walker, who published her account, The Female Soldier, in two different editions. She also began to appear on stage in her uniform presenting military drills and singing songs. Three painters painted her portrait in her uniform and The Gentleman's Magazine reported her claims. She was honorably discharged and the Royal Hospital, Chelsea officially recognized Snell's military service in November, and granted her a pension in 1750 (increased in 1785), a rare thing in those days.</p>
                 <citation>Wikipedia. "Hannah Snell" Accessed February 20, 2020. https://en.wikipedia.org/wiki/Hannah_Snell</citation>
-                <p>Biography source: Wikipedia. Licensed under CC-BY-SA.</p>
             </biogHist>
         </description>
     </cpfDescription>
