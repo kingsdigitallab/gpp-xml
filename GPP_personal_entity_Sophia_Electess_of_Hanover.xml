@@ -171,15 +171,26 @@
                 </useDates>
                 <alternativeForm>NCA</alternativeForm>
             </nameEntry>
-            <nameEntry scriptCode="Latn" xml:lang="eng" localType="directOrder">
-                <part>Sophia of the Palatinate</part>
+            <nameEntry scriptCode="Latn" xml:lang="eng">
+                <part localType="forename">Sophia</part>
+                <part localType="epithet">of the Palatinate</part>
                 <useDates>
                     <dateRange>
                         <fromDate standardDate="1630-10-14">14 October 1630</fromDate>
                         <toDate standardDate="1714-06-08">8 June 1714</toDate>
                     </dateRange>
                 </useDates>
-                <authorizedForm>NCA</authorizedForm>
+                <alternativeForm>NCA</alternativeForm>
+            </nameEntry>
+            <nameEntry scriptCode="Latn" xml:lang="eng" localType="directOrder">
+                <part>Sophia, 1630-1714, of the Palatinate</part>
+                <useDates>
+                    <dateRange>
+                        <fromDate standardDate="1630-10-14">14 October 1630</fromDate>
+                        <toDate standardDate="1714-06-08">8 June 1714</toDate>
+                    </dateRange>
+                </useDates>
+                <alternativeForm>NCA</alternativeForm>
             </nameEntry>
             <nameEntry scriptCode="Latn" xml:lang="eng" localType="directOrder">
                 <part>Sophia, 1630-1714, Electress Consort of Ernest Augustus, Elector of

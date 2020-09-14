@@ -151,9 +151,7 @@
             <entityType>person</entityType>
             <nameEntry scriptCode="Latn" xml:lang="eng">
                 <part localType="forename">Wilhelmina Charlotte Caroline</part>
-
-                <part localType="properTitle">Queen Consort of George II, King of Great Britain and
-                    Ireland</part>
+                <part localType="properTitle">Queen Consort of George II</part>
                 <useDates>
                     <dateRange>
                         <fromDate standardDate="1727-06-11">11 June 1727</fromDate>
@@ -189,8 +187,7 @@
                 <alternativeForm>NCA</alternativeForm>
             </nameEntry>
             <nameEntry scriptCode="Latn" xml:lang="eng" localType="directOrder">
-                <part>Caroline, 1683-1737, Queen Consort of George II, King of Great Britain and
-                    Ireland</part>
+                <part>Wilhelmina Charlotte Caroline, 1683-1737, Queen Consort of George II</part>
                 <useDates>
                     <dateRange>
                         <fromDate standardDate="1727-06-11">11 June 1727</fromDate>

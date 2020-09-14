@@ -83,7 +83,7 @@
                 <eventType>created</eventType> <!-- May contain: "cancelled" or "created" or "deleted" or "derived" or "revised" or "updated" -->
                 <eventDateTime standardDateTime="2020-02-16T14:08:00Z">2:08 pm, 16 February 2020</eventDateTime> <!-- ISO 8601 date-time formatting -->
                 <agentType>human</agentType> <!-- May contain: "human" or "machine" -->
-                <agent xml:id="GPP-00001748">Callaghan, Samantha</agent> <!-- ID may be subject to change in the CW -->
+                <agent>Callaghan, Samantha</agent> <!-- ID may be subject to change in the CW -->
                 <eventDescription>Creation of NAF for Richard Cadman Etches funded by the Marc Fitch Fund (https://www.marcfitchfund.org.uk/)</eventDescription> <!-- Include a full description of the maintenance event - ie: note what was created/edited during the event -->
             </maintenanceEvent>
         </maintenanceHistory>
@@ -148,7 +148,7 @@
                 <authorizedForm>NCA</authorizedForm>
             </nameEntry>
             <nameEntry scriptCode="Latn" xml:lang="eng" localType="directOrder"> 
-                <part>Ellis, R., ca 1780-ca 1790</part>
+                <part>Ellis, R, c 1780-c 1790</part>
                 <useDates>
                     <dateRange>
                         <fromDate standardDate="1780">ca. 1780</fromDate>
@@ -191,7 +191,7 @@
                     <authorizedForm>NCA</authorizedForm>
                 </nameEntry>
                 <nameEntry scriptCode="Latn" xml:lang="eng" localType="directOrder"> 
-                    <part>Smith, Andrew, ca 1780-ca 1790</part>
+                    <part>Smith, Andrew, c 1780-c 1790</part>
                     <useDates>
                         <dateRange>
                             <fromDate standardDate="1780">ca. 1780</fromDate>
