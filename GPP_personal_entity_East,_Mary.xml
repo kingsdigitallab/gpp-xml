@@ -109,7 +109,7 @@
                         <toDate standardDate="1736">ca. 1736</toDate>
                     </dateRange>
                 </useDates>
-                <authorizedForm>NCA</authorizedForm>
+                <alternativeForm>NCA</alternativeForm>
             </nameEntry>
             <nameEntry scriptCode="Latn" xml:lang="eng"> 
                 <part localType="forename">Mary</part>
@@ -123,7 +123,7 @@
                 <authorizedForm>NCA</authorizedForm>
             </nameEntry>
             <nameEntry scriptCode="Latn" xml:lang="eng" localType="directOrder"> 
-                <part>East, Mary, c 1720-c 1780</part>
+                <part>East, Mary, c 1720-1780</part>
                 <useDates>
                     <dateRange>
                         <fromDate standardDate="1776">ca. 1776</fromDate>
