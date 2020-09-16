@@ -143,16 +143,18 @@
                 </useDates>
                 <authorizedForm>NCA</authorizedForm>
             </nameEntry>
-            <nameEntry scriptCode="Latn" xml:lang="eng" localType="directOrder"> 
-                <part>Bonnie Prince Charlie, 1720-1788</part>
+            <nameEntry scriptCode="Latn" xml:lang="eng">
+                <part localType="forename">Charles Edward Louis John Casimir Sylvester Severino Maria</part>
+                <part localType="surname">Stuart</part>
+                <part localType="epithet">Bonnie Prince Charlie</part>
                 <useDates>
                     <dateRange>
-                        <fromDate standardDate="1720-12-31">31 December 1720</fromDate>
+                        <fromDate standardDate="1766-01-01">1 January 1766</fromDate>
                         <toDate standardDate="1788-01-31">31 January 1788</toDate>
                     </dateRange>
                 </useDates>
                 <alternativeForm>NCA</alternativeForm>
-            </nameEntry> 
+            </nameEntry>
             <nameEntry scriptCode="Latn" xml:lang="eng">
                 <part localType="forename">Charles Edward Louis John Casimir Sylvester Severino Maria</part>
                 <part localType="surname">Stuart</part>
