@@ -56,6 +56,12 @@
                 <p>UKAT terms are used to specify the function/s of an EAC-CPF entity.</p>
             </descriptiveNote>
         </conventionDeclaration>
+        <rightsDeclaration localType="biogHist">
+            <citation>Wikipedia</citation>
+            <descriptiveNote>
+                <p>Licensed under CC-BY-SA.</p>
+            </descriptiveNote>
+        </rightsDeclaration>
         <localTypeDeclaration>
             <abbreviation>Name Parts</abbreviation>
             <citation xlink:href="http://anws.llgc.org.uk/ncarules/title.htm" xlink:type="simple"
@@ -83,127 +89,106 @@
                 <eventType>created</eventType> <!-- May contain: "cancelled" or "created" or "deleted" or "derived" or "revised" or "updated" -->
                 <eventDateTime standardDateTime="2020-02-16T14:08:00Z">2:08 pm, 16 February 2020</eventDateTime> <!-- ISO 8601 date-time formatting -->
                 <agentType>human</agentType> <!-- May contain: "human" or "machine" -->
-                <agent xml:id="GPP-00001748">Callaghan, Samantha</agent> <!-- ID may be subject to change in the CW -->
+                <agent>Callaghan, Samantha</agent> <!-- ID may be subject to change in the CW -->
                 <eventDescription>Creation of NAF for Johanna Dorothea Lindenaer funded by the Marc Fitch Fund (https://www.marcfitchfund.org.uk/)</eventDescription> <!-- Include a full description of the maintenance event - ie: note what was created/edited during the event -->
+            </maintenanceEvent>
+            <maintenanceEvent> <!-- records each maintenance/editing event that occurs throughout the life of the file -->
+                <eventType>updated</eventType> <!-- May contain: "cancelled" or "created" or "deleted" or "derived" or "revised" or "updated" -->
+                <eventDateTime standardDateTime="2020-02-16T14:08:00Z">2:08 pm, 16 February 2020</eventDateTime> <!-- ISO 8601 date-time formatting -->
+                <agentType>human</agentType> <!-- May contain: "human" or "machine" -->
+                <agent>Callaghan, Samantha</agent> <!-- ID may be subject to change in the CW -->
+                <eventDescription>Updated NAF for Johanna Dorothea Lindenaer.</eventDescription> <!-- Include a full description of the maintenance event - ie: note what was created/edited during the event -->
             </maintenanceEvent>
         </maintenanceHistory>
         <sources>
-            <source xlink:type="simple" xlink:href="https://www.tandfonline.com/doi/full/10.1080/01440365.2017.1289674">
-                <sourceEntry>DOI: 10.1080/01440365.2017.1289674</sourceEntry>
-            </source>  
+            <source xlink:type="simple" xlink:href="https://en.wikipedia.org/wiki/Johanna_Dorothea_Lindenaer">
+                <sourceEntry>Wikipedia: Johanna Dorothea Lindenaer</sourceEntry>
+            </source>
+            <source xlink:type="simple" xlink:href="https://nl.wikipedia.org/wiki/Johanna_Dorothea_Lindenaer">
+                <sourceEntry>Wikipedia: Johanna Dorothea Lindenaer</sourceEntry>
+            </source>
+            <source xlink:type="simple" xlink:href="http://resources.huygens.knaw.nl/vrouwenlexicon/lemmata/data/Lindenaer">
+                <sourceEntry>Digitaal Vrouwenlexicon van Nederland: Lindenaer, Johanna Dorothea (1664-1737?)</sourceEntry>
+            </source>
             <source xlink:href="https://www.geonames.org/2643743/london.html">
                 <sourceEntry>Geonames ID: 2643743</sourceEntry>
-            </source>
-            <source xlink:href="http://www.workhouses.org.uk/StSepulchre/">
-                <sourceEntry>Workhouses ID: StSepulchre</sourceEntry>
             </source>          
         </sources>        
     </control>
-    <multipleIdentities>
     <cpfDescription> <!-- Descriptive metadata -->
         <identity>
             <entityType>person</entityType>
-            <nameEntry scriptCode="Latn" xml:lang="eng"> 
-                <part localType="forename">Sarah</part>
-                <part localType="surname">Paul</part>
+            <nameEntry scriptCode="Latn" xml:lang="nld"> 
+                <part localType="forename">Johanna Dorothea</part>
+                <part localType="surname">Lindenaer</part>
                 <useDates>
                     <dateRange>
-                        <fromDate standardDate="1739">ca. 1739</fromDate>
-                        <toDate standardDate="1766">ca. 1766</toDate>
+                        <fromDate standardDate="1664">1664</fromDate>
+                        <toDate standardDate="1737">ca. 1737</toDate>
                     </dateRange>
                 </useDates>
                 <authorizedForm>NCA</authorizedForm>
             </nameEntry>
-            <nameEntry scriptCode="Latn" xml:lang="eng" localType="directOrder"> 
-                <part>Paul, Sarah, ca 1739-ca 1766</part>
+            <nameEntry scriptCode="Latn" xml:lang="nld" localType="directOrder"> 
+                <part>Lindenaer, Johanna Dorothea, 1664-c 1737</part>
                 <useDates>
                     <dateRange>
-                        <fromDate standardDate="1739">ca. 1739</fromDate>
-                        <toDate standardDate="1766">ca. 1766</toDate>
+                        <fromDate standardDate="1664">1664</fromDate>
+                        <toDate standardDate="1737">ca. 1737</toDate>
                     </dateRange>
                 </useDates>
                 <authorizedForm>NCA</authorizedForm>
             </nameEntry>
+            <nameEntry scriptCode="Latn" xml:lang="nld"> 
+                <part localType="forename">Johanna Dorothea</part>
+                <part localType="surname">van Zoutelande</part>
+                <useDates>
+                    <dateRange>
+                        <fromDate standardDate="1692">1692</fromDate>
+                        <toDate standardDate="1737">ca. 1737</toDate>
+                    </dateRange>
+                </useDates>
+                <alternativeForm>NCA</alternativeForm>
+            </nameEntry>
+            <nameEntry scriptCode="Latn" xml:lang="fra"> 
+                <part localType="epithet">Madame</part>
+                <part localType="surname">de Zoutelandt</part>
+                <useDates>
+                    <dateRange>
+                        <fromDate standardDate="1704">ca. 1704</fromDate>
+                        <toDate standardDate="1737">ca. 1737</toDate>
+                    </dateRange>
+                </useDates>
+                <alternativeForm>NCA</alternativeForm>
+            </nameEntry>
+            
         </identity>
         <description>
             <existDates> <!-- Birth and death dates, if known. -->
                 <dateRange>
-                    <fromDate standardDate="1739">ca. 1739</fromDate>
-                    <toDate standardDate="1766">ca. 1766</toDate>
+                    <fromDate standardDate="1664">1664</fromDate>
+                    <toDate standardDate="1737">ca. 1737</toDate>
                 </dateRange>
             </existDates>
             <localDescription localType="gender">
                 <term vocabularySource="Homosaurus">Women</term>
             </localDescription>
-            <!-- For preference we prefer to capture birth and death places. If it is considered useful, further places (and dates can be captured)such as residences and so on, time permitting. -->
-            <places>
-                <place>
-                    <placeRole>death</placeRole>
-                    <placeEntry vocabularySource="GeoNames" latitude="51.50853" longitude="-0.12574">St. Sepulchre's workhouse (uncertain whether St. Sepulchre's without Newgate or St. Sepulchre's, Middlesex), London</placeEntry>
-                    <date standardDate="1766">ca. 1766</date>
-                </place>
-            </places>
             <languagesUsed>
                 <languageUsed> <!-- From evidence in the GPP, if possible -->
-                    <language languageCode="eng">English</language>
+                    <language languageCode="nld">Dutch</language>
+                    <script scriptCode="Latn">Latin</script>
+                </languageUsed>
+                <languageUsed> <!-- From evidence in the GPP, if possible -->
+                    <language languageCode="fra">French</language>
                     <script scriptCode="Latn">Latin</script>
                 </languageUsed>
             </languagesUsed>
             <biogHist> 
-                <abstract>Little is known of Sarah Paul's early life. She came to the attention of the public after being discovered by her neighbours to be a woman in 1760. At that time she had been married to Mary Parlour for about 6 months. She was charged with 'defrauding a young woman of money and apparel, by marrying her' but as Mary did not appear at court the ???????. It is reported that Sarah died around 1766 in a St. Sepulchre's workhouse.</abstract>
-                <citation>Derry, Caroline. “‘Female Husbands’, Community and Courts in the Eighteenth Century.” The Journal of Legal History 38, no. 1 (2017): 41–82. https://doi.org/10.1080/01440365.2017.1289674.</citation>
+                <abstract>Johanna Dorothea Lindenaer, also Johanna Dorothea Zoutelande or Madame de Zoutelandt, (1664–1737) was a Dutch writer, memoirist and translator. She was also a suspected traitor as a suspected spy. She was arrested in 1703 in Maastricht for spying in connection to the war of the Spanish succession, but managed to escape in 1704. She emigrated to Paris, where she converted to Roman Catholicism and became a writer.</abstract>
+                <citation>Wikipedia. "Johanna Dorothea Lindenaer" Accessed September 21, 2020. https://en.wikipedia.org/wiki/Johanna_Dorothea_Lindenaer</citation>
             </biogHist>         
         </description>
     </cpfDescription>
-    <cpfDescription> <!-- Descriptive metadata -->
-        <identity>
-            <entityType>person</entityType>
-            <nameEntry scriptCode="Latn" xml:lang="eng"> 
-                <part localType="forename">Samuel</part>
-                <part localType="surname">Bundy</part>
-                <useDates>
-                    <dateRange>
-                        <fromDate standardDate="1759">fl. 1759</fromDate>
-                        <toDate standardDate="1760">fl. 1760</toDate>
-                    </dateRange>      
-                </useDates>
-                <authorizedForm>NCA</authorizedForm>
-            </nameEntry>
-            <nameEntry scriptCode="Latn" xml:lang="eng" localType="directOrder"> 
-                <part>Bundy, Samuel, fl 1759-fl 1760</part>
-                <useDates>
-                    <dateRange>
-                        <fromDate standardDate="1759">fl. 1759</fromDate>
-                        <toDate standardDate="1760">fl. 1760</toDate>
-                    </dateRange>
-                </useDates>
-                <authorizedForm>NCA</authorizedForm>
-            </nameEntry>
-        </identity>
-        <description>
-            <existDates>
-                <dateRange>
-                    <fromDate standardDate="1759">fl. 1759</fromDate>
-                    <toDate standardDate="1760">fl. 1760</toDate>
-                </dateRange>
-            </existDates>
-            <localDescription localType="gender">
-                <term vocabularySource="Homosaurus">Men</term>
-            </localDescription>
-            <languagesUsed>
-                <languageUsed> <!-- From evidence in the GPP, if possible -->
-                    <language languageCode="eng">English</language>
-                    <script scriptCode="Latn">Latin</script>
-                </languageUsed>
-            </languagesUsed>
-            <!-- From here! -->
-            <biogHist>
-                <abstract>Samuel Bundy married Mary Parlour in 1759</abstract>
-                <citation>Derry, Caroline. “‘Female Husbands’, Community and Courts in the Eighteenth Century.” The Journal of Legal History 38, no. 1 (2017): 41–82. https://doi.org/10.1080/01440365.2017.1289674.</citation>
-            </biogHist>         
-        </description>
-    </cpfDescription>
-    </multipleIdentities>
 </eac-cpf>
 
 
