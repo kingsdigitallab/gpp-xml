@@ -90,59 +90,35 @@
         <sources>
             <source xlink:type="simple" xlink:href="https://www.tandfonline.com/doi/full/10.1080/01440365.2017.1289674">
                 <sourceEntry>DOI: 10.1080/01440365.2017.1289674</sourceEntry>
-            </source>  
-            <source xlink:href="https://www.geonames.org/2643743/london.html">
-                <sourceEntry>Geonames ID: 2643743</sourceEntry>
-            </source>
-            <source xlink:href="http://www.workhouses.org.uk/StSepulchre/">
-                <sourceEntry>Workhouses ID: StSepulchre</sourceEntry>
-            </source>          
+            </source>           
         </sources>        
     </control>
-    <multipleIdentities>
     <cpfDescription> <!-- Descriptive metadata -->
         <identity>
             <entityType>person</entityType>
             <nameEntry scriptCode="Latn" xml:lang="eng"> 
-                <part localType="forename">Sarah</part>
-                <part localType="surname">Paul</part>
+                <part localType="forename">Lake</part>
+                <part localType="surname">Henrietta</part>
                 <useDates>
-                    <dateRange>
-                        <fromDate standardDate="1739">ca. 1739</fromDate>
-                        <toDate standardDate="1766">ca. 1766</toDate>
-                    </dateRange>
+                    <date standardDate="1773-06-17">fl. 17 June 1773</date>
                 </useDates>
                 <authorizedForm>NCA</authorizedForm>
             </nameEntry>
             <nameEntry scriptCode="Latn" xml:lang="eng" localType="directOrder"> 
-                <part>Paul, Sarah, ca 1739-ca 1766</part>
+                <part>Lake, Henrietta, fl 1773</part>
                 <useDates>
-                    <dateRange>
-                        <fromDate standardDate="1739">ca. 1739</fromDate>
-                        <toDate standardDate="1766">ca. 1766</toDate>
-                    </dateRange>
+                    <date standardDate="1773-06-17">fl. 17 June 1773</date>
                 </useDates>
                 <authorizedForm>NCA</authorizedForm>
             </nameEntry>
         </identity>
         <description>
             <existDates> <!-- Birth and death dates, if known. -->
-                <dateRange>
-                    <fromDate standardDate="1739">ca. 1739</fromDate>
-                    <toDate standardDate="1766">ca. 1766</toDate>
-                </dateRange>
+                <date standardDate="1773-06-17">fl. 17 June 1773</date>
             </existDates>
             <localDescription localType="gender">
                 <term vocabularySource="Homosaurus">Women</term>
             </localDescription>
-            <!-- For preference we prefer to capture birth and death places. If it is considered useful, further places (and dates can be captured)such as residences and so on, time permitting. -->
-            <places>
-                <place>
-                    <placeRole>death</placeRole>
-                    <placeEntry vocabularySource="GeoNames" latitude="51.50853" longitude="-0.12574">St. Sepulchre's workhouse (uncertain whether St. Sepulchre's without Newgate or St. Sepulchre's, Middlesex), London</placeEntry>
-                    <date standardDate="1766">ca. 1766</date>
-                </place>
-            </places>
             <languagesUsed>
                 <languageUsed> <!-- From evidence in the GPP, if possible -->
                     <language languageCode="eng">English</language>
@@ -150,60 +126,11 @@
                 </languageUsed>
             </languagesUsed>
             <biogHist> 
-                <abstract>Little is known of Sarah Paul's early life. She came to the attention of the public after being discovered by her neighbours to be a woman in 1760. At that time she had been married to Mary Parlour for about 6 months. She was charged with 'defrauding a young woman of money and apparel, by marrying her' but as Mary did not appear at court the ???????. It is reported that Sarah died around 1766 in a St. Sepulchre's workhouse.</abstract>
+                <abstract>Henrietta Lake appeared before the court accused of deceiving an elderly woman into marriage by assuming the identity of a man. The case was widely reported in London papers as was her subsequent escape and recapture from the Poultry Compter, a small prison in Cheapside.</abstract>
                 <citation>Derry, Caroline. “‘Female Husbands’, Community and Courts in the Eighteenth Century.” The Journal of Legal History 38, no. 1 (2017): 41–82. https://doi.org/10.1080/01440365.2017.1289674.</citation>
             </biogHist>         
         </description>
     </cpfDescription>
-    <cpfDescription> <!-- Descriptive metadata -->
-        <identity>
-            <entityType>person</entityType>
-            <nameEntry scriptCode="Latn" xml:lang="eng"> 
-                <part localType="forename">Samuel</part>
-                <part localType="surname">Bundy</part>
-                <useDates>
-                    <dateRange>
-                        <fromDate standardDate="1759">fl. 1759</fromDate>
-                        <toDate standardDate="1760">fl. 1760</toDate>
-                    </dateRange>      
-                </useDates>
-                <authorizedForm>NCA</authorizedForm>
-            </nameEntry>
-            <nameEntry scriptCode="Latn" xml:lang="eng" localType="directOrder"> 
-                <part>Bundy, Samuel, fl 1759-fl 1760</part>
-                <useDates>
-                    <dateRange>
-                        <fromDate standardDate="1759">fl. 1759</fromDate>
-                        <toDate standardDate="1760">fl. 1760</toDate>
-                    </dateRange>
-                </useDates>
-                <authorizedForm>NCA</authorizedForm>
-            </nameEntry>
-        </identity>
-        <description>
-            <existDates>
-                <dateRange>
-                    <fromDate standardDate="1759">fl. 1759</fromDate>
-                    <toDate standardDate="1760">fl. 1760</toDate>
-                </dateRange>
-            </existDates>
-            <localDescription localType="gender">
-                <term vocabularySource="Homosaurus">Men</term>
-            </localDescription>
-            <languagesUsed>
-                <languageUsed> <!-- From evidence in the GPP, if possible -->
-                    <language languageCode="eng">English</language>
-                    <script scriptCode="Latn">Latin</script>
-                </languageUsed>
-            </languagesUsed>
-            <!-- From here! -->
-            <biogHist>
-                <abstract>Samuel Bundy married Mary Parlour in 1759</abstract>
-                <citation>Derry, Caroline. “‘Female Husbands’, Community and Courts in the Eighteenth Century.” The Journal of Legal History 38, no. 1 (2017): 41–82. https://doi.org/10.1080/01440365.2017.1289674.</citation>
-            </biogHist>         
-        </description>
-    </cpfDescription>
-    </multipleIdentities>
 </eac-cpf>
 
 
