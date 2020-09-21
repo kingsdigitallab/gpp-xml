@@ -89,7 +89,7 @@
                 <eventType>created</eventType> <!-- May contain: "cancelled" or "created" or "deleted" or "derived" or "revised" or "updated" -->
                 <eventDateTime standardDateTime="2020-02-19T14:08:00Z">2:08 pm, 19 February 2020</eventDateTime> <!-- ISO 8601 date-time formatting -->
                 <agentType>human</agentType> <!-- May contain: "human" or "machine" -->
-                <agent xml:id="GPP-00001748">Callaghan, Samantha</agent> <!-- ID may be subject to change in the CW -->
+                <agent>Callaghan, Samantha</agent> <!-- ID may be subject to change in the CW -->
                 <eventDescription>Creation of NAF for Marie-Angélique Josèphe Brûlon funded by the Marc Fitch Fund (https://www.marcfitchfund.org.uk/)</eventDescription> <!-- Include a full description of the maintenance event - ie: note what was created/edited during the event -->
             </maintenanceEvent>
         </maintenanceHistory>
@@ -121,7 +121,7 @@
     <cpfDescription> <!-- Descriptive metadata -->
         <identity>
             <entityType>person</entityType>
-            <nameEntry scriptCode="Latn" xml:lang="eng"> 
+            <nameEntry scriptCode="Latn" xml:lang="fra"> 
                 <part localType="forename">Marie-Angélique Josèphe</part>
                 <part localType="surname">Brûlon</part>
                 <useDates>
@@ -132,7 +132,7 @@
                 </useDates>
                 <authorizedForm>NCA</authorizedForm>
             </nameEntry>
-            <nameEntry scriptCode="Latn" xml:lang="eng" localType="directOrder"> 
+            <nameEntry scriptCode="Latn" xml:lang="fra" localType="directOrder"> 
                 <part>Brûlon, Marie-Angélique Josèphe, 1772-1859</part>
                 <useDates>
                     <dateRange>
@@ -142,7 +142,7 @@
                 </useDates>
                 <authorizedForm>NCA</authorizedForm>
             </nameEntry>
-            <nameEntry scriptCode="Latn" xml:lang="eng"> 
+            <nameEntry scriptCode="Latn" xml:lang="fra"> 
                 <part localType="forename">Marie-Angélique Josèphe</part>
                 <part localType="surname">Duchemin</part>
                 <useDates>
@@ -174,7 +174,7 @@
                 <place>
                     <placeRole>Death</placeRole>
                     <placeEntry vocabularySource="GeoNames" latitude="48.85502" longitude="2.31251">Les Invalides, Paris, France</placeEntry>
-                    <date standardDate="1772-01-20">20 January 1772</date>
+                    <date standardDate="1859-07-13">13 July 1859</date>
                 </place>
             </places>
             <languagesUsed>
@@ -192,14 +192,14 @@
     <cpfDescription> <!-- Descriptive metadata -->
         <identity>
             <entityType>person</entityType>
-            <nameEntry scriptCode="Latn" xml:lang="eng"> 
+            <nameEntry scriptCode="Latn" xml:lang="fra"> 
                 <part localType="surname">Liberté</part>
                 <useDates>
                         <date standardDate="1792">ca. 1792</date>    
                 </useDates>
                 <authorizedForm>NCA</authorizedForm>
             </nameEntry>
-            <nameEntry scriptCode="Latn" xml:lang="eng" localType="directOrder"> 
+            <nameEntry scriptCode="Latn" xml:lang="fra" localType="directOrder"> 
                 <part>Liberté, -, c 1792, Corporal</part>
                 <useDates>
                     <date standardDate="1792">ca. 1792</date>    
@@ -215,7 +215,7 @@
                 <term vocabularySource="Homosaurus">Men</term>
                 <citation>Wikipedia. "Angélique Brûlon" Accessed February 19, 2020. https://en.wikipedia.org/wiki/Ang%C3%A9lique_Br%C3%BBlon</citation>
                 <descriptiveNote>
-                    <p>It is uncertain whether Angélique Brûlon did disguise herself as a man before joining the army, even the date when she joins is disputed. One source (https://www.rosavzw.be/rosa_francais/femmes_remarquables/duchemin.htm) suggests that Angélique used the name 'Liberté' and it could be conjectured that this was perhaps to obfuscate that the 42nd Regiment were aware of her gender when she joined.</p>
+                    <p>It is uncertain whether Angélique Brûlon did disguise herself as a man before joining the army, even the date when she joins is disputed. One source (https://www.rosavzw.be/rosa_francais/femmes_remarquables/duchemin.htm) suggests that Angélique used the name 'Liberté' and that this was perhaps to obfuscate that the 42nd Regiment were aware of her gender when she joined.</p>
                 </descriptiveNote>
             </localDescription>
             <languagesUsed>
@@ -223,7 +223,7 @@
                     <language languageCode="fra">French</language>
                     <script scriptCode="Latn">Latin</script>
                 </languageUsed>
-            </languagesUsed>       
+            </languagesUsed>
         </description>
     </cpfDescription>
     </multipleIdentities>
