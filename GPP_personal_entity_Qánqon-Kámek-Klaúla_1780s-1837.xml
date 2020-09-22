@@ -89,7 +89,7 @@
                 <eventType>created</eventType> <!-- May contain: "cancelled" or "created" or "deleted" or "derived" or "revised" or "updated" -->
                 <eventDateTime standardDateTime="2019-11-14T14:32:00Z">2:32 pm, 18 December 2019</eventDateTime> <!-- ISO 8601 date-time formatting -->
                 <agentType>human</agentType> <!-- May contain: "human" or "machine" -->
-                <agent xml:id="GPP-00001748">Callaghan, Samantha</agent> <!-- ID may be subject to change in the CW -->
+                <agent>Callaghan, Samantha</agent> <!-- ID may be subject to change in the CW -->
                 <eventDescription>Creation of NAF for Qánqon-Kámek-Klaúla funded by the Marc Fitch Fund (https://www.marcfitchfund.org.uk/)</eventDescription> <!-- Include a full description of the maintenance event - ie: note what was created/edited during the event -->
             </maintenanceEvent>
             <maintenanceEvent> <!-- records each maintenance/editing event that occurs throughout the life of the file -->
@@ -98,6 +98,13 @@
                 <agentType>human</agentType> <!-- May contain: "human" or "machine" -->
                 <agent>Callaghan, Samantha</agent> <!-- ID may be subject to change in the CW -->
                 <eventDescription>Continuing to build NAF for Qánqon-Kámek-Klaúla.</eventDescription> <!-- Include a full description of the maintenance event - ie: note what was created/edited during the event -->
+            </maintenanceEvent>
+            <maintenanceEvent> <!-- records each maintenance/editing event that occurs throughout the life of the file -->
+                <eventType>updated</eventType> <!-- May contain: "cancelled" or "created" or "deleted" or "derived" or "revised" or "updated" -->
+                <eventDateTime standardDateTime="2020-09-21T15:05:00Z">3:05 pm, 21 September 2020</eventDateTime> <!-- ISO 8601 date-time formatting -->
+                <agentType>human</agentType> <!-- May contain: "human" or "machine" -->
+                <agent>Callaghan, Samantha</agent> <!-- ID may be subject to change in the CW -->
+                <eventDescription>Updating NAF for Qánqon-Kámek-Klaúla.</eventDescription> <!-- Include a full description of the maintenance event - ie: note what was created/edited during the event -->
             </maintenanceEvent>
         </maintenanceHistory>
         <sources>
@@ -112,8 +119,7 @@
             </source>
         </sources>        
     </control>
-    <multipleIdentities>
-        <!-- FROM HERE - multigendered rather than multi-identitied. -->
+    <!-- Multigendered rather than multi-identitied. -->
     <cpfDescription> <!-- Descriptive metadata -->
         <identity>
             <entityType>person</entityType>
@@ -128,7 +134,7 @@
                 <authorizedForm>NCA</authorizedForm>
             </nameEntry>
             <nameEntry scriptCode="Latn" xml:lang="eng" localType="directOrder"> 
-                <part>Qánqon-Kámek-Klaúla, fl 1780-1837</part>
+                <part>Qánqon-Kámek-Klaúla, c 1780-fl 1837</part>
                 <useDates>
                     <dateRange>
                         <fromDate standardDate="1811">fl. 1811</fromDate>
@@ -141,18 +147,18 @@
                 <part localType="forename">Kaúxuma Núpika</part>
                 <useDates>
                     <dateRange>
-                        <fromDate standardDate="1808">c. 1808</fromDate>
-                        <toDate standardDate="1837-06-13">13 June 1837</toDate>
+                        <fromDate standardDate="1808">ca 1809</fromDate>
+                        <toDate standardDate="1811">fl. 1811</toDate>
                     </dateRange>
                 </useDates>
                 <alternativeForm>NCA</alternativeForm>
             </nameEntry>
             <nameEntry scriptCode="Latn" xml:lang="eng"> 
-                <part localType="forename">Kaúxuma Núpika</part>
+                <part localType="forename">Qúqunok Pátke</part>
                 <useDates>
                     <dateRange>
-                        <fromDate standardDate="1780">fl 1780</fromDate>
-                        <toDate standardDate="1808">c. 1808</toDate>
+                        <fromDate standardDate="1780">ca. 1780</fromDate>
+                        <toDate standardDate="1808">ca. 1809</toDate>
                     </dateRange>
                 </useDates>
                 <alternativeForm>NCA</alternativeForm>
@@ -161,101 +167,56 @@
         <description>
             <existDates> <!-- Birth and death dates, if known. -->
                 <dateRange>
-                    <fromDate standardDate="1780">fl 1780</fromDate>
-                    <toDate standardDate="1843-01-24">24 January 1843</toDate>
+                    <fromDate standardDate="1780">ca. 1780</fromDate>
+                    <toDate standardDate="1837-06-13">13 June 1837</toDate>
                 </dateRange>
             </existDates>
-            <localDescription localType="gender">
-                <term vocabularySource="Homosaurus">Women</term>
-            </localDescription>
-            <!-- For preference we prefer to capture birth and death places. If it is considered useful, further places (and dates can be captured)such as residences and so on, time permitting. -->
-            <places>
-                <place>
-                    <placeRole>birth</placeRole>
-                    <placeEntry vocabularySource="GeoNames" latitude="43.7817" longitude="2.16317">Tarn, France</placeEntry>
-                    <date standardDate="1773-05">May 1773</date>
-                </place>
-                <place>
-                    <placeRole>death</placeRole>
-                    <placeEntry vocabularySource="GeoNames" latitude="43.94834" longitude="4.80892">Avignon, France</placeEntry>
-                    <date standardDate="1843-01-24">24 January 1843</date>
-                </place>
-            </places>
+            <localDescriptions localType="gender">
+                <localDescription localType="gender">
+                    <term vocabularySource="Homosaurus">Women</term>
+                    <dateRange>
+                        <fromDate standardDate="1780">ca. 1780</fromDate>
+                        <toDate standardDate="1808">ca. 1809</toDate>
+                    </dateRange>
+                </localDescription>
+                <localDescription localType="gender">
+                    <term vocabularySource="Homosaurus">Men</term>
+                    <dateRange>
+                        <fromDate standardDate="1808">ca. 1809</fromDate>
+                        <toDate standardDate="1837-06-13">13 June 1837</toDate>
+                    </dateRange>
+                    <citation>Wikipedia. "https://en.wikipedia.org/wiki/Ka%C3%BAxuma_N%C3%BApika" Accessed September 21, 2020. https://en.wikipedia.org/wiki/Ka%C3%BAxuma_N%C3%BApika
+                        Brownlie, Robin Jarvis."Qánqon-Kámek-Klaúla" Encyclopedia.com. Last updated Jan 8, 2020. https://www.encyclopedia.com/social-sciences/encyclopedias-almanacs-transcripts-and-maps/qanqon-kamek-klaula</citation>
+                    <descriptiveNote><p>Qánqon-Kámek-Klaúla was a well known healer and prophet and his history was shared and kept among the Kutenai, his people. He was also referenced in David Thompson's journals while young and living as a woman and then later by Thompson again and his contemporaries as a 'Manlike Woman' who carried men's weapons and had a wife.</p></descriptiveNote>
+                </localDescription>
+                <localDescription localType="gender">
+                    <term vocabularySource="Homosaurus">Two-spirit people</term>
+                    <dateRange>
+                        <fromDate standardDate="1808">ca. 1809</fromDate>
+                        <toDate standardDate="1837-06-13">13 June 1837</toDate>
+                    </dateRange>
+                    <citation>Wikipedia. "https://en.wikipedia.org/wiki/Ka%C3%BAxuma_N%C3%BApika" Accessed September 21, 2020. https://en.wikipedia.org/wiki/Ka%C3%BAxuma_N%C3%BApika
+                        Brownlie, Robin Jarvis."Qánqon-Kámek-Klaúla" Encyclopedia.com. Last updated Jan 8, 2020. https://www.encyclopedia.com/social-sciences/encyclopedias-almanacs-transcripts-and-maps/qanqon-kamek-klaula</citation>
+                    <descriptiveNote><p>Among Qánqon-Kámek-Klaúla's own people he was labelled títqattek, a culturally-specific gender identity for the Kutenai; Suzanne Crawford O'Brien, a modern scholar (https://doi.org/10.1080/13558358.2016.1215033) uses the term transgender to describe Qánqon-Kámek-Klaúla. To encompass these, Two-spirit people, defined in the Homosaurus [An LGBT+ Thesaurus which is a source for Georgian Paper gender terms] as "Self-identifying term used by indigenous people in North America to reconnect with the multiple gender and sexual roles in Native cultures" is included here.</p></descriptiveNote>
+                </localDescription>
+            </localDescriptions>
             <languagesUsed>
+                <languageUsed> <!-- From evidence in the GPP, if possible -->
+                    <language languageCode="kut">Kutenai</language>
+                    <script scriptCode="Latn">Latin</script>
+                </languageUsed>
                 <languageUsed> <!-- From evidence in the GPP, if possible -->
                     <language languageCode="fra">French</language>
                     <script scriptCode="Latn">Latin</script>
                 </languageUsed>
             </languagesUsed>
             <biogHist> 
-                <abstract>Rose-Alexandrine Barreau (1773–1843), also known as "Liberte" Barreau, was a female soldier of the Army of the French First Republic. She became best known for her actions fighting against the Spanish Empire during an incursion near Biriatou in July 1793..</abstract>
-                <p>Rose-Alexandrine Barreau was born in May 1773 in the Tarn area of France. She married Francois Leyrac on 5 March 1792, and signed up alongside her brother Cyprien Barreau and her new husband for the 2nd Battalion of the Tarn in the Army of the French First Republic. She was listed in records as "Liberte" Barreau, a "son of Jacques and Jeanne Barreau". Barreau and the rest of the Battalion were subsequently amalgamated into the 63rd Demi-Brigade.</p>
-                <p>It was against a Spanish Empire incursion into France at Biriatou in July 1793 that she would become known. Under the command of Théophile Corret de la Tour d'Auvergne, they were engaged by the Spanish forces. First, Barreau witnessed the death of her brother, and then her husband was seriously injured. Barreau moved further forward with the other infantry, before rushing into enemy fire where she fired her musket until she ran out of ammunition. At that point, she charged the enemy with her saber.</p>
-                <p>Following the end of the battle, she went to her husband's side and tended his wounds. Follow a year and two months of service, Barreau was discharged from the infantry, as she had been experiencing complications from being six months pregnant. The National Convention granted her 300 livre tournois in recognition of her service, and in the following years she remained in the train following the army as her husband continued to serve. She was written of as a national hero in the 1793 Annales du Civisme et de la Vertu. Barreau received a military pension in 1806, and by 1809 she had five children. After falling ill, she petitioned for treatment as per a veteran, however it was not until 1832 that she and her husband were admitted to the veterans' hospital in Avignon. She died there on 24 January 1843.</p>
-                <citation>Wikipedia. "Rose-Alexandrine Barreau" Accessed December 18, 2019. https://en.wikipedia.org/wiki/Rose-Alexandrine_Barreau</citation>
+                <abstract>Kaúxuma Núpika ("Gone to the Spirits"), also known as Qánqon Kámek Klaúla ("Sitting in the Water Grizzly") or Manlike Woman, was a Kutenai person who lived in the early 19th century. Born in the 1780s, Qánqon-kámek-klaúla was raised and lived as a woman known as Qúqunok Pátke ("One Standing (Lodge) Pole Woman."). For a time she joined David Thompson and his expedition along the Columbia River and married one of Thompson's men. After a while she left her husband and returned to the Kutenai. Once returned, he claimed that his husband had transformed them from a women into a man. He adopted the name, Kaúxuma Núpika, and claimed to be a healer and prophet and lived as a man for the rest of his life. He took on his final name, Qánqon-Kámek-Klaúla, after crouching while crossing a stream (returning from an unsuccessful raid) so others would not "discern his sex".</abstract>
+                <citation>Wikipedia. "https://en.wikipedia.org/wiki/Ka%C3%BAxuma_N%C3%BApika" Accessed September 21, 2020. https://en.wikipedia.org/wiki/Ka%C3%BAxuma_N%C3%BApika</citation>
+                <citation>Brownlie, Robin Jarvis."Qánqon-Kámek-Klaúla" Encyclopedia.com. Last updated Jan 8, 2020. https://www.encyclopedia.com/social-sciences/encyclopedias-almanacs-transcripts-and-maps/qanqon-kamek-klaula</citation>
             </biogHist>         
         </description>
     </cpfDescription>
-        <!-- Soldier identity -->
-        <cpfDescription> <!-- Descriptive metadata -->
-            <identity>
-                <entityType>person</entityType>
-                <nameEntry scriptCode="Latn" xml:lang="fra"> 
-                    <part localType="forename">Liberté</part>
-                    <part localType="surname">Barreau</part>
-                    <useDates>
-                        <dateRange>
-                            <fromDate standardDate="1792">fl. 1792</fromDate>
-                            <toDate standardDate="1793">ca. 1793</toDate>
-                        </dateRange>      
-                    </useDates>
-                    <authorizedForm>NCA</authorizedForm>
-                </nameEntry>
-                <nameEntry scriptCode="Latn" xml:lang="fra" localType="directOrder"> 
-                    <part>Barreau, Liberté, fl 1792-c 1793</part>
-                    <useDates>
-                        <dateRange>
-                            <fromDate standardDate="1792">fl. 1792</fromDate>
-                            <toDate standardDate="1793">ca. 1793</toDate>
-                        </dateRange>
-                    </useDates>
-                    <authorizedForm>NCA</authorizedForm>
-                </nameEntry>
-                <nameEntry scriptCode="Latn" xml:lang="fra"> 
-                    <part localType="forename">Liberté</part>
-                    <part localType="surname">Barrau</part>
-                    <useDates>
-                        <dateRange>
-                            <fromDate standardDate="1792">fl. 1792</fromDate>
-                            <toDate standardDate="1793">ca. 1793</toDate>
-                        </dateRange>      
-                    </useDates>
-                    <alternativeForm>NCA</alternativeForm>
-                </nameEntry>
-            </identity>
-            <description>
-                <existDates>
-                    <dateRange>
-                    <fromDate standardDate="1792">fl. 1792</fromDate>
-                    <toDate standardDate="1793">ca. 1793</toDate>
-                    </dateRange>
-                </existDates>
-                <localDescription localType="gender">
-                    <term vocabularySource="Homosaurus">Men</term>
-                </localDescription>
-                <languagesUsed>
-                    <languageUsed>
-                        <language languageCode="fra">French</language>
-                        <script scriptCode="Latn">Latin</script>
-                    </languageUsed>
-                </languagesUsed>
-                <biogHist>
-                    <abstract>Rose-Alexandrine Barreau signed up alongside her brother Cyprien Barreau and her new husband for the 2nd Battalion of the Tarn in the Army of the French First Republic. She was listed in records as "Liberte" Barreau, a "son of Jacques and Jeanne Barreau". Barreau and the rest of the Battalion were subsequently amalgamated into the 63rd Demi-Brigade.</abstract>
-                    <citation>Wikipedia. "Rose-Alexandrine Barreau" Accessed December 18, 2019. https://en.wikipedia.org/wiki/Rose-Alexandrine_Barreau</citation>
-                </biogHist>         
-            </description>
-        </cpfDescription>
-    </multipleIdentities>
 </eac-cpf>
 
 
