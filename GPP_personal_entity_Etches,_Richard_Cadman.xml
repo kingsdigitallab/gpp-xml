@@ -86,6 +86,13 @@
                 <agent>Callaghan, Samantha</agent> <!-- ID may be subject to change in the CW -->
                 <eventDescription>Creation of NAF for Richard Cadman Etches funded by the Marc Fitch Fund (https://www.marcfitchfund.org.uk/)</eventDescription> <!-- Include a full description of the maintenance event - ie: note what was created/edited during the event -->
             </maintenanceEvent>
+            <maintenanceEvent> <!-- records each maintenance/editing event that occurs throughout the life of the file -->
+                <eventType>updated</eventType> <!-- May contain: "cancelled" or "created" or "deleted" or "derived" or "revised" or "updated" -->
+                <eventDateTime standardDateTime="2020-09-30T11:18:00Z">11:18 am, 30 September 2020</eventDateTime> <!-- ISO 8601 date-time formatting -->
+                <agentType>human</agentType> <!-- May contain: "human" or "machine" -->
+                <agent>Callaghan, Samantha</agent> <!-- ID may be subject to change in the CW -->
+                <eventDescription>Updated NAF for Richard Cadman Etches funded by the Marc Fitch Fund (https://www.marcfitchfund.org.uk/)</eventDescription> <!-- Include a full description of the maintenance event - ie: note what was created/edited during the event -->
+            </maintenanceEvent>
         </maintenanceHistory>
         <sources>
             <source xlink:type="simple" xlink:href="https://www.jstor.org/stable/24424590">
@@ -101,21 +108,30 @@
                 <part localType="forename">Richard Cadman</part>
                 <part localType="surname">Etches</part>
                 <useDates>
-                        <date standardDate="1788">fl. 1788</date>
+                        <dateRange>
+                            <fromDate standardDate="1788">fl. 1788</fromDate>
+                            <toDate standardDate="1798">fl 1798</toDate>
+                        </dateRange>
                 </useDates>
                 <authorizedForm>NCA</authorizedForm>
             </nameEntry>
             <nameEntry scriptCode="Latn" xml:lang="eng" localType="directOrder"> 
-                <part>Etches, Richard Cadman, fl 1788</part>
+                <part>Etches, Richard Cadman, fl 1788-fl 1798</part>
                 <useDates>
-                    <date standardDate="1788">fl. 1788</date>
+                    <dateRange>
+                        <fromDate standardDate="1788">fl. 1788</fromDate>
+                        <toDate standardDate="1798">fl 1798</toDate>
+                    </dateRange>
                 </useDates>
                 <authorizedForm>NCA</authorizedForm>
             </nameEntry>
         </identity>
         <description>
             <existDates> <!-- Birth and death dates, if known. -->
-                <date standardDate="1785">fl. 1785</date>
+                <dateRange>
+                    <fromDate standardDate="1788">fl. 1788</fromDate>
+                    <toDate standardDate="1798">fl 1798</toDate>
+                </dateRange>
             </existDates>
             <localDescription localType="gender">
                 <term vocabularySource="Homosaurus">Men</term>
@@ -128,7 +144,7 @@
                 </languageUsed>
             </languagesUsed>
             <biogHist> 
-                <abstract>Richard Cadman Etches acted as an agent for the Danes while also working for the Russian court.</abstract>
+                <abstract>Richard Cadman Etches was an international spy for a number of different governments and monarchs and acted as an agent for the Danes while also working for Catherine the Great. He spied for the British government as well and helped plan and effect the escape of Sir Sidney Smith and John Wesley Wright from a French prison. Throughout his espionage career he held other identities including Andrew Smith and R. Ellis.</abstract>
                 <citation>Durey, Michael. "The British Secret Servuice and the Escape of Sir Sidney Smith from Paris in 1798" History, Vol. 84, No. 275 (July 1999), pp. 437-457. https://www.jstor.org/stable/24424590</citation>
             </biogHist>         
         </description>
@@ -141,17 +157,17 @@
                 <part localType="surname">Ellis</part>
                 <useDates>
                     <dateRange>
-                        <fromDate standardDate="1780">ca. 1780</fromDate>
+                        <fromDate standardDate="1788">ca. 1788</fromDate>
                         <toDate standardDate="1790">ca. 1790</toDate>
                     </dateRange>      
                 </useDates>
                 <authorizedForm>NCA</authorizedForm>
             </nameEntry>
             <nameEntry scriptCode="Latn" xml:lang="eng" localType="directOrder"> 
-                <part>Ellis, R, c 1780-c 1790</part>
+                <part>Ellis, R, c 1788-c 1790</part>
                 <useDates>
                     <dateRange>
-                        <fromDate standardDate="1780">ca. 1780</fromDate>
+                        <fromDate standardDate="1788">ca. 1788</fromDate>
                         <toDate standardDate="1790">ca. 1790</toDate>
                     </dateRange>
                 </useDates>
@@ -161,7 +177,7 @@
         <description>
             <existDates>
                 <dateRange>
-                    <fromDate standardDate="1780">ca. 1780</fromDate>
+                    <fromDate standardDate="1788">ca. 1788</fromDate>
                     <toDate standardDate="1790">ca. 1790</toDate>
                 </dateRange>
             </existDates>
@@ -184,17 +200,17 @@
                     <part localType="surname">Smith</part>
                     <useDates>
                         <dateRange>
-                            <fromDate standardDate="1780">ca. 1780</fromDate>
+                            <fromDate standardDate="1788">ca. 1788</fromDate>
                             <toDate standardDate="1790">ca. 1790</toDate>
                         </dateRange>      
                     </useDates>
                     <authorizedForm>NCA</authorizedForm>
                 </nameEntry>
                 <nameEntry scriptCode="Latn" xml:lang="eng" localType="directOrder"> 
-                    <part>Smith, Andrew, c 1780-c 1790</part>
+                    <part>Smith, Andrew, c 1788-c 1790</part>
                     <useDates>
                         <dateRange>
-                            <fromDate standardDate="1780">ca. 1780</fromDate>
+                            <fromDate standardDate="1788">ca. 1788</fromDate>
                             <toDate standardDate="1790">ca. 1790</toDate>
                         </dateRange>
                     </useDates>
@@ -204,7 +220,7 @@
             <description>
                 <existDates>
                     <dateRange>
-                        <fromDate standardDate="1780">ca. 1780</fromDate>
+                        <fromDate standardDate="1788">ca. 1788</fromDate>
                         <toDate standardDate="1790">ca. 1790</toDate>
                     </dateRange>
                 </existDates>

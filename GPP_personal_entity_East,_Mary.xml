@@ -83,8 +83,15 @@
                 <eventType>created</eventType> <!-- May contain: "cancelled" or "created" or "deleted" or "derived" or "revised" or "updated" -->
                 <eventDateTime standardDateTime="2020-02-16T14:08:00Z">2:08 pm, 16 February 2020</eventDateTime> <!-- ISO 8601 date-time formatting -->
                 <agentType>human</agentType> <!-- May contain: "human" or "machine" -->
-                <agent xml:id="GPP-00001748">Callaghan, Samantha</agent> <!-- ID may be subject to change in the CW -->
+                <agent>Callaghan, Samantha</agent> <!-- ID may be subject to change in the CW -->
                 <eventDescription>Creation of NAF for Mary East funded by the Marc Fitch Fund (https://www.marcfitchfund.org.uk/)</eventDescription> <!-- Include a full description of the maintenance event - ie: note what was created/edited during the event -->
+            </maintenanceEvent>
+            <maintenanceEvent> <!-- records each maintenance/editing event that occurs throughout the life of the file -->
+                <eventType>updated</eventType> <!-- May contain: "cancelled" or "created" or "deleted" or "derived" or "revised" or "updated" -->
+                <eventDateTime standardDateTime="2020-09-22T10:11:00Z">10:11 am, 22 September 2020</eventDateTime> <!-- ISO 8601 date-time formatting -->
+                <agentType>human</agentType> <!-- May contain: "human" or "machine" -->
+                <agent>Callaghan, Samantha</agent> <!-- ID may be subject to change in the CW -->
+                <eventDescription>Updated NAF for Mary East.</eventDescription> <!-- Include a full description of the maintenance event - ie: note what was created/edited during the event -->
             </maintenanceEvent>
         </maintenanceHistory>
         <sources>
@@ -116,7 +123,7 @@
                 <part localType="surname">East</part>
                 <useDates>
                     <dateRange>
-                        <fromDate standardDate="1776">ca. 1776</fromDate>
+                        <fromDate standardDate="1766">1766</fromDate>
                         <toDate standardDate="1780-06-08">8 June 1780</toDate>
                     </dateRange>
                 </useDates>
@@ -126,7 +133,7 @@
                 <part>East, Mary, c 1720-1780</part>
                 <useDates>
                     <dateRange>
-                        <fromDate standardDate="1776">ca. 1776</fromDate>
+                        <fromDate standardDate="1766">1766</fromDate>
                         <toDate standardDate="1780-06-08">8 June 1780</toDate>
                     </dateRange>
                 </useDates>
@@ -156,7 +163,11 @@
                     <language languageCode="eng">English</language>
                     <script scriptCode="Latn">Latin</script>
                 </languageUsed>
-            </languagesUsed>        
+            </languagesUsed>
+            <biogHist> 
+                <abstract>Mary East was a resident of the East End in London in the 18th Century, and lived as a married man and publican called James How for several decades. In 1766 James appeared as Mary East before Justices of the Peace in Whitechapel as part of an extortion case. James How and his wife had been subject to blackmail and extortion at various points during their marriage and upon the death of Mrs. How and the latest extortion attempt James revealed themself to be Mary East. She continued to live as Mary East until her death in 1780.</abstract>
+                <citation>East End Women's Museum blog: Mary East (aka James How) and Mrs How of the White Horse, Poplar. Accessed September 22, 2020. https://eastendwomensmuseum.org/blog/2017/6/23/mary-east-aka-james-how-and-mrs-how-of-the-white-horse-poplar</citation>
+            </biogHist>
         </description>
     </cpfDescription>
     <cpfDescription> <!-- Descriptive metadata -->
@@ -168,27 +179,38 @@
                 <useDates>
                     <dateRange>
                         <fromDate standardDate="1736">ca. 1736</fromDate>
-                        <toDate standardDate="1776">ca. 1776</toDate>
+                        <toDate standardDate="1766">1766</toDate>
                     </dateRange>      
                 </useDates>
                 <authorizedForm>NCA</authorizedForm>
             </nameEntry>
             <nameEntry scriptCode="Latn" xml:lang="eng" localType="directOrder"> 
-                <part>How, James, c 1736-c 1776</part>
+                <part>How, James, c 1736- 1766</part>
                 <useDates>
                     <dateRange>
                         <fromDate standardDate="1736">ca. 1736</fromDate>
-                        <toDate standardDate="1776">ca. 1776</toDate>
+                        <toDate standardDate="1766">1766</toDate>
                     </dateRange>
                 </useDates>
                 <authorizedForm>NCA</authorizedForm>
+            </nameEntry>
+            <nameEntry scriptCode="Latn" xml:lang="eng"> 
+                <part localType="forename">James</part>
+                <part localType="surname">Howe</part>
+                <useDates>
+                    <dateRange>
+                        <fromDate standardDate="1736">ca. 1736</fromDate>
+                        <toDate standardDate="1766">1766</toDate>
+                    </dateRange>      
+                </useDates>
+                <alternativeForm>NCA</alternativeForm>
             </nameEntry>
         </identity>
         <description>
             <existDates>
                 <dateRange>
                     <fromDate standardDate="1736">ca. 1736</fromDate>
-                    <toDate standardDate="1776">ca. 1776</toDate>
+                    <toDate standardDate="1766">1766</toDate>
                 </dateRange>
             </existDates>
             <localDescription localType="gender">
@@ -199,7 +221,7 @@
                     <language languageCode="eng">English</language>
                     <script scriptCode="Latn">Latin</script>
                 </languageUsed>
-            </languagesUsed>       
+            </languagesUsed>
         </description>
     </cpfDescription>
     </multipleIdentities>

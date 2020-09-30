@@ -87,7 +87,7 @@
                 <eventDescription>Creation of NAF for Aristarchus funded by the Marc Fitch Fund (https://www.marcfitchfund.org.uk/)</eventDescription> <!-- Include a full description of the maintenance event - ie: note what was created/edited during the event -->
             </maintenanceEvent>
             <maintenanceEvent> <!-- records each maintenance/editing event that occurs throughout the life of the file -->
-                <eventType>created</eventType> <!-- May contain: "cancelled" or "created" or "deleted" or "derived" or "revised" or "updated" -->
+                <eventType>updated</eventType> <!-- May contain: "cancelled" or "created" or "deleted" or "derived" or "revised" or "updated" -->
                 <eventDateTime standardDateTime="2020-09-21T11:05:00Z">11:05am, 21 September 2020</eventDateTime> <!-- ISO 8601 date-time formatting -->
                 <agentType>human</agentType> <!-- May contain: "human" or "machine" -->
                 <agent>Callaghan, Samantha</agent> <!-- ID may be subject to change in the CW -->
@@ -95,7 +95,7 @@
             </maintenanceEvent>
         </maintenanceHistory>
         <sources>
-            <source xlink:type="simple" xlink:href="https://gpp.rct.uk/Record.aspx?src=CalmView.Catalog&id=GIII_CALENDAR">
+            <source xlink:type="simple" xlink:href="https://gpp.rct.uk/Record.aspx?src=CalmView.Catalog&amp;id=GIII_CALENDAR">
                 <sourceEntry>RA Reference: GIII_Calendar</sourceEntry>
             </source>         
         </sources>        

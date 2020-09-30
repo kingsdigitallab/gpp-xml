@@ -83,7 +83,7 @@
                 <eventType>created</eventType> <!-- May contain: "cancelled" or "created" or "deleted" or "derived" or "revised" or "updated" -->
                 <eventDateTime standardDateTime="2020-02-07T14:08:00Z">2:08 pm, 7 February 2020</eventDateTime> <!-- ISO 8601 date-time formatting -->
                 <agentType>human</agentType> <!-- May contain: "human" or "machine" -->
-                <agent xml:id="GPP-00001748">Callaghan, Samantha</agent> <!-- ID may be subject to change in the CW -->
+                <agent>Callaghan, Samantha</agent> <!-- ID may be subject to change in the CW -->
                 <eventDescription>Creation of NAF for Margaret King funded by the Marc Fitch Fund (https://www.marcfitchfund.org.uk/)</eventDescription> <!-- Include a full description of the maintenance event - ie: note what was created/edited during the event -->
             </maintenanceEvent>
             <maintenanceEvent> <!-- records each maintenance/editing event that occurs throughout the life of the file -->
@@ -193,8 +193,7 @@
                 </languageUsed>
             </languagesUsed>
             <biogHist> 
-                <abstract>Margaret King (1773–1835), also known as Lady Mount Cashell and Mrs Mason, was an Irish hostess, writer, traveller, and medical adviser. Despite her wealthy aristocratic background, she had republican sympathies, shaped in part by having been a favoured pupil of Mary Wollstonecraft. In Italy in later life, she reciprocated her governess's care by offering maternal aid and advice to Wollstonecraft's daughter Mary Shelley (author of Frankenstein) and her travelling companions, husband Percy Bysshe Shelley and stepsister Claire Clairmont.</abstract>
-                
+                <abstract>Margaret King (1773–1835), also known as Lady Mount Cashell and Mrs Mason, was an Irish hostess, writer, traveller, and medical adviser. Despite her wealthy aristocratic background, she had republican sympathies, shaped in part by having been a favoured pupil of Mary Wollstonecraft. In Italy in later life, she reciprocated her governess's care by offering maternal aid and advice to Wollstonecraft's daughter Mary Shelley (author of Frankenstein) and her travelling companions, husband Percy Bysshe Shelley and stepsister Claire Clairmont.</abstract>               
                 <citation>Wikipedia. "Margaret King" Accessed April 28, 2020. https://en.wikipedia.org/wiki/Margaret_King</citation>
                 <p>Biography source: Wikipedia. Licensed under CC-BY-SA.</p>
             </biogHist>         
