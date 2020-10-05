@@ -86,6 +86,13 @@
                 <agent>Callaghan, Samantha</agent> <!-- ID may be subject to change in the CW -->
                 <eventDescription>Creation of NAF for Robert Talbot funded by the Marc Fitch Fund (https://www.marcfitchfund.org.uk/)</eventDescription> <!-- Include a full description of the maintenance event - ie: note what was created/edited during the event -->
             </maintenanceEvent>
+            <maintenanceEvent> <!-- records each maintenance/editing event that occurs throughout the life of the file -->
+                <eventType>updated</eventType> <!-- May contain: "cancelled" or "created" or "deleted" or "derived" or "revised" or "updated" -->
+                <eventDateTime standardDateTime="2020-10-05T14:08:00Z">11:17 am, 5 October 2020</eventDateTime> <!-- ISO 8601 date-time formatting -->
+                <agentType>human</agentType> <!-- May contain: "human" or "machine" -->
+                <agent>Callaghan, Samantha</agent> <!-- ID may be subject to change in the CW -->
+                <eventDescription>Updated NAF for Robert Talbot.</eventDescription> <!-- Include a full description of the maintenance event - ie: note what was created/edited during the event -->
+            </maintenanceEvent>
         </maintenanceHistory>
         <sources>
             <source xlink:type="simple" xlink:href="https://viaf.org/viaf/67840487/">
@@ -108,17 +115,17 @@
                 <part localType="surname">Talbot</part>
                 <useDates>
                     <dateRange>
-                        <fromDate standardDate="1776">ca. 1776</fromDate>
+                        <fromDate standardDate="1776">1776</fromDate>
                         <toDate standardDate="1843-03-17">17 March 1843</toDate>
                     </dateRange>
                 </useDates>
                 <authorizedForm>NCA</authorizedForm>
             </nameEntry>
             <nameEntry scriptCode="Latn" xml:lang="eng" localType="directOrder"> 
-                <part>Talbot, Robert, c 1776-1843</part>
+                <part>Talbot, Robert, 1776-1843</part>
                 <useDates>
                     <dateRange>
-                        <fromDate standardDate="1776">ca. 1776</fromDate>
+                        <fromDate standardDate="1776">1776</fromDate>
                         <toDate standardDate="1843-03-17">17 March 1843</toDate>
                     </dateRange>
                 </useDates>
@@ -128,7 +135,7 @@
         <description>
             <existDates> <!-- Birth and death dates, if known. -->
                 <dateRange>
-                    <fromDate standardDate="1776">ca. 1776</fromDate>
+                    <fromDate standardDate="1776">1776</fromDate>
                     <toDate standardDate="1843-03-17">17 March 1843</toDate>
                 </dateRange>
             </existDates>
@@ -141,8 +148,20 @@
                     <language languageCode="eng">English</language>
                     <script scriptCode="Latn">Latin</script>
                 </languageUsed>
-            </languagesUsed>         
+            </languagesUsed>
+            <biogHist>
+                <abstract>Robert Talbot was the son of Colonel Richard Talbot and Margaret O'Reilly, Baroness Talbot of Malahide. In 1798, Robert, as Robert Tindal, joined his brother, James Talbot, to work as secret agents for the British government in Swabia. Robert was to be James' secretary and assist him in his mission.</abstract>
+                <citation>Durey, Michael. "Lord Grenville and the 'Smoking Gun': The Plot to Assassinate the French Directory in 1798-1799 Reconsidered" The Historical Journal, Vol. 45, No. 3 (Sep., 2002), pp. 547-568. http://www.jstor.org/stable/3133496.</citation>
+            </biogHist>
         </description>
+        <relations>
+            <cpfRelation cpfRelationType="family" xlink:href=""> <!-- xlink:href to be created automatically following creation of NAF page -->
+                <relationEntry>Talbot, James, 1767-1850, 3rd Baron Talbot de Malahide</relationEntry>
+                <descriptiveNote>
+                    <p>James was Robert's older brother.</p>
+                </descriptiveNote>
+            </cpfRelation>
+        </relations>
     </cpfDescription>
     <cpfDescription> <!-- Descriptive metadata -->
         <identity>
@@ -184,8 +203,20 @@
                     <language languageCode="eng">English</language>
                     <script scriptCode="Latn">Latin</script>
                 </languageUsed>
-            </languagesUsed>        
+            </languagesUsed>
+            <biogHist>
+                <abstract>Robert Tindal was an identity assumed by Robert Talbot whilst working as a secret agent for the British government in Swabia.</abstract>
+                <citation>Durey, Michael. "Lord Grenville and the 'Smoking Gun': The Plot to Assassinate the French Directory in 1798-1799 Reconsidered" The Historical Journal, Vol. 45, No. 3 (Sep., 2002), pp. 547-568. http://www.jstor.org/stable/3133496.</citation>
+            </biogHist>
         </description>
+        <relations>
+            <cpfRelation cpfRelationType="family" xlink:href=""> <!-- xlink:href to be created automatically following creation of NAF page -->
+                <relationEntry>Tindal, James, fl 1798-fl 1799</relationEntry>
+                <descriptiveNote>
+                    <p>James was Robert's older brother.</p>
+                </descriptiveNote>
+            </cpfRelation>
+        </relations>
     </cpfDescription>
     </multipleIdentities>
 </eac-cpf>
