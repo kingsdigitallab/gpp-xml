@@ -83,8 +83,15 @@
                 <eventType>created</eventType> <!-- May contain: "cancelled" or "created" or "deleted" or "derived" or "revised" or "updated" -->
                 <eventDateTime standardDateTime="2020-02-16T14:08:00Z">2:08 pm, 16 February 2020</eventDateTime> <!-- ISO 8601 date-time formatting -->
                 <agentType>human</agentType> <!-- May contain: "human" or "machine" -->
-                <agent xml:id="GPP-00001748">Callaghan, Samantha</agent> <!-- ID may be subject to change in the CW -->
+                <agent>Callaghan, Samantha</agent> <!-- ID may be subject to change in the CW -->
                 <eventDescription>Creation of NAF for Helen Oliver funded by the Marc Fitch Fund (https://www.marcfitchfund.org.uk/)</eventDescription> <!-- Include a full description of the maintenance event - ie: note what was created/edited during the event -->
+            </maintenanceEvent>
+            <maintenanceEvent> <!-- records each maintenance/editing event that occurs throughout the life of the file -->
+                <eventType>updated</eventType> <!-- May contain: "cancelled" or "created" or "deleted" or "derived" or "revised" or "updated" -->
+                <eventDateTime standardDateTime="2020-10-05T14:08:00Z">1:37 pm, 5 October 2020</eventDateTime> <!-- ISO 8601 date-time formatting -->
+                <agentType>human</agentType> <!-- May contain: "human" or "machine" -->
+                <agent>Callaghan, Samantha</agent> <!-- ID may be subject to change in the CW -->
+                <eventDescription>Updated NAF for Helen Oliver.</eventDescription> <!-- Include a full description of the maintenance event - ie: note what was created/edited during the event -->
             </maintenanceEvent>
         </maintenanceHistory>
         <sources>
@@ -103,7 +110,7 @@
                 <useDates>
                     <dateRange>
                         <fromDate standardDate="1795">ca. 1795</fromDate>
-                        <toDate standardDate="1821">ca. 1821</toDate>
+                        <toDate standardDate="1818-01-05">ca. 5 January 1818</toDate>
                     </dateRange>
                 </useDates>
                 <authorizedForm>NCA</authorizedForm>
@@ -135,7 +142,11 @@
                     <language languageCode="eng">English</language>
                     <script scriptCode="Latn">Latin</script>
                 </languageUsed>
-            </languagesUsed>         
+            </languagesUsed>
+            <biogHist>
+                <abstract>Helen Oliver was from Saltcoats where she had met a ploughman who was a female living as a man. Helen would later take some of her brother's clothes and, for some time his name, John Oliver, and departed for Glasgow and trained as a plasterer and worked in a number of Scottish cities. After returning to work in Glasgow, she was discovered when her master employed a worker from her hometown and her identity was revealed. Helen then left Glasgow and worked in Aberdeen under another name, John Thomson, where she was discovered again by another workman. Helen left Aberdeen shortly after.</abstract>
+                <citation>Broadside report regarding a woman who masqueraded as a man, c. 1820. National Library of Scotland, shelfmark: L.C.Fol.74(069). Accessed October 5, 2020. https://digital.nls.uk/broadsides/view/?id=15324&amp;transcript=1</citation>
+            </biogHist>
         </description>
     </cpfDescription>
     <cpfDescription> <!-- Descriptive metadata -->
@@ -145,21 +156,21 @@
                 <part localType="forename">John</part>
                 <part localType="surname">Oliver</part>
                 <useDates>
-                    <date standardDate="1818">ca. 1818</date>                        
+                    <date standardDate="1819">ca. 1819</date>                        
                 </useDates>
                 <authorizedForm>NCA</authorizedForm>
             </nameEntry>
             <nameEntry scriptCode="Latn" xml:lang="eng" localType="directOrder"> 
-                <part>Oliver, John, c 1818</part>
+                <part>Oliver, John, c 1819</part>
                 <useDates>
-                    <date standardDate="1818">ca. 1818</date>
+                    <date standardDate="1819">ca. 1819</date>
                 </useDates>
                 <authorizedForm>NCA</authorizedForm>
             </nameEntry>
         </identity>
         <description>
             <existDates>
-                <date standardDate="1818">ca. 1818</date>
+                <date standardDate="1819">ca. 1819</date>
             </existDates>
             <localDescription localType="gender">
                 <term vocabularySource="Homosaurus">Men</term>
