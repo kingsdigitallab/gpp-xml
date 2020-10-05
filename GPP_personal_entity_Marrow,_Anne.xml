@@ -150,7 +150,11 @@
                     <language languageCode="eng">English</language>
                     <script scriptCode="Latn">Latin</script>
                 </languageUsed>
-            </languagesUsed>        
+            </languagesUsed>   
+            <biogHist>
+                <abstract>Ann Marrow was prosecuted in a 1777 case brought by a schoolmaster of Hammersmith. Ann had held another identity, that of Charles Marrow, and as that personage had allegedly married three women.</abstract>
+                <citation>Derry, Caroline. "‘Female Husbands’, Community and Courts in the Eighteenth Century." The Journal of Legal History 38, no. 1 (2017): 54-79. https://doi.org/10.1080/01440365.2017.1289674</citation>
+            </biogHist>
         </description>
     </cpfDescription>
     <cpfDescription> <!-- Descriptive metadata -->
